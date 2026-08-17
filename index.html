@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Anna Burgess — Mechanical Engineering portfolio featuring rocketry, robotics, manufacturing, controls, CAD, and computational mechanics projects.">
+  <title>Anna Burgess | Mechanical Engineering Portfolio</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --panel: #11182b;
+      --panel-2: #182238;
+      --text: #edf2f7;
+      --muted: #a9b4c6;
+      --accent: #70d6ff;
+      --accent-2: #ffd166;
+      --line: #263550;
+      --max: 1180px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 85% 10%, rgba(112,214,255,.09), transparent 26rem),
+        radial-gradient(circle at 10% 30%, rgba(255,209,102,.06), transparent 28rem),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+    .container { width: min(var(--max), 91%); margin: 0 auto; }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(11, 16, 32, .88);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(255,255,255,.06);
+    }
+    .nav-inner {
+      min-height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 28px;
+    }
+    .brand { font-weight: 800; letter-spacing: .02em; }
+    .brand span { color: var(--accent); }
+    .nav-links { display: flex; gap: 24px; flex-wrap: wrap; justify-content: flex-end; }
+    .nav-links a { color: var(--muted); font-size: .94rem; }
+    .nav-links a:hover { color: var(--text); }
+
+    .hero {
+      min-height: 88vh;
+      display: grid;
+      align-items: center;
+      padding: 92px 0 72px;
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      text-transform: uppercase;
+      letter-spacing: .15em;
+      font-size: .76rem;
+      font-weight: 800;
+      color: var(--accent);
+      margin-bottom: 20px;
+    }
+    .eyebrow::before { content: ""; width: 34px; height: 2px; background: var(--accent); }
+    h1 {
+      font-size: clamp(3.5rem, 9vw, 7.2rem);
+      line-height: .92;
+      letter-spacing: -.055em;
+      max-width: 920px;
+    }
+    .hero h2 {
+      font-size: clamp(1.45rem, 3vw, 2.35rem);
+      font-weight: 600;
+      color: var(--muted);
+      margin-top: 24px;
+      max-width: 900px;
+    }
+    .hero p {
+      margin-top: 26px;
+      max-width: 760px;
+      color: var(--muted);
+      font-size: 1.08rem;
+    }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 34px; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 18px;
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      font-weight: 750;
+      transition: transform .18s ease, border-color .18s ease, background .18s ease;
+    }
+    .btn:hover { transform: translateY(-2px); border-color: var(--accent); }
+    .btn.primary { background: var(--accent); border-color: var(--accent); color: #07111c; }
+    .btn.secondary { background: rgba(255,255,255,.025); }
+
+    section { padding: 92px 0; }
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 30px;
+      margin-bottom: 36px;
+    }
+    .section-kicker { color: var(--accent); font-weight: 800; font-size: .82rem; text-transform: uppercase; letter-spacing: .14em; }
+    .section-title { font-size: clamp(2rem, 5vw, 3.3rem); letter-spacing: -.035em; margin-top: 7px; }
+    .section-note { color: var(--muted); max-width: 570px; }
+
+    .about-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 34px; }
+    .about-copy, .fact-card {
+      background: linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.015));
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 28px;
+    }
+    .about-copy p + p { margin-top: 16px; }
+    .facts { display: grid; gap: 14px; }
+    .fact-card strong { display: block; color: var(--accent-2); margin-bottom: 4px; }
+    .fact-card span { color: var(--muted); }
+
+    .featured-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+    .project-card {
+      position: relative;
+      background: linear-gradient(145deg, var(--panel), var(--panel-2));
+      border: 1px solid var(--line);
+      border-radius: 15px;
+      padding: 26px;
+      overflow: hidden;
+      transition: transform .2s ease, border-color .2s ease;
+    }
+    .project-card:hover { transform: translateY(-4px); border-color: #3f6387; }
+    .project-number { color: var(--accent); font: 700 .79rem/1 ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .project-card h3 { font-size: 1.35rem; margin: 11px 0 10px; letter-spacing: -.02em; }
+    .project-card p { color: var(--muted); }
+    .tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 18px; }
+    .tag {
+      border: 1px solid #354760;
+      background: rgba(0,0,0,.14);
+      color: #c8d3e1;
+      padding: 4px 9px;
+      border-radius: 999px;
+      font-size: .78rem;
+      font-weight: 650;
+    }
+    .result { margin-top: 18px; color: var(--accent-2); font-weight: 750; font-size: .9rem; }
+
+    .archive { display: grid; gap: 10px; }
+    .archive-item {
+      display: grid;
+      grid-template-columns: 230px 1fr;
+      gap: 26px;
+      padding: 22px 0;
+      border-top: 1px solid var(--line);
+    }
+    .archive-item:last-child { border-bottom: 1px solid var(--line); }
+    .archive-item h3 { font-size: 1.05rem; }
+    .archive-item p { color: var(--muted); }
+
+    .experience-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+    .experience-card { border-left: 3px solid var(--accent); padding: 4px 0 4px 22px; }
+    .experience-card h3 { font-size: 1.12rem; }
+    .experience-card .org { color: var(--accent-2); font-weight: 700; margin: 2px 0 7px; }
+    .experience-card p { color: var(--muted); }
+
+    .skills-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 15px; }
+    .skill-group { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 21px; }
+    .skill-group h3 { color: var(--accent); font-size: .92rem; margin-bottom: 9px; text-transform: uppercase; letter-spacing: .08em; }
+    .skill-group p { color: var(--muted); font-size: .94rem; }
+
+    .contact-box {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: clamp(30px, 7vw, 70px);
+      text-align: center;
+      background: linear-gradient(135deg, rgba(112,214,255,.06), rgba(255,209,102,.04));
+    }
+    .contact-box h2 { font-size: clamp(2.2rem, 5vw, 4rem); letter-spacing: -.04em; }
+    .contact-box p { color: var(--muted); max-width: 650px; margin: 16px auto 26px; }
+
+    footer { border-top: 1px solid var(--line); padding: 30px 0 42px; color: #7e8ca2; font-size: .9rem; }
+    .footer-inner { display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+
+    @media (max-width: 860px) {
+      .nav-inner { align-items: flex-start; flex-direction: column; padding: 16px 0; }
+      .nav-links { gap: 13px 18px; }
+      .about-grid, .featured-grid, .experience-grid { grid-template-columns: 1fr; }
+      .skills-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+      .section-head { align-items: flex-start; flex-direction: column; }
+      .archive-item { grid-template-columns: 1fr; gap: 7px; }
+    }
+
+    @media (max-width: 540px) {
+      .hero { min-height: auto; padding-top: 78px; }
+      .skills-grid { grid-template-columns: 1fr; }
+      section { padding: 72px 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="container nav-inner">
+      <a class="brand" href="#top">ANNA <span>BURGESS</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <header id="top" class="hero">
+    <div class="container">
+      <div class="eyebrow">Mechanical Engineering Portfolio</div>
+      <h1>Anna Burgess</h1>
+      <h2>Mechanical design, manufacturing, robotics, propulsion, controls, and hands-on engineering.</h2>
+      <p>
+        I'm a Mechanical Engineering student at Harvard focused on designing systems that move from analysis and CAD to machining, assembly, testing, and iteration. My work spans liquid rocketry, robotics, computational mechanics, controls, manufacturing, and personal fabrication projects.
+      </p>
+      <div class="cta-row">
+        <a class="btn primary" href="#projects">Explore Projects</a>
+        <a class="btn secondary" href="https://github.com/aburg-16" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="btn secondary" href="Anna_Burgess_Resume.pdf" target="_blank">Resume</a>
+        <a class="btn secondary" href="mailto:aburgess@college.harvard.edu">Email</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">About</div>
+            <h2 class="section-title">Engineering from first principles to hardware.</h2>
+          </div>
+          <p class="section-note">I enjoy problems where analytical work, design decisions, and manufacturing constraints all matter—and where the final answer has to survive the real world.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-copy">
+            <p>I am pursuing a B.S. in Mechanical Engineering at Harvard College with a minor in Mathematical Sciences. My coursework includes computer-aided machine design, mechanical systems, solid and computational mechanics, and robotics.</p>
+            <p>Much of my engineering experience is fabrication-driven. I have worked extensively with manual and CNC machining, welding, 3D printing, laser and waterjet cutting, soldering, CAD/CAE tools, and embedded controls. I especially enjoy projects that require designing, building, instrumenting, and testing a system rather than stopping at a model.</p>
+            <p>Outside formal coursework, I lead and contribute to rocketry and robotics programs and build personal projects ranging from CNC equipment to vehicle restoration.</p>
+          </div>
+          <div class="facts">
+            <div class="fact-card"><strong>Harvard College</strong><span>B.S. Mechanical Engineering · Minor in Mathematical Sciences · Expected May 2027</span></div>
+            <div class="fact-card"><strong>Current Focus</strong><span>Rocketry, robotics, mechanical design, manufacturing, controls, FEA, and test engineering</span></div>
+            <div class="fact-card"><strong>Certifications</strong><span>CSWA · NAR Level 1 High Power Rocketry</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">Selected Work</div>
+            <h2 class="section-title">Featured projects</h2>
+          </div>
+          <p class="section-note">A selection of projects spanning propulsion, robotics, controls, mechanical design, manufacturing, simulation, and testing.</p>
+        </div>
+
+        <div class="featured-grid">
+          <article class="project-card">
+            <div class="project-number">01 / PROPULSION</div>
+            <h3>Forward Unto Dawn — Regeneratively Cooled Liquid Bipropellant Engine</h3>
+            <p>Led development work on a regeneratively cooled liquid bipropellant engine featuring an additively manufactured combustion chamber. Work includes mechanical design, propulsion-system integration, manufacturing considerations, and analytical validation using NASA CEA tools.</p>
+            <div class="tags"><span class="tag">Propulsion</span><span class="tag">Additive Manufacturing</span><span class="tag">NASA CEA</span><span class="tag">Systems Engineering</span></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">02 / ROCKETRY</div>
+            <h3>Mojave Sphinx Rocket + Static Test Stand</h3>
+            <p>Designed, built, and installed the engine test stand at the team's test site, manufactured flight hardware, and led a significant portion of rocket assembly through static-fire operations. The stand was designed for an 800-lbf engine load with a 2× factor of safety.</p>
+            <div class="tags"><span class="tag">Structures</span><span class="tag">Machining</span><span class="tag">Assembly</span><span class="tag">Static Fire</span></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">03 / ROBOTICS</div>
+            <h3>University Rover Challenge — Rover Manufacturing</h3>
+            <p>Machined approximately 90% of the rover's custom machined components, including power-transmission parts for the suspension and arm. Also supported process selection and redesign for manufacturability, setup reduction, and practical assembly.</p>
+            <div class="tags"><span class="tag">CNC Machining</span><span class="tag">Power Transmission</span><span class="tag">DFM</span><span class="tag">Robotics</span></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">04 / CONTROLS</div>
+            <h3>Friction & Backlash Compensation Test Platform</h3>
+            <p>Designed a robotics test setup that could introduce controlled variations in friction and backlash, then used experimental data to evaluate their effect on system response and develop a PID controller with friction and backlash compensation.</p>
+            <div class="tags"><span class="tag">PID Control</span><span class="tag">Backlash</span><span class="tag">Friction</span><span class="tag">Experimental Design</span></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">05 / COMPUTATIONAL MECHANICS</div>
+            <h3>Parametric Abaqus Unit-Cell Compression Model</h3>
+            <p>Created a Python-driven parametric Abaqus model for compression testing of a unit cell. Geometry could be varied by number of sides, radius, and height to study how these parameters influence structural response.</p>
+            <div class="tags"><span class="tag">Abaqus</span><span class="tag">Python</span><span class="tag">FEA</span><span class="tag">Parametric Modeling</span></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">06 / PERSONAL FABRICATION</div>
+            <h3>3-Axis CNC Plasma Cutter</h3>
+            <p>Designed a removable-torch CNC plasma cutting system using NEMA stepper motors and Arduino-based GRBL controls. The machine is structured around an off-the-shelf plasma torch that can be installed in or removed from the CNC carriage.</p>
+            <div class="tags"><span class="tag">GRBL</span><span class="tag">Arduino</span><span class="tag">NEMA Motors</span><span class="tag">CNC</span></div>
+          </article>
+        </div>
+
+        <div style="height:58px"></div>
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">Project Archive</div>
+            <h2 class="section-title">Additional engineering work</h2>
+          </div>
+        </div>
+
+        <div class="archive">
+          <div class="archive-item"><h3>Yellow Jacket Competition Robot</h3><p>Intro to CAD final project. Designed and fabricated a competition robot that collected tennis balls, placed them on a Velcro wall, and climbed both 15° and 30° inclines.</p></div>
+          <div class="archive-item"><h3>Red Light–Green Light Nerf Turret</h3><p>Intro EE final project inspired by <em>Squid Game</em>. Built a motion-responsive Nerf turret using PIR motion sensing to create a red light–green light game system.</p></div>
+          <div class="archive-item"><h3>Optimized I-Beam Bridge</h3><p>Solid Mechanics final project. Designed and built a wooden bridge for Instron compression testing, optimizing I-beam cross-sectional geometry for force-to-weight performance.</p></div>
+          <div class="archive-item"><h3>Variable-Damping Egg Drop System</h3><p>Mechanical Systems final project. Designed a spring-damper protection system with dampers traveling along mathematically defined tracks to vary damping ratio with compression and reduce egg acceleration.</p></div>
+          <div class="archive-item"><h3>RocketLink Telemetry Housing</h3><p>Designed electronics housings for a LoRa- and GPS-based rocketry telemetry platform intended for multi-kilometer communication and flight data acquisition.</p></div>
+          <div class="archive-item"><h3>IREC 10,000-ft Rocket Program</h3><p>Founded and leading Harvard's 10,000-ft IREC initiative, coordinating technical subteams, program planning, certification, and overall project execution.</p></div>
+          <div class="archive-item"><h3>NAR Level 1 Certification</h3><p>Built and launched an Apogee Zephyr high-power rocket and successfully earned NAR Level 1 High Power Rocketry certification.</p></div>
+          <div class="archive-item"><h3>Phase 1 Liquid Bipropellant Rocket</h3><p>Contributed structural concept development, SolidWorks FEA for bulkheads, and geometry optimization using material cutaways before the program was indefinitely suspended.</p></div>
+          <div class="archive-item"><h3>Vehicle Restoration</h3><p>Hands-on restoration work including a complete wire-harness redo on a 1969 Ford F-350; ignition diagnosis and distributor/ignition-module repair on a 1973 El Camino; transmission removal and repair; and restoration work on a 400 small-block Chevrolet engine.</p></div>
+          <div class="archive-item"><h3>Textiles & Sewing</h3><p>Personal fabrication work in crochet and sewing, extending my interest in materials, construction methods, patterning, and making beyond conventional mechanical projects.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">Experience</div>
+            <h2 class="section-title">Design, research & manufacturing</h2>
+          </div>
+          <p class="section-note">Selected experience from industry, research labs, instructional shops, and engineering teams.</p>
+        </div>
+
+        <div class="experience-grid">
+          <div class="experience-card"><h3>Mechanical Engineering Intern</h3><div class="org">Flex</div><p>Developed production fixtures, machined nests, peer-reviewed drawings, and assembly/handling solutions for automated manufacturing.</p></div>
+          <div class="experience-card"><h3>Head Course Assistant</h3><div class="org">Harvard — Intro to Computer-Aided Machine Design</div><p>Teach machining, robot design, SolidWorks, GD&T, G-code, statics, and manufacturing processes to student design teams.</p></div>
+          <div class="experience-card"><h3>Undergraduate Research Assistant</h3><div class="org">Harvard Ability Lab</div><p>Designed and fabricated a low-cost headset using servo-driven mirrors to induce controlled balance perturbations for experimental data collection.</p></div>
+          <div class="experience-card"><h3>Research Intern</h3><div class="org">Rice University — Mechatronics & Haptic Interfaces Lab</div><p>Designed equation-driven FSR housings for wearable sensing systems, iterated through 3D printing, and validated sensors using Instron testing.</p></div>
+          <div class="experience-card"><h3>Chief Engineer & Project Manager</h3><div class="org">Harvard Undergraduate Aerospace Collective — Rocketry</div><p>Lead propulsion, rocket, telemetry, certification, schedule, budget, logistics, and technical-team coordination across multiple programs.</p></div>
+          <div class="experience-card"><h3>Machining Lead</h3><div class="org">Harvard Undergraduate Robotics Club</div><p>Machine close-tolerance rover components and co-lead mechanical fabrication across suspension, arm, chassis, and science systems.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">Technical Toolkit</div>
+            <h2 class="section-title">Skills</h2>
+          </div>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-group"><h3>Manufacturing</h3><p>Manual & CNC turning/milling, MIG/TIG welding, 3D printing, laser cutting, waterjet cutting, plasma cutting, soldering</p></div>
+          <div class="skill-group"><h3>CAD / CAE / CAM</h3><p>SolidWorks, Fusion 360, Abaqus, COMSOL, GD&T, design for manufacturing, technical drawings</p></div>
+          <div class="skill-group"><h3>Programming & Controls</h3><p>Python, MATLAB, Arduino, G-code, GRBL, CNC conversational programming, PID control</p></div>
+          <div class="skill-group"><h3>Engineering</h3><p>FEA, mechanical systems, solid mechanics, robotics, test engineering, fixture design, propulsion systems</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="contact-box">
+          <div class="section-kicker">Contact</div>
+          <h2>Let's build something.</h2>
+          <p>I'm interested in mechanical engineering opportunities involving design, manufacturing, robotics, aerospace, testing, and hands-on hardware development.</p>
+          <div class="cta-row" style="justify-content:center">
+            <a class="btn primary" href="mailto:aburgess@college.harvard.edu">aburgess@college.harvard.edu</a>
+            <a class="btn secondary" href="https://linkedin.com/in/anna-burgess-e82111106a" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a class="btn secondary" href="https://github.com/aburg-16" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© 2026 Anna Burgess</span>
+      <span>Mechanical Engineering · Design · Manufacturing · Robotics · Rocketry</span>
+    </div>
+  </footer>
+</body>
+</html>
