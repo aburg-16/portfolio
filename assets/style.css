@@ -308,3 +308,15 @@ html, body{
     line-height:1.6;
   }
 }
+
+/* Stay Tuned / active projects */
+#stay-tuned {
+  border-top: 1px solid var(--line, #2b2b2b);
+  border-bottom: 1px solid var(--line, #2b2b2b);
+}
+#stay-tuned .section-intro {
+  max-width: 760px;
+  margin: -18px 0 32px;
+  color: var(--muted, #a8a8a8);
+  line-height: 1.7;
+}
