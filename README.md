@@ -93,3 +93,25 @@ Use your GitHub Pages URL for normal viewing. If you want a local preview, run a
 4. Add that project ID to the appropriate `projectIds` list under a page or under `home.featured.projectIds`.
 
 No HTML editing is required.
+
+## New class projects added
+
+Three additional class projects are now included in `content.json`:
+
+- **StockSmart — Wyss Institute Storage Solution**
+  - Images: `assets/images/stocksmart-1.jpg`, `stocksmart-2.jpg`, `stocksmart-3.jpg`
+  - Paper: `assets/docs/StockSmart_Paper.pdf` (included)
+  - Presentation expected at: `assets/docs/StockSmart_Presentation.pdf` (not present in the uploaded docs ZIP yet)
+- **Square Pendulum Normal Modes**
+  - Images: `assets/images/square-pendulum-1.jpg`, `square-pendulum-2.jpg`, `square-pendulum-3.jpg`
+  - Presentation: `assets/docs/Waves.pdf` (included)
+- **Infrared Imaging as an Indicator of Plant Drought Stress**
+  - Images: `assets/images/heat-transfer-1.jpg`, `heat-transfer-2.jpg`, `heat-transfer-3.jpg`
+  - Presentation expected at: `assets/docs/Heat_Transfer_Presentation.pdf` (not present in the uploaded docs ZIP yet)
+
+The uploaded `images.zip` and `docs.zip` contents have also been copied into `assets/images/` and `assets/docs/` respectively. Existing filenames were preserved.
+
+
+## Image mapping update
+
+The renamed image archive has been incorporated into `assets/images/` and `content.json`. Clearly labeled cover photos are listed first so they appear on project cards. StockSmart and the heat-transfer fern study remain ready for images once those photos are added.

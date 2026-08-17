@@ -178,9 +178,9 @@
           "href": "research-projects.html"
         },
         {
-          "eyebrow": "06 PROJECTS",
+          "eyebrow": "09 PROJECTS",
           "title": "Class Projects",
-          "text": "Machine design, mechatronics, structures, dynamics, FEA, and controls.",
+          "text": "Machine design, mechatronics, structures, dynamics, FEA, controls, product design, waves, and heat transfer.",
           "href": "class-projects.html"
         },
         {
@@ -281,8 +281,8 @@
     "class": {
       "title": "Class Projects",
       "eyebrow": "Class Projects",
-      "intro": "Course final projects spanning machine design, mechatronics, structures, mechanical systems, computational mechanics, and robotics controls.",
-      "note": "Every class project except the bridge includes document links in its project popup. Add or change the PDF paths directly in content.json.",
+      "intro": "Course projects spanning machine design, mechatronics, structures, dynamics, computational mechanics, controls, product design, wave phenomena, and heat transfer.",
+      "note": "Project papers and presentations are linked from each project popup when available. The bridge project intentionally has no document link.",
       "groups": [
         {
           "title": "Engineering Coursework",
@@ -292,7 +292,10 @@
             "bridge",
             "egg",
             "abaqus",
-            "controls"
+            "controls",
+            "stocksmart",
+            "square-pendulum",
+            "heat-transfer"
           ]
         }
       ]
@@ -413,9 +416,7 @@
       ],
       "result": "Flight-tested telemetry hardware",
       "images": [
-        "assets/images/rocketlink-1.jpg",
-        "assets/images/rocketlink-2.jpg",
-        "assets/images/rocketlink-3.jpg"
+        "assets/images/rocketlink-1.png"
       ]
     },
     "sphinx": {
@@ -433,9 +434,15 @@
       ],
       "result": "Built and tested",
       "images": [
-        "assets/images/sphinx-1.jpg",
-        "assets/images/sphinx-2.jpg",
-        "assets/images/sphinx-3.jpg"
+        "assets/images/sphinx - cover photo.png",
+        "assets/images/mojave sphinx - 1 .png",
+        "assets/images/mojave sphinx - 2.png",
+        "assets/images/sphinx - test stand -1.png",
+        "assets/images/sphinx - test stand -2.png",
+        "assets/images/sphinx - test stand - 3.png",
+        "assets/images/sphinx - test stand - 4.png",
+        "assets/images/spinx - test stand - 5.png",
+        "assets/images/modular test stand .png"
       ]
     },
     "irec": {
@@ -470,9 +477,7 @@
       ],
       "result": "NAR Level 1 certified",
       "images": [
-        "assets/images/l1-1.jpg",
-        "assets/images/l1-2.jpg",
-        "assets/images/l1-3.jpg"
+        "assets/images/L1-certification-1.png"
       ]
     },
     "phase1": {
@@ -489,8 +494,13 @@
       ],
       "result": "Program indefinitely suspended",
       "images": [
-        "assets/images/phase1-1.jpg",
-        "assets/images/phase1-2.jpg"
+        "assets/images/phase 1 - sketch 1.png",
+        "assets/images/phase 1 - sketch 2.png",
+        "assets/images/phase 1 fea (1).png",
+        "assets/images/phase 1 fea (2).png",
+        "assets/images/phase 1 fea (3).png",
+        "assets/images/phase 1 fea (4).png",
+        "assets/images/phase 1 fea (5).png"
       ]
     },
     "urc": {
@@ -508,9 +518,49 @@
       ],
       "result": "Competition rover hardware",
       "images": [
-        "assets/images/urc-1.jpg",
-        "assets/images/urc-2.jpg",
-        "assets/images/urc-3.jpg"
+        "assets/images/urc - cover photo.png",
+        "assets/images/urc-full rover.png",
+        "assets/images/URC-machining.png",
+        "assets/images/urc-machining .png",
+        "assets/images/urc - machining .png",
+        "assets/images/urc - machining.png",
+        "assets/images/urc-cad.png",
+        "assets/images/urc- cad - gripper.png",
+        "assets/images/urc cad  (1).png",
+        "assets/images/urc cad  (2).png",
+        "assets/images/urc cad  (3).png",
+        "assets/images/urc cad  (4).png",
+        "assets/images/urc cad  (5).png",
+        "assets/images/urc cad  (6).png",
+        "assets/images/urc cad  (7).png",
+        "assets/images/urc cad  (8).png",
+        "assets/images/urc cad  (9).png",
+        "assets/images/urc cad  (10).png",
+        "assets/images/urc cad  (11).png",
+        "assets/images/urc cad  (12).png",
+        "assets/images/urc cad  (13).png",
+        "assets/images/urc cad  (14).png",
+        "assets/images/urc cad  (15).png",
+        "assets/images/urc cad  (16).png",
+        "assets/images/urc cad  (17).png",
+        "assets/images/urc cad  (18).png",
+        "assets/images/urc cad  (19).png",
+        "assets/images/urc cad  (20).png",
+        "assets/images/urc cad  (21).png",
+        "assets/images/urc cad  (22).png",
+        "assets/images/urc cad  (23).png",
+        "assets/images/urc cad  (24).png",
+        "assets/images/urc cad  (25).png",
+        "assets/images/urc cad  (26).png",
+        "assets/images/urc cad  (27).png",
+        "assets/images/urc cad  (28).png",
+        "assets/images/urc cad  (29).png",
+        "assets/images/urc cad  (30).png",
+        "assets/images/urc cad  (31).png",
+        "assets/images/urc cad  (32).png",
+        "assets/images/urc cad  (33).png",
+        "assets/images/urc cad  (34).png",
+        "assets/images/urc cad  (35).png"
       ]
     },
     "ability": {
@@ -528,9 +578,7 @@
       ],
       "result": "Research prototype",
       "images": [
-        "assets/images/ability-1.jpg",
-        "assets/images/ability-2.jpg",
-        "assets/images/ability-3.jpg"
+        "assets/images/ability lab.png"
       ]
     },
     "mahi": {
@@ -548,9 +596,17 @@
       ],
       "result": "Research poster presented",
       "images": [
-        "assets/images/mahi-1.jpg",
-        "assets/images/mahi-2.jpg",
-        "assets/images/mahi-3.jpg"
+        "assets/images/MAHI -cover photo .png",
+        "assets/images/MAHI - 1.png",
+        "assets/images/MAHI -2.png",
+        "assets/images/mahi - 4.png",
+        "assets/images/mahi - 5.png",
+        "assets/images/mahi - 6.png",
+        "assets/images/mahi - 7.png",
+        "assets/images/mahi - 8.png",
+        "assets/images/mahi - 9.png",
+        "assets/images/mahi - 10.png",
+        "assets/images/mahi -  11.png"
       ],
       "attachments": [
         [
@@ -574,9 +630,12 @@
       ],
       "result": "2nd place",
       "images": [
-        "assets/images/yellow-jacket-1.jpg",
-        "assets/images/yellow-jacket-2.jpg",
-        "assets/images/yellow-jacket-3.jpg"
+        "assets/images/yellow jacket-cover photo.png",
+        "assets/images/yellow jacket -2.png",
+        "assets/images/yellow jacket - 3.png",
+        "assets/images/yellow-jacket.png",
+        "assets/images/yellow jacket sketch 1.png",
+        "assets/images/yellow jacket sketch 2.png"
       ],
       "attachments": [
         [
@@ -604,9 +663,9 @@
       ],
       "result": "Course final project",
       "images": [
-        "assets/images/nerf-1.jpg",
-        "assets/images/nerf-2.jpg",
-        "assets/images/nerf-3.jpg"
+        "assets/images/nerf-turret-cover photo.png",
+        "assets/images/nerf-turret-2.png",
+        "assets/images/nerf-turret.png"
       ],
       "attachments": [
         [
@@ -654,9 +713,7 @@
       ],
       "result": "2nd place",
       "images": [
-        "assets/images/egg-drop-1.jpg",
-        "assets/images/egg-drop-2.jpg",
-        "assets/images/egg-drop-3.jpg"
+        "assets/images/eggdrop.png"
       ],
       "attachments": [
         [
@@ -684,9 +741,8 @@
       ],
       "result": "Course final project",
       "images": [
-        "assets/images/abaqus-1.jpg",
-        "assets/images/abaqus-2.jpg",
-        "assets/images/abaqus-3.jpg"
+        "assets/images/abaqus -1.png",
+        "assets/images/abaqus .png"
       ],
       "attachments": [
         [
@@ -764,9 +820,10 @@
       ],
       "result": "Ongoing personal project",
       "images": [
-        "assets/images/vehicles-1.jpg",
-        "assets/images/vehicles-2.jpg",
-        "assets/images/vehicles-3.jpg"
+        "assets/images/vehicle - cover photo.png",
+        "assets/images/vehicle-1.png",
+        "assets/images/vehicle-2.png",
+        "assets/images/vehicle-3.png"
       ]
     },
     "textiles": {
@@ -1034,6 +1091,86 @@
         "assets/images/gasket-placement-1.jpg",
         "assets/images/gasket-placement-2.jpg",
         "assets/images/gasket-placement-3.jpg"
+      ]
+    },
+    "stocksmart": {
+      "type": "PRODUCT DESIGN / SYSTEMS",
+      "title": "StockSmart — Wyss Institute Storage Solution",
+      "org": "Semester-Long Class Design Project",
+      "summary": "A new storage solution designed for the Wyss Institute at Harvard to address problems caused by disproportionate billing.",
+      "desc": "StockSmart was a semester-long design project developed for the Wyss Institute at Harvard. The project focused on redesigning how materials or supplies were stored and managed in response to problems the institute was experiencing with disproportionate billing. The team worked through the design process from problem definition and stakeholder needs to concept development and a final proposed storage solution.",
+      "contrib": "Contributed to the semester-long engineering design process, including understanding the client problem, developing and evaluating concepts, refining the storage-system design, and preparing the final technical documentation and presentation.",
+      "tags": [
+        "Product Design",
+        "Client-Based Design",
+        "Storage Systems",
+        "Design Process"
+      ],
+      "result": "Semester-long class design project for the Wyss Institute at Harvard",
+      "images": [
+        "assets/images/stocksmart-1.jpg",
+        "assets/images/stocksmart-2.jpg",
+        "assets/images/stocksmart-3.jpg"
+      ],
+      "attachments": [
+        [
+          "Project Paper",
+          "assets/docs/StockSmart_Paper.pdf"
+        ],
+        [
+          "Presentation",
+          "assets/docs/StockSmart_Presentation.pdf"
+        ]
+      ]
+    },
+    "square-pendulum": {
+      "type": "PHYSICS / WAVE PHENOMENA",
+      "title": "Square Pendulum Normal Modes",
+      "org": "Physics of Wave Phenomena",
+      "summary": "Experimental study of a square pendulum system to identify and characterize its normal modes.",
+      "desc": "A wave-phenomena class project centered on a square pendulum. The project investigated the coupled motion of the system and worked to identify the distinct normal modes that govern its behavior.",
+      "contrib": "Contributed to building and testing the square-pendulum setup, collecting observations and measurements, analyzing the system response, and identifying the normal modes for the final presentation.",
+      "tags": [
+        "Wave Phenomena",
+        "Normal Modes",
+        "Experimental Physics",
+        "Dynamics"
+      ],
+      "result": "Course project and presentation",
+      "images": [
+        "assets/images/wave.png"
+      ],
+      "attachments": [
+        [
+          "Presentation",
+          "assets/docs/Waves.pdf"
+        ]
+      ]
+    },
+    "heat-transfer": {
+      "type": "HEAT TRANSFER / EXPERIMENTAL",
+      "title": "Infrared Imaging as an Indicator of Plant Drought Stress",
+      "org": "Heat Transfer",
+      "summary": "Two-week experiment using six fern plants, controlled watering levels, and daily IR imaging to investigate whether thermal imagery can reveal drought stress before plant death.",
+      "desc": "My partner and I conducted a two-week heat-transfer experiment using six fern plants that received different amounts of water. We captured infrared images of the plants each day and compared their thermal behavior over time to investigate whether IR imaging could serve as an early indicator of drought stress before visible decline or plant death.",
+      "contrib": "Co-designed and conducted the experiment, maintained the different watering conditions, collected daily infrared images for two weeks, and analyzed the resulting temperature patterns to evaluate whether thermal imaging could indicate drought stress early.",
+      "tags": [
+        "Heat Transfer",
+        "Infrared Imaging",
+        "Experimental Design",
+        "Thermal Analysis"
+      ],
+      "result": "Two-week experimental class project",
+      "images": [
+        "assets/images/heat-transfer-1.jpg",
+        "assets/images/heat-transfer-2.jpg",
+        "assets/images/heat-transfer-3.jpg"
+      ],
+      "attachments": [
+        [
+          "Presentation",
+          "assets/docs/Heat_Transfer_Presentation.pdf"
+        ]
       ]
     }
   }
