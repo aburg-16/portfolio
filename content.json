@@ -4,8 +4,8 @@
     "brandFirst": "ANNA",
     "brandLast": "BURGESS",
     "pageDescription": "Anna Burgess mechanical engineering portfolio",
-    "footerLeft": "© 2026 Anna Burgess",
-    "footerRight": "Mechanical Engineering · Design · Manufacturing · Robotics · Rocketry",
+    "footerLeft": "\u00a9 2026 Anna Burgess",
+    "footerRight": "Mechanical Engineering \u00b7 Design \u00b7 Manufacturing \u00b7 Robotics \u00b7 Rocketry",
     "navigation": [
       {
         "label": "Home",
@@ -56,10 +56,10 @@
       "eyebrow": "Mechanical Engineering Portfolio",
       "name": "Anna Burgess",
       "headline": "Mechanical design, manufacturing, robotics, propulsion, controls, and hands-on engineering.",
-      "intro": "I’m a Mechanical Engineering student at Harvard focused on taking systems from analysis and CAD through machining, assembly, testing, and iteration. My work spans liquid rocketry, robotics, computational mechanics, controls, research hardware, manufacturing, and personal fabrication.",
-      "portrait": "assets/images/anna-portrait.jpg",
+      "intro": "I\u2019m a Mechanical Engineering student at Harvard focused on taking systems from analysis and CAD through machining, assembly, testing, and iteration. My work spans liquid rocketry, robotics, computational mechanics, controls, research hardware, manufacturing, and personal fabrication.",
+      "portrait": "assets/images/cover-image/front-image.png",
       "portraitAlt": "Portrait of Anna Burgess",
-      "portraitLabel": "Anna Burgess · Mechanical Engineering",
+      "portraitLabel": "Anna Burgess \u00b7 Mechanical Engineering",
       "buttons": [
         {
           "label": "Featured Projects",
@@ -129,15 +129,15 @@
       "title": "Honors & Awards",
       "items": [
         {
-          "title": "2nd Place · Yellow Jacket Competition Robot",
+          "title": "2nd Place \u00b7 Yellow Jacket Competition Robot",
           "text": "Introduction to Computer-Aided Machine Design final competition."
         },
         {
-          "title": "2nd Place · Solid Mechanics Bridge",
+          "title": "2nd Place \u00b7 Solid Mechanics Bridge",
           "text": "Compression force-to-weight performance competition."
         },
         {
-          "title": "2nd Place · Mechanical Systems Egg Drop",
+          "title": "2nd Place \u00b7 Mechanical Systems Egg Drop",
           "text": "Impact-mitigation system using springs and variable damping."
         }
       ]
@@ -205,7 +205,7 @@
       "kicker": "Personal Philosophy",
       "title": "Do it, or make way.",
       "mottoNote": "A philosophy passed down from my dad: commit to what you set out to do, follow through, and keep moving forward.",
-      "text": "I’m interested in mechanical engineering opportunities involving design, manufacturing, robotics, aerospace, testing, and hands-on hardware development.",
+      "text": "I\u2019m interested in mechanical engineering opportunities involving design, manufacturing, robotics, aerospace, testing, and hands-on hardware development.",
       "buttons": [
         {
           "label": "Email",
@@ -280,7 +280,7 @@
           ]
         },
         {
-          "title": "MAHI Lab — Rice University",
+          "title": "MAHI Lab \u2014 Rice University",
           "projectIds": [
             "mahi"
           ]
@@ -318,7 +318,7 @@
       "note": "Project descriptions are intentionally concise until you replace them with public-safe details you are comfortable sharing. Edit those fields in content.json.",
       "groups": [
         {
-          "title": "Flex — Mechanical Engineering Internship",
+          "title": "Flex \u2014 Mechanical Engineering Internship",
           "projectIds": [
             "screw-mask",
             "auto-nest",
@@ -394,7 +394,7 @@
   "projects": {
     "fud": {
       "type": "PROPULSION",
-      "title": "Forward Unto Dawn — Regeneratively Cooled Liquid Bipropellant Engine",
+      "title": "Forward Unto Dawn \u2014 Regeneratively Cooled Liquid Bipropellant Engine",
       "org": "Harvard Undergraduate Aerospace Collective",
       "summary": "Liquid bipropellant engine development centered on regenerative cooling, an additively manufactured combustion chamber, and analytical validation.",
       "desc": "Development of a liquid bipropellant, regeneratively cooled rocket engine with a metal additively manufactured combustion chamber. The project combines propulsion analysis, mechanical design, manufacturing constraints, assembly, and test planning.",
@@ -460,7 +460,7 @@
       "attachments": []
     },
     "irec": {
-      "type": "ROCKETRY · IN PROGRESS",
+      "type": "ROCKETRY \u00b7 IN PROGRESS",
       "title": "IREC 10K COTS Competition Rocket",
       "org": "Harvard Undergraduate Aerospace Collective",
       "summary": "Active development of a 10,000-ft COTS competition rocket for IREC.",
@@ -522,11 +522,11 @@
     },
     "urc": {
       "type": "ROBOTICS / MANUFACTURING",
-      "title": "University Rover Challenge — Rover Manufacturing",
+      "title": "University Rover Challenge \u2014 Rover Manufacturing",
       "org": "Harvard Undergraduate Robotics Club",
       "summary": "Precision manufacturing for a Mars rover, including suspension and arm power-transmission hardware.",
       "desc": "Manufacturing and DFM work for a University Rover Challenge Mars rover with custom mechanical subsystems across the suspension, arm, chassis, and science hardware.",
-      "contrib": "Personally manufactured approximately 90% of the rover’s machined components, including power-transmission components in the suspension and arm. Selected manufacturing approaches and redesigned parts to reduce setup complexity.",
+      "contrib": "Personally manufactured approximately 90% of the rover\u2019s machined components, including power-transmission components in the suspension and arm. Selected manufacturing approaches and redesigned parts to reduce setup complexity.",
       "tags": [
         "CNC Machining",
         "Power Transmission",
@@ -586,7 +586,7 @@
       "title": "Servo-Driven Visual Perturbation Headset",
       "org": "Harvard Ability Lab",
       "summary": "Low-cost experimental headset using servo-driven mirrors to induce controlled balance perturbations.",
-      "desc": "A research hardware platform designed to alter a participant’s visual field through controlled mirror motion so balance responses could be studied during data collection.",
+      "desc": "A research hardware platform designed to alter a participant\u2019s visual field through controlled mirror motion so balance responses could be studied during data collection.",
       "contrib": "Designed and fabricated the low-cost headset and integrated servo-driven mirrors for controlled experimental perturbations.",
       "tags": [
         "Research Hardware",
@@ -603,7 +603,7 @@
     "mahi": {
       "type": "RESEARCH / WEARABLE SENSING",
       "title": "Force-Sensing Wearable Hardware",
-      "org": "MAHI Lab — Rice University",
+      "org": "MAHI Lab \u2014 Rice University",
       "summary": "Equation-driven CAD and 3D-printed housings for force-sensitive resistors used in wearable sensing applications.",
       "desc": "Research focused on force-sensitive resistor integration for a center-of-pressure sensing insole and a force-quantifying scoliosis brace. Designs were iterated through CAD, additive manufacturing, and experimental validation.",
       "contrib": "Designed FSR housings using equation-driven SolidWorks models, iterated parts through 3D printing, and validated sensor behavior with Instron testing. Presented the work at the Rice Summer Undergraduate Research Symposium.",
@@ -638,7 +638,7 @@
       "type": "MACHINE DESIGN",
       "title": "Yellow Jacket Competition Robot",
       "org": "Introduction to Computer-Aided Machine Design",
-      "summary": "Competition robot that collected tennis balls, placed them on a Velcro wall, and climbed 15° and 30° inclines.",
+      "summary": "Competition robot that collected tennis balls, placed them on a Velcro wall, and climbed 15\u00b0 and 30\u00b0 inclines.",
       "desc": "A semester-long machine-design competition project requiring a robot to collect tennis balls, transport and place them on a Velcro scoring wall, and negotiate multiple inclines.",
       "contrib": "Contributed to mechanical design, CAD, fabrication, assembly, troubleshooting, and competition preparation.",
       "tags": [
@@ -669,10 +669,10 @@
     },
     "nerf": {
       "type": "ELECTRICAL / MECHATRONICS",
-      "title": "Red Light–Green Light Nerf Turret",
+      "title": "Red Light\u2013Green Light Nerf Turret",
       "org": "Introduction to Electrical Engineering",
       "summary": "Squid Game-inspired motion-responsive Nerf turret using PIR sensors.",
-      "desc": "A mechatronics final project inspired by the red light–green light game in Squid Game. PIR motion sensing was used to detect movement and drive the system behavior.",
+      "desc": "A mechatronics final project inspired by the red light\u2013green light game in Squid Game. PIR motion sensing was used to detect movement and drive the system behavior.",
       "contrib": "Contributed to concept development, sensor integration, mechanical/electrical implementation, and final system demonstration.",
       "tags": [
         "PIR Sensors",
@@ -806,7 +806,7 @@
       ]
     },
     "plasma": {
-      "type": "CNC / FABRICATION · IN PROGRESS",
+      "type": "CNC / FABRICATION \u00b7 IN PROGRESS",
       "title": "3-Axis CNC Plasma Cutter",
       "org": "Personal Project",
       "summary": "Arduino/GRBL-controlled 3-axis CNC plasma system with NEMA motors and a removable commercial torch.",
@@ -872,7 +872,7 @@
     "screw-mask": {
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Screw Mask Project",
-      "org": "Flex — Mechanical Engineering Internship",
+      "org": "Flex \u2014 Mechanical Engineering Internship",
       "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
       "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
       "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
@@ -892,8 +892,8 @@
     "auto-nest": {
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Automated Line Nest",
-      "org": "Flex — Mechanical Engineering Internship",
-      "summary": "Machined product nest for a 13-station automated line, designed to withstand 65°C processing without deformation.",
+      "org": "Flex \u2014 Mechanical Engineering Internship",
+      "summary": "Machined product nest for a 13-station automated line, designed to withstand 65\u00b0C processing without deformation.",
       "desc": "Production fixture work for a 13-station automated line. The nest was designed around process temperature and dimensional stability requirements.",
       "contrib": "Designed the machined product nest in SolidWorks and supported drawing/review work for implementation on the automated line.",
       "tags": [
@@ -912,7 +912,7 @@
     "robot-y": {
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Robot Y Alignment Drop Anchor",
-      "org": "Flex — Mechanical Engineering Internship",
+      "org": "Flex \u2014 Mechanical Engineering Internship",
       "summary": "Alignment-focused production fixture project. Add non-confidential technical details and outcome.",
       "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
       "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
@@ -932,7 +932,7 @@
     "vac-label": {
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Vacuum-Actuated Label Placement",
-      "org": "Flex — Mechanical Engineering Internship",
+      "org": "Flex \u2014 Mechanical Engineering Internship",
       "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
       "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
       "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
@@ -952,7 +952,7 @@
     "adjust-hold": {
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Adjustable Hold-Down Concept",
-      "org": "Flex — Mechanical Engineering Internship",
+      "org": "Flex \u2014 Mechanical Engineering Internship",
       "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
       "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
       "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
@@ -972,7 +972,7 @@
     "handling-fixture": {
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Handling Fixture",
-      "org": "Flex — Mechanical Engineering Internship",
+      "org": "Flex \u2014 Mechanical Engineering Internship",
       "summary": "Handling fixture developed to address operator-reported assembly or quality issues.",
       "desc": "One of several production fixture efforts focused on improving handling, repeatability, and assembly quality. Replace this text with non-confidential project-specific details.",
       "contrib": "Designed fixture hardware in SolidWorks and iterated around operator feedback and manufacturing constraints.",
@@ -992,7 +992,7 @@
     "heatsink-nest": {
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Heatsink Assembly Nest",
-      "org": "Flex — Mechanical Engineering Internship",
+      "org": "Flex \u2014 Mechanical Engineering Internship",
       "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
       "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
       "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
@@ -1012,7 +1012,7 @@
     "cable-holder": {
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Cable Holder",
-      "org": "Flex — Mechanical Engineering Internship",
+      "org": "Flex \u2014 Mechanical Engineering Internship",
       "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
       "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
       "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
@@ -1032,7 +1032,7 @@
     "nozzle-extender": {
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Nozzle Extender",
-      "org": "Flex — Mechanical Engineering Internship",
+      "org": "Flex \u2014 Mechanical Engineering Internship",
       "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
       "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
       "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
@@ -1052,7 +1052,7 @@
     "torture-test": {
       "type": "INDUSTRY / MANUFACTURING",
       "title": "3D Printer Torture Test",
-      "org": "Flex — Mechanical Engineering Internship",
+      "org": "Flex \u2014 Mechanical Engineering Internship",
       "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
       "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
       "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
@@ -1072,7 +1072,7 @@
     "shadow-box": {
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Shadow Box",
-      "org": "Flex — Mechanical Engineering Internship",
+      "org": "Flex \u2014 Mechanical Engineering Internship",
       "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
       "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
       "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
@@ -1092,7 +1092,7 @@
     "go-no-go": {
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Go/No-Go Gauge",
-      "org": "Flex — Mechanical Engineering Internship",
+      "org": "Flex \u2014 Mechanical Engineering Internship",
       "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
       "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
       "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
@@ -1112,7 +1112,7 @@
     "gasket-placement": {
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Gasket Placement",
-      "org": "Flex — Mechanical Engineering Internship",
+      "org": "Flex \u2014 Mechanical Engineering Internship",
       "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
       "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
       "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
@@ -1131,7 +1131,7 @@
     },
     "stocksmart": {
       "type": "PRODUCT DESIGN / SYSTEMS",
-      "title": "StockSmart — Wyss Institute Storage Solution",
+      "title": "StockSmart \u2014 Wyss Institute Storage Solution",
       "org": "Semester-Long Class Design Project",
       "summary": "A new storage solution designed for the Wyss Institute at Harvard to address problems caused by disproportionate billing.",
       "desc": "StockSmart was a semester-long design project developed for the Wyss Institute at Harvard. The project focused on redesigning how materials or supplies were stored and managed in response to problems the institute was experiencing with disproportionate billing. The team worked through the design process from problem definition and stakeholder needs to concept development and a final proposed storage solution.",
@@ -1210,7 +1210,7 @@
       ]
     },
     "senior-thesis": {
-      "type": "SENIOR THESIS / CAPSTONE · IN PROGRESS",
+      "type": "SENIOR THESIS / CAPSTONE \u00b7 IN PROGRESS",
       "title": "Senior Thesis / Capstone Project",
       "org": "Harvard Mechanical Engineering",
       "summary": "Active senior thesis and capstone work. Technical scope, design decisions, and results will be added as the project develops.",
@@ -1243,7 +1243,7 @@
         "Fabrication",
         "Prototyping"
       ],
-      "result": "Course project · instrument design and fabrication",
+      "result": "Course project \u00b7 instrument design and fabrication",
       "images": [
         "assets/images/class/Engineering-Music/engineering-music-1.jpg",
         "assets/images/class/Engineering-Music/engineering-music-2.jpg",
