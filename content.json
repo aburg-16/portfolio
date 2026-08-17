@@ -361,32 +361,32 @@
         {
           "title": "Running",
           "text": "5 half-marathons completed; currently training for my first full marathon.",
-          "image": "assets/images/hobby-running.jpg"
+          "image": "assets/images/hobbies/running/hobby-running.jpg"
         },
         {
           "title": "Hiking & National Parks",
           "text": "I love hiking and travel and have visited 28 U.S. national parks.",
-          "image": "assets/images/hobby-national-parks.jpg"
+          "image": "assets/images/hobbies/hiking-travel/hobby-national-parks.jpg"
         },
         {
           "title": "Rock Climbing",
           "text": "Climbing is one of my favorite ways to combine problem solving, movement, and time outdoors.",
-          "image": "assets/images/hobby-climbing.jpg"
+          "image": "assets/images/hobbies/rock-climbing/hobby-climbing.jpg"
         },
         {
           "title": "Biking",
           "text": "I enjoy biking for both training and exploring.",
-          "image": "assets/images/hobby-biking.jpg"
+          "image": "assets/images/hobbies/biking/hobby-biking.jpg"
         },
         {
           "title": "Swimming",
           "text": "Swimming is part of my cross-training and something I enjoy recreationally.",
-          "image": "assets/images/hobby-swimming.jpg"
+          "image": "assets/images/hobbies/swimming/hobby-swimming.jpg"
         },
         {
           "title": "Soccer",
           "text": "I enjoy playing soccer and staying active through team sports.",
-          "image": "assets/images/hobby-soccer.jpg"
+          "image": "assets/images/hobbies/soccer/hobby-soccer.jpg"
         }
       ]
     }
@@ -407,10 +407,11 @@
       ],
       "result": "Ongoing development",
       "images": [
-        "assets/images/fud-1.jpg",
-        "assets/images/fud-2.jpg",
-        "assets/images/fud-3.jpg"
-      ]
+        "assets/images/clubs/HUAC-R/Forward-Unto-Dawn/fud-1.jpg",
+        "assets/images/clubs/HUAC-R/Forward-Unto-Dawn/fud-2.jpg",
+        "assets/images/clubs/HUAC-R/Forward-Unto-Dawn/fud-3.jpg"
+      ],
+      "attachments": []
     },
     "rocketlink": {
       "type": "AVIONICS / TELEMETRY",
@@ -427,8 +428,9 @@
       ],
       "result": "Flight-tested telemetry hardware",
       "images": [
-        "assets/images/rocketlink-1.png"
-      ]
+        "assets/images/clubs/HUAC-R/RocketLink/rocketlink-1.png"
+      ],
+      "attachments": []
     },
     "sphinx": {
       "type": "ROCKETRY / TEST",
@@ -445,16 +447,17 @@
       ],
       "result": "Built and tested",
       "images": [
-        "assets/images/sphinx - cover photo.png",
-        "assets/images/mojave sphinx - 1 .png",
-        "assets/images/mojave sphinx - 2.png",
-        "assets/images/sphinx - test stand -1.png",
-        "assets/images/sphinx - test stand -2.png",
-        "assets/images/sphinx - test stand - 3.png",
-        "assets/images/sphinx - test stand - 4.png",
-        "assets/images/spinx - test stand - 5.png",
-        "assets/images/modular test stand .png"
-      ]
+        "assets/images/clubs/HUAC-R/Mojave-Sphinx/sphinx - cover photo.png",
+        "assets/images/clubs/HUAC-R/Mojave-Sphinx/mojave sphinx - 1 .png",
+        "assets/images/clubs/HUAC-R/Mojave-Sphinx/mojave sphinx - 2.png",
+        "assets/images/clubs/HUAC-R/Mojave-Sphinx/sphinx - test stand -1.png",
+        "assets/images/clubs/HUAC-R/Mojave-Sphinx/sphinx - test stand -2.png",
+        "assets/images/clubs/HUAC-R/Mojave-Sphinx/sphinx - test stand - 3.png",
+        "assets/images/clubs/HUAC-R/Mojave-Sphinx/sphinx - test stand - 4.png",
+        "assets/images/clubs/HUAC-R/Mojave-Sphinx/spinx - test stand - 5.png",
+        "assets/images/clubs/HUAC-R/Mojave-Sphinx/modular test stand .png"
+      ],
+      "attachments": []
     },
     "irec": {
       "type": "ROCKETRY · IN PROGRESS",
@@ -470,9 +473,10 @@
       ],
       "result": "In progress",
       "images": [
-        "assets/images/irec-1.jpg",
-        "assets/images/irec-2.jpg"
-      ]
+        "assets/images/clubs/HUAC-R/IREC-10K-COTS/irec-1.jpg",
+        "assets/images/clubs/HUAC-R/IREC-10K-COTS/irec-2.jpg"
+      ],
+      "attachments": []
     },
     "l1": {
       "type": "HIGH-POWER ROCKETRY",
@@ -488,8 +492,9 @@
       ],
       "result": "NAR Level 1 certified",
       "images": [
-        "assets/images/L1-certification-1.png"
-      ]
+        "assets/images/clubs/HUAC-R/L1-Certification/L1-certification-1.png"
+      ],
+      "attachments": []
     },
     "phase1": {
       "type": "STRUCTURES / FEA",
@@ -505,14 +510,15 @@
       ],
       "result": "Program indefinitely suspended",
       "images": [
-        "assets/images/phase 1 - sketch 1.png",
-        "assets/images/phase 1 - sketch 2.png",
-        "assets/images/phase 1 fea (1).png",
-        "assets/images/phase 1 fea (2).png",
-        "assets/images/phase 1 fea (3).png",
-        "assets/images/phase 1 fea (4).png",
-        "assets/images/phase 1 fea (5).png"
-      ]
+        "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 - sketch 1.png",
+        "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 - sketch 2.png",
+        "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 fea (1).png",
+        "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 fea (2).png",
+        "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 fea (3).png",
+        "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 fea (4).png",
+        "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 fea (5).png"
+      ],
+      "attachments": []
     },
     "urc": {
       "type": "ROBOTICS / MANUFACTURING",
@@ -529,50 +535,51 @@
       ],
       "result": "Competition rover hardware",
       "images": [
-        "assets/images/urc - cover photo.png",
-        "assets/images/urc-full rover.png",
-        "assets/images/URC-machining.png",
-        "assets/images/urc-machining .png",
-        "assets/images/urc - machining .png",
-        "assets/images/urc - machining.png",
-        "assets/images/urc-cad.png",
-        "assets/images/urc- cad - gripper.png",
-        "assets/images/urc cad  (1).png",
-        "assets/images/urc cad  (2).png",
-        "assets/images/urc cad  (3).png",
-        "assets/images/urc cad  (4).png",
-        "assets/images/urc cad  (5).png",
-        "assets/images/urc cad  (6).png",
-        "assets/images/urc cad  (7).png",
-        "assets/images/urc cad  (8).png",
-        "assets/images/urc cad  (9).png",
-        "assets/images/urc cad  (10).png",
-        "assets/images/urc cad  (11).png",
-        "assets/images/urc cad  (12).png",
-        "assets/images/urc cad  (13).png",
-        "assets/images/urc cad  (14).png",
-        "assets/images/urc cad  (15).png",
-        "assets/images/urc cad  (16).png",
-        "assets/images/urc cad  (17).png",
-        "assets/images/urc cad  (18).png",
-        "assets/images/urc cad  (19).png",
-        "assets/images/urc cad  (20).png",
-        "assets/images/urc cad  (21).png",
-        "assets/images/urc cad  (22).png",
-        "assets/images/urc cad  (23).png",
-        "assets/images/urc cad  (24).png",
-        "assets/images/urc cad  (25).png",
-        "assets/images/urc cad  (26).png",
-        "assets/images/urc cad  (27).png",
-        "assets/images/urc cad  (28).png",
-        "assets/images/urc cad  (29).png",
-        "assets/images/urc cad  (30).png",
-        "assets/images/urc cad  (31).png",
-        "assets/images/urc cad  (32).png",
-        "assets/images/urc cad  (33).png",
-        "assets/images/urc cad  (34).png",
-        "assets/images/urc cad  (35).png"
-      ]
+        "assets/images/clubs/HURC/URC-Rover/urc - cover photo.png",
+        "assets/images/clubs/HURC/URC-Rover/urc-full rover.png",
+        "assets/images/clubs/HURC/URC-Rover/URC-machining.png",
+        "assets/images/clubs/HURC/URC-Rover/urc-machining .png",
+        "assets/images/clubs/HURC/URC-Rover/urc - machining .png",
+        "assets/images/clubs/HURC/URC-Rover/urc - machining.png",
+        "assets/images/clubs/HURC/URC-Rover/urc-cad.png",
+        "assets/images/clubs/HURC/URC-Rover/urc- cad - gripper.png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (1).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (2).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (3).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (4).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (5).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (6).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (7).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (8).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (9).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (10).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (11).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (12).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (13).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (14).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (15).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (16).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (17).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (18).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (19).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (20).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (21).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (22).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (23).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (24).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (25).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (26).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (27).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (28).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (29).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (30).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (31).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (32).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (33).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (34).png",
+        "assets/images/clubs/HURC/URC-Rover/urc cad  (35).png"
+      ],
+      "attachments": []
     },
     "ability": {
       "type": "RESEARCH HARDWARE",
@@ -589,8 +596,9 @@
       ],
       "result": "Research prototype",
       "images": [
-        "assets/images/ability lab.png"
-      ]
+        "assets/images/research/Ability-Lab/ability lab.png"
+      ],
+      "attachments": []
     },
     "mahi": {
       "type": "RESEARCH / WEARABLE SENSING",
@@ -607,22 +615,22 @@
       ],
       "result": "Research poster presented",
       "images": [
-        "assets/images/MAHI -cover photo .png",
-        "assets/images/MAHI - 1.png",
-        "assets/images/MAHI -2.png",
-        "assets/images/mahi - 4.png",
-        "assets/images/mahi - 5.png",
-        "assets/images/mahi - 6.png",
-        "assets/images/mahi - 7.png",
-        "assets/images/mahi - 8.png",
-        "assets/images/mahi - 9.png",
-        "assets/images/mahi - 10.png",
-        "assets/images/mahi -  11.png"
+        "assets/images/research/MAHI-Lab/MAHI -cover photo .png",
+        "assets/images/research/MAHI-Lab/MAHI - 1.png",
+        "assets/images/research/MAHI-Lab/MAHI -2.png",
+        "assets/images/research/MAHI-Lab/mahi - 4.png",
+        "assets/images/research/MAHI-Lab/mahi - 5.png",
+        "assets/images/research/MAHI-Lab/mahi - 6.png",
+        "assets/images/research/MAHI-Lab/mahi - 7.png",
+        "assets/images/research/MAHI-Lab/mahi - 8.png",
+        "assets/images/research/MAHI-Lab/mahi - 9.png",
+        "assets/images/research/MAHI-Lab/mahi - 10.png",
+        "assets/images/research/MAHI-Lab/mahi -  11.png"
       ],
       "attachments": [
         [
           "Research Poster",
-          "assets/docs/MAHI_Lab_Poster.pdf"
+          "assets/docs/research/MAHI-Lab/MAHI_Lab_Poster.pdf"
         ]
       ]
     },
@@ -641,21 +649,21 @@
       ],
       "result": "2nd place",
       "images": [
-        "assets/images/yellow jacket-cover photo.png",
-        "assets/images/yellow jacket -2.png",
-        "assets/images/yellow jacket - 3.png",
-        "assets/images/yellow-jacket.png",
-        "assets/images/yellow jacket sketch 1.png",
-        "assets/images/yellow jacket sketch 2.png"
+        "assets/images/class/Yellow-Jacket/yellow jacket-cover photo.png",
+        "assets/images/class/Yellow-Jacket/yellow jacket -2.png",
+        "assets/images/class/Yellow-Jacket/yellow jacket - 3.png",
+        "assets/images/class/Yellow-Jacket/yellow-jacket.png",
+        "assets/images/class/Yellow-Jacket/yellow jacket sketch 1.png",
+        "assets/images/class/Yellow-Jacket/yellow jacket sketch 2.png"
       ],
       "attachments": [
         [
           "Project Paper",
-          "assets/docs/Yellow_Jacket_Paper.pdf"
+          "assets/docs/class/Yellow-Jacket/Yellow_Jacket_Paper.pdf"
         ],
         [
           "Presentation",
-          "assets/docs/Yellow_Jacket_Presentation.pdf"
+          "assets/docs/class/Yellow-Jacket/Yellow_Jacket_Presentation.pdf"
         ]
       ]
     },
@@ -674,18 +682,18 @@
       ],
       "result": "Course final project",
       "images": [
-        "assets/images/nerf-turret-cover photo.png",
-        "assets/images/nerf-turret-2.png",
-        "assets/images/nerf-turret.png"
+        "assets/images/class/Nerf-Turret/nerf-turret-cover photo.png",
+        "assets/images/class/Nerf-Turret/nerf-turret-2.png",
+        "assets/images/class/Nerf-Turret/nerf-turret.png"
       ],
       "attachments": [
         [
           "Project Paper",
-          "assets/docs/Nerf_Turret_Paper.pdf"
+          "assets/docs/class/Nerf-Turret/Nerf_Turret_Paper.pdf"
         ],
         [
           "Presentation",
-          "assets/docs/Nerf_Turret_Presentation.pdf"
+          "assets/docs/class/Nerf-Turret/Nerf_Turret_Presentation.pdf"
         ]
       ]
     },
@@ -704,10 +712,11 @@
       ],
       "result": "2nd place",
       "images": [
-        "assets/images/bridge-1.jpg",
-        "assets/images/bridge-2.jpg",
-        "assets/images/bridge-3.jpg"
-      ]
+        "assets/images/class/I-Beam-Bridge/bridge-1.jpg",
+        "assets/images/class/I-Beam-Bridge/bridge-2.jpg",
+        "assets/images/class/I-Beam-Bridge/bridge-3.jpg"
+      ],
+      "attachments": []
     },
     "egg": {
       "type": "MECHANICAL SYSTEMS",
@@ -724,16 +733,16 @@
       ],
       "result": "2nd place",
       "images": [
-        "assets/images/eggdrop.png"
+        "assets/images/class/Egg-Drop/eggdrop.png"
       ],
       "attachments": [
         [
           "Project Paper",
-          "assets/docs/Egg_Drop_Paper.pdf"
+          "assets/docs/class/Egg-Drop/Egg_Drop_Paper.pdf"
         ],
         [
           "Presentation",
-          "assets/docs/Egg_Drop_Presentation.pdf"
+          "assets/docs/class/Egg-Drop/Egg_Drop_Presentation.pdf"
         ]
       ]
     },
@@ -752,17 +761,17 @@
       ],
       "result": "Course final project",
       "images": [
-        "assets/images/abaqus -1.png",
-        "assets/images/abaqus .png"
+        "assets/images/class/Abaqus-Unit-Cell/abaqus -1.png",
+        "assets/images/class/Abaqus-Unit-Cell/abaqus .png"
       ],
       "attachments": [
         [
           "Project Paper",
-          "assets/docs/Abaqus_Unit_Cell_Paper.pdf"
+          "assets/docs/class/Abaqus-Unit-Cell/Abaqus_Unit_Cell_Paper.pdf"
         ],
         [
           "Presentation",
-          "assets/docs/Abaqus_Unit_Cell_Presentation.pdf"
+          "assets/docs/class/Abaqus-Unit-Cell/Abaqus_Unit_Cell_Presentation.pdf"
         ]
       ]
     },
@@ -781,18 +790,18 @@
       ],
       "result": "Course final project",
       "images": [
-        "assets/images/controls-1.jpg",
-        "assets/images/controls-2.jpg",
-        "assets/images/controls-3.jpg"
+        "assets/images/class/Friction-Backlash-Controller/controls-1.jpg",
+        "assets/images/class/Friction-Backlash-Controller/controls-2.jpg",
+        "assets/images/class/Friction-Backlash-Controller/controls-3.jpg"
       ],
       "attachments": [
         [
           "Project Paper",
-          "assets/docs/Friction_Backlash_Paper.pdf"
+          "assets/docs/class/Friction-Backlash-Controller/Friction_Backlash_Paper.pdf"
         ],
         [
           "Presentation",
-          "assets/docs/Friction_Backlash_Presentation.pdf"
+          "assets/docs/class/Friction-Backlash-Controller/Friction_Backlash_Presentation.pdf"
         ]
       ]
     },
@@ -811,10 +820,11 @@
       ],
       "result": "Active personal build",
       "images": [
-        "assets/images/plasma-1.jpg",
-        "assets/images/plasma-2.jpg",
-        "assets/images/plasma-3.jpg"
-      ]
+        "assets/images/personal/CNC-Plasma-Cutter/plasma-1.jpg",
+        "assets/images/personal/CNC-Plasma-Cutter/plasma-2.jpg",
+        "assets/images/personal/CNC-Plasma-Cutter/plasma-3.jpg"
+      ],
+      "attachments": []
     },
     "vehicles": {
       "type": "RESTORATION",
@@ -831,11 +841,12 @@
       ],
       "result": "Ongoing personal project",
       "images": [
-        "assets/images/vehicle - cover photo.png",
-        "assets/images/vehicle-1.png",
-        "assets/images/vehicle-2.png",
-        "assets/images/vehicle-3.png"
-      ]
+        "assets/images/personal/Vehicle-Restoration/vehicle - cover photo.png",
+        "assets/images/personal/Vehicle-Restoration/vehicle-1.png",
+        "assets/images/personal/Vehicle-Restoration/vehicle-2.png",
+        "assets/images/personal/Vehicle-Restoration/vehicle-3.png"
+      ],
+      "attachments": []
     },
     "textiles": {
       "type": "TEXTILES",
@@ -852,10 +863,11 @@
       ],
       "result": "Ongoing",
       "images": [
-        "assets/images/textiles-1.jpg",
-        "assets/images/textiles-2.jpg",
-        "assets/images/textiles-3.jpg"
-      ]
+        "assets/images/personal/Textiles/textiles-1.jpg",
+        "assets/images/personal/Textiles/textiles-2.jpg",
+        "assets/images/personal/Textiles/textiles-3.jpg"
+      ],
+      "attachments": []
     },
     "screw-mask": {
       "type": "INDUSTRY / MANUFACTURING",
@@ -871,10 +883,11 @@
       ],
       "result": "Add public-safe outcome",
       "images": [
-        "assets/images/screw-mask-1.jpg",
-        "assets/images/screw-mask-2.jpg",
-        "assets/images/screw-mask-3.jpg"
-      ]
+        "assets/images/industry/Flex/Screw-Mask/screw-mask-1.jpg",
+        "assets/images/industry/Flex/Screw-Mask/screw-mask-2.jpg",
+        "assets/images/industry/Flex/Screw-Mask/screw-mask-3.jpg"
+      ],
+      "attachments": []
     },
     "auto-nest": {
       "type": "INDUSTRY / MANUFACTURING",
@@ -890,10 +903,11 @@
       ],
       "result": "Add public-safe outcome",
       "images": [
-        "assets/images/auto-nest-1.jpg",
-        "assets/images/auto-nest-2.jpg",
-        "assets/images/auto-nest-3.jpg"
-      ]
+        "assets/images/industry/Flex/Automated-Line-Nest/auto-nest-1.jpg",
+        "assets/images/industry/Flex/Automated-Line-Nest/auto-nest-2.jpg",
+        "assets/images/industry/Flex/Automated-Line-Nest/auto-nest-3.jpg"
+      ],
+      "attachments": []
     },
     "robot-y": {
       "type": "INDUSTRY / MANUFACTURING",
@@ -909,10 +923,11 @@
       ],
       "result": "Add public-safe outcome",
       "images": [
-        "assets/images/robot-y-1.jpg",
-        "assets/images/robot-y-2.jpg",
-        "assets/images/robot-y-3.jpg"
-      ]
+        "assets/images/industry/Flex/Robot-Y-Alignment/robot-y-1.jpg",
+        "assets/images/industry/Flex/Robot-Y-Alignment/robot-y-2.jpg",
+        "assets/images/industry/Flex/Robot-Y-Alignment/robot-y-3.jpg"
+      ],
+      "attachments": []
     },
     "vac-label": {
       "type": "INDUSTRY / MANUFACTURING",
@@ -928,10 +943,11 @@
       ],
       "result": "Add public-safe outcome",
       "images": [
-        "assets/images/vac-label-1.jpg",
-        "assets/images/vac-label-2.jpg",
-        "assets/images/vac-label-3.jpg"
-      ]
+        "assets/images/industry/Flex/Vacuum-Label-Placement/vac-label-1.jpg",
+        "assets/images/industry/Flex/Vacuum-Label-Placement/vac-label-2.jpg",
+        "assets/images/industry/Flex/Vacuum-Label-Placement/vac-label-3.jpg"
+      ],
+      "attachments": []
     },
     "adjust-hold": {
       "type": "INDUSTRY / MANUFACTURING",
@@ -947,10 +963,11 @@
       ],
       "result": "Add public-safe outcome",
       "images": [
-        "assets/images/adjust-hold-1.jpg",
-        "assets/images/adjust-hold-2.jpg",
-        "assets/images/adjust-hold-3.jpg"
-      ]
+        "assets/images/industry/Flex/Adjustable-Hold-Down/adjust-hold-1.jpg",
+        "assets/images/industry/Flex/Adjustable-Hold-Down/adjust-hold-2.jpg",
+        "assets/images/industry/Flex/Adjustable-Hold-Down/adjust-hold-3.jpg"
+      ],
+      "attachments": []
     },
     "handling-fixture": {
       "type": "INDUSTRY / MANUFACTURING",
@@ -966,10 +983,11 @@
       ],
       "result": "Add public-safe outcome",
       "images": [
-        "assets/images/handling-fixture-1.jpg",
-        "assets/images/handling-fixture-2.jpg",
-        "assets/images/handling-fixture-3.jpg"
-      ]
+        "assets/images/industry/Flex/Handling-Fixture/handling-fixture-1.jpg",
+        "assets/images/industry/Flex/Handling-Fixture/handling-fixture-2.jpg",
+        "assets/images/industry/Flex/Handling-Fixture/handling-fixture-3.jpg"
+      ],
+      "attachments": []
     },
     "heatsink-nest": {
       "type": "INDUSTRY / MANUFACTURING",
@@ -985,10 +1003,11 @@
       ],
       "result": "Add public-safe outcome",
       "images": [
-        "assets/images/heatsink-nest-1.jpg",
-        "assets/images/heatsink-nest-2.jpg",
-        "assets/images/heatsink-nest-3.jpg"
-      ]
+        "assets/images/industry/Flex/Heatsink-Assembly-Nest/heatsink-nest-1.jpg",
+        "assets/images/industry/Flex/Heatsink-Assembly-Nest/heatsink-nest-2.jpg",
+        "assets/images/industry/Flex/Heatsink-Assembly-Nest/heatsink-nest-3.jpg"
+      ],
+      "attachments": []
     },
     "cable-holder": {
       "type": "INDUSTRY / MANUFACTURING",
@@ -1004,10 +1023,11 @@
       ],
       "result": "Add public-safe outcome",
       "images": [
-        "assets/images/cable-holder-1.jpg",
-        "assets/images/cable-holder-2.jpg",
-        "assets/images/cable-holder-3.jpg"
-      ]
+        "assets/images/industry/Flex/Cable-Holder/cable-holder-1.jpg",
+        "assets/images/industry/Flex/Cable-Holder/cable-holder-2.jpg",
+        "assets/images/industry/Flex/Cable-Holder/cable-holder-3.jpg"
+      ],
+      "attachments": []
     },
     "nozzle-extender": {
       "type": "INDUSTRY / MANUFACTURING",
@@ -1023,10 +1043,11 @@
       ],
       "result": "Add public-safe outcome",
       "images": [
-        "assets/images/nozzle-extender-1.jpg",
-        "assets/images/nozzle-extender-2.jpg",
-        "assets/images/nozzle-extender-3.jpg"
-      ]
+        "assets/images/industry/Flex/Nozzle-Extender/nozzle-extender-1.jpg",
+        "assets/images/industry/Flex/Nozzle-Extender/nozzle-extender-2.jpg",
+        "assets/images/industry/Flex/Nozzle-Extender/nozzle-extender-3.jpg"
+      ],
+      "attachments": []
     },
     "torture-test": {
       "type": "INDUSTRY / MANUFACTURING",
@@ -1042,10 +1063,11 @@
       ],
       "result": "Add public-safe outcome",
       "images": [
-        "assets/images/torture-test-1.jpg",
-        "assets/images/torture-test-2.jpg",
-        "assets/images/torture-test-3.jpg"
-      ]
+        "assets/images/industry/Flex/3D-Printer-Torture-Test/torture-test-1.jpg",
+        "assets/images/industry/Flex/3D-Printer-Torture-Test/torture-test-2.jpg",
+        "assets/images/industry/Flex/3D-Printer-Torture-Test/torture-test-3.jpg"
+      ],
+      "attachments": []
     },
     "shadow-box": {
       "type": "INDUSTRY / MANUFACTURING",
@@ -1061,10 +1083,11 @@
       ],
       "result": "Add public-safe outcome",
       "images": [
-        "assets/images/shadow-box-1.jpg",
-        "assets/images/shadow-box-2.jpg",
-        "assets/images/shadow-box-3.jpg"
-      ]
+        "assets/images/industry/Flex/Shadow-Box/shadow-box-1.jpg",
+        "assets/images/industry/Flex/Shadow-Box/shadow-box-2.jpg",
+        "assets/images/industry/Flex/Shadow-Box/shadow-box-3.jpg"
+      ],
+      "attachments": []
     },
     "go-no-go": {
       "type": "INDUSTRY / MANUFACTURING",
@@ -1080,10 +1103,11 @@
       ],
       "result": "Add public-safe outcome",
       "images": [
-        "assets/images/go-no-go-1.jpg",
-        "assets/images/go-no-go-2.jpg",
-        "assets/images/go-no-go-3.jpg"
-      ]
+        "assets/images/industry/Flex/Go-No-Go-Gauge/go-no-go-1.jpg",
+        "assets/images/industry/Flex/Go-No-Go-Gauge/go-no-go-2.jpg",
+        "assets/images/industry/Flex/Go-No-Go-Gauge/go-no-go-3.jpg"
+      ],
+      "attachments": []
     },
     "gasket-placement": {
       "type": "INDUSTRY / MANUFACTURING",
@@ -1099,10 +1123,11 @@
       ],
       "result": "Add public-safe outcome",
       "images": [
-        "assets/images/gasket-placement-1.jpg",
-        "assets/images/gasket-placement-2.jpg",
-        "assets/images/gasket-placement-3.jpg"
-      ]
+        "assets/images/industry/Flex/Gasket-Placement/gasket-placement-1.jpg",
+        "assets/images/industry/Flex/Gasket-Placement/gasket-placement-2.jpg",
+        "assets/images/industry/Flex/Gasket-Placement/gasket-placement-3.jpg"
+      ],
+      "attachments": []
     },
     "stocksmart": {
       "type": "PRODUCT DESIGN / SYSTEMS",
@@ -1119,18 +1144,18 @@
       ],
       "result": "Semester-long class design project for the Wyss Institute at Harvard",
       "images": [
-        "assets/images/stocksmart-1.jpg",
-        "assets/images/stocksmart-2.jpg",
-        "assets/images/stocksmart-3.jpg"
+        "assets/images/class/StockSmart/stocksmart-1.jpg",
+        "assets/images/class/StockSmart/stocksmart-2.jpg",
+        "assets/images/class/StockSmart/stocksmart-3.jpg"
       ],
       "attachments": [
         [
           "Project Paper",
-          "assets/docs/StockSmart_Paper.pdf"
+          "assets/docs/class/StockSmart/StockSmart_Paper.pdf"
         ],
         [
           "Presentation",
-          "assets/docs/StockSmart_Presentation.pdf"
+          "assets/docs/class/StockSmart/StockSmart_Presentation.pdf"
         ]
       ]
     },
@@ -1149,12 +1174,12 @@
       ],
       "result": "Course project and presentation",
       "images": [
-        "assets/images/wave.png"
+        "assets/images/class/Square-Pendulum/wave.png"
       ],
       "attachments": [
         [
           "Presentation",
-          "assets/docs/Waves.pdf"
+          "assets/docs/class/Square-Pendulum/Waves.pdf"
         ]
       ]
     },
@@ -1173,14 +1198,14 @@
       ],
       "result": "Two-week experimental class project",
       "images": [
-        "assets/images/heat-transfer-1.jpg",
-        "assets/images/heat-transfer-2.jpg",
-        "assets/images/heat-transfer-3.jpg"
+        "assets/images/class/Heat-Transfer-Ferns/heat-transfer-1.jpg",
+        "assets/images/class/Heat-Transfer-Ferns/heat-transfer-2.jpg",
+        "assets/images/class/Heat-Transfer-Ferns/heat-transfer-3.jpg"
       ],
       "attachments": [
         [
           "Presentation",
-          "assets/docs/Heat_Transfer_Presentation.pdf"
+          "assets/docs/class/Heat-Transfer-Ferns/Heat_Transfer_Presentation.pdf"
         ]
       ]
     },
@@ -1199,10 +1224,11 @@
       ],
       "result": "In progress",
       "images": [
-        "assets/images/senior-thesis-1.jpg",
-        "assets/images/senior-thesis-2.jpg",
-        "assets/images/senior-thesis-3.jpg"
-      ]
+        "assets/images/class/Senior-Thesis-Capstone/senior-thesis-1.jpg",
+        "assets/images/class/Senior-Thesis-Capstone/senior-thesis-2.jpg",
+        "assets/images/class/Senior-Thesis-Capstone/senior-thesis-3.jpg"
+      ],
+      "attachments": []
     },
     "engineering-music": {
       "type": "ENGINEERING + MUSIC",
@@ -1219,10 +1245,11 @@
       ],
       "result": "Course project · instrument design and fabrication",
       "images": [
-        "assets/images/engineering-music-1.jpg",
-        "assets/images/engineering-music-2.jpg",
-        "assets/images/engineering-music-3.jpg"
-      ]
+        "assets/images/class/Engineering-Music/engineering-music-1.jpg",
+        "assets/images/class/Engineering-Music/engineering-music-2.jpg",
+        "assets/images/class/Engineering-Music/engineering-music-3.jpg"
+      ],
+      "attachments": []
     }
   }
 }

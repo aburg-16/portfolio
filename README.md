@@ -1,123 +1,104 @@
-# Anna Burgess Portfolio — JSON-Driven Version
+# Anna Burgess Portfolio
 
-This version is designed so you **do not need to edit the HTML for normal content changes**.
+This version uses a project-based media hierarchy so images and documents can be uploaded to GitHub in small folders instead of replacing one very large `assets` directory.
 
-## Edit `content.json`
+## Repository layout
 
-Open `content.json` in VS Code, Notepad/TextEdit, or directly on GitHub and edit the text between quotation marks.
+```text
+index.html
+club-projects.html
+research-projects.html
+class-projects.html
+industry-projects.html
+personal-projects.html
+hobbies.html
+content.json
+style.css
+script.js
+Anna_Burgess_Resume.pdf
 
-You can change:
+assets/
+  images/
+    clubs/
+      HURC/
+        URC-Rover/
+      HUAC-R/
+        Forward-Unto-Dawn/
+        RocketLink/
+        Mojave-Sphinx/
+        IREC-10K-COTS/
+        L1-Certification/
+        Phase-1-Liquid-Rocket/
+    research/
+      MAHI-Lab/
+      Ability-Lab/
+    class/
+      Yellow-Jacket/
+      Nerf-Turret/
+      I-Beam-Bridge/
+      Egg-Drop/
+      Abaqus-Unit-Cell/
+      Friction-Backlash-Controller/
+      StockSmart/
+      Square-Pendulum/
+      Heat-Transfer-Ferns/
+      Senior-Thesis-Capstone/
+      Engineering-Music/
+    industry/
+      Flex/
+        <one folder per Flex project>/
+    personal/
+      CNC-Plasma-Cutter/
+      Vehicle-Restoration/
+      Textiles/
+    hobbies/
+      running/
+      hiking-travel/
+      rock-climbing/
+      biking/
+      swimming/
+      soccer/
 
-- homepage text and motto
-- portrait filename
-- About Me copy
-- featured project list
-- skills
-- honors and awards
-- certifications
-- contact copy and links
-- navigation labels
-- every project title, organization, description, contribution, outcome, technical tags, images, and PDF links
-- page titles and introductions
-- hobby text and images
+  docs/
+    clubs/
+      HURC/...
+      HUAC-R/...
+    research/
+      MAHI-Lab/
+      Ability-Lab/
+    class/
+      <same project folders as images>/
+    industry/
+      Flex/<same project folders>/
+    personal/
+      <same project folders>/
+    hobbies/
+      <same hobby folders>/
+```
 
-The HTML files are now just page shells. Normally, leave them alone.
+## Adding media
 
-## Important JSON rules
+Add a photo only to the folder for that project, then add its exact path to that project's `images` array in `content.json`.
 
-1. Keep double quotes around text.
-2. Keep commas between items.
-3. Do not add a comma after the final item in an object or list.
-4. If you need a literal double quote inside text, write it as `\"`.
-
-VS Code will highlight JSON mistakes automatically.
-
-## Project images
-
-Each project has an `images` list in `content.json`. The **first image is automatically the project-card cover**.
+The first path in a project's `images` array is the project-card cover image. The rest become the full-screen gallery.
 
 Example:
 
 ```json
 "images": [
-  "assets/images/yellow-jacket-1.jpg",
-  "assets/images/yellow-jacket-2.jpg",
-  "assets/images/yellow-jacket-3.jpg"
+  "assets/images/class/Yellow-Jacket/cover.jpg",
+  "assets/images/class/Yellow-Jacket/cad.jpg",
+  "assets/images/class/Yellow-Jacket/testing.jpg"
 ]
 ```
 
-Upload those image files into `assets/images/`.
-
-## Project documents
-
-Project papers, presentations, and posters are controlled by each project's `attachments` list.
-
-Example:
+Documents work the same way through the project's `attachments` array.
 
 ```json
 "attachments": [
-  ["Project Paper", "assets/docs/Yellow_Jacket_Paper.pdf"],
-  ["Presentation", "assets/docs/Yellow_Jacket_Presentation.pdf"]
+  ["Project Paper", "assets/docs/class/Yellow-Jacket/Yellow_Jacket_Paper.pdf"],
+  ["Presentation", "assets/docs/class/Yellow-Jacket/Yellow_Jacket_Presentation.pdf"]
 ]
 ```
 
-Upload the actual PDFs into `assets/docs/`.
-
-## Portrait
-
-The homepage portrait currently points to:
-
-`assets/images/anna-portrait.jpg`
-
-You can either upload a photo with that exact name or change `home.hero.portrait` in `content.json`.
-
-## CV
-
-The CV button currently points to:
-
-`Anna_Burgess_CV.pdf`
-
-When your CV is ready, upload it to the repository root with that filename, or change `site.links.cv` in `content.json`.
-
-## Previewing the site
-
-Because the site now loads `content.json` using JavaScript, double-clicking `index.html` on your computer may not work because browsers restrict local `fetch()` requests.
-
-Use your GitHub Pages URL for normal viewing. If you want a local preview, run a simple local web server from the repository folder, for example with VS Code Live Server.
-
-## Adding a new project
-
-1. Copy an existing project object inside `projects` in `content.json`.
-2. Give it a unique ID/key.
-3. Edit its content and image paths.
-4. Add that project ID to the appropriate `projectIds` list under a page or under `home.featured.projectIds`.
-
-No HTML editing is required.
-
-## New class projects added
-
-Three additional class projects are now included in `content.json`:
-
-- **StockSmart — Wyss Institute Storage Solution**
-  - Images: `assets/images/stocksmart-1.jpg`, `stocksmart-2.jpg`, `stocksmart-3.jpg`
-  - Paper: `assets/docs/StockSmart_Paper.pdf` (included)
-  - Presentation expected at: `assets/docs/StockSmart_Presentation.pdf` (not present in the uploaded docs ZIP yet)
-- **Square Pendulum Normal Modes**
-  - Images: `assets/images/square-pendulum-1.jpg`, `square-pendulum-2.jpg`, `square-pendulum-3.jpg`
-  - Presentation: `assets/docs/Waves.pdf` (included)
-- **Infrared Imaging as an Indicator of Plant Drought Stress**
-  - Images: `assets/images/heat-transfer-1.jpg`, `heat-transfer-2.jpg`, `heat-transfer-3.jpg`
-  - Presentation expected at: `assets/docs/Heat_Transfer_Presentation.pdf` (not present in the uploaded docs ZIP yet)
-
-The uploaded `images.zip` and `docs.zip` contents have also been copied into `assets/images/` and `assets/docs/` respectively. Existing filenames were preserved.
-
-
-## Image mapping update
-
-The renamed image archive has been incorporated into `assets/images/` and `content.json`. Clearly labeled cover photos are listed first so they appear on project cards. StockSmart and the heat-transfer fern study remain ready for images once those photos are added.
-
-
-## Active / Stay Tuned projects
-The homepage now has a `home.active` section in `content.json`. Edit its `projectIds` array to control the active-project cards shown on the homepage. Current cards are the senior thesis/capstone, IREC 10K COTS competition rocket, and CNC plasma cutter.
-
-The Class Projects page also includes `senior-thesis` and `engineering-music`. Their image placeholders are under `assets/images/` as listed in `content.json`.
+Empty folders contain `.gitkeep` files so GitHub will preserve the folder structure before you add media.
