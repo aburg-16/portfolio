@@ -56,8 +56,8 @@ function renderHome(){
   </div></div></header>
   <main>
     <section id="about"><div class="container">${sectionHead(h.about.kicker,h.about.title)}<div class="about-grid">${h.about.paragraphs.map(p=>`<p>${esc(p)}</p>`).join('')}</div></div></section>
-    <section id="featured"><div class="container">${sectionHead(h.featured.kicker,h.featured.title)}${projectGrid(h.featured.projectIds)}</div></section>
     <section id="stay-tuned"><div class="container">${sectionHead(h.active.kicker,h.active.title)}${h.active.text?`<p class="section-intro">${esc(h.active.text)}</p>`:''}${projectGrid(h.active.projectIds)}</div></section>
+    <section id="featured"><div class="container">${sectionHead(h.featured.kicker,h.featured.title)}${projectGrid(h.featured.projectIds)}</div></section>
     <section id="skills"><div class="container">${sectionHead(h.skills.kicker,h.skills.title)}
       ${carousel('skills-carousel', 'Skills', h.skills.groups, 'skills')}
       ${carousel('certifications-carousel', h.certifications.title, h.certifications.items, 'certifications')}

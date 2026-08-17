@@ -94,15 +94,13 @@
       ]
     },
     "featured": {
-      "kicker": "Featured Projects",
-      "title": "Selected engineering work",
+      "kicker": "",
+      "title": "FEATURED PROJECTS",
       "projectIds": [
-        "fud",
         "sphinx",
         "urc",
         "abaqus",
-        "controls",
-        "plasma"
+        "auto-nest"
       ]
     },
     "skills": {
@@ -229,12 +227,13 @@
       ]
     },
     "active": {
-      "kicker": "Stay Tuned",
-      "title": "Currently in progress",
-      "text": "A few projects I am actively developing now. These cards will evolve as the designs, testing, and results progress.",
+      "kicker": "",
+      "title": "STAY TUNED",
+      "text": "",
       "projectIds": [
         "senior-thesis",
         "irec",
+        "fud",
         "plasma"
       ]
     }
