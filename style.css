@@ -257,3 +257,54 @@ html, body{
     overflow-y:hidden;
   }
 }
+
+/* === Mobile full-width carousel cards: toolkit, certifications, honors === */
+@media(max-width:620px){
+  .content-carousel{
+    display:grid;
+    grid-auto-flow:column;
+    grid-auto-columns:100%;
+    gap:14px;
+    width:100%;
+    max-width:100%;
+    overflow-x:auto;
+    overflow-y:hidden;
+    scroll-snap-type:x mandatory;
+    scroll-padding-inline:0;
+    -webkit-overflow-scrolling:touch;
+    padding:2px 0 14px;
+  }
+
+  .carousel-card{
+    width:100%;
+    max-width:100%;
+    min-width:0;
+    min-height:0;
+    scroll-snap-align:start;
+    scroll-snap-stop:always;
+  }
+
+  .content-carousel .skill-group,
+  .content-carousel .award-card,
+  .content-carousel .cert-card{
+    width:100%;
+    max-width:100%;
+    min-width:0;
+    min-height:180px;
+    padding:24px 22px;
+  }
+
+  .content-carousel .skill-group h3,
+  .content-carousel .award-card h3,
+  .content-carousel .cert-card h3{
+    font-size:1.15rem;
+    line-height:1.25;
+  }
+
+  .content-carousel .skill-group p,
+  .content-carousel .award-card p,
+  .content-carousel .cert-card p{
+    font-size:1rem;
+    line-height:1.6;
+  }
+}
