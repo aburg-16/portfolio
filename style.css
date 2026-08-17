@@ -180,3 +180,31 @@
   .gallery-count{right:12px;bottom:12px}
   .modal-close{top:12px;right:12px}
 }
+
+/* === Larger project cards + uncropped cover images === */
+.project-grid{
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:28px;
+}
+.project-card{
+  min-height:430px;
+  aspect-ratio:4 / 3;
+  background:#000;
+}
+.card-image{
+  object-fit:contain;
+  object-position:center;
+  background:#000;
+}
+.card-image-fallback{
+  background:#111;
+  color:#aaa;
+}
+@media(max-width:900px){
+  .project-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+  .project-card{min-height:360px;aspect-ratio:4 / 3}
+}
+@media(max-width:620px){
+  .project-grid{grid-template-columns:1fr}
+  .project-card{min-height:340px;aspect-ratio:4 / 3}
+}
