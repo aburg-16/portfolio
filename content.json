@@ -178,9 +178,9 @@
           "href": "research-projects.html"
         },
         {
-          "eyebrow": "09 PROJECTS",
+          "eyebrow": "11 PROJECTS",
           "title": "Class Projects",
-          "text": "Machine design, mechatronics, structures, dynamics, FEA, controls, product design, waves, and heat transfer.",
+          "text": "Machine design, mechatronics, structures, dynamics, FEA, controls, product design, waves, heat transfer, acoustics, and senior capstone work.",
           "href": "class-projects.html"
         },
         {
@@ -226,6 +226,16 @@
           "label": "LinkedIn",
           "linkKey": "linkedin"
         }
+      ]
+    },
+    "active": {
+      "kicker": "Stay Tuned",
+      "title": "Currently in progress",
+      "text": "A few projects I am actively developing now. These cards will evolve as the designs, testing, and results progress.",
+      "projectIds": [
+        "senior-thesis",
+        "irec",
+        "plasma"
       ]
     }
   },
@@ -281,7 +291,7 @@
     "class": {
       "title": "Class Projects",
       "eyebrow": "Class Projects",
-      "intro": "Course projects spanning machine design, mechatronics, structures, dynamics, computational mechanics, controls, product design, wave phenomena, and heat transfer.",
+      "intro": "Course projects spanning machine design, mechatronics, structures, dynamics, computational mechanics, controls, product design, wave phenomena, heat transfer, acoustics, and senior capstone work.",
       "note": "Project papers and presentations are linked from each project popup when available. The bridge project intentionally has no document link.",
       "groups": [
         {
@@ -295,7 +305,9 @@
             "controls",
             "stocksmart",
             "square-pendulum",
-            "heat-transfer"
+            "heat-transfer",
+            "senior-thesis",
+            "engineering-music"
           ]
         }
       ]
@@ -446,18 +458,18 @@
       ]
     },
     "irec": {
-      "type": "ROCKETRY PROGRAM",
-      "title": "IREC 10,000-ft Rocket Program",
+      "type": "ROCKETRY · IN PROGRESS",
+      "title": "IREC 10K COTS Competition Rocket",
       "org": "Harvard Undergraduate Aerospace Collective",
-      "summary": "Upcoming student rocketry initiative targeting a 10,000-ft IREC-class vehicle.",
-      "desc": "An upcoming program focused on developing the team capability, technical architecture, and project organization needed for an IREC-class rocket.",
+      "summary": "Active development of a 10,000-ft COTS competition rocket for IREC.",
+      "desc": "An active student-led effort to develop a 10,000-ft COTS competition rocket for IREC, building the team capability, technical architecture, and project organization required to take the vehicle from concept through flight readiness.",
       "contrib": "Founded the 10,000-ft IREC program and began organizing the engineering team, technical workstreams, schedule, and certification pipeline.",
       "tags": [
         "Project Leadership",
         "Systems Engineering",
         "Rocketry"
       ],
-      "result": "Upcoming initiative",
+      "result": "In progress",
       "images": [
         "assets/images/irec-1.jpg",
         "assets/images/irec-2.jpg"
@@ -786,7 +798,7 @@
       ]
     },
     "plasma": {
-      "type": "CNC / FABRICATION",
+      "type": "CNC / FABRICATION · IN PROGRESS",
       "title": "3-Axis CNC Plasma Cutter",
       "org": "Personal Project",
       "summary": "Arduino/GRBL-controlled 3-axis CNC plasma system with NEMA motors and a removable commercial torch.",
@@ -798,7 +810,7 @@
         "NEMA Motors",
         "CNC"
       ],
-      "result": "Personal build",
+      "result": "Active personal build",
       "images": [
         "assets/images/plasma-1.jpg",
         "assets/images/plasma-2.jpg",
@@ -1171,6 +1183,46 @@
           "Presentation",
           "assets/docs/Heat_Transfer_Presentation.pdf"
         ]
+      ]
+    },
+    "senior-thesis": {
+      "type": "SENIOR THESIS / CAPSTONE · IN PROGRESS",
+      "title": "Senior Thesis / Capstone Project",
+      "org": "Harvard Mechanical Engineering",
+      "summary": "Active senior thesis and capstone work. Technical scope, design decisions, and results will be added as the project develops.",
+      "desc": "My senior thesis / capstone is currently in progress. This page will document the project as it develops, including the problem definition, design process, analysis, prototyping, testing, iteration, and final results.",
+      "contrib": "This is my senior thesis / capstone project, so I will use this space to document my individual technical ownership, design decisions, analysis, fabrication, testing, and iteration as the work progresses.",
+      "tags": [
+        "Mechanical Engineering",
+        "Senior Thesis",
+        "Capstone",
+        "In Progress"
+      ],
+      "result": "In progress",
+      "images": [
+        "assets/images/senior-thesis-1.jpg",
+        "assets/images/senior-thesis-2.jpg",
+        "assets/images/senior-thesis-3.jpg"
+      ]
+    },
+    "engineering-music": {
+      "type": "ENGINEERING + MUSIC",
+      "title": "Instrument Design & Fabrication",
+      "org": "Engineering and Music GenEd",
+      "summary": "A hands-on course project centered on designing and building musical instruments while connecting engineering principles with sound and music.",
+      "desc": "For my Engineering and Music GenEd, I designed and built physical musical instruments as part of a hands-on exploration of how engineering choices shape sound. The project connected design and fabrication with the physical behavior that produces musical tones.",
+      "contrib": "Designed and fabricated the instruments, iterated on the physical design, and applied engineering reasoning to connect geometry, construction, and material choices with the resulting acoustic behavior.",
+      "tags": [
+        "Acoustics",
+        "Instrument Design",
+        "Fabrication",
+        "Prototyping"
+      ],
+      "result": "Course project · instrument design and fabrication",
+      "images": [
+        "assets/images/engineering-music-1.jpg",
+        "assets/images/engineering-music-2.jpg",
+        "assets/images/engineering-music-3.jpg"
       ]
     }
   }

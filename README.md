@@ -115,3 +115,9 @@ The uploaded `images.zip` and `docs.zip` contents have also been copied into `as
 ## Image mapping update
 
 The renamed image archive has been incorporated into `assets/images/` and `content.json`. Clearly labeled cover photos are listed first so they appear on project cards. StockSmart and the heat-transfer fern study remain ready for images once those photos are added.
+
+
+## Active / Stay Tuned projects
+The homepage now has a `home.active` section in `content.json`. Edit its `projectIds` array to control the active-project cards shown on the homepage. Current cards are the senior thesis/capstone, IREC 10K COTS competition rocket, and CNC plasma cutter.
+
+The Class Projects page also includes `senior-thesis` and `engineering-music`. Their image placeholders are under `assets/images/` as listed in `content.json`.
