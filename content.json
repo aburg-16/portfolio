@@ -1,0 +1,1040 @@
+{
+  "site": {
+    "name": "Anna Burgess",
+    "brandFirst": "ANNA",
+    "brandLast": "BURGESS",
+    "pageDescription": "Anna Burgess mechanical engineering portfolio",
+    "footerLeft": "© 2026 Anna Burgess",
+    "footerRight": "Mechanical Engineering · Design · Manufacturing · Robotics · Rocketry",
+    "navigation": [
+      {
+        "label": "Home",
+        "href": "index.html",
+        "page": "home"
+      },
+      {
+        "label": "Club",
+        "href": "club-projects.html",
+        "page": "club"
+      },
+      {
+        "label": "Research",
+        "href": "research-projects.html",
+        "page": "research"
+      },
+      {
+        "label": "Class",
+        "href": "class-projects.html",
+        "page": "class"
+      },
+      {
+        "label": "Industry",
+        "href": "industry-projects.html",
+        "page": "industry"
+      },
+      {
+        "label": "Personal",
+        "href": "personal-projects.html",
+        "page": "personal"
+      },
+      {
+        "label": "Hobbies",
+        "href": "hobbies.html",
+        "page": "hobbies"
+      }
+    ],
+    "links": {
+      "email": "mailto:aburgess@college.harvard.edu",
+      "resume": "Anna_Burgess_Resume.pdf",
+      "cv": "Anna_Burgess_CV.pdf",
+      "linkedin": "https://linkedin.com/in/anna-burgess-e82111106a",
+      "github": "https://github.com/aburg-16"
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Mechanical Engineering Portfolio",
+      "name": "Anna Burgess",
+      "headline": "Mechanical design, manufacturing, robotics, propulsion, controls, and hands-on engineering.",
+      "intro": "I’m a Mechanical Engineering student at Harvard focused on taking systems from analysis and CAD through machining, assembly, testing, and iteration. My work spans liquid rocketry, robotics, computational mechanics, controls, research hardware, manufacturing, and personal fabrication.",
+      "portrait": "assets/images/anna-portrait.jpg",
+      "portraitAlt": "Portrait of Anna Burgess",
+      "portraitLabel": "Anna Burgess · Mechanical Engineering",
+      "buttons": [
+        {
+          "label": "Featured Projects",
+          "href": "#featured",
+          "style": "primary"
+        },
+        {
+          "label": "Resume",
+          "linkKey": "resume"
+        },
+        {
+          "label": "CV",
+          "linkKey": "cv"
+        },
+        {
+          "label": "LinkedIn",
+          "linkKey": "linkedin"
+        },
+        {
+          "label": "GitHub",
+          "linkKey": "github"
+        }
+      ]
+    },
+    "about": {
+      "kicker": "About Me",
+      "title": "Engineering from first principles to hardware.",
+      "paragraphs": [
+        "I am pursuing a B.S. in Mechanical Engineering at Harvard College with a minor in Mathematical Sciences. My coursework includes computer-aided machine design, mechanical systems, solid and computational mechanics, and robotics.",
+        "My experience is strongly fabrication-driven: manual and CNC machining, welding, 3D printing, laser and waterjet cutting, soldering, CAD/CAE, embedded controls, fixture design, testing, and iterative build work.",
+        "Outside coursework, I lead and contribute to rocketry and robotics programs, work in research environments, and build personal projects ranging from CNC equipment to vehicle restoration."
+      ]
+    },
+    "featured": {
+      "kicker": "Featured Projects",
+      "title": "Selected engineering work",
+      "projectIds": [
+        "fud",
+        "sphinx",
+        "urc",
+        "abaqus",
+        "controls",
+        "plasma"
+      ]
+    },
+    "skills": {
+      "kicker": "Skills",
+      "title": "Technical toolkit",
+      "groups": [
+        {
+          "title": "Manufacturing",
+          "text": "Manual/CNC turning and milling, MIG/TIG welding, 3D printing, laser cutting, waterjet cutting, plasma cutting, soldering"
+        },
+        {
+          "title": "CAD / CAE / CAM",
+          "text": "SolidWorks, Fusion 360, Abaqus, COMSOL, GD&T, design for manufacturing"
+        },
+        {
+          "title": "Programming & Controls",
+          "text": "Python, MATLAB, Arduino, G-code, CNC conversational programming, PID controls"
+        },
+        {
+          "title": "Engineering",
+          "text": "Mechanical design, fixture design, FEA, dynamics, test engineering, research hardware, system integration"
+        }
+      ]
+    },
+    "awards": {
+      "title": "Honors & Awards",
+      "items": [
+        {
+          "title": "2nd Place · Yellow Jacket Competition Robot",
+          "text": "Introduction to Computer-Aided Machine Design final competition."
+        },
+        {
+          "title": "2nd Place · Solid Mechanics Bridge",
+          "text": "Compression force-to-weight performance competition."
+        },
+        {
+          "title": "2nd Place · Mechanical Systems Egg Drop",
+          "text": "Impact-mitigation system using springs and variable damping."
+        }
+      ]
+    },
+    "certifications": {
+      "title": "Certifications",
+      "items": [
+        {
+          "title": "Certified SolidWorks Associate (CSWA)",
+          "text": "SolidWorks certification."
+        },
+        {
+          "title": "NAR Level 1 High Power Rocketry",
+          "text": "Earned through successful build, launch, and recovery of an Apogee Zephyr."
+        },
+        {
+          "title": "Add future certification",
+          "text": "Replace this placeholder when you earn another license or technical certification."
+        }
+      ]
+    },
+    "library": {
+      "kicker": "Project Library",
+      "title": "Browse the full portfolio",
+      "categories": [
+        {
+          "eyebrow": "07 PROJECTS",
+          "title": "Club Projects",
+          "text": "Rocketry, propulsion, telemetry, high-power certification, and rover manufacturing.",
+          "href": "club-projects.html"
+        },
+        {
+          "eyebrow": "02 PROJECTS",
+          "title": "Research Projects",
+          "text": "Experimental hardware and wearable sensing research.",
+          "href": "research-projects.html"
+        },
+        {
+          "eyebrow": "06 PROJECTS",
+          "title": "Class Projects",
+          "text": "Machine design, mechatronics, structures, dynamics, FEA, and controls.",
+          "href": "class-projects.html"
+        },
+        {
+          "eyebrow": "13 PROJECTS",
+          "title": "Industry Projects",
+          "text": "Manufacturing, automation, fixture design, and production engineering at Flex.",
+          "href": "industry-projects.html"
+        },
+        {
+          "eyebrow": "03 PROJECTS",
+          "title": "Personal Projects",
+          "text": "CNC fabrication, vehicle restoration, and textiles.",
+          "href": "personal-projects.html"
+        },
+        {
+          "eyebrow": "OUTSIDE ENGINEERING",
+          "title": "Hobbies",
+          "text": "Running, biking, swimming, soccer, climbing, hiking, and travel.",
+          "href": "hobbies.html"
+        }
+      ]
+    },
+    "contact": {
+      "kicker": "Personal Philosophy",
+      "title": "Do it, or make way.",
+      "mottoNote": "A philosophy passed down from my dad: commit to what you set out to do, follow through, and keep moving forward.",
+      "text": "I’m interested in mechanical engineering opportunities involving design, manufacturing, robotics, aerospace, testing, and hands-on hardware development.",
+      "buttons": [
+        {
+          "label": "Email",
+          "linkKey": "email",
+          "style": "primary"
+        },
+        {
+          "label": "Resume",
+          "linkKey": "resume"
+        },
+        {
+          "label": "CV",
+          "linkKey": "cv"
+        },
+        {
+          "label": "LinkedIn",
+          "linkKey": "linkedin"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "club": {
+      "title": "Club Projects",
+      "eyebrow": "Club Projects",
+      "intro": "Student-led engineering across rocketry, propulsion, telemetry, high-power certification, test infrastructure, and rover manufacturing.",
+      "groups": [
+        {
+          "title": "Harvard Undergraduate Aerospace Collective",
+          "projectIds": [
+            "fud",
+            "rocketlink",
+            "sphinx",
+            "irec",
+            "l1"
+          ]
+        },
+        {
+          "title": "Harvard Undergraduate Rocket & Propulsion Group",
+          "projectIds": [
+            "phase1"
+          ]
+        },
+        {
+          "title": "Harvard Undergraduate Robotics Club",
+          "projectIds": [
+            "urc"
+          ]
+        }
+      ]
+    },
+    "research": {
+      "title": "Research Projects",
+      "eyebrow": "Research Projects",
+      "intro": "Experimental hardware and wearable sensing research spanning mechanical design, rapid prototyping, sensor integration, and validation.",
+      "groups": [
+        {
+          "title": "Harvard Ability Lab",
+          "projectIds": [
+            "ability"
+          ]
+        },
+        {
+          "title": "MAHI Lab — Rice University",
+          "projectIds": [
+            "mahi"
+          ]
+        }
+      ]
+    },
+    "class": {
+      "title": "Class Projects",
+      "eyebrow": "Class Projects",
+      "intro": "Course final projects spanning machine design, mechatronics, structures, mechanical systems, computational mechanics, and robotics controls.",
+      "note": "Every class project except the bridge includes document links in its project popup. Add or change the PDF paths directly in content.json.",
+      "groups": [
+        {
+          "title": "Engineering Coursework",
+          "projectIds": [
+            "yellow",
+            "nerf",
+            "bridge",
+            "egg",
+            "abaqus",
+            "controls"
+          ]
+        }
+      ]
+    },
+    "industry": {
+      "title": "Industry Projects",
+      "eyebrow": "Industry Projects",
+      "intro": "Mechanical design, production tooling, automation support, and manufacturing engineering projects completed during my internship at Flex.",
+      "note": "Project descriptions are intentionally concise until you replace them with public-safe details you are comfortable sharing. Edit those fields in content.json.",
+      "groups": [
+        {
+          "title": "Flex — Mechanical Engineering Internship",
+          "projectIds": [
+            "screw-mask",
+            "auto-nest",
+            "robot-y",
+            "vac-label",
+            "adjust-hold",
+            "handling-fixture",
+            "heatsink-nest",
+            "cable-holder",
+            "nozzle-extender",
+            "torture-test",
+            "shadow-box",
+            "go-no-go",
+            "gasket-placement"
+          ]
+        }
+      ]
+    },
+    "personal": {
+      "title": "Personal Projects",
+      "eyebrow": "Personal Projects",
+      "intro": "Hands-on projects I pursue outside formal coursework and team programs, from CNC fabrication to vehicle restoration and textiles.",
+      "groups": [
+        {
+          "title": "Built Outside the Classroom",
+          "projectIds": [
+            "plasma",
+            "vehicles",
+            "textiles"
+          ]
+        }
+      ]
+    },
+    "hobbies": {
+      "title": "Hobbies & Life Outside the Shop",
+      "eyebrow": "Outside Engineering",
+      "intro": "Running, outdoor sports, travel, and the activities that keep me moving when I am not designing or building hardware.",
+      "note": "Hobby text and photo paths are editable below in content.json. Add more cards by copying one hobby object.",
+      "hobbies": [
+        {
+          "title": "Running",
+          "text": "5 half-marathons completed; currently training for my first full marathon.",
+          "image": "assets/images/hobby-running.jpg"
+        },
+        {
+          "title": "Hiking & National Parks",
+          "text": "I love hiking and travel and have visited 28 U.S. national parks.",
+          "image": "assets/images/hobby-national-parks.jpg"
+        },
+        {
+          "title": "Rock Climbing",
+          "text": "Climbing is one of my favorite ways to combine problem solving, movement, and time outdoors.",
+          "image": "assets/images/hobby-climbing.jpg"
+        },
+        {
+          "title": "Biking",
+          "text": "I enjoy biking for both training and exploring.",
+          "image": "assets/images/hobby-biking.jpg"
+        },
+        {
+          "title": "Swimming",
+          "text": "Swimming is part of my cross-training and something I enjoy recreationally.",
+          "image": "assets/images/hobby-swimming.jpg"
+        },
+        {
+          "title": "Soccer",
+          "text": "I enjoy playing soccer and staying active through team sports.",
+          "image": "assets/images/hobby-soccer.jpg"
+        }
+      ]
+    }
+  },
+  "projects": {
+    "fud": {
+      "type": "PROPULSION",
+      "title": "Forward Unto Dawn — Regeneratively Cooled Liquid Bipropellant Engine",
+      "org": "Harvard Undergraduate Aerospace Collective",
+      "summary": "Liquid bipropellant engine development centered on regenerative cooling, an additively manufactured combustion chamber, and analytical validation.",
+      "desc": "Development of a liquid bipropellant, regeneratively cooled rocket engine with a metal additively manufactured combustion chamber. The project combines propulsion analysis, mechanical design, manufacturing constraints, assembly, and test planning.",
+      "contrib": "Led and contributed to the engineering effort across design coordination, hardware development, propulsion analysis, and integration. Analytical work included validation using NASA CEA tools.",
+      "tags": [
+        "Propulsion",
+        "NASA CEA",
+        "Additive Manufacturing",
+        "Integration"
+      ],
+      "result": "Ongoing development",
+      "images": [
+        "assets/images/fud-1.jpg",
+        "assets/images/fud-2.jpg",
+        "assets/images/fud-3.jpg"
+      ]
+    },
+    "rocketlink": {
+      "type": "AVIONICS / TELEMETRY",
+      "title": "RocketLink Telemetry System",
+      "org": "Harvard Undergraduate Aerospace Collective",
+      "summary": "Long-range LoRa/GPS telemetry project with custom avionics housings for flight hardware.",
+      "desc": "A telemetry system intended to provide long-range communication and position data for rocket flight operations using LoRa and GPS hardware.",
+      "contrib": "Personally designed the housings for the electronics system and supported integration and flight-test preparation.",
+      "tags": [
+        "LoRa",
+        "GPS",
+        "Mechanical Packaging",
+        "Avionics"
+      ],
+      "result": "Flight-tested telemetry hardware",
+      "images": [
+        "assets/images/rocketlink-1.jpg",
+        "assets/images/rocketlink-2.jpg",
+        "assets/images/rocketlink-3.jpg"
+      ]
+    },
+    "sphinx": {
+      "type": "ROCKETRY / TEST",
+      "title": "Mojave Sphinx Rocket + Static Test Stand",
+      "org": "Harvard Undergraduate Aerospace Collective",
+      "summary": "Rocket assembly, component manufacturing, and development of a dedicated engine static-test stand.",
+      "desc": "A hardware-intensive rocketry effort spanning test infrastructure, rocket component manufacturing, vehicle assembly, and static-fire operations.",
+      "contrib": "Designed, built, and installed the test stand at the team site; manufactured Sphinx components; led and completed a significant portion of vehicle assembly; supported static-fire operations.",
+      "tags": [
+        "Structures",
+        "Machining",
+        "Assembly",
+        "Static Fire"
+      ],
+      "result": "Built and tested",
+      "images": [
+        "assets/images/sphinx-1.jpg",
+        "assets/images/sphinx-2.jpg",
+        "assets/images/sphinx-3.jpg"
+      ]
+    },
+    "irec": {
+      "type": "ROCKETRY PROGRAM",
+      "title": "IREC 10,000-ft Rocket Program",
+      "org": "Harvard Undergraduate Aerospace Collective",
+      "summary": "Upcoming student rocketry initiative targeting a 10,000-ft IREC-class vehicle.",
+      "desc": "An upcoming program focused on developing the team capability, technical architecture, and project organization needed for an IREC-class rocket.",
+      "contrib": "Founded the 10,000-ft IREC program and began organizing the engineering team, technical workstreams, schedule, and certification pipeline.",
+      "tags": [
+        "Project Leadership",
+        "Systems Engineering",
+        "Rocketry"
+      ],
+      "result": "Upcoming initiative",
+      "images": [
+        "assets/images/irec-1.jpg",
+        "assets/images/irec-2.jpg"
+      ]
+    },
+    "l1": {
+      "type": "HIGH-POWER ROCKETRY",
+      "title": "NAR Level 1 High-Power Rocketry Certification",
+      "org": "Harvard Undergraduate Aerospace Collective",
+      "summary": "Built and launched an Apogee Zephyr to successfully earn NAR Level 1 certification.",
+      "desc": "A high-power rocketry certification project involving construction, inspection, launch preparation, flight, and recovery of an Apogee Zephyr rocket.",
+      "contrib": "Built the rocket, completed launch preparation, flew and recovered the vehicle successfully, and earned NAR Level 1 High Power Rocketry certification.",
+      "tags": [
+        "High-Power Rocketry",
+        "Assembly",
+        "Launch Operations"
+      ],
+      "result": "NAR Level 1 certified",
+      "images": [
+        "assets/images/l1-1.jpg",
+        "assets/images/l1-2.jpg",
+        "assets/images/l1-3.jpg"
+      ]
+    },
+    "phase1": {
+      "type": "STRUCTURES / FEA",
+      "title": "Phase 1 Liquid Bipropellant Rocket Design",
+      "org": "Harvard Undergraduate Rocket & Propulsion Group",
+      "summary": "Early-stage liquid bipropellant vehicle design including bulkhead FEA, concept sketches, and structural geometry optimization.",
+      "desc": "An early-phase liquid bipropellant rocket concept that explored vehicle structure, bulkhead load paths, and packaging before the program was indefinitely suspended.",
+      "contrib": "Performed SolidWorks FEA on bulkheads, developed concept sketches, and used material cutaways and geometry iteration to optimize bulkhead designs.",
+      "tags": [
+        "SolidWorks FEA",
+        "Structures",
+        "Concept Design"
+      ],
+      "result": "Program indefinitely suspended",
+      "images": [
+        "assets/images/phase1-1.jpg",
+        "assets/images/phase1-2.jpg"
+      ]
+    },
+    "urc": {
+      "type": "ROBOTICS / MANUFACTURING",
+      "title": "University Rover Challenge — Rover Manufacturing",
+      "org": "Harvard Undergraduate Robotics Club",
+      "summary": "Precision manufacturing for a Mars rover, including suspension and arm power-transmission hardware.",
+      "desc": "Manufacturing and DFM work for a University Rover Challenge Mars rover with custom mechanical subsystems across the suspension, arm, chassis, and science hardware.",
+      "contrib": "Personally manufactured approximately 90% of the rover’s machined components, including power-transmission components in the suspension and arm. Selected manufacturing approaches and redesigned parts to reduce setup complexity.",
+      "tags": [
+        "CNC Machining",
+        "Power Transmission",
+        "DFM",
+        "Robotics"
+      ],
+      "result": "Competition rover hardware",
+      "images": [
+        "assets/images/urc-1.jpg",
+        "assets/images/urc-2.jpg",
+        "assets/images/urc-3.jpg"
+      ]
+    },
+    "ability": {
+      "type": "RESEARCH HARDWARE",
+      "title": "Servo-Driven Visual Perturbation Headset",
+      "org": "Harvard Ability Lab",
+      "summary": "Low-cost experimental headset using servo-driven mirrors to induce controlled balance perturbations.",
+      "desc": "A research hardware platform designed to alter a participant’s visual field through controlled mirror motion so balance responses could be studied during data collection.",
+      "contrib": "Designed and fabricated the low-cost headset and integrated servo-driven mirrors for controlled experimental perturbations.",
+      "tags": [
+        "Research Hardware",
+        "Servo Systems",
+        "Fabrication",
+        "Experimental Design"
+      ],
+      "result": "Research prototype",
+      "images": [
+        "assets/images/ability-1.jpg",
+        "assets/images/ability-2.jpg",
+        "assets/images/ability-3.jpg"
+      ]
+    },
+    "mahi": {
+      "type": "RESEARCH / WEARABLE SENSING",
+      "title": "Force-Sensing Wearable Hardware",
+      "org": "MAHI Lab — Rice University",
+      "summary": "Equation-driven CAD and 3D-printed housings for force-sensitive resistors used in wearable sensing applications.",
+      "desc": "Research focused on force-sensitive resistor integration for a center-of-pressure sensing insole and a force-quantifying scoliosis brace. Designs were iterated through CAD, additive manufacturing, and experimental validation.",
+      "contrib": "Designed FSR housings using equation-driven SolidWorks models, iterated parts through 3D printing, and validated sensor behavior with Instron testing. Presented the work at the Rice Summer Undergraduate Research Symposium.",
+      "tags": [
+        "SolidWorks",
+        "FSR Sensors",
+        "3D Printing",
+        "Instron"
+      ],
+      "result": "Research poster presented",
+      "images": [
+        "assets/images/mahi-1.jpg",
+        "assets/images/mahi-2.jpg",
+        "assets/images/mahi-3.jpg"
+      ],
+      "attachments": [
+        [
+          "Research Poster",
+          "assets/docs/MAHI_Lab_Poster.pdf"
+        ]
+      ]
+    },
+    "yellow": {
+      "type": "MACHINE DESIGN",
+      "title": "Yellow Jacket Competition Robot",
+      "org": "Introduction to Computer-Aided Machine Design",
+      "summary": "Competition robot that collected tennis balls, placed them on a Velcro wall, and climbed 15° and 30° inclines.",
+      "desc": "A semester-long machine-design competition project requiring a robot to collect tennis balls, transport and place them on a Velcro scoring wall, and negotiate multiple inclines.",
+      "contrib": "Contributed to mechanical design, CAD, fabrication, assembly, troubleshooting, and competition preparation.",
+      "tags": [
+        "SolidWorks",
+        "Machine Design",
+        "Fabrication",
+        "Competition Robotics"
+      ],
+      "result": "2nd place",
+      "images": [
+        "assets/images/yellow-jacket-1.jpg",
+        "assets/images/yellow-jacket-2.jpg",
+        "assets/images/yellow-jacket-3.jpg"
+      ],
+      "attachments": [
+        [
+          "Project Paper",
+          "assets/docs/Yellow_Jacket_Paper.pdf"
+        ],
+        [
+          "Presentation",
+          "assets/docs/Yellow_Jacket_Presentation.pdf"
+        ]
+      ]
+    },
+    "nerf": {
+      "type": "ELECTRICAL / MECHATRONICS",
+      "title": "Red Light–Green Light Nerf Turret",
+      "org": "Introduction to Electrical Engineering",
+      "summary": "Squid Game-inspired motion-responsive Nerf turret using PIR sensors.",
+      "desc": "A mechatronics final project inspired by the red light–green light game in Squid Game. PIR motion sensing was used to detect movement and drive the system behavior.",
+      "contrib": "Contributed to concept development, sensor integration, mechanical/electrical implementation, and final system demonstration.",
+      "tags": [
+        "PIR Sensors",
+        "Controls",
+        "Mechatronics",
+        "Prototyping"
+      ],
+      "result": "Course final project",
+      "images": [
+        "assets/images/nerf-1.jpg",
+        "assets/images/nerf-2.jpg",
+        "assets/images/nerf-3.jpg"
+      ],
+      "attachments": [
+        [
+          "Project Paper",
+          "assets/docs/Nerf_Turret_Paper.pdf"
+        ],
+        [
+          "Presentation",
+          "assets/docs/Nerf_Turret_Presentation.pdf"
+        ]
+      ]
+    },
+    "bridge": {
+      "type": "SOLID MECHANICS",
+      "title": "Optimized I-Beam Bridge",
+      "org": "Solid Mechanics",
+      "summary": "Wood bridge optimized for compression force-to-weight performance and tested in an Instron.",
+      "desc": "A structural optimization project where wood bridges were evaluated by maximum force resisted before deformation divided by bridge weight.",
+      "contrib": "Helped optimize cross-sectional geometry around an I-beam-inspired design, fabricated the structure, and prepared it for Instron compression testing.",
+      "tags": [
+        "Structures",
+        "Instron",
+        "I-Beam",
+        "Optimization"
+      ],
+      "result": "2nd place",
+      "images": [
+        "assets/images/bridge-1.jpg",
+        "assets/images/bridge-2.jpg",
+        "assets/images/bridge-3.jpg"
+      ]
+    },
+    "egg": {
+      "type": "MECHANICAL SYSTEMS",
+      "title": "Variable-Damping Egg Drop System",
+      "org": "Mechanical Systems",
+      "summary": "Spring-damper protection system using shaped tracks to vary damping behavior through compression.",
+      "desc": "An impact-mitigation system designed around springs and dampers. The damper geometry was varied throughout compression so the effective damping response changed through the stroke to reduce peak egg acceleration.",
+      "contrib": "Developed and implemented the mechanically varying damping concept using mathematically driven track curves and contributed to system design, fabrication, and testing.",
+      "tags": [
+        "Dynamics",
+        "Damping",
+        "Mechanism Design",
+        "Mathematical Modeling"
+      ],
+      "result": "2nd place",
+      "images": [
+        "assets/images/egg-drop-1.jpg",
+        "assets/images/egg-drop-2.jpg",
+        "assets/images/egg-drop-3.jpg"
+      ],
+      "attachments": [
+        [
+          "Project Paper",
+          "assets/docs/Egg_Drop_Paper.pdf"
+        ],
+        [
+          "Presentation",
+          "assets/docs/Egg_Drop_Presentation.pdf"
+        ]
+      ]
+    },
+    "abaqus": {
+      "type": "COMPUTATIONAL MECHANICS",
+      "title": "Parametric Abaqus Unit-Cell Compression Model",
+      "org": "Computational Mechanics",
+      "summary": "Python-driven Abaqus model varying side count, radius, and height to study compression response.",
+      "desc": "A parametric finite-element workflow for studying how geometric parameters affect a unit cell under compression. Geometry generation and analysis were automated to enable systematic comparison.",
+      "contrib": "Built the Python-based parametric Abaqus workflow and enabled variation of number of sides, radius, and height for comparative analysis.",
+      "tags": [
+        "Abaqus",
+        "Python",
+        "FEA",
+        "Parametric Modeling"
+      ],
+      "result": "Course final project",
+      "images": [
+        "assets/images/abaqus-1.jpg",
+        "assets/images/abaqus-2.jpg",
+        "assets/images/abaqus-3.jpg"
+      ],
+      "attachments": [
+        [
+          "Project Paper",
+          "assets/docs/Abaqus_Unit_Cell_Paper.pdf"
+        ],
+        [
+          "Presentation",
+          "assets/docs/Abaqus_Unit_Cell_Presentation.pdf"
+        ]
+      ]
+    },
+    "controls": {
+      "type": "ROBOTICS / CONTROLS",
+      "title": "Friction & Backlash Compensation Test Platform",
+      "org": "Robotics",
+      "summary": "Controlled test setup for varying friction and backlash and developing a PID controller with compensation.",
+      "desc": "A controls platform designed to introduce known, adjustable amounts of friction and backlash so their impact on system response could be measured experimentally.",
+      "contrib": "Designed the experimental setup, gathered response data under controlled variation, and developed a PID controller incorporating friction and backlash compensation.",
+      "tags": [
+        "PID Control",
+        "Backlash",
+        "Friction",
+        "Experimental Design"
+      ],
+      "result": "Course final project",
+      "images": [
+        "assets/images/controls-1.jpg",
+        "assets/images/controls-2.jpg",
+        "assets/images/controls-3.jpg"
+      ],
+      "attachments": [
+        [
+          "Project Paper",
+          "assets/docs/Friction_Backlash_Paper.pdf"
+        ],
+        [
+          "Presentation",
+          "assets/docs/Friction_Backlash_Presentation.pdf"
+        ]
+      ]
+    },
+    "plasma": {
+      "type": "CNC / FABRICATION",
+      "title": "3-Axis CNC Plasma Cutter",
+      "org": "Personal Project",
+      "summary": "Arduino/GRBL-controlled 3-axis CNC plasma system with NEMA motors and a removable commercial torch.",
+      "desc": "A custom CNC plasma cutting platform designed around a removable off-the-shelf plasma torch so the torch can be used both within and independently of the CNC system.",
+      "contrib": "Designed the mechanical housing and motion system, integrated NEMA motors and Arduino/GRBL controls, and designed a removable torch mount.",
+      "tags": [
+        "GRBL",
+        "Arduino",
+        "NEMA Motors",
+        "CNC"
+      ],
+      "result": "Personal build",
+      "images": [
+        "assets/images/plasma-1.jpg",
+        "assets/images/plasma-2.jpg",
+        "assets/images/plasma-3.jpg"
+      ]
+    },
+    "vehicles": {
+      "type": "RESTORATION",
+      "title": "Vehicle Restoration & Repair",
+      "org": "Personal Project",
+      "summary": "Electrical, ignition, transmission, and engine work across a 1969 Ford F-350 and 1973 El Camino.",
+      "desc": "Ongoing restoration and troubleshooting work spanning electrical systems, ignition, drivetrain service, and engine restoration on older vehicles.",
+      "contrib": "Completed a full wiring-harness redo on a 1969 Ford F-350; independently diagnosed distributor and ignition-module issues on a 1973 El Camino; performed transmission removal and repair; and worked on restoration of a 400 small-block Chevrolet engine.",
+      "tags": [
+        "Diagnostics",
+        "Electrical",
+        "Drivetrain",
+        "Engine Work"
+      ],
+      "result": "Ongoing personal project",
+      "images": [
+        "assets/images/vehicles-1.jpg",
+        "assets/images/vehicles-2.jpg",
+        "assets/images/vehicles-3.jpg"
+      ]
+    },
+    "textiles": {
+      "type": "TEXTILES",
+      "title": "Crochet & Sewing",
+      "org": "Personal Project",
+      "summary": "Textile projects exploring patterning, construction methods, materials, and hands-on fabrication.",
+      "desc": "A collection of crochet and sewing projects extending my interest in making and fabrication into flexible materials and textile construction.",
+      "contrib": "Design, pattern interpretation, material selection, sewing, crochet, finishing, and iteration across personal projects.",
+      "tags": [
+        "Sewing",
+        "Crochet",
+        "Patterning",
+        "Fabrication"
+      ],
+      "result": "Ongoing",
+      "images": [
+        "assets/images/textiles-1.jpg",
+        "assets/images/textiles-2.jpg",
+        "assets/images/textiles-3.jpg"
+      ]
+    },
+    "screw-mask": {
+      "type": "INDUSTRY / MANUFACTURING",
+      "title": "Screw Mask Project",
+      "org": "Flex — Mechanical Engineering Internship",
+      "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
+      "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
+      "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
+      "tags": [
+        "Fixture Design",
+        "SolidWorks",
+        "Manufacturing"
+      ],
+      "result": "Add public-safe outcome",
+      "images": [
+        "assets/images/screw-mask-1.jpg",
+        "assets/images/screw-mask-2.jpg",
+        "assets/images/screw-mask-3.jpg"
+      ]
+    },
+    "auto-nest": {
+      "type": "INDUSTRY / MANUFACTURING",
+      "title": "Automated Line Nest",
+      "org": "Flex — Mechanical Engineering Internship",
+      "summary": "Machined product nest for a 13-station automated line, designed to withstand 65°C processing without deformation.",
+      "desc": "Production fixture work for a 13-station automated line. The nest was designed around process temperature and dimensional stability requirements.",
+      "contrib": "Designed the machined product nest in SolidWorks and supported drawing/review work for implementation on the automated line.",
+      "tags": [
+        "Fixture Design",
+        "SolidWorks",
+        "Manufacturing"
+      ],
+      "result": "Add public-safe outcome",
+      "images": [
+        "assets/images/auto-nest-1.jpg",
+        "assets/images/auto-nest-2.jpg",
+        "assets/images/auto-nest-3.jpg"
+      ]
+    },
+    "robot-y": {
+      "type": "INDUSTRY / MANUFACTURING",
+      "title": "Robot Y Alignment Drop Anchor",
+      "org": "Flex — Mechanical Engineering Internship",
+      "summary": "Alignment-focused production fixture project. Add non-confidential technical details and outcome.",
+      "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
+      "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
+      "tags": [
+        "Fixture Design",
+        "SolidWorks",
+        "Manufacturing"
+      ],
+      "result": "Add public-safe outcome",
+      "images": [
+        "assets/images/robot-y-1.jpg",
+        "assets/images/robot-y-2.jpg",
+        "assets/images/robot-y-3.jpg"
+      ]
+    },
+    "vac-label": {
+      "type": "INDUSTRY / MANUFACTURING",
+      "title": "Vacuum-Actuated Label Placement",
+      "org": "Flex — Mechanical Engineering Internship",
+      "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
+      "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
+      "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
+      "tags": [
+        "Fixture Design",
+        "SolidWorks",
+        "Manufacturing"
+      ],
+      "result": "Add public-safe outcome",
+      "images": [
+        "assets/images/vac-label-1.jpg",
+        "assets/images/vac-label-2.jpg",
+        "assets/images/vac-label-3.jpg"
+      ]
+    },
+    "adjust-hold": {
+      "type": "INDUSTRY / MANUFACTURING",
+      "title": "Adjustable Hold-Down Concept",
+      "org": "Flex — Mechanical Engineering Internship",
+      "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
+      "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
+      "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
+      "tags": [
+        "Fixture Design",
+        "SolidWorks",
+        "Manufacturing"
+      ],
+      "result": "Add public-safe outcome",
+      "images": [
+        "assets/images/adjust-hold-1.jpg",
+        "assets/images/adjust-hold-2.jpg",
+        "assets/images/adjust-hold-3.jpg"
+      ]
+    },
+    "handling-fixture": {
+      "type": "INDUSTRY / MANUFACTURING",
+      "title": "Handling Fixture",
+      "org": "Flex — Mechanical Engineering Internship",
+      "summary": "Handling fixture developed to address operator-reported assembly or quality issues.",
+      "desc": "One of several production fixture efforts focused on improving handling, repeatability, and assembly quality. Replace this text with non-confidential project-specific details.",
+      "contrib": "Designed fixture hardware in SolidWorks and iterated around operator feedback and manufacturing constraints.",
+      "tags": [
+        "Fixture Design",
+        "SolidWorks",
+        "Manufacturing"
+      ],
+      "result": "Add public-safe outcome",
+      "images": [
+        "assets/images/handling-fixture-1.jpg",
+        "assets/images/handling-fixture-2.jpg",
+        "assets/images/handling-fixture-3.jpg"
+      ]
+    },
+    "heatsink-nest": {
+      "type": "INDUSTRY / MANUFACTURING",
+      "title": "Heatsink Assembly Nest",
+      "org": "Flex — Mechanical Engineering Internship",
+      "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
+      "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
+      "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
+      "tags": [
+        "Fixture Design",
+        "SolidWorks",
+        "Manufacturing"
+      ],
+      "result": "Add public-safe outcome",
+      "images": [
+        "assets/images/heatsink-nest-1.jpg",
+        "assets/images/heatsink-nest-2.jpg",
+        "assets/images/heatsink-nest-3.jpg"
+      ]
+    },
+    "cable-holder": {
+      "type": "INDUSTRY / MANUFACTURING",
+      "title": "Cable Holder",
+      "org": "Flex — Mechanical Engineering Internship",
+      "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
+      "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
+      "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
+      "tags": [
+        "Fixture Design",
+        "SolidWorks",
+        "Manufacturing"
+      ],
+      "result": "Add public-safe outcome",
+      "images": [
+        "assets/images/cable-holder-1.jpg",
+        "assets/images/cable-holder-2.jpg",
+        "assets/images/cable-holder-3.jpg"
+      ]
+    },
+    "nozzle-extender": {
+      "type": "INDUSTRY / MANUFACTURING",
+      "title": "Nozzle Extender",
+      "org": "Flex — Mechanical Engineering Internship",
+      "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
+      "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
+      "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
+      "tags": [
+        "Fixture Design",
+        "SolidWorks",
+        "Manufacturing"
+      ],
+      "result": "Add public-safe outcome",
+      "images": [
+        "assets/images/nozzle-extender-1.jpg",
+        "assets/images/nozzle-extender-2.jpg",
+        "assets/images/nozzle-extender-3.jpg"
+      ]
+    },
+    "torture-test": {
+      "type": "INDUSTRY / MANUFACTURING",
+      "title": "3D Printer Torture Test",
+      "org": "Flex — Mechanical Engineering Internship",
+      "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
+      "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
+      "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
+      "tags": [
+        "Fixture Design",
+        "SolidWorks",
+        "Manufacturing"
+      ],
+      "result": "Add public-safe outcome",
+      "images": [
+        "assets/images/torture-test-1.jpg",
+        "assets/images/torture-test-2.jpg",
+        "assets/images/torture-test-3.jpg"
+      ]
+    },
+    "shadow-box": {
+      "type": "INDUSTRY / MANUFACTURING",
+      "title": "Shadow Box",
+      "org": "Flex — Mechanical Engineering Internship",
+      "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
+      "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
+      "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
+      "tags": [
+        "Fixture Design",
+        "SolidWorks",
+        "Manufacturing"
+      ],
+      "result": "Add public-safe outcome",
+      "images": [
+        "assets/images/shadow-box-1.jpg",
+        "assets/images/shadow-box-2.jpg",
+        "assets/images/shadow-box-3.jpg"
+      ]
+    },
+    "go-no-go": {
+      "type": "INDUSTRY / MANUFACTURING",
+      "title": "Go/No-Go Gauge",
+      "org": "Flex — Mechanical Engineering Internship",
+      "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
+      "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
+      "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
+      "tags": [
+        "Fixture Design",
+        "SolidWorks",
+        "Manufacturing"
+      ],
+      "result": "Add public-safe outcome",
+      "images": [
+        "assets/images/go-no-go-1.jpg",
+        "assets/images/go-no-go-2.jpg",
+        "assets/images/go-no-go-3.jpg"
+      ]
+    },
+    "gasket-placement": {
+      "type": "INDUSTRY / MANUFACTURING",
+      "title": "Gasket Placement",
+      "org": "Flex — Mechanical Engineering Internship",
+      "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
+      "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
+      "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
+      "tags": [
+        "Fixture Design",
+        "SolidWorks",
+        "Manufacturing"
+      ],
+      "result": "Add public-safe outcome",
+      "images": [
+        "assets/images/gasket-placement-1.jpg",
+        "assets/images/gasket-placement-2.jpg",
+        "assets/images/gasket-placement-3.jpg"
+      ]
+    }
+  }
+}

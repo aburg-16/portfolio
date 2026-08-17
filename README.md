@@ -1,52 +1,95 @@
-# Anna Burgess Portfolio — GitHub Pages
+# Anna Burgess Portfolio — JSON-Driven Version
 
-## Upload / update
-Upload all files and folders in this package to the root of your GitHub Pages repository. Keep the `assets/` folder structure unchanged.
+This version is designed so you **do not need to edit the HTML for normal content changes**.
 
-## Portrait
-Add your headshot as:
-- `assets/images/anna-portrait.jpg`
+## Edit `content.json`
+
+Open `content.json` in VS Code, Notepad/TextEdit, or directly on GitHub and edit the text between quotation marks.
+
+You can change:
+
+- homepage text and motto
+- portrait filename
+- About Me copy
+- featured project list
+- skills
+- honors and awards
+- certifications
+- contact copy and links
+- navigation labels
+- every project title, organization, description, contribution, outcome, technical tags, images, and PDF links
+- page titles and introductions
+- hobby text and images
+
+The HTML files are now just page shells. Normally, leave them alone.
+
+## Important JSON rules
+
+1. Keep double quotes around text.
+2. Keep commas between items.
+3. Do not add a comma after the final item in an object or list.
+4. If you need a literal double quote inside text, write it as `\"`.
+
+VS Code will highlight JSON mistakes automatically.
 
 ## Project images
-Every project card uses the **first image** in its carousel as the card image. The project popup cycles through the full image list. If a file is missing, the site shows a gray placeholder with the required filename.
 
-Examples:
-- `assets/images/fud-1.jpg`, `fud-2.jpg`, `fud-3.jpg`
-- `assets/images/yellow-jacket-1.jpg`, `yellow-jacket-2.jpg`, `yellow-jacket-3.jpg`
-- `assets/images/auto-nest-1.jpg`, `auto-nest-2.jpg`, `auto-nest-3.jpg`
+Each project has an `images` list in `content.json`. The **first image is automatically the project-card cover**.
+
+Example:
+
+```json
+"images": [
+  "assets/images/yellow-jacket-1.jpg",
+  "assets/images/yellow-jacket-2.jpg",
+  "assets/images/yellow-jacket-3.jpg"
+]
+```
+
+Upload those image files into `assets/images/`.
+
+## Project documents
+
+Project papers, presentations, and posters are controlled by each project's `attachments` list.
+
+Example:
+
+```json
+"attachments": [
+  ["Project Paper", "assets/docs/Yellow_Jacket_Paper.pdf"],
+  ["Presentation", "assets/docs/Yellow_Jacket_Presentation.pdf"]
+]
+```
+
+Upload the actual PDFs into `assets/docs/`.
+
+## Portrait
+
+The homepage portrait currently points to:
+
+`assets/images/anna-portrait.jpg`
+
+You can either upload a photo with that exact name or change `home.hero.portrait` in `content.json`.
 
 ## CV
-The Home page has a CV button pointing to:
-- `Anna_Burgess_CV.pdf`
 
-Upload that file when your CV is ready.
+The CV button currently points to:
 
-## MAHI Lab poster
-Upload your poster as:
-- `assets/docs/MAHI_Lab_Poster.pdf`
+`Anna_Burgess_CV.pdf`
 
-## Class project documents
-The bridge intentionally has no document links. Upload any documents you want to show using these names:
+When your CV is ready, upload it to the repository root with that filename, or change `site.links.cv` in `content.json`.
 
-- Yellow Jacket: `assets/docs/Yellow_Jacket_Paper.pdf`, `assets/docs/Yellow_Jacket_Presentation.pdf`
-- Nerf turret: `assets/docs/Nerf_Turret_Paper.pdf`, `assets/docs/Nerf_Turret_Presentation.pdf`
-- Egg drop: `assets/docs/Egg_Drop_Paper.pdf`, `assets/docs/Egg_Drop_Presentation.pdf`
-- Abaqus unit cell: `assets/docs/Abaqus_Unit_Cell_Paper.pdf`, `assets/docs/Abaqus_Unit_Cell_Presentation.pdf`
-- Friction/backlash: `assets/docs/Friction_Backlash_Paper.pdf`, `assets/docs/Friction_Backlash_Presentation.pdf`
+## Previewing the site
 
-You do not have to provide both paper and presentation. If you only have one, either upload only that file and remove the unused link from `assets/script.js`, or leave the unused link until you are ready.
+Because the site now loads `content.json` using JavaScript, double-clicking `index.html` on your computer may not work because browsers restrict local `fetch()` requests.
 
-## Hobby photos
-Current placeholders:
-- `assets/images/running-1.jpg`
-- `assets/images/national-parks-1.jpg`
-- `assets/images/climbing-1.jpg`
-- `assets/images/biking-1.jpg`
-- `assets/images/swimming-1.jpg`
-- `assets/images/soccer-1.jpg`
+Use your GitHub Pages URL for normal viewing. If you want a local preview, run a simple local web server from the repository folder, for example with VS Code Live Server.
 
-## Flex / industry projects
-The Industry page contains 13 unique cards. The original request listed “Adjustable Hold-Down Concept” twice, so it appears once. Where your resume did not provide enough project-specific information, the popup intentionally contains editable public-safe placeholders instead of invented details.
+## Adding a new project
 
-## Editing project text
-Project descriptions, contributions, image lists, and document links are stored near the top of `assets/script.js` in the `PROJECTS` object. Cards on each page are static HTML, while the popup content is loaded from that object.
+1. Copy an existing project object inside `projects` in `content.json`.
+2. Give it a unique ID/key.
+3. Edit its content and image paths.
+4. Add that project ID to the appropriate `projectIds` list under a page or under `home.featured.projectIds`.
+
+No HTML editing is required.
