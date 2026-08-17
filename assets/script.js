@@ -124,9 +124,10 @@ function renderGallery(){
   const g=$('.gallery');
   if(!currentGallery.length){g.innerHTML='<div class="gallery-placeholder">Add project images in content.json</div>';return;}
   const src=currentGallery[currentImageIndex];
-  g.innerHTML=`<div class="gallery-stage"><img src="${esc(src)}" alt="Project image ${currentImageIndex+1}"><div class="gallery-placeholder" style="display:none">Add image:<br>${esc(src)}</div>${currentGallery.length>1?`<button class="gallery-arrow prev" aria-label="Previous image">‹</button><button class="gallery-arrow next" aria-label="Next image">›</button><div class="gallery-count">${currentImageIndex+1} / ${currentGallery.length}</div>`:''}</div>`;
-  const img=$('.gallery img'); const ph=$('.gallery-placeholder');
-  img.addEventListener('error',()=>{img.style.display='none';ph.style.display='flex';});
+  g.innerHTML=`<div class="gallery-stage"><div class="gallery-blur" aria-hidden="true"></div><img src="${esc(src)}" alt="Project image ${currentImageIndex+1}"><div class="gallery-placeholder" style="display:none">Add image:<br>${esc(src)}</div>${currentGallery.length>1?`<button class="gallery-arrow prev" aria-label="Previous image">‹</button><button class="gallery-arrow next" aria-label="Next image">›</button><div class="gallery-count">${currentImageIndex+1} / ${currentGallery.length}</div>`:''}</div>`;
+  const img=$('.gallery img'); const ph=$('.gallery-placeholder'); const blur=$('.gallery-blur');
+  blur.style.backgroundImage=`url("${src}")`;
+  img.addEventListener('error',()=>{img.style.display='none';blur.style.display='none';ph.style.display='flex';});
   $('.gallery .prev')?.addEventListener('click',()=>{currentImageIndex=(currentImageIndex-1+currentGallery.length)%currentGallery.length;renderGallery();});
   $('.gallery .next')?.addEventListener('click',()=>{currentImageIndex=(currentImageIndex+1)%currentGallery.length;renderGallery();});
 }
