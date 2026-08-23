@@ -102,3 +102,44 @@ Documents work the same way through the project's `attachments` array.
 ```
 
 Empty folders contain `.gitkeep` files so GitHub will preserve the folder structure before you add media.
+
+
+## Project deep-dive tabs
+
+Every project can now have its own detailed tabs inside the full-screen project viewer. The existing **Overview** tab automatically shows Description, My Contribution, Outcome, Technical Toolkit, and Project Documents.
+
+Edit the `deepDive` array for any project in `content.json` to add, remove, rename, or reorder detailed tabs. Example:
+
+```json
+"deepDive": [
+  {
+    "label": "Prototyping",
+    "content": "Write your detailed prototyping story here."
+  },
+  {
+    "label": "CAD Development",
+    "content": "Write your CAD-development details here."
+  }
+]
+```
+
+You can use blank lines inside `content` to create multiple paragraphs. Each project can use completely different tab names. Yellow Jacket is preconfigured with: Prototyping, CAD Development, Manufacturing Process, Testing, and Design Problems & Resolutions.
+
+
+## Image captions
+Project image entries now use objects with `src` and `caption` fields. The first image is still the project-card cover and its caption is intentionally not shown. Every image after the cover can have an optional caption.
+
+Example:
+```json
+"images": [
+  {
+    "src": "assets/images/class/Yellow-Jacket/cover.png",
+    "caption": ""
+  },
+  {
+    "src": "assets/images/class/Yellow-Jacket/prototype.png",
+    "caption": "Early prototype used to validate the tennis-ball collection mechanism."
+  }
+]
+```
+Leave `caption` blank if you do not want text under a gallery image.

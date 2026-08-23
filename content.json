@@ -4,8 +4,8 @@
     "brandFirst": "ANNA",
     "brandLast": "BURGESS",
     "pageDescription": "Anna Burgess mechanical engineering portfolio",
-    "footerLeft": "\u00a9 2026 Anna Burgess",
-    "footerRight": "Mechanical Engineering \u00b7 Design \u00b7 Manufacturing \u00b7 Robotics \u00b7 Rocketry",
+    "footerLeft": "© 2026 Anna Burgess",
+    "footerRight": "Mechanical Engineering · Design · Manufacturing · Robotics · Rocketry",
     "navigation": [
       {
         "label": "Home",
@@ -56,10 +56,10 @@
       "eyebrow": "Mechanical Engineering Portfolio",
       "name": "Anna Burgess",
       "headline": "Mechanical design, manufacturing, robotics, propulsion, controls, and hands-on engineering.",
-      "intro": "I\u2019m a Mechanical Engineering student at Harvard focused on taking systems from analysis and CAD through machining, assembly, testing, and iteration. My work spans liquid rocketry, robotics, computational mechanics, controls, research hardware, manufacturing, and personal fabrication.",
+      "intro": "I’m a Mechanical Engineering student at Harvard focused on taking systems from analysis and CAD through machining, assembly, testing, and iteration. My work spans liquid rocketry, robotics, computational mechanics, controls, research hardware, manufacturing, and personal fabrication.",
       "portrait": "assets/images/cover-image/front-image.png",
       "portraitAlt": "Portrait of Anna Burgess",
-      "portraitLabel": "Anna Burgess \u00b7 Mechanical Engineering",
+      "portraitLabel": "Anna Burgess · Mechanical Engineering",
       "buttons": [
         {
           "label": "Featured Projects",
@@ -129,15 +129,15 @@
       "title": "Honors & Awards",
       "items": [
         {
-          "title": "2nd Place \u00b7 Yellow Jacket Competition Robot",
+          "title": "2nd Place · Yellow Jacket Competition Robot",
           "text": "Introduction to Computer-Aided Machine Design final competition."
         },
         {
-          "title": "2nd Place \u00b7 Solid Mechanics Bridge",
+          "title": "2nd Place · Solid Mechanics Bridge",
           "text": "Compression force-to-weight performance competition."
         },
         {
-          "title": "2nd Place \u00b7 Mechanical Systems Egg Drop",
+          "title": "2nd Place · Mechanical Systems Egg Drop",
           "text": "Impact-mitigation system using springs and variable damping."
         }
       ]
@@ -205,7 +205,7 @@
       "kicker": "Personal Philosophy",
       "title": "Do it, or make way.",
       "mottoNote": "A philosophy passed down from my dad: commit to what you set out to do, follow through, and keep moving forward.",
-      "text": "I\u2019m interested in mechanical engineering opportunities involving design, manufacturing, robotics, aerospace, testing, and hands-on hardware development.",
+      "text": "I’m interested in mechanical engineering opportunities involving design, manufacturing, robotics, aerospace, testing, and hands-on hardware development.",
       "buttons": [
         {
           "label": "Email",
@@ -280,7 +280,7 @@
           ]
         },
         {
-          "title": "MAHI Lab \u2014 Rice University",
+          "title": "MAHI Lab — Rice University",
           "projectIds": [
             "mahi"
           ]
@@ -318,7 +318,7 @@
       "note": "Project descriptions are intentionally concise until you replace them with public-safe details you are comfortable sharing. Edit those fields in content.json.",
       "groups": [
         {
-          "title": "Flex \u2014 Mechanical Engineering Internship",
+          "title": "Flex — Mechanical Engineering Internship",
           "projectIds": [
             "screw-mask",
             "auto-nest",
@@ -394,7 +394,7 @@
   "projects": {
     "fud": {
       "type": "PROPULSION",
-      "title": "Forward Unto Dawn \u2014 Regeneratively Cooled Liquid Bipropellant Engine",
+      "title": "Forward Unto Dawn — Regeneratively Cooled Liquid Bipropellant Engine",
       "org": "Harvard Undergraduate Aerospace Collective",
       "summary": "Liquid bipropellant engine development centered on regenerative cooling, an additively manufactured combustion chamber, and analytical validation.",
       "desc": "Development of a liquid bipropellant, regeneratively cooled rocket engine with a metal additively manufactured combustion chamber. The project combines propulsion analysis, mechanical design, manufacturing constraints, assembly, and test planning.",
@@ -407,11 +407,42 @@
       ],
       "result": "Ongoing development",
       "images": [
-        "assets/images/clubs/HUAC-R/Forward-Unto-Dawn/fud-1.jpg",
-        "assets/images/clubs/HUAC-R/Forward-Unto-Dawn/fud-2.jpg",
-        "assets/images/clubs/HUAC-R/Forward-Unto-Dawn/fud-3.jpg"
+        {
+          "src": "assets/images/clubs/HUAC-R/Forward-Unto-Dawn/fud-1.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Forward-Unto-Dawn/fud-2.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Forward-Unto-Dawn/fud-3.jpg",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     },
     "rocketlink": {
       "type": "AVIONICS / TELEMETRY",
@@ -428,9 +459,34 @@
       ],
       "result": "Flight-tested telemetry hardware",
       "images": [
-        "assets/images/clubs/HUAC-R/RocketLink/rocketlink-1.png"
+        {
+          "src": "assets/images/clubs/HUAC-R/RocketLink/rocketlink-1.png",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     },
     "sphinx": {
       "type": "ROCKETRY / TEST",
@@ -447,20 +503,69 @@
       ],
       "result": "Built and tested",
       "images": [
-        "assets/images/clubs/HUAC-R/Mojave-Sphinx/sphinx - cover photo.png",
-        "assets/images/clubs/HUAC-R/Mojave-Sphinx/mojave sphinx - 1 .png",
-        "assets/images/clubs/HUAC-R/Mojave-Sphinx/mojave sphinx - 2.png",
-        "assets/images/clubs/HUAC-R/Mojave-Sphinx/sphinx - test stand -1.png",
-        "assets/images/clubs/HUAC-R/Mojave-Sphinx/sphinx - test stand -2.png",
-        "assets/images/clubs/HUAC-R/Mojave-Sphinx/sphinx - test stand - 3.png",
-        "assets/images/clubs/HUAC-R/Mojave-Sphinx/sphinx - test stand - 4.png",
-        "assets/images/clubs/HUAC-R/Mojave-Sphinx/spinx - test stand - 5.png",
-        "assets/images/clubs/HUAC-R/Mojave-Sphinx/modular test stand .png"
+        {
+          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/sphinx - cover photo.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/mojave sphinx - 1 .png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/mojave sphinx - 2.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/sphinx - test stand -1.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/sphinx - test stand -2.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/sphinx - test stand - 3.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/sphinx - test stand - 4.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/spinx - test stand - 5.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/modular test stand .png",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     },
     "irec": {
-      "type": "ROCKETRY \u00b7 IN PROGRESS",
+      "type": "ROCKETRY · IN PROGRESS",
       "title": "IREC 10K COTS Competition Rocket",
       "org": "Harvard Undergraduate Aerospace Collective",
       "summary": "Active development of a 10,000-ft COTS competition rocket for IREC.",
@@ -473,10 +578,38 @@
       ],
       "result": "In progress",
       "images": [
-        "assets/images/clubs/HUAC-R/IREC-10K-COTS/irec-1.jpg",
-        "assets/images/clubs/HUAC-R/IREC-10K-COTS/irec-2.jpg"
+        {
+          "src": "assets/images/clubs/HUAC-R/IREC-10K-COTS/irec-1.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/IREC-10K-COTS/irec-2.jpg",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     },
     "l1": {
       "type": "HIGH-POWER ROCKETRY",
@@ -492,9 +625,34 @@
       ],
       "result": "NAR Level 1 certified",
       "images": [
-        "assets/images/clubs/HUAC-R/L1-Certification/L1-certification-1.png"
+        {
+          "src": "assets/images/clubs/HUAC-R/L1-Certification/L1-certification-1.png",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     },
     "phase1": {
       "type": "STRUCTURES / FEA",
@@ -510,23 +668,66 @@
       ],
       "result": "Program indefinitely suspended",
       "images": [
-        "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 - sketch 1.png",
-        "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 - sketch 2.png",
-        "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 fea (1).png",
-        "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 fea (2).png",
-        "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 fea (3).png",
-        "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 fea (4).png",
-        "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 fea (5).png"
+        {
+          "src": "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 - sketch 1.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 - sketch 2.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 fea (1).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 fea (2).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 fea (3).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 fea (4).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 fea (5).png",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     },
     "urc": {
       "type": "ROBOTICS / MANUFACTURING",
-      "title": "University Rover Challenge \u2014 Rover Manufacturing",
+      "title": "University Rover Challenge — Rover Manufacturing",
       "org": "Harvard Undergraduate Robotics Club",
       "summary": "Precision manufacturing for a Mars rover, including suspension and arm power-transmission hardware.",
       "desc": "Manufacturing and DFM work for a University Rover Challenge Mars rover with custom mechanical subsystems across the suspension, arm, chassis, and science hardware.",
-      "contrib": "Personally manufactured approximately 90% of the rover\u2019s machined components, including power-transmission components in the suspension and arm. Selected manufacturing approaches and redesigned parts to reduce setup complexity.",
+      "contrib": "Personally manufactured approximately 90% of the rover’s machined components, including power-transmission components in the suspension and arm. Selected manufacturing approaches and redesigned parts to reduce setup complexity.",
       "tags": [
         "CNC Machining",
         "Power Transmission",
@@ -535,58 +736,209 @@
       ],
       "result": "Competition rover hardware",
       "images": [
-        "assets/images/clubs/HURC/URC-Rover/urc - cover photo.png",
-        "assets/images/clubs/HURC/URC-Rover/urc-full rover.png",
-        "assets/images/clubs/HURC/URC-Rover/URC-machining.png",
-        "assets/images/clubs/HURC/URC-Rover/urc-machining .png",
-        "assets/images/clubs/HURC/URC-Rover/urc - machining .png",
-        "assets/images/clubs/HURC/URC-Rover/urc - machining.png",
-        "assets/images/clubs/HURC/URC-Rover/urc-cad.png",
-        "assets/images/clubs/HURC/URC-Rover/urc- cad - gripper.png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (1).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (2).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (3).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (4).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (5).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (6).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (7).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (8).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (9).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (10).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (11).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (12).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (13).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (14).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (15).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (16).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (17).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (18).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (19).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (20).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (21).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (22).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (23).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (24).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (25).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (26).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (27).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (28).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (29).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (30).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (31).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (32).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (33).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (34).png",
-        "assets/images/clubs/HURC/URC-Rover/urc cad  (35).png"
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc - cover photo.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc-full rover.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/URC-machining.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc-machining .png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc - machining .png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc - machining.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc-cad.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc- cad - gripper.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (1).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (2).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (3).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (4).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (5).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (6).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (7).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (8).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (9).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (10).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (11).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (12).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (13).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (14).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (15).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (16).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (17).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (18).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (19).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (20).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (21).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (22).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (23).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (24).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (25).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (26).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (27).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (28).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (29).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (30).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (31).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (32).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (33).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (34).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (35).png",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     },
     "ability": {
       "type": "RESEARCH HARDWARE",
       "title": "Servo-Driven Visual Perturbation Headset",
       "org": "Harvard Ability Lab",
       "summary": "Low-cost experimental headset using servo-driven mirrors to induce controlled balance perturbations.",
-      "desc": "A research hardware platform designed to alter a participant\u2019s visual field through controlled mirror motion so balance responses could be studied during data collection.",
+      "desc": "A research hardware platform designed to alter a participant’s visual field through controlled mirror motion so balance responses could be studied during data collection.",
       "contrib": "Designed and fabricated the low-cost headset and integrated servo-driven mirrors for controlled experimental perturbations.",
       "tags": [
         "Research Hardware",
@@ -596,14 +948,39 @@
       ],
       "result": "Research prototype",
       "images": [
-        "assets/images/research/Ability-Lab/ability lab.png"
+        {
+          "src": "assets/images/research/Ability-Lab/ability lab.png",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     },
     "mahi": {
       "type": "RESEARCH / WEARABLE SENSING",
       "title": "Force-Sensing Wearable Hardware",
-      "org": "MAHI Lab \u2014 Rice University",
+      "org": "MAHI Lab — Rice University",
       "summary": "Equation-driven CAD and 3D-printed housings for force-sensitive resistors used in wearable sensing applications.",
       "desc": "Research focused on force-sensitive resistor integration for a center-of-pressure sensing insole and a force-quantifying scoliosis brace. Designs were iterated through CAD, additive manufacturing, and experimental validation.",
       "contrib": "Designed FSR housings using equation-driven SolidWorks models, iterated parts through 3D printing, and validated sensor behavior with Instron testing. Presented the work at the Rice Summer Undergraduate Research Symposium.",
@@ -615,30 +992,85 @@
       ],
       "result": "Research poster presented",
       "images": [
-        "assets/images/research/MAHI-Lab/MAHI -cover photo .png",
-        "assets/images/research/MAHI-Lab/MAHI - 1.png",
-        "assets/images/research/MAHI-Lab/MAHI -2.png",
-        "assets/images/research/MAHI-Lab/mahi - 4.png",
-        "assets/images/research/MAHI-Lab/mahi - 5.png",
-        "assets/images/research/MAHI-Lab/mahi - 6.png",
-        "assets/images/research/MAHI-Lab/mahi - 7.png",
-        "assets/images/research/MAHI-Lab/mahi - 8.png",
-        "assets/images/research/MAHI-Lab/mahi - 9.png",
-        "assets/images/research/MAHI-Lab/mahi - 10.png",
-        "assets/images/research/MAHI-Lab/mahi -  11.png"
+        {
+          "src": "assets/images/research/MAHI-Lab/MAHI -cover photo .png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/research/MAHI-Lab/MAHI - 1.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/research/MAHI-Lab/MAHI -2.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/research/MAHI-Lab/mahi - 4.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/research/MAHI-Lab/mahi - 5.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/research/MAHI-Lab/mahi - 6.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/research/MAHI-Lab/mahi - 7.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/research/MAHI-Lab/mahi - 8.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/research/MAHI-Lab/mahi - 9.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/research/MAHI-Lab/mahi - 10.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/research/MAHI-Lab/mahi -  11.png",
+          "caption": ""
+        }
       ],
       "attachments": [
         [
           "Research Poster",
           "assets/docs/research/MAHI-Lab/MAHI_Lab_Poster.pdf"
         ]
+      ],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
       ]
     },
     "yellow": {
       "type": "MACHINE DESIGN",
       "title": "Yellow Jacket Competition Robot",
       "org": "Introduction to Computer-Aided Machine Design",
-      "summary": "Competition robot that collected tennis balls, placed them on a Velcro wall, and climbed 15\u00b0 and 30\u00b0 inclines.",
+      "summary": "Competition robot that collected tennis balls, placed them on a Velcro wall, and climbed 15° and 30° inclines.",
       "desc": "A semester-long machine-design competition project requiring a robot to collect tennis balls, transport and place them on a Velcro scoring wall, and negotiate multiple inclines.",
       "contrib": "Contributed to mechanical design, CAD, fabrication, assembly, troubleshooting, and competition preparation.",
       "tags": [
@@ -649,12 +1081,30 @@
       ],
       "result": "2nd place",
       "images": [
-        "assets/images/class/Yellow-Jacket/yellow jacket-cover photo.png",
-        "assets/images/class/Yellow-Jacket/yellow jacket -2.png",
-        "assets/images/class/Yellow-Jacket/yellow jacket - 3.png",
-        "assets/images/class/Yellow-Jacket/yellow-jacket.png",
-        "assets/images/class/Yellow-Jacket/yellow jacket sketch 1.png",
-        "assets/images/class/Yellow-Jacket/yellow jacket sketch 2.png"
+        {
+          "src": "assets/images/class/Yellow-Jacket/yellow jacket-cover photo.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Yellow-Jacket/yellow jacket -2.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Yellow-Jacket/yellow jacket - 3.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Yellow-Jacket/yellow-jacket.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Yellow-Jacket/yellow jacket sketch 1.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Yellow-Jacket/yellow jacket sketch 2.png",
+          "caption": ""
+        }
       ],
       "attachments": [
         [
@@ -665,14 +1115,36 @@
           "Presentation",
           "assets/docs/class/Yellow-Jacket/Yellow_Jacket_Presentation.pdf"
         ]
+      ],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Describe early concepts, mockups, prototype mechanisms, what you tried first, and what changed before the final robot."
+        },
+        {
+          "label": "CAD Development",
+          "content": "Describe the SolidWorks development process, major assemblies and mechanisms, design iterations, and how CAD decisions supported the competition requirements."
+        },
+        {
+          "label": "Manufacturing Process",
+          "content": "Describe how the robot components were fabricated and assembled, including machining methods, materials, tolerances, fixtures, and any manufacturing-driven redesigns."
+        },
+        {
+          "label": "Testing",
+          "content": "Describe how you tested ball pickup and placement, the 15° and 30° incline requirements, subsystem testing, competition preparation, and what the test results changed in the design."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Describe specific design failures or constraints you encountered, how you diagnosed them, the options you considered, and the final engineering resolutions."
+        }
       ]
     },
     "nerf": {
       "type": "ELECTRICAL / MECHATRONICS",
-      "title": "Red Light\u2013Green Light Nerf Turret",
+      "title": "Red Light–Green Light Nerf Turret",
       "org": "Introduction to Electrical Engineering",
       "summary": "Squid Game-inspired motion-responsive Nerf turret using PIR sensors.",
-      "desc": "A mechatronics final project inspired by the red light\u2013green light game in Squid Game. PIR motion sensing was used to detect movement and drive the system behavior.",
+      "desc": "A mechatronics final project inspired by the red light–green light game in Squid Game. PIR motion sensing was used to detect movement and drive the system behavior.",
       "contrib": "Contributed to concept development, sensor integration, mechanical/electrical implementation, and final system demonstration.",
       "tags": [
         "PIR Sensors",
@@ -682,9 +1154,18 @@
       ],
       "result": "Course final project",
       "images": [
-        "assets/images/class/Nerf-Turret/nerf-turret-cover photo.png",
-        "assets/images/class/Nerf-Turret/nerf-turret-2.png",
-        "assets/images/class/Nerf-Turret/nerf-turret.png"
+        {
+          "src": "assets/images/class/Nerf-Turret/nerf-turret-cover photo.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Nerf-Turret/nerf-turret-2.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Nerf-Turret/nerf-turret.png",
+          "caption": ""
+        }
       ],
       "attachments": [
         [
@@ -695,6 +1176,28 @@
           "Presentation",
           "assets/docs/class/Nerf-Turret/Nerf_Turret_Presentation.pdf"
         ]
+      ],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
       ]
     },
     "bridge": {
@@ -712,11 +1215,42 @@
       ],
       "result": "2nd place",
       "images": [
-        "assets/images/class/I-Beam-Bridge/bridge-1.jpg",
-        "assets/images/class/I-Beam-Bridge/bridge-2.jpg",
-        "assets/images/class/I-Beam-Bridge/bridge-3.jpg"
+        {
+          "src": "assets/images/class/I-Beam-Bridge/bridge-1.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/I-Beam-Bridge/bridge-2.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/I-Beam-Bridge/bridge-3.jpg",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     },
     "egg": {
       "type": "MECHANICAL SYSTEMS",
@@ -733,7 +1267,10 @@
       ],
       "result": "2nd place",
       "images": [
-        "assets/images/class/Egg-Drop/eggdrop.png"
+        {
+          "src": "assets/images/class/Egg-Drop/eggdrop.png",
+          "caption": ""
+        }
       ],
       "attachments": [
         [
@@ -744,6 +1281,28 @@
           "Presentation",
           "assets/docs/class/Egg-Drop/Egg_Drop_Presentation.pdf"
         ]
+      ],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
       ]
     },
     "abaqus": {
@@ -761,8 +1320,14 @@
       ],
       "result": "Course final project",
       "images": [
-        "assets/images/class/Abaqus-Unit-Cell/abaqus -1.png",
-        "assets/images/class/Abaqus-Unit-Cell/abaqus .png"
+        {
+          "src": "assets/images/class/Abaqus-Unit-Cell/abaqus -1.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Abaqus-Unit-Cell/abaqus .png",
+          "caption": ""
+        }
       ],
       "attachments": [
         [
@@ -773,6 +1338,28 @@
           "Presentation",
           "assets/docs/class/Abaqus-Unit-Cell/Abaqus_Unit_Cell_Presentation.pdf"
         ]
+      ],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
       ]
     },
     "controls": {
@@ -790,9 +1377,18 @@
       ],
       "result": "Course final project",
       "images": [
-        "assets/images/class/Friction-Backlash-Controller/controls-1.jpg",
-        "assets/images/class/Friction-Backlash-Controller/controls-2.jpg",
-        "assets/images/class/Friction-Backlash-Controller/controls-3.jpg"
+        {
+          "src": "assets/images/class/Friction-Backlash-Controller/controls-1.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Friction-Backlash-Controller/controls-2.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Friction-Backlash-Controller/controls-3.jpg",
+          "caption": ""
+        }
       ],
       "attachments": [
         [
@@ -803,10 +1399,32 @@
           "Presentation",
           "assets/docs/class/Friction-Backlash-Controller/Friction_Backlash_Presentation.pdf"
         ]
+      ],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
       ]
     },
     "plasma": {
-      "type": "CNC / FABRICATION \u00b7 IN PROGRESS",
+      "type": "CNC / FABRICATION · IN PROGRESS",
       "title": "3-Axis CNC Plasma Cutter",
       "org": "Personal Project",
       "summary": "Arduino/GRBL-controlled 3-axis CNC plasma system with NEMA motors and a removable commercial torch.",
@@ -820,11 +1438,42 @@
       ],
       "result": "Active personal build",
       "images": [
-        "assets/images/personal/CNC-Plasma-Cutter/plasma-1.jpg",
-        "assets/images/personal/CNC-Plasma-Cutter/plasma-2.jpg",
-        "assets/images/personal/CNC-Plasma-Cutter/plasma-3.jpg"
+        {
+          "src": "assets/images/personal/CNC-Plasma-Cutter/plasma-1.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/personal/CNC-Plasma-Cutter/plasma-2.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/personal/CNC-Plasma-Cutter/plasma-3.jpg",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     },
     "vehicles": {
       "type": "RESTORATION",
@@ -841,12 +1490,46 @@
       ],
       "result": "Ongoing personal project",
       "images": [
-        "assets/images/personal/Vehicle-Restoration/vehicle - cover photo.png",
-        "assets/images/personal/Vehicle-Restoration/vehicle-1.png",
-        "assets/images/personal/Vehicle-Restoration/vehicle-2.png",
-        "assets/images/personal/Vehicle-Restoration/vehicle-3.png"
+        {
+          "src": "assets/images/personal/Vehicle-Restoration/vehicle - cover photo.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/personal/Vehicle-Restoration/vehicle-1.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/personal/Vehicle-Restoration/vehicle-2.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/personal/Vehicle-Restoration/vehicle-3.png",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     },
     "textiles": {
       "type": "TEXTILES",
@@ -863,16 +1546,47 @@
       ],
       "result": "Ongoing",
       "images": [
-        "assets/images/personal/Textiles/textiles-1.jpg",
-        "assets/images/personal/Textiles/textiles-2.jpg",
-        "assets/images/personal/Textiles/textiles-3.jpg"
+        {
+          "src": "assets/images/personal/Textiles/textiles-1.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/personal/Textiles/textiles-2.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/personal/Textiles/textiles-3.jpg",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     },
     "screw-mask": {
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Screw Mask Project",
-      "org": "Flex \u2014 Mechanical Engineering Internship",
+      "org": "Flex — Mechanical Engineering Internship",
       "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
       "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
       "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
@@ -883,17 +1597,48 @@
       ],
       "result": "Add public-safe outcome",
       "images": [
-        "assets/images/industry/Flex/Screw-Mask/screw-mask-1.jpg",
-        "assets/images/industry/Flex/Screw-Mask/screw-mask-2.jpg",
-        "assets/images/industry/Flex/Screw-Mask/screw-mask-3.jpg"
+        {
+          "src": "assets/images/industry/Flex/Screw-Mask/screw-mask-1.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Screw-Mask/screw-mask-2.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Screw-Mask/screw-mask-3.jpg",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     },
     "auto-nest": {
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Automated Line Nest",
-      "org": "Flex \u2014 Mechanical Engineering Internship",
-      "summary": "Machined product nest for a 13-station automated line, designed to withstand 65\u00b0C processing without deformation.",
+      "org": "Flex — Mechanical Engineering Internship",
+      "summary": "Machined product nest for a 13-station automated line, designed to withstand 65°C processing without deformation.",
       "desc": "Production fixture work for a 13-station automated line. The nest was designed around process temperature and dimensional stability requirements.",
       "contrib": "Designed the machined product nest in SolidWorks and supported drawing/review work for implementation on the automated line.",
       "tags": [
@@ -903,16 +1648,47 @@
       ],
       "result": "Add public-safe outcome",
       "images": [
-        "assets/images/industry/Flex/Automated-Line-Nest/auto-nest-1.jpg",
-        "assets/images/industry/Flex/Automated-Line-Nest/auto-nest-2.jpg",
-        "assets/images/industry/Flex/Automated-Line-Nest/auto-nest-3.jpg"
+        {
+          "src": "assets/images/industry/Flex/Automated-Line-Nest/auto-nest-1.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Automated-Line-Nest/auto-nest-2.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Automated-Line-Nest/auto-nest-3.jpg",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     },
     "robot-y": {
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Robot Y Alignment Drop Anchor",
-      "org": "Flex \u2014 Mechanical Engineering Internship",
+      "org": "Flex — Mechanical Engineering Internship",
       "summary": "Alignment-focused production fixture project. Add non-confidential technical details and outcome.",
       "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
       "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
@@ -923,16 +1699,47 @@
       ],
       "result": "Add public-safe outcome",
       "images": [
-        "assets/images/industry/Flex/Robot-Y-Alignment/robot-y-1.jpg",
-        "assets/images/industry/Flex/Robot-Y-Alignment/robot-y-2.jpg",
-        "assets/images/industry/Flex/Robot-Y-Alignment/robot-y-3.jpg"
+        {
+          "src": "assets/images/industry/Flex/Robot-Y-Alignment/robot-y-1.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Robot-Y-Alignment/robot-y-2.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Robot-Y-Alignment/robot-y-3.jpg",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     },
     "vac-label": {
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Vacuum-Actuated Label Placement",
-      "org": "Flex \u2014 Mechanical Engineering Internship",
+      "org": "Flex — Mechanical Engineering Internship",
       "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
       "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
       "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
@@ -943,16 +1750,47 @@
       ],
       "result": "Add public-safe outcome",
       "images": [
-        "assets/images/industry/Flex/Vacuum-Label-Placement/vac-label-1.jpg",
-        "assets/images/industry/Flex/Vacuum-Label-Placement/vac-label-2.jpg",
-        "assets/images/industry/Flex/Vacuum-Label-Placement/vac-label-3.jpg"
+        {
+          "src": "assets/images/industry/Flex/Vacuum-Label-Placement/vac-label-1.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Vacuum-Label-Placement/vac-label-2.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Vacuum-Label-Placement/vac-label-3.jpg",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     },
     "adjust-hold": {
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Adjustable Hold-Down Concept",
-      "org": "Flex \u2014 Mechanical Engineering Internship",
+      "org": "Flex — Mechanical Engineering Internship",
       "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
       "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
       "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
@@ -963,16 +1801,47 @@
       ],
       "result": "Add public-safe outcome",
       "images": [
-        "assets/images/industry/Flex/Adjustable-Hold-Down/adjust-hold-1.jpg",
-        "assets/images/industry/Flex/Adjustable-Hold-Down/adjust-hold-2.jpg",
-        "assets/images/industry/Flex/Adjustable-Hold-Down/adjust-hold-3.jpg"
+        {
+          "src": "assets/images/industry/Flex/Adjustable-Hold-Down/adjust-hold-1.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Adjustable-Hold-Down/adjust-hold-2.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Adjustable-Hold-Down/adjust-hold-3.jpg",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     },
     "handling-fixture": {
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Handling Fixture",
-      "org": "Flex \u2014 Mechanical Engineering Internship",
+      "org": "Flex — Mechanical Engineering Internship",
       "summary": "Handling fixture developed to address operator-reported assembly or quality issues.",
       "desc": "One of several production fixture efforts focused on improving handling, repeatability, and assembly quality. Replace this text with non-confidential project-specific details.",
       "contrib": "Designed fixture hardware in SolidWorks and iterated around operator feedback and manufacturing constraints.",
@@ -983,16 +1852,47 @@
       ],
       "result": "Add public-safe outcome",
       "images": [
-        "assets/images/industry/Flex/Handling-Fixture/handling-fixture-1.jpg",
-        "assets/images/industry/Flex/Handling-Fixture/handling-fixture-2.jpg",
-        "assets/images/industry/Flex/Handling-Fixture/handling-fixture-3.jpg"
+        {
+          "src": "assets/images/industry/Flex/Handling-Fixture/handling-fixture-1.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Handling-Fixture/handling-fixture-2.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Handling-Fixture/handling-fixture-3.jpg",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     },
     "heatsink-nest": {
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Heatsink Assembly Nest",
-      "org": "Flex \u2014 Mechanical Engineering Internship",
+      "org": "Flex — Mechanical Engineering Internship",
       "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
       "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
       "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
@@ -1003,16 +1903,47 @@
       ],
       "result": "Add public-safe outcome",
       "images": [
-        "assets/images/industry/Flex/Heatsink-Assembly-Nest/heatsink-nest-1.jpg",
-        "assets/images/industry/Flex/Heatsink-Assembly-Nest/heatsink-nest-2.jpg",
-        "assets/images/industry/Flex/Heatsink-Assembly-Nest/heatsink-nest-3.jpg"
+        {
+          "src": "assets/images/industry/Flex/Heatsink-Assembly-Nest/heatsink-nest-1.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Heatsink-Assembly-Nest/heatsink-nest-2.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Heatsink-Assembly-Nest/heatsink-nest-3.jpg",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     },
     "cable-holder": {
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Cable Holder",
-      "org": "Flex \u2014 Mechanical Engineering Internship",
+      "org": "Flex — Mechanical Engineering Internship",
       "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
       "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
       "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
@@ -1023,16 +1954,47 @@
       ],
       "result": "Add public-safe outcome",
       "images": [
-        "assets/images/industry/Flex/Cable-Holder/cable-holder-1.jpg",
-        "assets/images/industry/Flex/Cable-Holder/cable-holder-2.jpg",
-        "assets/images/industry/Flex/Cable-Holder/cable-holder-3.jpg"
+        {
+          "src": "assets/images/industry/Flex/Cable-Holder/cable-holder-1.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Cable-Holder/cable-holder-2.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Cable-Holder/cable-holder-3.jpg",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     },
     "nozzle-extender": {
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Nozzle Extender",
-      "org": "Flex \u2014 Mechanical Engineering Internship",
+      "org": "Flex — Mechanical Engineering Internship",
       "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
       "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
       "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
@@ -1043,16 +2005,47 @@
       ],
       "result": "Add public-safe outcome",
       "images": [
-        "assets/images/industry/Flex/Nozzle-Extender/nozzle-extender-1.jpg",
-        "assets/images/industry/Flex/Nozzle-Extender/nozzle-extender-2.jpg",
-        "assets/images/industry/Flex/Nozzle-Extender/nozzle-extender-3.jpg"
+        {
+          "src": "assets/images/industry/Flex/Nozzle-Extender/nozzle-extender-1.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Nozzle-Extender/nozzle-extender-2.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Nozzle-Extender/nozzle-extender-3.jpg",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     },
     "torture-test": {
       "type": "INDUSTRY / MANUFACTURING",
       "title": "3D Printer Torture Test",
-      "org": "Flex \u2014 Mechanical Engineering Internship",
+      "org": "Flex — Mechanical Engineering Internship",
       "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
       "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
       "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
@@ -1063,16 +2056,47 @@
       ],
       "result": "Add public-safe outcome",
       "images": [
-        "assets/images/industry/Flex/3D-Printer-Torture-Test/torture-test-1.jpg",
-        "assets/images/industry/Flex/3D-Printer-Torture-Test/torture-test-2.jpg",
-        "assets/images/industry/Flex/3D-Printer-Torture-Test/torture-test-3.jpg"
+        {
+          "src": "assets/images/industry/Flex/3D-Printer-Torture-Test/torture-test-1.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/3D-Printer-Torture-Test/torture-test-2.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/3D-Printer-Torture-Test/torture-test-3.jpg",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     },
     "shadow-box": {
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Shadow Box",
-      "org": "Flex \u2014 Mechanical Engineering Internship",
+      "org": "Flex — Mechanical Engineering Internship",
       "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
       "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
       "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
@@ -1083,16 +2107,47 @@
       ],
       "result": "Add public-safe outcome",
       "images": [
-        "assets/images/industry/Flex/Shadow-Box/shadow-box-1.jpg",
-        "assets/images/industry/Flex/Shadow-Box/shadow-box-2.jpg",
-        "assets/images/industry/Flex/Shadow-Box/shadow-box-3.jpg"
+        {
+          "src": "assets/images/industry/Flex/Shadow-Box/shadow-box-1.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Shadow-Box/shadow-box-2.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Shadow-Box/shadow-box-3.jpg",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     },
     "go-no-go": {
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Go/No-Go Gauge",
-      "org": "Flex \u2014 Mechanical Engineering Internship",
+      "org": "Flex — Mechanical Engineering Internship",
       "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
       "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
       "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
@@ -1103,16 +2158,47 @@
       ],
       "result": "Add public-safe outcome",
       "images": [
-        "assets/images/industry/Flex/Go-No-Go-Gauge/go-no-go-1.jpg",
-        "assets/images/industry/Flex/Go-No-Go-Gauge/go-no-go-2.jpg",
-        "assets/images/industry/Flex/Go-No-Go-Gauge/go-no-go-3.jpg"
+        {
+          "src": "assets/images/industry/Flex/Go-No-Go-Gauge/go-no-go-1.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Go-No-Go-Gauge/go-no-go-2.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Go-No-Go-Gauge/go-no-go-3.jpg",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     },
     "gasket-placement": {
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Gasket Placement",
-      "org": "Flex \u2014 Mechanical Engineering Internship",
+      "org": "Flex — Mechanical Engineering Internship",
       "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
       "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
       "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
@@ -1123,15 +2209,46 @@
       ],
       "result": "Add public-safe outcome",
       "images": [
-        "assets/images/industry/Flex/Gasket-Placement/gasket-placement-1.jpg",
-        "assets/images/industry/Flex/Gasket-Placement/gasket-placement-2.jpg",
-        "assets/images/industry/Flex/Gasket-Placement/gasket-placement-3.jpg"
+        {
+          "src": "assets/images/industry/Flex/Gasket-Placement/gasket-placement-1.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Gasket-Placement/gasket-placement-2.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Gasket-Placement/gasket-placement-3.jpg",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     },
     "stocksmart": {
       "type": "PRODUCT DESIGN / SYSTEMS",
-      "title": "StockSmart \u2014 Wyss Institute Storage Solution",
+      "title": "StockSmart — Wyss Institute Storage Solution",
       "org": "Semester-Long Class Design Project",
       "summary": "A new storage solution designed for the Wyss Institute at Harvard to address problems caused by disproportionate billing.",
       "desc": "StockSmart was a semester-long design project developed for the Wyss Institute at Harvard. The project focused on redesigning how materials or supplies were stored and managed in response to problems the institute was experiencing with disproportionate billing. The team worked through the design process from problem definition and stakeholder needs to concept development and a final proposed storage solution.",
@@ -1144,9 +2261,18 @@
       ],
       "result": "Semester-long class design project for the Wyss Institute at Harvard",
       "images": [
-        "assets/images/class/StockSmart/stocksmart-1.jpg",
-        "assets/images/class/StockSmart/stocksmart-2.jpg",
-        "assets/images/class/StockSmart/stocksmart-3.jpg"
+        {
+          "src": "assets/images/class/StockSmart/stocksmart-1.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/StockSmart/stocksmart-2.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/StockSmart/stocksmart-3.jpg",
+          "caption": ""
+        }
       ],
       "attachments": [
         [
@@ -1157,6 +2283,28 @@
           "Presentation",
           "assets/docs/class/StockSmart/StockSmart_Presentation.pdf"
         ]
+      ],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
       ]
     },
     "square-pendulum": {
@@ -1174,13 +2322,38 @@
       ],
       "result": "Course project and presentation",
       "images": [
-        "assets/images/class/Square-Pendulum/wave.png"
+        {
+          "src": "assets/images/class/Square-Pendulum/wave.png",
+          "caption": ""
+        }
       ],
       "attachments": [
         [
           "Presentation",
           "assets/docs/class/Square-Pendulum/Waves.pdf"
         ]
+      ],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
       ]
     },
     "heat-transfer": {
@@ -1198,19 +2371,50 @@
       ],
       "result": "Two-week experimental class project",
       "images": [
-        "assets/images/class/Heat-Transfer-Ferns/heat-transfer-1.jpg",
-        "assets/images/class/Heat-Transfer-Ferns/heat-transfer-2.jpg",
-        "assets/images/class/Heat-Transfer-Ferns/heat-transfer-3.jpg"
+        {
+          "src": "assets/images/class/Heat-Transfer-Ferns/heat-transfer-1.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Heat-Transfer-Ferns/heat-transfer-2.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Heat-Transfer-Ferns/heat-transfer-3.jpg",
+          "caption": ""
+        }
       ],
       "attachments": [
         [
           "Presentation",
           "assets/docs/class/Heat-Transfer-Ferns/Heat_Transfer_Presentation.pdf"
         ]
+      ],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
       ]
     },
     "senior-thesis": {
-      "type": "SENIOR THESIS / CAPSTONE \u00b7 IN PROGRESS",
+      "type": "SENIOR THESIS / CAPSTONE · IN PROGRESS",
       "title": "Senior Thesis / Capstone Project",
       "org": "Harvard Mechanical Engineering",
       "summary": "Active senior thesis and capstone work. Technical scope, design decisions, and results will be added as the project develops.",
@@ -1224,11 +2428,42 @@
       ],
       "result": "In progress",
       "images": [
-        "assets/images/class/Senior-Thesis-Capstone/senior-thesis-1.jpg",
-        "assets/images/class/Senior-Thesis-Capstone/senior-thesis-2.jpg",
-        "assets/images/class/Senior-Thesis-Capstone/senior-thesis-3.jpg"
+        {
+          "src": "assets/images/class/Senior-Thesis-Capstone/senior-thesis-1.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Senior-Thesis-Capstone/senior-thesis-2.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Senior-Thesis-Capstone/senior-thesis-3.jpg",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     },
     "engineering-music": {
       "type": "ENGINEERING + MUSIC",
@@ -1243,13 +2478,44 @@
         "Fabrication",
         "Prototyping"
       ],
-      "result": "Course project \u00b7 instrument design and fabrication",
+      "result": "Course project · instrument design and fabrication",
       "images": [
-        "assets/images/class/Engineering-Music/engineering-music-1.jpg",
-        "assets/images/class/Engineering-Music/engineering-music-2.jpg",
-        "assets/images/class/Engineering-Music/engineering-music-3.jpg"
+        {
+          "src": "assets/images/class/Engineering-Music/engineering-music-1.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Engineering-Music/engineering-music-2.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Engineering-Music/engineering-music-3.jpg",
+          "caption": ""
+        }
       ],
-      "attachments": []
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Prototyping",
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+        },
+        {
+          "label": "CAD / Analysis Development",
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+        },
+        {
+          "label": "Manufacturing / Implementation",
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+        },
+        {
+          "label": "Testing / Validation",
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+        },
+        {
+          "label": "Design Problems & Resolutions",
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
     }
   }
 }

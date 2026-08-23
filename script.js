@@ -1,10 +1,14 @@
 let CONTENT = null;
 let currentGallery = [];
 let currentImageIndex = 0;
+let currentProject = null;
+let currentProjectTab = 'overview';
 
 const $ = (sel, root=document) => root.querySelector(sel);
 const $$ = (sel, root=document) => [...root.querySelectorAll(sel)];
 const esc = (value='') => String(value).replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+const imageSrc = item => typeof item === 'string' ? item : (item && item.src) || '';
+const imageCaption = item => typeof item === 'object' && item ? (item.caption || '') : '';
 
 async function loadContent(){
   const res = await fetch('content.json', {cache:'no-store'});
@@ -26,16 +30,18 @@ function resolveLink(b){ return b.href || CONTENT.site.links[b.linkKey] || '#'; 
 function buttons(items, centered=false){
   return `<div class="cta-row"${centered?' style="justify-content:center"':''}>${items.map(b=>`<a class="btn ${b.style==='primary'?'primary':''}" href="${esc(resolveLink(b))}"${resolveLink(b).startsWith('http')||resolveLink(b).endsWith('.pdf')?' target="_blank"':''}>${esc(b.label)}</a>`).join('')}</div>`;
 }
-function projectCard(id){
+function projectCard(id, options={}){
   const p=CONTENT.projects[id]; if(!p) return '';
-  const img=(p.images&&p.images[0])||'';
+  const img=imageSrc((p.images&&p.images[0])||'');
+  const statusBadge=options.comingSoon ? '<div class="coming-soon-badge">COMING SOON</div>' : '';
   return `<button class="project-card" data-project="${esc(id)}" aria-label="Open ${esc(p.title)}">
     <img class="card-image" src="${esc(img)}" alt="${esc(p.title)}">
     <div class="card-image-fallback" style="display:none">Add image:<br>${esc(img)}</div>
+    ${statusBadge}
     <div class="card-title-band"><div class="project-org">${esc(p.org)}</div><h3>${esc(p.title)}</h3></div>
   </button>`;
 }
-function projectGrid(ids){ return `<div class="project-grid">${ids.map(projectCard).join('')}</div>`; }
+function projectGrid(ids, options={}){ return `<div class="project-grid">${ids.map(id=>projectCard(id, options)).join('')}</div>`; }
 function sectionHead(kicker,title){return `<div class="section-head"><div><div class="section-kicker">${esc(kicker)}</div><h2 class="section-title">${esc(title)}</h2></div></div>`;}
 
 function carousel(id, title, items, kind){
@@ -56,7 +62,7 @@ function renderHome(){
   </div></div></header>
   <main>
     <section id="about"><div class="container">${sectionHead(h.about.kicker,h.about.title)}<div class="about-grid">${h.about.paragraphs.map(p=>`<p>${esc(p)}</p>`).join('')}</div></div></section>
-    <section id="stay-tuned"><div class="container">${sectionHead(h.active.kicker,h.active.title)}${h.active.text?`<p class="section-intro">${esc(h.active.text)}</p>`:''}${projectGrid(h.active.projectIds)}</div></section>
+    <section id="stay-tuned"><div class="container">${sectionHead(h.active.kicker,h.active.title)}${h.active.text?`<p class="section-intro">${esc(h.active.text)}</p>`:''}${projectGrid(h.active.projectIds,{comingSoon:true})}</div></section>
     <section id="featured"><div class="container">${sectionHead(h.featured.kicker,h.featured.title)}${projectGrid(h.featured.projectIds)}</div></section>
     <section id="skills"><div class="container">${sectionHead(h.skills.kicker,h.skills.title)}
       ${carousel('skills-carousel', 'Skills', h.skills.groups, 'skills')}
@@ -105,18 +111,71 @@ function bindCarousels(){
   });
 }
 
+function deepDiveTabs(p){
+  return Array.isArray(p.deepDive) ? p.deepDive.filter(t=>t && t.label) : [];
+}
+function renderDetailText(value){
+  if(Array.isArray(value)){
+    return `<ul class="detail-list">${value.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`;
+  }
+  const text=String(value||'').trim();
+  if(!text) return '<p class="detail-placeholder">Add this section in <code>content.json</code>.</p>';
+  return text.split(/\n\s*\n/).map(par=>`<p>${esc(par).replace(/\n/g,'<br>')}</p>`).join('');
+}
+function renderProjectTab(tabKey){
+  if(!currentProject) return;
+  currentProjectTab=tabKey;
+  const p=currentProject;
+  const tabs=deepDiveTabs(p);
+  $$('.modal-tab-button').forEach(btn=>{
+    const active=btn.dataset.tab===tabKey;
+    btn.classList.toggle('active',active);
+    btn.setAttribute('aria-selected',active?'true':'false');
+    btn.tabIndex=active?0:-1;
+  });
+  const panel=$('.modal-tab-content');
+  if(tabKey==='overview'){
+    const attachments=p.attachments||[];
+    panel.innerHTML=`
+      <div class="overview-grid">
+        <section class="modal-section overview-description"><h3>Description</h3><p>${esc(p.desc||'')}</p></section>
+        <section class="modal-section"><h3>My Contribution</h3><p>${esc(p.contrib||'')}</p></section>
+        <section class="modal-section"><h3>Outcome</h3><p>${esc(p.result||'')}</p></section>
+        <section class="modal-section"><h3>Technical Toolkit</h3><div class="tags modal-tags">${(p.tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div></section>
+        ${attachments.length?`<section class="modal-section"><h3>Project Documents</h3><div class="attachment-row">${attachments.map(a=>`<a class="attachment-link" href="${esc(a[1])}" target="_blank" rel="noopener">${esc(a[0])} ↗</a>`).join('')}</div></section>`:''}
+      </div>`;
+    return;
+  }
+  const index=Number(tabKey.replace('detail-',''));
+  const detail=tabs[index];
+  if(!detail){panel.innerHTML='';return;}
+  panel.innerHTML=`<article class="deep-dive-panel"><div class="deep-dive-kicker">Project Deep Dive</div><h3>${esc(detail.label)}</h3><div class="deep-dive-content">${renderDetailText(detail.content)}</div></article>`;
+}
+function renderProjectTabs(){
+  const tabs=deepDiveTabs(currentProject);
+  const nav=$('.modal-tabs');
+  nav.innerHTML=`<button class="modal-tab-button active" type="button" role="tab" aria-selected="true" data-tab="overview">Overview</button>${tabs.map((t,i)=>`<button class="modal-tab-button" type="button" role="tab" aria-selected="false" tabindex="-1" data-tab="detail-${i}">${esc(t.label)}</button>`).join('')}`;
+  $$('.modal-tab-button',nav).forEach(btn=>btn.addEventListener('click',()=>renderProjectTab(btn.dataset.tab)));
+  nav.addEventListener('keydown',e=>{
+    if(!['ArrowLeft','ArrowRight','Home','End'].includes(e.key)) return;
+    const buttons=$$('.modal-tab-button',nav); if(!buttons.length) return;
+    let i=buttons.indexOf(document.activeElement);
+    if(i<0) i=0;
+    if(e.key==='ArrowRight') i=(i+1)%buttons.length;
+    if(e.key==='ArrowLeft') i=(i-1+buttons.length)%buttons.length;
+    if(e.key==='Home') i=0;
+    if(e.key==='End') i=buttons.length-1;
+    e.preventDefault(); buttons[i].focus(); buttons[i].click();
+  });
+  renderProjectTab('overview');
+}
 function openProject(id){
   const p=CONTENT.projects[id]; if(!p) return;
+  currentProject=p;
   $('.modal-type').textContent=p.type||'';
   $('.modal-title').textContent=p.title||'';
   $('.modal-org').textContent=p.org||'';
-  $('.modal-desc').textContent=p.desc||'';
-  $('.modal-contrib').textContent=p.contrib||'';
-  $('.modal-result').textContent=p.result||'';
-  $('.modal-tags').innerHTML=(p.tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join('');
-  const attachments=p.attachments||[];
-  $('.modal-attachments-section').style.display=attachments.length?'block':'none';
-  $('.modal-attachments').innerHTML=attachments.map(a=>`<a class="attachment-link" href="${esc(a[1])}" target="_blank">${esc(a[0])} ↗</a>`).join('');
+  renderProjectTabs();
   currentGallery=p.images||[]; currentImageIndex=0; renderGallery();
   $('.modal-backdrop').classList.add('open'); document.body.classList.add('modal-open');
 }
@@ -124,10 +183,12 @@ function closeProject(){ $('.modal-backdrop').classList.remove('open'); document
 function renderGallery(){
   const g=$('.gallery');
   if(!currentGallery.length){g.innerHTML='<div class="gallery-placeholder">Add project images in content.json</div>';return;}
-  const src=currentGallery[currentImageIndex];
-  g.innerHTML=`<div class="gallery-stage"><div class="gallery-blur" aria-hidden="true"></div><img src="${esc(src)}" alt="Project image ${currentImageIndex+1}"><div class="gallery-placeholder" style="display:none">Add image:<br>${esc(src)}</div>${currentGallery.length>1?`<button class="gallery-arrow prev" aria-label="Previous image">‹</button><button class="gallery-arrow next" aria-label="Next image">›</button><div class="gallery-count">${currentImageIndex+1} / ${currentGallery.length}</div>`:''}</div>`;
+  const item=currentGallery[currentImageIndex];
+  const src=imageSrc(item);
+  const caption=currentImageIndex===0 ? '' : imageCaption(item);
+  g.innerHTML=`<div class="gallery-stage"><div class="gallery-blur" aria-hidden="true"></div><img src="${esc(src)}" alt="Project image ${currentImageIndex+1}"><div class="gallery-placeholder" style="display:none">Add image:<br>${esc(src)}</div>${currentGallery.length>1?`<button class="gallery-arrow prev" aria-label="Previous image">‹</button><button class="gallery-arrow next" aria-label="Next image">›</button><div class="gallery-count">${currentImageIndex+1} / ${currentGallery.length}</div>`:''}${caption?`<div class="gallery-caption">${esc(caption)}</div>`:''}</div>`;
   const img=$('.gallery img'); const ph=$('.gallery-placeholder'); const blur=$('.gallery-blur');
-  blur.style.backgroundImage=`url("${src}")`;
+  blur.style.backgroundImage=`url("${src.replace(/"/g,'\\"')}")`;
   img.addEventListener('error',()=>{img.style.display='none';blur.style.display='none';ph.style.display='flex';});
   $('.gallery .prev')?.addEventListener('click',()=>{currentImageIndex=(currentImageIndex-1+currentGallery.length)%currentGallery.length;renderGallery();});
   $('.gallery .next')?.addEventListener('click',()=>{currentImageIndex=(currentImageIndex+1)%currentGallery.length;renderGallery();});
