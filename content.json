@@ -251,6 +251,7 @@
             "rocketlink",
             "sphinx",
             "irec",
+            "modular-test-stand",
             "l1"
           ]
         },
@@ -397,8 +398,8 @@
       "title": "Forward Unto Dawn — Regeneratively Cooled Liquid Bipropellant Engine",
       "org": "Harvard Undergraduate Aerospace Collective",
       "summary": "Liquid bipropellant engine development centered on regenerative cooling, an additively manufactured combustion chamber, and analytical validation.",
-      "desc": "Development of a liquid bipropellant, regeneratively cooled rocket engine with a metal additively manufactured combustion chamber. The project combines propulsion analysis, mechanical design, manufacturing constraints, assembly, and test planning.",
-      "contrib": "Led and contributed to the engineering effort across design coordination, hardware development, propulsion analysis, and integration. Analytical work included validation using NASA CEA tools.",
+      "desc": "Forward Unto Dawn is a student-designed regeneratively cooled liquid bipropellant engine. The project was initially proposed in Spring 2026, then suspended as the team prioritized IREC. It later continued as an independent summer effort led by another club member.",
+      "contrib": "Managed project progress and served as the primary design reviewer during the summer continuation, reviewing propulsion math, simulations, CAD, and other engineering work as the design developed.",
       "tags": [
         "Propulsion",
         "NASA CEA",
@@ -423,24 +424,20 @@
       "attachments": [],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "label": "Analytical Development",
+          "content": "Review of the propulsion math and simulations used to support the regeneratively cooled engine design."
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "label": "CAD Development",
+          "content": "Review of CAD development and mechanical implementation as the engine architecture progressed."
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "label": "Manufacturing",
+          "content": "Manufacturing planning and hardware development for the student-designed engine, including consideration of the additively manufactured combustion-chamber approach."
         },
         {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
-        },
-        {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "label": "Design Reviews",
+          "content": "Acted as the primary reviewer for ongoing design work, reviewing calculations, simulations, CAD, and overall project progress."
         }
       ]
     },
@@ -448,9 +445,9 @@
       "type": "AVIONICS / TELEMETRY",
       "title": "RocketLink Telemetry System",
       "org": "Harvard Undergraduate Aerospace Collective",
-      "summary": "Long-range LoRa/GPS telemetry project with custom avionics housings for flight hardware.",
-      "desc": "A telemetry system intended to provide long-range communication and position data for rocket flight operations using LoRa and GPS hardware.",
-      "contrib": "Personally designed the housings for the electronics system and supported integration and flight-test preparation.",
+      "summary": "Long-range LoRa/GPS telemetry system developed through breadboard, protoboard, and PCB-based iterations with custom avionics housings.",
+      "desc": "RocketLink is a long-range telemetry project developed to transmit rocket position and flight data using LoRa and GPS hardware. The system evolved through multiple hardware and enclosure iterations as the team tested mechanical robustness, packaging, and field usability.",
+      "contrib": "Worked from the initial payload requirements through enclosure design and iterative hardware integration. Designed the printed housings, packaged the transmitter and receiver electronics, incorporated feedback from field testing, and revised the mechanical design between V1 and V2.",
       "tags": [
         "LoRa",
         "GPS",
@@ -467,24 +464,24 @@
       "attachments": [],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "label": "Concept Design",
+          "content": "Met with an alumni mentor to define what the telemetry payload needed to accomplish and translated those requirements into an initial electronics and packaging concept."
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "label": "Prototyping & Testing",
+          "content": "The first system was assembled on a breadboard and tested outdoors at Harvard SEC. Later validation requirements included making the system robust enough to tolerate aggressive field testing, including operation while held outside a moving vehicle."
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "label": "V1",
+          "content": "V1 used independently wired and soldered components on a protoboard. The protoboard was secured in a PLA housing with press-fit hex nuts. A separate battery compartment used Velcro routed through 3D-printed rings, while dedicated openings provided access for the antenna, GPS module, and battery wiring. A corresponding receiver enclosure provided a cable connection for data transmission."
         },
         {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "label": "V1 Feedback",
+          "content": "Testing showed that the wired connections and overall assembly were too mechanically fragile for the intended field environment, motivating a more robust electrical architecture and enclosure revision."
         },
         {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "label": "V2",
+          "content": "V2 replaced the individually wired protoboard architecture with a custom PCB to eliminate weak soldered wire connections. The battery was moved outside the enclosure for easier use, the GPS hardware was secured more robustly, external clearances were increased, and the lid and enclosure lip were thickened to improve the slide-on cover."
         }
       ]
     },
@@ -493,8 +490,8 @@
       "title": "Mojave Sphinx Rocket + Static Test Stand",
       "org": "Harvard Undergraduate Aerospace Collective",
       "summary": "Rocket assembly, component manufacturing, and development of a dedicated engine static-test stand.",
-      "desc": "A hardware-intensive rocketry effort spanning test infrastructure, rocket component manufacturing, vehicle assembly, and static-fire operations.",
-      "contrib": "Designed, built, and installed the test stand at the team site; manufactured Sphinx components; led and completed a significant portion of vehicle assembly; supported static-fire operations.",
+      "desc": "Mojave Sphinx is a documented Half Cat Rocketry liquid rocket that the team adopted as a capability-building project after encountering roadblocks with an earlier research-heavy liquid bipropellant design. The goal was to gain practical experience in machining, fluids hardware, integration, and static-fire operations before returning to more open-ended propulsion development.",
+      "contrib": "Worked extensively on subsystem and full-vehicle assembly, including servo-actuated LOX and fuel ball valves, propellant bulkheads and interface rings, the engine, avionics sled, propellant-piston installation, and full-scale integration. Drilled the large tank body and manufactured a quick disconnect. I also developed the test-stand concept and personally manufactured, assembled, and installed the stand, although I did not create its CAD model.",
       "tags": [
         "Structures",
         "Machining",
@@ -543,24 +540,36 @@
       "attachments": [],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "label": "Subsystem Assembly",
+          "content": "Assembled the servo-actuated ball valves for LOX and fuel, worked on the fuel and LOX bulkheads and their interface-ring connections, assembled the engine, and assembled the avionics sled."
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "label": "Full-System Assembly",
+          "content": "Oversaw propellant-piston installation and the full integration and assembly of the rocket, bringing the individual fluids, propulsion, avionics, and structural subsystems together."
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "label": "Test Stand Concept",
+          "content": "Developed the concept for a high-factor-of-safety static-fire stand. The installation used a buried bucket of concrete as the primary ground anchor and was planned around securely restraining the vehicle during firing."
         },
         {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "label": "Test Stand CAD",
+          "content": "The final CAD model for the Sphinx test stand was produced by another team member. My role was concept development and then manufacturing, assembly, installation, and integration of the stand."
         },
         {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "label": "Test Stand Manufacturing",
+          "content": "Manufactured the test stand hardware and prepared the structure for field installation."
+        },
+        {
+          "label": "Test Stand Assembly",
+          "content": "Assembled the test stand in preparation for installation at the team test site."
+        },
+        {
+          "label": "Test Stand Integration",
+          "content": "Installed the stand in two stages at the test site and integrated the rocket onto the stand for static-fire operations."
+        },
+        {
+          "label": "Static Fire",
+          "content": "The rocket was secured to the stand for static-fire testing. A previous attempt was unsuccessful because of poor sealing in the fluids system; the team planned another static fire for Fall 2026."
         }
       ]
     },
@@ -569,14 +578,14 @@
       "title": "IREC 10K COTS Competition Rocket",
       "org": "Harvard Undergraduate Aerospace Collective",
       "summary": "Active development of a 10,000-ft COTS competition rocket for IREC.",
-      "desc": "An active student-led effort to develop a 10,000-ft COTS competition rocket for IREC, building the team capability, technical architecture, and project organization required to take the vehicle from concept through flight readiness.",
-      "contrib": "Founded the 10,000-ft IREC program and began organizing the engineering team, technical workstreams, schedule, and certification pipeline.",
+      "desc": "An active effort to develop a 10,000-ft COTS competition rocket for IREC 2027. The project is currently in the planning and early design stage, with emphasis on requirements, schedule, rule compliance, and building a technically realistic path to competition.",
+      "contrib": "Developed the full project Gantt chart and design specifications, reviewed competition rules and relevant literature, and studied other teams’ rockets to inform planning. The next stage is CAD and OpenRocket development followed by material ordering.",
       "tags": [
         "Project Leadership",
         "Systems Engineering",
         "Rocketry"
       ],
-      "result": "In progress",
+      "result": "In progress — competition planned for June 2027",
       "images": [
         {
           "src": "assets/images/clubs/HUAC-R/IREC-10K-COTS/irec-1.jpg",
@@ -590,24 +599,8 @@
       "attachments": [],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
-        },
-        {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
-        },
-        {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
-        },
-        {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
-        },
-        {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "label": "Current Development",
+          "content": "Developed the project Gantt chart and design specifications and reviewed the relevant competition rules, literature, and prior team designs. The next planned work is CAD and OpenRocket development, followed by material ordering. Competition is planned for June 2027."
         }
       ]
     },
@@ -616,8 +609,8 @@
       "title": "NAR Level 1 High-Power Rocketry Certification",
       "org": "Harvard Undergraduate Aerospace Collective",
       "summary": "Built and launched an Apogee Zephyr to successfully earn NAR Level 1 certification.",
-      "desc": "A high-power rocketry certification project involving construction, inspection, launch preparation, flight, and recovery of an Apogee Zephyr rocket.",
-      "contrib": "Built the rocket, completed launch preparation, flew and recovered the vehicle successfully, and earned NAR Level 1 High Power Rocketry certification.",
+      "desc": "A high-power rocketry certification project centered on an Apogee Zephyr. In addition to building and flying my own rocket, I reverse engineered the Zephyr geometry so the team could create a lower-cost fleet for additional Level 1 certification flights.",
+      "contrib": "Assembled the Zephyr, reverse engineered its geometry into SolidWorks CAD, supported fabrication of team rockets, validated vehicles in OpenRocket, and completed the full launch sequence. I earned my NAR Level 1 certification on the first launch.",
       "tags": [
         "High-Power Rocketry",
         "Assembly",
@@ -633,24 +626,20 @@
       "attachments": [],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "label": "Assembly",
+          "content": "Assembled an Apogee Zephyr high-power rocket and prepared it for certification flight."
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "label": "CAD / Reverse Engineering",
+          "content": "Developed reverse-engineered SolidWorks CAD for the Zephyr to support a lower-cost team certification fleet. Where direct dimensions were unavailable, I used photographs and image ratios to estimate geometric dimensions."
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "label": "Manufacturing",
+          "content": "The team used laser cutting for centering rings and fins on the reverse-engineered fleet. Individual rockets were weighed and their configurations were checked before flight."
         },
         {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
-        },
-        {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "label": "Launch Procedure",
+          "content": "Validated the rocket in OpenRocket, completed the certification launch sequence, recovered the vehicle successfully, and earned NAR Level 1 High Power Rocketry certification on the first launch."
         }
       ]
     },
@@ -726,8 +715,8 @@
       "title": "University Rover Challenge — Rover Manufacturing",
       "org": "Harvard Undergraduate Robotics Club",
       "summary": "Precision manufacturing for a Mars rover, including suspension and arm power-transmission hardware.",
-      "desc": "Manufacturing and DFM work for a University Rover Challenge Mars rover with custom mechanical subsystems across the suspension, arm, chassis, and science hardware.",
-      "contrib": "Personally manufactured approximately 90% of the rover’s machined components, including power-transmission components in the suspension and arm. Selected manufacturing approaches and redesigned parts to reduce setup complexity.",
+      "desc": "Manufacturing, DFM, integration, and troubleshooting work for a University Rover Challenge Mars rover. The rover required custom mechanical hardware across its suspension, arm, chassis, and other subsystems.",
+      "contrib": "Machined more than 30 parts, including many power-transmission components, using manual and CNC processes across four lathes and two mills. Reviewed rover parts for manufacturability, redesigned difficult features, supported integration and testing, and implemented mechanical fixes identified during system troubleshooting.",
       "tags": [
         "CNC Machining",
         "Power Transmission",
@@ -912,24 +901,20 @@
       "attachments": [],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "label": "Manufacturing",
+          "content": "Machined more than 30 rover components, with substantial work on power-transmission hardware, using both manual and CNC machining across four lathes and two mills."
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "label": "Design for Manufacturability",
+          "content": "Reviewed rover parts and proposed changes where geometry was difficult or impossible to machine with available equipment. One coupler originally required a broached feature on one side and an internal hex on the other; I added dog-ear reliefs at the hex corners so the corners could be drilled and the remaining profile machined with a SolidWorks-generated CNC program."
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "label": "Assembly & Integration",
+          "content": "Worked on assembly and integration of the machined hardware into the rover and supported subsystem and full-system testing."
         },
         {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
-        },
-        {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "label": "Testing & Troubleshooting",
+          "content": "Evaluated mechanical problems during testing and proposed fixes. When the differential bar had excessive play, I added an additional bearing constraint to increase rigidity. When a set-screw connection between the rocker-bogie drive system and differential suspension repeatedly loosened, I implemented Loctite to mitigate the issue."
         }
       ]
     },
@@ -938,8 +923,8 @@
       "title": "Servo-Driven Visual Perturbation Headset",
       "org": "Harvard Ability Lab",
       "summary": "Low-cost experimental headset using servo-driven mirrors to induce controlled balance perturbations.",
-      "desc": "A research hardware platform designed to alter a participant’s visual field through controlled mirror motion so balance responses could be studied during data collection.",
-      "contrib": "Designed and fabricated the low-cost headset and integrated servo-driven mirrors for controlled experimental perturbations.",
+      "desc": "Redesign of a visual-perturbation headset used in balance research. The original acrylic-and-tape assembly was replaced with a lighter, mechanically constrained, serviceable 3D-printed system.",
+      "contrib": "Redesigned the headset architecture in CAD, replaced taped acrylic construction with 3D-printed PLA and rigid mechanical joints, redesigned the servo-driven rotational axis and mirror retention, added PCB mounting, and iterated the assembly from captive-nut joints to heat-set inserts.",
       "tags": [
         "Research Hardware",
         "Servo Systems",
@@ -956,24 +941,28 @@
       "attachments": [],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "label": "Original Design",
+          "content": "The original headset was made from laser-cut acrylic and relied heavily on duct tape for assembly and retention."
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "label": "Structural Redesign",
+          "content": "Redesigned the headset in 3D-printed PLA using interlocking edges and captive-nut joints, then iterated again to use heat-set inserts. The rigid mechanical joints significantly improved stability, while 15% infill PLA made the assembly noticeably lighter than the 1/8-in acrylic predecessor."
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "label": "Servo & Rotational Axis",
+          "content": "Connected the servo to the rotational axis using captive press-fit hex hardware and screws passing through the rotational axis into the servo-side connector."
         },
         {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "label": "Mirror Retention",
+          "content": "Both mirrors were mechanically retained through friction-based interfaces. The rotating mirror fit into a slot and was constrained by four set screws; the second mirror was clamped between two flat planes tightened together during assembly."
         },
         {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "label": "Electronics & Weight Integration",
+          "content": "Added dedicated PCB screw mounting on top of the headset and replaced taped weight covers with black fabric retained by Velcro."
+        },
+        {
+          "label": "CAD Architecture",
+          "content": "Built the CAD using coordinated multibody geometry: a master part defined the related bodies, while individual part and assembly models were driven from that shared geometry to preserve relationships between components."
         }
       ]
     },
@@ -982,8 +971,8 @@
       "title": "Force-Sensing Wearable Hardware",
       "org": "MAHI Lab — Rice University",
       "summary": "Equation-driven CAD and 3D-printed housings for force-sensitive resistors used in wearable sensing applications.",
-      "desc": "Research focused on force-sensitive resistor integration for a center-of-pressure sensing insole and a force-quantifying scoliosis brace. Designs were iterated through CAD, additive manufacturing, and experimental validation.",
-      "contrib": "Designed FSR housings using equation-driven SolidWorks models, iterated parts through 3D printing, and validated sensor behavior with Instron testing. Presented the work at the Rice Summer Undergraduate Research Symposium.",
+      "desc": "Research on 3D-printed TPU housings and force-sensitive-resistor integration for two wearable biomedical sensing applications: a center-of-pressure sensing foot insole and a force-quantifying scoliosis brace. The work combined equation-driven CAD, multi-material additive manufacturing, electronics integration, and Instron validation.",
+      "contrib": "Redesigned the insole and brace sensor architectures, developed equation-driven SolidWorks models, explored conductive TPU and embedded wiring, designed serviceable alternatives, and conducted extensive Instron validation. For the FSR experiment, I completed 125 trials and parsed the resulting data in Excel.",
       "tags": [
         "SolidWorks",
         "FSR Sensors",
@@ -1045,24 +1034,36 @@
       ],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "label": "Initial / Given Designs",
+          "content": "The initial foot-insole design used long-tail FSRs, limiting the minimum design to approximately a men’s size 7. The scoliosis-brace work likewise began from an existing sensor concept that needed to be made smaller and more practical for use."
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "label": "CAD Development",
+          "content": "Switched the insole to short-tail FSRs, expanding the design down to approximately a men’s size 3. Built equation-driven SolidWorks geometry so shoe size and wire-routing features changed consistently together, and modeled separate bodies for conductive-TPU electrical connections."
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "label": "TPU Printing & Electronics Integration",
+          "content": "Developed multi-material printing workflows in which printing was paused so FSRs and embedded wires could be placed before being encapsulated by subsequent TPU layers. Also investigated printed-electronics approaches, including literature on colloidal silver for conductive traces."
         },
         {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "label": "Instron Testing / Experimental Design",
+          "content": "Designed and ran force-sensor validation using an Instron. The experimental campaign included 125 trials across the FSRs, with data collected through the test setup and subsequently parsed in Excel."
         },
         {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "label": "Testing Results",
+          "content": "Testing showed that the conductive-TPU connection was not sufficiently robust for consistent FSR readings, introducing variability that reduced confidence in center-of-pressure calculations."
+        },
+        {
+          "label": "Serviceable Model",
+          "content": "Developed a serviceable insole version with a removable snap-on/snap-off cover so electrical connections could be accessed and adjusted instead of being permanently encapsulated."
+        },
+        {
+          "label": "Scoliosis Brace Sensor",
+          "content": "Applied similar TPU-printing and Instron-validation methods to the scoliosis-brace sensor. Explored attachment methods including Velcro, skin-sensitive semi-reusable tape, and reusable/washable tape concepts. The final design was reviewed with Baylor Scott & White, validated on the Instron, and passed to the clinical team for testing."
+        },
+        {
+          "label": "Future Considerations",
+          "content": "Future iterations would prioritize more robust electrical connections, potentially returning to soldered connections or connector-based approaches rather than relying on conductive TPU alone."
         }
       ]
     },
@@ -1071,8 +1072,8 @@
       "title": "Yellow Jacket Competition Robot",
       "org": "Introduction to Computer-Aided Machine Design",
       "summary": "Competition robot that collected tennis balls, placed them on a Velcro wall, and climbed 15° and 30° inclines.",
-      "desc": "A semester-long machine-design competition project requiring a robot to collect tennis balls, transport and place them on a Velcro scoring wall, and negotiate multiple inclines.",
-      "contrib": "Contributed to mechanical design, CAD, fabrication, assembly, troubleshooting, and competition preparation.",
+      "desc": "A semester-long Turf Wars machine-design competition robot built to place tennis balls onto a wall with three scoring heights. Our team prioritized scoring quantity, ultimately developing an “egg-carton flipper” capable of placing four balls at once.",
+      "contrib": "Developed 100% of the final robot CAD, helped prototype the mechanism in cardboard, and contributed substantially to manufacturing and assembly. The project introduced me to machining through operations including milling wheel molds, turning shafts, and fabricating angle-bracket components.",
       "tags": [
         "SolidWorks",
         "Machine Design",
@@ -1119,23 +1120,23 @@
       "deepDive": [
         {
           "label": "Prototyping",
-          "content": "Describe early concepts, mockups, prototype mechanisms, what you tried first, and what changed before the final robot."
+          "content": "Explored several concepts, including elevator/waterwheel/conveyor-style mechanisms that transported balls individually and a spiral concept with similar functionality. The final direction was an “egg-carton flipper” that prioritized quantity and could place four balls simultaneously. We demonstrated the concept first with a cardboard prototype."
         },
         {
           "label": "CAD Development",
-          "content": "Describe the SolidWorks development process, major assemblies and mechanisms, design iterations, and how CAD decisions supported the competition requirements."
+          "content": "After validating the cardboard concept, I completed 100% of the CAD for the final design in SolidWorks, translating the prototype into a fully manufacturable robot assembly."
         },
         {
           "label": "Manufacturing Process",
-          "content": "Describe how the robot components were fabricated and assembled, including machining methods, materials, tolerances, fixtures, and any manufacturing-driven redesigns."
+          "content": "Manufacturing included milling molds for cast-silicone wheels, turning rotational shafts, cutting angle-bracket components on the bandsaw, and assembling the mechanical system. This project was my introduction to machining and became the starting point for my later interest in manufacturing."
         },
         {
           "label": "Testing",
-          "content": "Describe how you tested ball pickup and placement, the 15° and 30° incline requirements, subsystem testing, competition preparation, and what the test results changed in the design."
+          "content": "Tested the mechanism against the Turf Wars requirements, including tennis-ball placement at multiple scoring heights and operation over the course obstacles."
         },
         {
           "label": "Design Problems & Resolutions",
-          "content": "Describe specific design failures or constraints you encountered, how you diagnosed them, the options you considered, and the final engineering resolutions."
+          "content": "The main design tradeoff was scoring quantity versus individual placement precision. Rather than optimizing a one-ball-at-a-time mechanism, the final flipper architecture intentionally prioritized depositing multiple balls in a single action."
         }
       ]
     },
@@ -1205,8 +1206,8 @@
       "title": "Optimized I-Beam Bridge",
       "org": "Solid Mechanics",
       "summary": "Wood bridge optimized for compression force-to-weight performance and tested in an Instron.",
-      "desc": "A structural optimization project where wood bridges were evaluated by maximum force resisted before deformation divided by bridge weight.",
-      "contrib": "Helped optimize cross-sectional geometry around an I-beam-inspired design, fabricated the structure, and prepared it for Instron compression testing.",
+      "desc": "A wood-and-acrylic bridge designed for a structural competition and compression-tested on an Instron. The bridge carried 16 kN—the highest absolute load in the competition—but placed second because ranking was based on force-to-weight ratio.",
+      "contrib": "Designed and fabricated the bridge around an I-beam-inspired cross section, considered wood grain direction during manufacturing to avoid weak orientations, and incorporated acrylic into the upper structure for aesthetics. The acrylic added weight without meaningful structural benefit, which reduced the final force-to-weight score.",
       "tags": [
         "Structures",
         "Instron",
@@ -1231,24 +1232,20 @@
       "attachments": [],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "label": "Structural Design",
+          "content": "Used an I-beam-inspired cross section to increase bending and compressive performance while controlling mass."
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "label": "Material & Manufacturing Decisions",
+          "content": "Built primarily from wood with wood-glue assembly and intentionally oriented the wood grain to avoid creating weak directions. Acrylic was incorporated into the upper section for visual appeal."
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "label": "Instron Testing",
+          "content": "Compression-tested the completed bridge on an Instron. It sustained 16 kN, the highest absolute force in the competition."
         },
         {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
-        },
-        {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "label": "Outcome & Lessons",
+          "content": "The competition was scored by force-to-weight ratio, so the bridge placed second despite carrying the highest load. The acrylic aesthetic feature added mass without structural benefit, making it a clear lesson in aligning every design decision with the actual optimization metric."
         }
       ]
     },
@@ -1257,8 +1254,8 @@
       "title": "Variable-Damping Egg Drop System",
       "org": "Mechanical Systems",
       "summary": "Spring-damper protection system using shaped tracks to vary damping behavior through compression.",
-      "desc": "An impact-mitigation system designed around springs and dampers. The damper geometry was varied throughout compression so the effective damping response changed through the stroke to reduce peak egg acceleration.",
-      "contrib": "Developed and implemented the mechanically varying damping concept using mathematically driven track curves and contributed to system design, fabrication, and testing.",
+      "desc": "A dynamics competition project using springs, dampers, and laser-cut wood to protect an egg during impact. The damper traveled along mathematically designed tracks so its compression behavior varied through the impact stroke.",
+      "contrib": "Helped develop the mathematically driven variable-damping concept, fabricate the laser-cut structure, and test the system. The project also became a useful lesson in the difference between idealized models and real hardware behavior.",
       "tags": [
         "Dynamics",
         "Damping",
@@ -1284,24 +1281,24 @@
       ],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "label": "System Concept",
+          "content": "Designed an impact-mitigation system around springs and dampers so an egg could survive drops from increasing heights."
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "label": "Variable Damping Geometry",
+          "content": "Connected the end of the damper to a shaped track derived from the system mathematics. As the structure compressed, the track changed how the damper was actuated with the goal of keeping egg acceleration as low as possible."
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "label": "Manufacturing",
+          "content": "Fabricated the structure using laser-cut wood and assembled the spring-damper mechanism and shaped tracks."
         },
         {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "label": "Testing & Reality vs. Model",
+          "content": "The ideal analysis assumed behavior such as a frictionless track, while the physical system introduced imperfections that changed the response. During competition, a corner of the structure broke on impact and absorbed a large amount of energy—effectively acting as sacrificial structure—and the egg survived."
         },
         {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "label": "Outcome",
+          "content": "Placed second in the competition. The result highlighted both the value and limitations of idealized dynamics models when implemented in imperfect physical hardware."
         }
       ]
     },
@@ -1310,8 +1307,8 @@
       "title": "Parametric Abaqus Unit-Cell Compression Model",
       "org": "Computational Mechanics",
       "summary": "Python-driven Abaqus model varying side count, radius, and height to study compression response.",
-      "desc": "A parametric finite-element workflow for studying how geometric parameters affect a unit cell under compression. Geometry generation and analysis were automated to enable systematic comparison.",
-      "contrib": "Built the Python-based parametric Abaqus workflow and enabled variation of number of sides, radius, and height for comparative analysis.",
+      "desc": "A parametric Abaqus compression model for studying how unit-cell geometry affects mechanical response. A Python-based geometry system allowed the number of sides, radius, and height to be varied systematically.",
+      "contrib": "Developed the Python-driven parametric geometry and compression model, representing cell edges as spring-like structural members and enabling controlled comparison across geometric configurations.",
       "tags": [
         "Abaqus",
         "Python",
@@ -1341,24 +1338,20 @@
       ],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "label": "Model Architecture",
+          "content": "Developed a compression model in Abaqus that represents the unit-cell edges as individual spring-like structural members."
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "label": "Python Parametric Geometry",
+          "content": "Built a Python-based geometry workflow so the model could be varied programmatically rather than rebuilt manually."
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "label": "Design Variables",
+          "content": "Made the number of sides, radius, and height controllable parameters so their influence on compression behavior could be compared systematically."
         },
         {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
-        },
-        {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "label": "Analysis",
+          "content": "Used the parameterized model to compare the efficacy and mechanical response of unit-cell configurations as the selected geometric variables changed."
         }
       ]
     },
@@ -2251,8 +2244,8 @@
       "title": "StockSmart — Wyss Institute Storage Solution",
       "org": "Semester-Long Class Design Project",
       "summary": "A new storage solution designed for the Wyss Institute at Harvard to address problems caused by disproportionate billing.",
-      "desc": "StockSmart was a semester-long design project developed for the Wyss Institute at Harvard. The project focused on redesigning how materials or supplies were stored and managed in response to problems the institute was experiencing with disproportionate billing. The team worked through the design process from problem definition and stakeholder needs to concept development and a final proposed storage solution.",
-      "contrib": "Contributed to the semester-long engineering design process, including understanding the client problem, developing and evaluating concepts, refining the storage-system design, and preparing the final technical documentation and presentation.",
+      "desc": "A semester-long client-driven design project for the Wyss Institute focused on an inefficient stock-room system that could cause labs to be billed disproportionately relative to the supplies they actually used.",
+      "contrib": "Helped conduct client and problem research, evaluate multiple possible problem statements, and develop StockSmart: an NFC-based inventory workflow using pre-programmed phones, a front-end application, and a back-end website designed to remain adaptable as stock-room supplies change.",
       "tags": [
         "Product Design",
         "Client-Based Design",
@@ -2286,24 +2279,20 @@
       ],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "label": "Client Research & Problem Definition",
+          "content": "Conducted research on the Wyss Institute and its stock-room workflow to identify problems where an engineering design intervention could be useful. The team considered multiple possible problem statements before focusing on disproportionate billing and inventory tracking."
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "label": "System Concept",
+          "content": "Developed StockSmart as a replacement inventory workflow centered on NFC chip scanning and pre-programmed phones."
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "label": "Front-End / Back-End System",
+          "content": "The proposed solution included a developed front-end application and supporting back-end website to connect user interactions with stock-room records."
         },
         {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
-        },
-        {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "label": "Adaptability",
+          "content": "Designed the system around future maintainability so inventory items and supplies could be updated as the stock room changes rather than requiring a fixed one-time implementation."
         }
       ]
     },
@@ -2361,8 +2350,8 @@
       "title": "Infrared Imaging as an Indicator of Plant Drought Stress",
       "org": "Heat Transfer",
       "summary": "Two-week experiment using six fern plants, controlled watering levels, and daily IR imaging to investigate whether thermal imagery can reveal drought stress before plant death.",
-      "desc": "My partner and I conducted a two-week heat-transfer experiment using six fern plants that received different amounts of water. We captured infrared images of the plants each day and compared their thermal behavior over time to investigate whether IR imaging could serve as an early indicator of drought stress before visible decline or plant death.",
-      "contrib": "Co-designed and conducted the experiment, maintained the different watering conditions, collected daily infrared images for two weeks, and analyzed the resulting temperature patterns to evaluate whether thermal imaging could indicate drought stress early.",
+      "desc": "A semester-long heat-transfer investigation into whether infrared imaging could serve as an indicator of plant drought stress. After an initial field-based concept produced too little controlled variation, the project was redesigned as a controlled fern experiment.",
+      "contrib": "Co-developed the experimental redesign, maintained controlled environmental conditions, varied water input as the independent variable, collected IR imagery as the dependent measurement, and analyzed the resulting thermal behavior.",
       "tags": [
         "Heat Transfer",
         "Infrared Imaging",
@@ -2392,24 +2381,24 @@
       ],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "label": "Initial Research Question",
+          "content": "The initial concept was to investigate trees in a natural environment for thermal signatures associated with water stress."
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "label": "Experimental Redesign",
+          "content": "Field measurements lacked sufficient control over environmental variables to produce meaningful conclusions, so the study was redesigned around six fern plants in a controlled setting."
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "label": "Controlled Variables",
+          "content": "Water amount was varied as the independent variable and IR-imaging results were treated as the dependent variable. Other factors, including temperature and light exposure, were held as consistent as possible across plants."
         },
         {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "label": "Data Collection",
+          "content": "Collected daily infrared images over the experimental period while maintaining the assigned watering conditions for each fern."
         },
         {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "label": "Analysis Goal",
+          "content": "Evaluated whether thermal-image changes could provide an early indication of drought stress before severe visible decline or plant death."
         }
       ]
     },
@@ -2514,6 +2503,34 @@
         {
           "label": "Design Problems & Resolutions",
           "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+        }
+      ]
+    },
+    "modular-test-stand": {
+      "type": "ROCKET TEST INFRASTRUCTURE",
+      "title": "Modular Rocket Test Stand",
+      "org": "Harvard Undergraduate Aerospace Collective — Rocketry",
+      "summary": "In-progress modular test-stand concept intended to support multiple future static-fire configurations.",
+      "desc": "An in-progress test-infrastructure project intended to create a single modular stand that can be reconfigured for multiple future rocket static fires rather than building a new stand for each vehicle.",
+      "contrib": "Developed early concepts for a vice-like adjustable rocket restraint, configurable mounting interfaces, and a translating support structure that can be repositioned and then mechanically locked in place.",
+      "tags": [
+        "Test Infrastructure",
+        "Mechanical Design",
+        "Concept Development",
+        "Rocketry"
+      ],
+      "result": "In progress — design phase",
+      "images": [
+        {
+          "src": "assets/images/clubs/HUAC-R/Modular-Test-Stand/modular-test-stand-1.jpg",
+          "caption": ""
+        }
+      ],
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Current Concept",
+          "content": "The current concept uses a vice-like adjustable restraint for the rocket, multiple clearance holes and fastener locations for configurable mounting, and a mounting section that can translate linearly. Early concepts use spring-ball locating features similar to tent-pole mechanisms for adjustment, followed by positive bolting once the desired position is set."
         }
       ]
     }
