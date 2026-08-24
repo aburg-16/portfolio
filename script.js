@@ -10,6 +10,24 @@ const esc = (value='') => String(value).replace(/[&<>'"]/g, c => ({'&':'&amp;','
 const imageSrc = item => typeof item === 'string' ? item : (item && item.src) || '';
 const imageCaption = item => typeof item === 'object' && item ? (item.caption || '') : '';
 
+function detailGalleryIndices(detail){
+  if(!detail || typeof detail!=='object') return [];
+  const explicit=Array.isArray(detail.galleryImages) ? detail.galleryImages.map(Number).filter(Number.isInteger) : [];
+  if(explicit.length) return explicit;
+  const start=Number(detail.galleryStart);
+  return Number.isInteger(start) ? [start] : [];
+}
+function jumpGalleryForDetail(detail){
+  const indices=detailGalleryIndices(detail);
+  if(!indices.length || !currentGallery.length) return false;
+  const idx=indices.find(i=>i>=0 && i<currentGallery.length);
+  if(idx===undefined) return false;
+  currentImageIndex=idx;
+  renderGallery();
+  return true;
+}
+function isMobileProjectView(){ return window.matchMedia('(max-width: 620px)').matches; }
+
 async function loadContent(){
   const res = await fetch('content.json', {cache:'no-store'});
   if(!res.ok) throw new Error(`Could not load content.json (${res.status})`);
@@ -122,53 +140,62 @@ function renderDetailText(value){
   if(!text) return '<p class="detail-placeholder">Add this section in <code>content.json</code>.</p>';
   return text.split(/\n\s*\n/).map(par=>`<p>${esc(par).replace(/\n/g,'<br>')}</p>`).join('');
 }
-function renderProjectTab(tabKey){
+function projectSectionId(index){ return `project-section-${index}`; }
+function renderProjectContents(){
   if(!currentProject) return;
-  currentProjectTab=tabKey;
   const p=currentProject;
   const tabs=deepDiveTabs(p);
-  $$('.modal-tab-button').forEach(btn=>{
-    const active=btn.dataset.tab===tabKey;
-    btn.classList.toggle('active',active);
-    btn.setAttribute('aria-selected',active?'true':'false');
-    btn.tabIndex=active?0:-1;
-  });
+  const attachments=p.attachments||[];
+  const nav=$('.modal-tabs');
+  nav.innerHTML=`<a class="modal-tab-button active" href="#project-overview" data-section-index="overview">Overview</a>${tabs.map((t,i)=>`<a class="modal-tab-button" href="#${projectSectionId(i)}" data-section-index="${i}">${esc(t.label)}</a>`).join('')}`;
   const panel=$('.modal-tab-content');
-  if(tabKey==='overview'){
-    const attachments=p.attachments||[];
-    panel.innerHTML=`
+  panel.innerHTML=`
+    <section id="project-overview" class="project-scroll-section project-overview-section" data-section-index="overview">
+      <div class="section-anchor-label">Overview</div>
       <div class="overview-grid">
         <section class="modal-section overview-description"><h3>Description</h3><p>${esc(p.desc||'')}</p></section>
         <section class="modal-section"><h3>My Contribution</h3><p>${esc(p.contrib||'')}</p></section>
         <section class="modal-section"><h3>Outcome</h3><p>${esc(p.result||'')}</p></section>
         <section class="modal-section"><h3>Technical Toolkit</h3><div class="tags modal-tags">${(p.tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div></section>
         ${attachments.length?`<section class="modal-section"><h3>Project Documents</h3><div class="attachment-row">${attachments.map(a=>`<a class="attachment-link" href="${esc(a[1])}" target="_blank" rel="noopener">${esc(a[0])} ↗</a>`).join('')}</div></section>`:''}
-      </div>`;
-    return;
+      </div>
+    </section>
+    ${tabs.map((detail,i)=>`<section id="${projectSectionId(i)}" class="project-scroll-section deep-dive-panel" data-section-index="${i}"><div class="deep-dive-kicker">Project Deep Dive</div><h3>${esc(detail.label)}</h3><div class="deep-dive-content">${renderDetailText(detail.content)}</div></section>`).join('')}`;
+
+  const setActiveLink=(index)=>{
+    $$('.modal-tab-button',nav).forEach(link=>link.classList.toggle('active',String(link.dataset.sectionIndex)===String(index)));
+  };
+
+  $$('.modal-tab-button',nav).forEach(link=>link.addEventListener('click',e=>{
+    e.preventDefault();
+    const index=link.dataset.sectionIndex;
+    const target=$(link.getAttribute('href'), panel);
+    if(target) target.scrollIntoView({behavior:'smooth',block:'start'});
+    setActiveLink(index);
+    if(index==='overview'){
+      if(currentGallery.length){ currentImageIndex=0; renderGallery(); }
+    } else {
+      const detail=tabs[Number(index)];
+      jumpGalleryForDetail(detail);
+    }
+  }));
+
+  if(window.__projectSectionObserver) window.__projectSectionObserver.disconnect();
+  if(!isMobileProjectView() && 'IntersectionObserver' in window){
+    const root=$('.modal-copy') || null;
+    window.__projectSectionObserver=new IntersectionObserver(entries=>{
+      const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>b.intersectionRatio-a.intersectionRatio)[0];
+      if(!visible) return;
+      const index=visible.target.dataset.sectionIndex;
+      setActiveLink(index);
+      if(index==='overview') return;
+      const detail=tabs[Number(index)];
+      jumpGalleryForDetail(detail);
+    },{root,rootMargin:'-18% 0px -55% 0px',threshold:[0.05,0.2,0.5]});
+    $$('.project-scroll-section',panel).forEach(section=>window.__projectSectionObserver.observe(section));
   }
-  const index=Number(tabKey.replace('detail-',''));
-  const detail=tabs[index];
-  if(!detail){panel.innerHTML='';return;}
-  panel.innerHTML=`<article class="deep-dive-panel"><div class="deep-dive-kicker">Project Deep Dive</div><h3>${esc(detail.label)}</h3><div class="deep-dive-content">${renderDetailText(detail.content)}</div></article>`;
 }
-function renderProjectTabs(){
-  const tabs=deepDiveTabs(currentProject);
-  const nav=$('.modal-tabs');
-  nav.innerHTML=`<button class="modal-tab-button active" type="button" role="tab" aria-selected="true" data-tab="overview">Overview</button>${tabs.map((t,i)=>`<button class="modal-tab-button" type="button" role="tab" aria-selected="false" tabindex="-1" data-tab="detail-${i}">${esc(t.label)}</button>`).join('')}`;
-  $$('.modal-tab-button',nav).forEach(btn=>btn.addEventListener('click',()=>renderProjectTab(btn.dataset.tab)));
-  nav.addEventListener('keydown',e=>{
-    if(!['ArrowLeft','ArrowRight','Home','End'].includes(e.key)) return;
-    const buttons=$$('.modal-tab-button',nav); if(!buttons.length) return;
-    let i=buttons.indexOf(document.activeElement);
-    if(i<0) i=0;
-    if(e.key==='ArrowRight') i=(i+1)%buttons.length;
-    if(e.key==='ArrowLeft') i=(i-1+buttons.length)%buttons.length;
-    if(e.key==='Home') i=0;
-    if(e.key==='End') i=buttons.length-1;
-    e.preventDefault(); buttons[i].focus(); buttons[i].click();
-  });
-  renderProjectTab('overview');
-}
+function renderProjectTabs(){ renderProjectContents(); }
 function openProject(id){
   const p=CONTENT.projects[id]; if(!p) return;
   currentProject=p;
@@ -179,7 +206,7 @@ function openProject(id){
   currentGallery=p.images||[]; currentImageIndex=0; renderGallery();
   $('.modal-backdrop').classList.add('open'); document.body.classList.add('modal-open');
 }
-function closeProject(){ $('.modal-backdrop').classList.remove('open'); document.body.classList.remove('modal-open'); }
+function closeProject(){ if(window.__projectSectionObserver) window.__projectSectionObserver.disconnect(); $('.modal-backdrop').classList.remove('open'); document.body.classList.remove('modal-open'); }
 function renderGallery(){
   const g=$('.gallery');
   if(!currentGallery.length){g.innerHTML='<div class="gallery-placeholder">Add project images in content.json</div>';return;}

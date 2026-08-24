@@ -143,3 +143,23 @@ Example:
 ]
 ```
 Leave `caption` blank if you do not want text under a gallery image.
+
+
+## Linking deep-dive sections to gallery images
+Each `deepDive` item now supports two optional fields:
+
+```json
+{
+  "label": "Testing Results",
+  "content": "...",
+  "galleryStart": 7,
+  "galleryImages": [7, 8, 9]
+}
+```
+
+- `galleryStart`: zero-based image index to jump to when that section becomes active.
+- `galleryImages`: optional list of zero-based related image indices. If present, the first valid index is used as the section's starting image.
+- The first project image is index `0`, the second is `1`, etc.
+- Desktop: scrolling into a deep-dive section automatically changes the gallery image.
+- Mobile: normal scrolling does not move the gallery; tapping a contents link changes the gallery.
+- Overview returns the gallery to image `0` when tapped.

@@ -425,19 +425,27 @@
       "deepDive": [
         {
           "label": "Analytical Development",
-          "content": "Review of the propulsion math and simulations used to support the regeneratively cooled engine design."
+          "content": "Review of the propulsion math and simulations used to support the regeneratively cooled engine design.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD Development",
-          "content": "Review of CAD development and mechanical implementation as the engine architecture progressed."
+          "content": "Review of CAD development and mechanical implementation as the engine architecture progressed.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Manufacturing",
-          "content": "Manufacturing planning and hardware development for the student-designed engine, including consideration of the additively manufactured combustion-chamber approach."
+          "content": "Manufacturing planning and hardware development for the student-designed engine, including consideration of the additively manufactured combustion-chamber approach.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Design Reviews",
-          "content": "Acted as the primary reviewer for ongoing design work, reviewing calculations, simulations, CAD, and overall project progress."
+          "content": "Acted as the primary reviewer for ongoing design work, reviewing calculations, simulations, CAD, and overall project progress.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -465,23 +473,33 @@
       "deepDive": [
         {
           "label": "Concept Design",
-          "content": "Met with an alumni mentor to define what the telemetry payload needed to accomplish and translated those requirements into an initial electronics and packaging concept."
+          "content": "Met with an alumni mentor to define what the telemetry payload needed to accomplish and translated those requirements into an initial electronics and packaging concept.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Prototyping & Testing",
-          "content": "The first system was assembled on a breadboard and tested outdoors at Harvard SEC. Later validation requirements included making the system robust enough to tolerate aggressive field testing, including operation while held outside a moving vehicle."
+          "content": "The first system was assembled on a breadboard and tested outdoors at Harvard SEC. Later validation requirements included making the system robust enough to tolerate aggressive field testing, including operation while held outside a moving vehicle.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "V1",
-          "content": "V1 used independently wired and soldered components on a protoboard. The protoboard was secured in a PLA housing with press-fit hex nuts. A separate battery compartment used Velcro routed through 3D-printed rings, while dedicated openings provided access for the antenna, GPS module, and battery wiring. A corresponding receiver enclosure provided a cable connection for data transmission."
+          "content": "V1 used independently wired and soldered components on a protoboard. The protoboard was secured in a PLA housing with press-fit hex nuts. A separate battery compartment used Velcro routed through 3D-printed rings, while dedicated openings provided access for the antenna, GPS module, and battery wiring. A corresponding receiver enclosure provided a cable connection for data transmission.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "V1 Feedback",
-          "content": "Testing showed that the wired connections and overall assembly were too mechanically fragile for the intended field environment, motivating a more robust electrical architecture and enclosure revision."
+          "content": "Testing showed that the wired connections and overall assembly were too mechanically fragile for the intended field environment, motivating a more robust electrical architecture and enclosure revision.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "V2",
-          "content": "V2 replaced the individually wired protoboard architecture with a custom PCB to eliminate weak soldered wire connections. The battery was moved outside the enclosure for easier use, the GPS hardware was secured more robustly, external clearances were increased, and the lid and enclosure lip were thickened to improve the slide-on cover."
+          "content": "V2 replaced the individually wired protoboard architecture with a custom PCB to eliminate weak soldered wire connections. The battery was moved outside the enclosure for easier use, the GPS hardware was secured more robustly, external clearances were increased, and the lid and enclosure lip were thickened to improve the slide-on cover.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -541,35 +559,51 @@
       "deepDive": [
         {
           "label": "Subsystem Assembly",
-          "content": "Assembled the servo-actuated ball valves for LOX and fuel, worked on the fuel and LOX bulkheads and their interface-ring connections, assembled the engine, and assembled the avionics sled."
+          "content": "Assembled the servo-actuated ball valves for LOX and fuel, worked on the fuel and LOX bulkheads and their interface-ring connections, assembled the engine, and assembled the avionics sled.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Full-System Assembly",
-          "content": "Oversaw propellant-piston installation and the full integration and assembly of the rocket, bringing the individual fluids, propulsion, avionics, and structural subsystems together."
+          "content": "Oversaw propellant-piston installation and the full integration and assembly of the rocket, bringing the individual fluids, propulsion, avionics, and structural subsystems together.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Test Stand Concept",
-          "content": "Developed the concept for a high-factor-of-safety static-fire stand. The installation used a buried bucket of concrete as the primary ground anchor and was planned around securely restraining the vehicle during firing."
+          "content": "Developed the concept for a high-factor-of-safety static-fire stand. The installation used a buried bucket of concrete as the primary ground anchor and was planned around securely restraining the vehicle during firing.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Test Stand CAD",
-          "content": "The final CAD model for the Sphinx test stand was produced by another team member. My role was concept development and then manufacturing, assembly, installation, and integration of the stand."
+          "content": "The final CAD model for the Sphinx test stand was produced by another team member. My role was concept development and then manufacturing, assembly, installation, and integration of the stand.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Test Stand Manufacturing",
-          "content": "Manufactured the test stand hardware and prepared the structure for field installation."
+          "content": "Manufactured the test stand hardware and prepared the structure for field installation.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Test Stand Assembly",
-          "content": "Assembled the test stand in preparation for installation at the team test site."
+          "content": "Assembled the test stand in preparation for installation at the team test site.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Test Stand Integration",
-          "content": "Installed the stand in two stages at the test site and integrated the rocket onto the stand for static-fire operations."
+          "content": "Installed the stand in two stages at the test site and integrated the rocket onto the stand for static-fire operations.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Static Fire",
-          "content": "The rocket was secured to the stand for static-fire testing. A previous attempt was unsuccessful because of poor sealing in the fluids system; the team planned another static fire for Fall 2026."
+          "content": "The rocket was secured to the stand for static-fire testing. A previous attempt was unsuccessful because of poor sealing in the fluids system; the team planned another static fire for Fall 2026.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -600,7 +634,9 @@
       "deepDive": [
         {
           "label": "Current Development",
-          "content": "Developed the project Gantt chart and design specifications and reviewed the relevant competition rules, literature, and prior team designs. The next planned work is CAD and OpenRocket development, followed by material ordering. Competition is planned for June 2027."
+          "content": "Developed the project Gantt chart and design specifications and reviewed the relevant competition rules, literature, and prior team designs. The next planned work is CAD and OpenRocket development, followed by material ordering. Competition is planned for June 2027.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -627,19 +663,27 @@
       "deepDive": [
         {
           "label": "Assembly",
-          "content": "Assembled an Apogee Zephyr high-power rocket and prepared it for certification flight."
+          "content": "Assembled an Apogee Zephyr high-power rocket and prepared it for certification flight.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD / Reverse Engineering",
-          "content": "Developed reverse-engineered SolidWorks CAD for the Zephyr to support a lower-cost team certification fleet. Where direct dimensions were unavailable, I used photographs and image ratios to estimate geometric dimensions."
+          "content": "Developed reverse-engineered SolidWorks CAD for the Zephyr to support a lower-cost team certification fleet. Where direct dimensions were unavailable, I used photographs and image ratios to estimate geometric dimensions.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Manufacturing",
-          "content": "The team used laser cutting for centering rings and fins on the reverse-engineered fleet. Individual rockets were weighed and their configurations were checked before flight."
+          "content": "The team used laser cutting for centering rings and fins on the reverse-engineered fleet. Individual rockets were weighed and their configurations were checked before flight.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Launch Procedure",
-          "content": "Validated the rocket in OpenRocket, completed the certification launch sequence, recovered the vehicle successfully, and earned NAR Level 1 High Power Rocketry certification on the first launch."
+          "content": "Validated the rocket in OpenRocket, completed the certification launch sequence, recovered the vehicle successfully, and earned NAR Level 1 High Power Rocketry certification on the first launch.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -690,23 +734,33 @@
       "deepDive": [
         {
           "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -902,19 +956,27 @@
       "deepDive": [
         {
           "label": "Manufacturing",
-          "content": "Machined more than 30 rover components, with substantial work on power-transmission hardware, using both manual and CNC machining across four lathes and two mills."
+          "content": "Machined more than 30 rover components, with substantial work on power-transmission hardware, using both manual and CNC machining across four lathes and two mills.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Design for Manufacturability",
-          "content": "Reviewed rover parts and proposed changes where geometry was difficult or impossible to machine with available equipment. One coupler originally required a broached feature on one side and an internal hex on the other; I added dog-ear reliefs at the hex corners so the corners could be drilled and the remaining profile machined with a SolidWorks-generated CNC program."
+          "content": "Reviewed rover parts and proposed changes where geometry was difficult or impossible to machine with available equipment. One coupler originally required a broached feature on one side and an internal hex on the other; I added dog-ear reliefs at the hex corners so the corners could be drilled and the remaining profile machined with a SolidWorks-generated CNC program.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Assembly & Integration",
-          "content": "Worked on assembly and integration of the machined hardware into the rover and supported subsystem and full-system testing."
+          "content": "Worked on assembly and integration of the machined hardware into the rover and supported subsystem and full-system testing.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Testing & Troubleshooting",
-          "content": "Evaluated mechanical problems during testing and proposed fixes. When the differential bar had excessive play, I added an additional bearing constraint to increase rigidity. When a set-screw connection between the rocker-bogie drive system and differential suspension repeatedly loosened, I implemented Loctite to mitigate the issue."
+          "content": "Evaluated mechanical problems during testing and proposed fixes. When the differential bar had excessive play, I added an additional bearing constraint to increase rigidity. When a set-screw connection between the rocker-bogie drive system and differential suspension repeatedly loosened, I implemented Loctite to mitigate the issue.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -942,27 +1004,39 @@
       "deepDive": [
         {
           "label": "Original Design",
-          "content": "The original headset was made from laser-cut acrylic and relied heavily on duct tape for assembly and retention."
+          "content": "The original headset was made from laser-cut acrylic and relied heavily on duct tape for assembly and retention.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Structural Redesign",
-          "content": "Redesigned the headset in 3D-printed PLA using interlocking edges and captive-nut joints, then iterated again to use heat-set inserts. The rigid mechanical joints significantly improved stability, while 15% infill PLA made the assembly noticeably lighter than the 1/8-in acrylic predecessor."
+          "content": "Redesigned the headset in 3D-printed PLA using interlocking edges and captive-nut joints, then iterated again to use heat-set inserts. The rigid mechanical joints significantly improved stability, while 15% infill PLA made the assembly noticeably lighter than the 1/8-in acrylic predecessor.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Servo & Rotational Axis",
-          "content": "Connected the servo to the rotational axis using captive press-fit hex hardware and screws passing through the rotational axis into the servo-side connector."
+          "content": "Connected the servo to the rotational axis using captive press-fit hex hardware and screws passing through the rotational axis into the servo-side connector.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Mirror Retention",
-          "content": "Both mirrors were mechanically retained through friction-based interfaces. The rotating mirror fit into a slot and was constrained by four set screws; the second mirror was clamped between two flat planes tightened together during assembly."
+          "content": "Both mirrors were mechanically retained through friction-based interfaces. The rotating mirror fit into a slot and was constrained by four set screws; the second mirror was clamped between two flat planes tightened together during assembly.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Electronics & Weight Integration",
-          "content": "Added dedicated PCB screw mounting on top of the headset and replaced taped weight covers with black fabric retained by Velcro."
+          "content": "Added dedicated PCB screw mounting on top of the headset and replaced taped weight covers with black fabric retained by Velcro.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD Architecture",
-          "content": "Built the CAD using coordinated multibody geometry: a master part defined the related bodies, while individual part and assembly models were driven from that shared geometry to preserve relationships between components."
+          "content": "Built the CAD using coordinated multibody geometry: a master part defined the related bodies, while individual part and assembly models were driven from that shared geometry to preserve relationships between components.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -1035,35 +1109,51 @@
       "deepDive": [
         {
           "label": "Initial / Given Designs",
-          "content": "The initial foot-insole design used long-tail FSRs, limiting the minimum design to approximately a men’s size 7. The scoliosis-brace work likewise began from an existing sensor concept that needed to be made smaller and more practical for use."
+          "content": "The initial foot-insole design used long-tail FSRs, limiting the minimum design to approximately a men’s size 7. The scoliosis-brace work likewise began from an existing sensor concept that needed to be made smaller and more practical for use.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD Development",
-          "content": "Switched the insole to short-tail FSRs, expanding the design down to approximately a men’s size 3. Built equation-driven SolidWorks geometry so shoe size and wire-routing features changed consistently together, and modeled separate bodies for conductive-TPU electrical connections."
+          "content": "Switched the insole to short-tail FSRs, expanding the design down to approximately a men’s size 3. Built equation-driven SolidWorks geometry so shoe size and wire-routing features changed consistently together, and modeled separate bodies for conductive-TPU electrical connections.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "TPU Printing & Electronics Integration",
-          "content": "Developed multi-material printing workflows in which printing was paused so FSRs and embedded wires could be placed before being encapsulated by subsequent TPU layers. Also investigated printed-electronics approaches, including literature on colloidal silver for conductive traces."
+          "content": "Developed multi-material printing workflows in which printing was paused so FSRs and embedded wires could be placed before being encapsulated by subsequent TPU layers. Also investigated printed-electronics approaches, including literature on colloidal silver for conductive traces.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Instron Testing / Experimental Design",
-          "content": "Designed and ran force-sensor validation using an Instron. The experimental campaign included 125 trials across the FSRs, with data collected through the test setup and subsequently parsed in Excel."
+          "content": "Designed and ran force-sensor validation using an Instron. The experimental campaign included 125 trials across the FSRs, with data collected through the test setup and subsequently parsed in Excel.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Testing Results",
-          "content": "Testing showed that the conductive-TPU connection was not sufficiently robust for consistent FSR readings, introducing variability that reduced confidence in center-of-pressure calculations."
+          "content": "Testing showed that the conductive-TPU connection was not sufficiently robust for consistent FSR readings, introducing variability that reduced confidence in center-of-pressure calculations.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Serviceable Model",
-          "content": "Developed a serviceable insole version with a removable snap-on/snap-off cover so electrical connections could be accessed and adjusted instead of being permanently encapsulated."
+          "content": "Developed a serviceable insole version with a removable snap-on/snap-off cover so electrical connections could be accessed and adjusted instead of being permanently encapsulated.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Scoliosis Brace Sensor",
-          "content": "Applied similar TPU-printing and Instron-validation methods to the scoliosis-brace sensor. Explored attachment methods including Velcro, skin-sensitive semi-reusable tape, and reusable/washable tape concepts. The final design was reviewed with Baylor Scott & White, validated on the Instron, and passed to the clinical team for testing."
+          "content": "Applied similar TPU-printing and Instron-validation methods to the scoliosis-brace sensor. Explored attachment methods including Velcro, skin-sensitive semi-reusable tape, and reusable/washable tape concepts. The final design was reviewed with Baylor Scott & White, validated on the Instron, and passed to the clinical team for testing.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Future Considerations",
-          "content": "Future iterations would prioritize more robust electrical connections, potentially returning to soldered connections or connector-based approaches rather than relying on conductive TPU alone."
+          "content": "Future iterations would prioritize more robust electrical connections, potentially returning to soldered connections or connector-based approaches rather than relying on conductive TPU alone.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -1120,23 +1210,33 @@
       "deepDive": [
         {
           "label": "Prototyping",
-          "content": "Explored several concepts, including elevator/waterwheel/conveyor-style mechanisms that transported balls individually and a spiral concept with similar functionality. The final direction was an “egg-carton flipper” that prioritized quantity and could place four balls simultaneously. We demonstrated the concept first with a cardboard prototype."
+          "content": "Explored several concepts, including elevator/waterwheel/conveyor-style mechanisms that transported balls individually and a spiral concept with similar functionality. The final direction was an “egg-carton flipper” that prioritized quantity and could place four balls simultaneously. We demonstrated the concept first with a cardboard prototype.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD Development",
-          "content": "After validating the cardboard concept, I completed 100% of the CAD for the final design in SolidWorks, translating the prototype into a fully manufacturable robot assembly."
+          "content": "After validating the cardboard concept, I completed 100% of the CAD for the final design in SolidWorks, translating the prototype into a fully manufacturable robot assembly.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Manufacturing Process",
-          "content": "Manufacturing included milling molds for cast-silicone wheels, turning rotational shafts, cutting angle-bracket components on the bandsaw, and assembling the mechanical system. This project was my introduction to machining and became the starting point for my later interest in manufacturing."
+          "content": "Manufacturing included milling molds for cast-silicone wheels, turning rotational shafts, cutting angle-bracket components on the bandsaw, and assembling the mechanical system. This project was my introduction to machining and became the starting point for my later interest in manufacturing.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Testing",
-          "content": "Tested the mechanism against the Turf Wars requirements, including tennis-ball placement at multiple scoring heights and operation over the course obstacles."
+          "content": "Tested the mechanism against the Turf Wars requirements, including tennis-ball placement at multiple scoring heights and operation over the course obstacles.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Design Problems & Resolutions",
-          "content": "The main design tradeoff was scoring quantity versus individual placement precision. Rather than optimizing a one-ball-at-a-time mechanism, the final flipper architecture intentionally prioritized depositing multiple balls in a single action."
+          "content": "The main design tradeoff was scoring quantity versus individual placement precision. Rather than optimizing a one-ball-at-a-time mechanism, the final flipper architecture intentionally prioritized depositing multiple balls in a single action.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -1181,23 +1281,33 @@
       "deepDive": [
         {
           "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -1233,19 +1343,27 @@
       "deepDive": [
         {
           "label": "Structural Design",
-          "content": "Used an I-beam-inspired cross section to increase bending and compressive performance while controlling mass."
+          "content": "Used an I-beam-inspired cross section to increase bending and compressive performance while controlling mass.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Material & Manufacturing Decisions",
-          "content": "Built primarily from wood with wood-glue assembly and intentionally oriented the wood grain to avoid creating weak directions. Acrylic was incorporated into the upper section for visual appeal."
+          "content": "Built primarily from wood with wood-glue assembly and intentionally oriented the wood grain to avoid creating weak directions. Acrylic was incorporated into the upper section for visual appeal.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Instron Testing",
-          "content": "Compression-tested the completed bridge on an Instron. It sustained 16 kN, the highest absolute force in the competition."
+          "content": "Compression-tested the completed bridge on an Instron. It sustained 16 kN, the highest absolute force in the competition.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Outcome & Lessons",
-          "content": "The competition was scored by force-to-weight ratio, so the bridge placed second despite carrying the highest load. The acrylic aesthetic feature added mass without structural benefit, making it a clear lesson in aligning every design decision with the actual optimization metric."
+          "content": "The competition was scored by force-to-weight ratio, so the bridge placed second despite carrying the highest load. The acrylic aesthetic feature added mass without structural benefit, making it a clear lesson in aligning every design decision with the actual optimization metric.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -1282,23 +1400,33 @@
       "deepDive": [
         {
           "label": "System Concept",
-          "content": "Designed an impact-mitigation system around springs and dampers so an egg could survive drops from increasing heights."
+          "content": "Designed an impact-mitigation system around springs and dampers so an egg could survive drops from increasing heights.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Variable Damping Geometry",
-          "content": "Connected the end of the damper to a shaped track derived from the system mathematics. As the structure compressed, the track changed how the damper was actuated with the goal of keeping egg acceleration as low as possible."
+          "content": "Connected the end of the damper to a shaped track derived from the system mathematics. As the structure compressed, the track changed how the damper was actuated with the goal of keeping egg acceleration as low as possible.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Manufacturing",
-          "content": "Fabricated the structure using laser-cut wood and assembled the spring-damper mechanism and shaped tracks."
+          "content": "Fabricated the structure using laser-cut wood and assembled the spring-damper mechanism and shaped tracks.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Testing & Reality vs. Model",
-          "content": "The ideal analysis assumed behavior such as a frictionless track, while the physical system introduced imperfections that changed the response. During competition, a corner of the structure broke on impact and absorbed a large amount of energy—effectively acting as sacrificial structure—and the egg survived."
+          "content": "The ideal analysis assumed behavior such as a frictionless track, while the physical system introduced imperfections that changed the response. During competition, a corner of the structure broke on impact and absorbed a large amount of energy—effectively acting as sacrificial structure—and the egg survived.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Outcome",
-          "content": "Placed second in the competition. The result highlighted both the value and limitations of idealized dynamics models when implemented in imperfect physical hardware."
+          "content": "Placed second in the competition. The result highlighted both the value and limitations of idealized dynamics models when implemented in imperfect physical hardware.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -1339,19 +1467,27 @@
       "deepDive": [
         {
           "label": "Model Architecture",
-          "content": "Developed a compression model in Abaqus that represents the unit-cell edges as individual spring-like structural members."
+          "content": "Developed a compression model in Abaqus that represents the unit-cell edges as individual spring-like structural members.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Python Parametric Geometry",
-          "content": "Built a Python-based geometry workflow so the model could be varied programmatically rather than rebuilt manually."
+          "content": "Built a Python-based geometry workflow so the model could be varied programmatically rather than rebuilt manually.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Design Variables",
-          "content": "Made the number of sides, radius, and height controllable parameters so their influence on compression behavior could be compared systematically."
+          "content": "Made the number of sides, radius, and height controllable parameters so their influence on compression behavior could be compared systematically.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Analysis",
-          "content": "Used the parameterized model to compare the efficacy and mechanical response of unit-cell configurations as the selected geometric variables changed."
+          "content": "Used the parameterized model to compare the efficacy and mechanical response of unit-cell configurations as the selected geometric variables changed.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -1396,23 +1532,33 @@
       "deepDive": [
         {
           "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -1448,23 +1594,33 @@
       "deepDive": [
         {
           "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -1504,23 +1660,33 @@
       "deepDive": [
         {
           "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -1556,23 +1722,33 @@
       "deepDive": [
         {
           "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -1607,23 +1783,33 @@
       "deepDive": [
         {
           "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -1658,23 +1844,33 @@
       "deepDive": [
         {
           "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -1709,23 +1905,33 @@
       "deepDive": [
         {
           "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -1760,23 +1966,33 @@
       "deepDive": [
         {
           "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -1811,23 +2027,33 @@
       "deepDive": [
         {
           "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -1862,23 +2088,33 @@
       "deepDive": [
         {
           "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -1913,23 +2149,33 @@
       "deepDive": [
         {
           "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -1964,23 +2210,33 @@
       "deepDive": [
         {
           "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -2015,23 +2271,33 @@
       "deepDive": [
         {
           "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -2066,23 +2332,33 @@
       "deepDive": [
         {
           "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -2117,23 +2393,33 @@
       "deepDive": [
         {
           "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -2168,23 +2454,33 @@
       "deepDive": [
         {
           "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -2219,23 +2515,33 @@
       "deepDive": [
         {
           "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -2280,19 +2586,27 @@
       "deepDive": [
         {
           "label": "Client Research & Problem Definition",
-          "content": "Conducted research on the Wyss Institute and its stock-room workflow to identify problems where an engineering design intervention could be useful. The team considered multiple possible problem statements before focusing on disproportionate billing and inventory tracking."
+          "content": "Conducted research on the Wyss Institute and its stock-room workflow to identify problems where an engineering design intervention could be useful. The team considered multiple possible problem statements before focusing on disproportionate billing and inventory tracking.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "System Concept",
-          "content": "Developed StockSmart as a replacement inventory workflow centered on NFC chip scanning and pre-programmed phones."
+          "content": "Developed StockSmart as a replacement inventory workflow centered on NFC chip scanning and pre-programmed phones.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Front-End / Back-End System",
-          "content": "The proposed solution included a developed front-end application and supporting back-end website to connect user interactions with stock-room records."
+          "content": "The proposed solution included a developed front-end application and supporting back-end website to connect user interactions with stock-room records.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Adaptability",
-          "content": "Designed the system around future maintainability so inventory items and supplies could be updated as the stock room changes rather than requiring a fixed one-time implementation."
+          "content": "Designed the system around future maintainability so inventory items and supplies could be updated as the stock room changes rather than requiring a fixed one-time implementation.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -2325,23 +2639,33 @@
       "deepDive": [
         {
           "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -2382,23 +2706,33 @@
       "deepDive": [
         {
           "label": "Initial Research Question",
-          "content": "The initial concept was to investigate trees in a natural environment for thermal signatures associated with water stress."
+          "content": "The initial concept was to investigate trees in a natural environment for thermal signatures associated with water stress.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Experimental Redesign",
-          "content": "Field measurements lacked sufficient control over environmental variables to produce meaningful conclusions, so the study was redesigned around six fern plants in a controlled setting."
+          "content": "Field measurements lacked sufficient control over environmental variables to produce meaningful conclusions, so the study was redesigned around six fern plants in a controlled setting.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Controlled Variables",
-          "content": "Water amount was varied as the independent variable and IR-imaging results were treated as the dependent variable. Other factors, including temperature and light exposure, were held as consistent as possible across plants."
+          "content": "Water amount was varied as the independent variable and IR-imaging results were treated as the dependent variable. Other factors, including temperature and light exposure, were held as consistent as possible across plants.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Data Collection",
-          "content": "Collected daily infrared images over the experimental period while maintaining the assigned watering conditions for each fern."
+          "content": "Collected daily infrared images over the experimental period while maintaining the assigned watering conditions for each fern.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Analysis Goal",
-          "content": "Evaluated whether thermal-image changes could provide an early indication of drought stress before severe visible decline or plant death."
+          "content": "Evaluated whether thermal-image changes could provide an early indication of drought stress before severe visible decline or plant death.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -2434,23 +2768,33 @@
       "deepDive": [
         {
           "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -2486,23 +2830,33 @@
       "deepDive": [
         {
           "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project."
+          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design."
+          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process."
+          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned."
+          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "galleryStart": null,
+          "galleryImages": []
         },
         {
           "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them."
+          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     },
@@ -2530,7 +2884,9 @@
       "deepDive": [
         {
           "label": "Current Concept",
-          "content": "The current concept uses a vice-like adjustable restraint for the rocket, multiple clearance holes and fastener locations for configurable mounting, and a mounting section that can translate linearly. Early concepts use spring-ball locating features similar to tent-pole mechanisms for adjustment, followed by positive bolting once the desired position is set."
+          "content": "The current concept uses a vice-like adjustable restraint for the rocket, multiple clearance holes and fastener locations for configurable mounting, and a mounting section that can translate linearly. Early concepts use spring-ball locating features similar to tent-pole mechanisms for adjustment, followed by positive bolting once the desired position is set.",
+          "galleryStart": null,
+          "galleryImages": []
         }
       ]
     }
