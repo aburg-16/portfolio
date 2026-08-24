@@ -182,15 +182,15 @@
           "href": "class-projects.html"
         },
         {
-          "eyebrow": "13 PROJECTS",
-          "title": "Industry Projects",
-          "text": "Manufacturing, automation, fixture design, and production engineering at Flex.",
+          "eyebrow": "14+ PROJECTS",
+          "title": "Industry & Work Projects",
+          "text": "Manufacturing, automation, fixture design, welding, and production engineering across Flex and McCannic Shop.",
           "href": "industry-projects.html"
         },
         {
-          "eyebrow": "03 PROJECTS",
+          "eyebrow": "04 PROJECTS",
           "title": "Personal Projects",
-          "text": "CNC fabrication, vehicle restoration, and textiles.",
+          "text": "Machining, CNC fabrication, vehicle restoration, and textiles.",
           "href": "personal-projects.html"
         },
         {
@@ -313,10 +313,10 @@
       ]
     },
     "industry": {
-      "title": "Industry Projects",
-      "eyebrow": "Industry Projects",
-      "intro": "Mechanical design, production tooling, automation support, and manufacturing engineering projects completed during my internship at Flex.",
-      "note": "Project descriptions are intentionally concise until you replace them with public-safe details you are comfortable sharing. Edit those fields in content.json.",
+      "title": "Industry & Work Projects",
+      "eyebrow": "Industry & Work Projects",
+      "intro": "Mechanical design, production tooling, automation support, welding, and fabrication projects completed in industry and shop environments.",
+      "note": "The Flex section represents a larger portfolio of roughly 20 internship projects; only projects with public-safe titles/details currently have individual cards. Add the remaining project names/details in content.json as you are ready to publish them.",
       "groups": [
         {
           "title": "Flex — Mechanical Engineering Internship",
@@ -335,17 +335,24 @@
             "go-no-go",
             "gasket-placement"
           ]
+        },
+        {
+          "title": "McCannic Shop — Welding & Fabrication",
+          "projectIds": [
+            "mccannic-vehicle-mover"
+          ]
         }
       ]
     },
     "personal": {
       "title": "Personal Projects",
       "eyebrow": "Personal Projects",
-      "intro": "Hands-on projects I pursue outside formal coursework and team programs, from CNC fabrication to vehicle restoration and textiles.",
+      "intro": "Hands-on projects I pursue outside formal coursework and team programs, from machining and CNC fabrication to vehicle restoration and textiles.",
       "groups": [
         {
           "title": "Built Outside the Classroom",
           "projectIds": [
+            "machining-projects",
             "plasma",
             "vehicles",
             "textiles"
@@ -1243,17 +1250,20 @@
     "nerf": {
       "type": "ELECTRICAL / MECHATRONICS",
       "title": "Red Light–Green Light Nerf Turret",
-      "org": "Introduction to Electrical Engineering",
-      "summary": "Squid Game-inspired motion-responsive Nerf turret using PIR sensors.",
-      "desc": "A mechatronics final project inspired by the red light–green light game in Squid Game. PIR motion sensing was used to detect movement and drive the system behavior.",
-      "contrib": "Contributed to concept development, sensor integration, mechanical/electrical implementation, and final system demonstration.",
+      "org": "ES-50 · Introduction to Electrical Engineering",
+      "summary": "Squid Game-inspired Red Light–Green Light Nerf turret using five PIR sensors, Arduino logic, servos, and a rotating mechanical platform.",
+      "desc": "A Red Light–Green Light-inspired mechatronics system that used five PIR sensors to detect motion during the green-light state and command a rotating Nerf turret to aim and fire. The project combined Arduino control logic, sensor segmentation, servo actuation, laser-cut structures, acrylic, and iterative mechanical troubleshooting.",
+      "contrib": "Worked across both the electrical and mechanical systems: developed and expanded the PIR sensing logic, prototyped sensor view windows and aiming geometry, contributed to the laser-cut enclosure and rotating turret architecture, and helped troubleshoot actuator torque and late-stage mechanical failures during the SEAS Design Fair.",
       "tags": [
+        "Arduino",
         "PIR Sensors",
-        "Controls",
+        "Servo Control",
+        "Laser Cutting",
+        "Acrylic",
         "Mechatronics",
-        "Prototyping"
+        "Rapid Prototyping"
       ],
-      "result": "Course final project",
+      "result": "Functional course-final turret demonstrated at the SEAS Design Fair after rapid on-site mechanical repairs and actuator redesigns.",
       "images": [
         {
           "src": "assets/images/class/Nerf-Turret/nerf-turret-cover photo.png",
@@ -1280,32 +1290,32 @@
       ],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "label": "Control Logic & PIR Prototyping",
+          "content": "The sensing system began with Arduino code for a single PIR sensor and was expanded to five sensors. The core behavior followed a state-based structure: during green light, PIR motion could trigger turret rotation, a delay, and then the firing servo; during red light, the system remained inactive.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "label": "Mechanical Prototyping",
+          "content": "Because each PIR needed its own field of view, we first mocked up the sensor separation using Styrofoam. A paperclip was used as a simple visual indicator to verify that each sensor window was pointing in the intended direction before committing to the final structure.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "label": "CAD & Mechanical Design",
+          "content": "Laser-cut wood panels created separate PIR viewing windows and enclosed the internal circuitry. The stop lights used hinged wooden structures with acrylic disks over the LED arrays to diffuse and reflect the light. The Nerf gun sat on an acrylic disk supported by a ball-bearing track to enable turret rotation.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "label": "Actuation & Power Transmission",
+          "content": "The rotating turret and trigger were both servo-actuated. When the turret servo proved underpowered, we reduced rotating mass by adding weight-relief cuts to the acrylic support disk. For the trigger, weight reduction was not practical, so we added a gear train to increase available torque.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
           "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "content": "On the day of the SEAS Design Fair, the trigger motor exceeded its programmed limit, over-torqued, and tore off the custom attachment that interfaced with the Nerf gun. We recovered the system by drilling through both the gun and the attachment and securing them together with a zip tie. The project reinforced the need for mechanical stops, torque margin, and more deliberate transmission design; in a redesign, the turret itself would also use a gear train rather than relying primarily on weight reduction.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -1494,17 +1504,19 @@
     "controls": {
       "type": "ROBOTICS / CONTROLS",
       "title": "Friction & Backlash Compensation Test Platform",
-      "org": "Robotics",
-      "summary": "Controlled test setup for varying friction and backlash and developing a PID controller with compensation.",
-      "desc": "A controls platform designed to introduce known, adjustable amounts of friction and backlash so their impact on system response could be measured experimentally.",
-      "contrib": "Designed the experimental setup, gathered response data under controlled variation, and developed a PID controller incorporating friction and backlash compensation.",
+      "org": "ES-159 · Introduction to Robotics",
+      "summary": "Experimental controls platform that varied friction and backlash in a brushless-motor transmission, then used collected data to develop a PID controller with compensation.",
+      "desc": "For the ES-159 final project, we designed a data-collection platform that let us deliberately vary friction and backlash in the power transmission between a brushless motor and an incremental encoder. We used the measured system response to characterize how these non-idealities affected motion and then developed a PID controller that incorporated friction and backlash compensation.",
+      "contrib": "Designed and built the adjustable experimental system, helped define how friction and backlash would be introduced through the transmission, collected response data from the motor/encoder setup, analyzed the resulting behavior, and contributed to development of the compensated PID controller.",
       "tags": [
         "PID Control",
+        "Brushless Motor",
+        "Incremental Encoder",
         "Backlash",
         "Friction",
-        "Experimental Design"
+        "Experimental Controls"
       ],
-      "result": "Course final project",
+      "result": "Course final project demonstrating data-driven friction and backlash compensation in closed-loop control.",
       "images": [
         {
           "src": "assets/images/class/Friction-Backlash-Controller/controls-1.jpg",
@@ -1531,32 +1543,32 @@
       ],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "label": "System Architecture",
+          "content": "Developed a test platform centered on a brushless motor and incremental encoder, with a power-transmission arrangement that could be changed to introduce controlled amounts of friction and backlash.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "label": "Experimental Design",
+          "content": "Structured the system so friction and backlash could be varied independently enough to observe their effect on the measured response rather than treating them only as theoretical disturbances.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "label": "Data Collection",
+          "content": "Collected motor/encoder response data across the different mechanical conditions to build an empirical picture of how the system changed as friction and backlash increased.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "label": "Controller Development",
+          "content": "Used the measured data to develop a PID controller and augment it with compensation terms intended to reduce the effects of friction and backlash in the physical system.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "label": "Validation & Lessons",
+          "content": "Compared system response under different mechanical conditions and used the results to evaluate how well the compensation strategy addressed real transmission non-idealities.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -1566,16 +1578,20 @@
       "type": "CNC / FABRICATION · IN PROGRESS",
       "title": "3-Axis CNC Plasma Cutter",
       "org": "Personal Project",
-      "summary": "Arduino/GRBL-controlled 3-axis CNC plasma system with NEMA motors and a removable commercial torch.",
-      "desc": "A custom CNC plasma cutting platform designed around a removable off-the-shelf plasma torch so the torch can be used both within and independently of the CNC system.",
-      "contrib": "Designed the mechanical housing and motion system, integrated NEMA motors and Arduino/GRBL controls, and designed a removable torch mount.",
+      "summary": "In-progress 3-axis CNC plasma cutter using a removable hand torch, belt-driven NEMA axes, V-slot/8020 motion hardware, Arduino/GRBL controls, and planned automatic torch-height probing.",
+      "desc": "An in-progress custom 3-axis CNC plasma cutter designed around a standard removable hand-held plasma torch. The machine is intended to automate XY cutting and Z-axis focus while preserving the torch's ability to be removed and used independently. The control architecture uses Arduino/GRBL, while the user interface is planned to be hosted through a GitHub repository.",
+      "contrib": "Designed the machine architecture, motion system, removable torch integration, 3D-printed components, Z-axis focus concept, and controls approach. I am also developing the Arduino/GRBL workflow and the planned user interface.",
       "tags": [
         "GRBL",
         "Arduino",
-        "NEMA Motors",
-        "CNC"
+        "NEMA Stepper Motors",
+        "8020 Extrusion",
+        "V-Slot Wheels",
+        "Lead Screw",
+        "CNC",
+        "3D Printing"
       ],
-      "result": "Active personal build",
+      "result": "Active personal build; target completion December 2026.",
       "images": [
         {
           "src": "assets/images/personal/CNC-Plasma-Cutter/plasma-1.jpg",
@@ -1593,32 +1609,44 @@
       "attachments": [],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "label": "System Concept",
+          "content": "The machine uses a standard hand-held plasma torch mounted to the CNC end effector so the torch can be removed and used independently. The goal is to gain CNC capability without permanently modifying or dedicating the existing plasma cutter.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "label": "Mechanical Architecture",
+          "content": "All three axes use belt-driven motion with V-slot wheels riding on aluminum extrusion and NEMA stepper motors providing actuation. Custom structural and interface parts are designed for 3D-printed PLA, while the aluminum extrusion is cut to length for the frame.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "label": "Z-Axis & Torch Height",
+          "content": "The end effector includes a motor-driven lead-screw linear actuator for focus/height adjustment. The planned automatic-focus workflow uses material thickness as an input and adds a probing sensor on the Z axis to establish the work surface.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "label": "Controls & GRBL",
+          "content": "Machine motion is programmed around Arduino and the GRBL controller. The interface is planned to accept job/material information and coordinate axis motion through the standard GRBL workflow.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "label": "Plasma-Cutter Integration",
+          "content": "Because the plasma cutter cannot be electrically modified, the software will recommend torch settings based on the selected material and thickness, but the user will set those parameters manually. The machine can indicate when it is ready to cut, while plasma ignition remains a separate manual action.",
+          "galleryStart": null,
+          "galleryImages": []
+        },
+        {
+          "label": "User Interface",
+          "content": "The planned user interface will be hosted from a GitHub repository and will provide a cleaner front end for machine setup, material inputs, and the CNC workflow.",
+          "galleryStart": null,
+          "galleryImages": []
+        },
+        {
+          "label": "Current Status",
+          "content": "Mechanical design and manufacturing are underway. The current target is to complete the machine by December 2026, followed by calibration, probing integration, and cutting validation.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -1694,16 +1722,18 @@
       "type": "TEXTILES",
       "title": "Crochet & Sewing",
       "org": "Personal Project",
-      "summary": "Textile projects exploring patterning, construction methods, materials, and hands-on fabrication.",
-      "desc": "A collection of crochet and sewing projects extending my interest in making and fabrication into flexible materials and textile construction.",
-      "contrib": "Design, pattern interpretation, material selection, sewing, crochet, finishing, and iteration across personal projects.",
+      "summary": "Ongoing crochet, sewing, embroidery, repair, and upcycling projects focused on practical making and textile fabrication.",
+      "desc": "Textile work is one of my main creative outlets outside traditional engineering. I recently learned crochet and regularly sew, repair, alter, embroider, and upcycle clothing and functional items.",
+      "contrib": "Independently select materials and techniques, interpret or adapt patterns, crochet finished objects, repair and alter garments, incorporate embroidery into mixed-media gifts, and design functional sewn items for specific users and needs.",
       "tags": [
-        "Sewing",
         "Crochet",
-        "Patterning",
-        "Fabrication"
+        "Sewing",
+        "Embroidery",
+        "Upcycling",
+        "Garment Alteration",
+        "Patterning"
       ],
-      "result": "Ongoing",
+      "result": "Ongoing personal practice with both decorative and functional projects.",
       "images": [
         {
           "src": "assets/images/personal/Textiles/textiles-1.jpg",
@@ -1721,32 +1751,32 @@
       "attachments": [],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "label": "Crochet",
+          "content": "Recently learned crochet and completed a turtle and a cat. Current stitches include single crochet, double crochet, half-double crochet, and the magic circle. Planned projects include a top, hat, scarf, and gifts for my nieces.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "label": "Sewing & Repair",
+          "content": "I sew regularly, often to repair clothing and extend its usable life. I also make functional modifications when an existing garment or item does not fit or work the way I want.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "label": "Upcycling & Alterations",
+          "content": "I enjoy modifying thrifted clothing. For example, I converted halter-style tops by cutting and hemming the back around the neck strap so the garment could tie in place and become more adjustable.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "label": "Embroidery & Mixed Media",
+          "content": "I have incorporated embroidery into mixed-media art and gifts, including a handmade present for my grandmother.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "label": "Functional Projects",
+          "content": "Upcoming work includes a protective sleeve for my sister, who is a dog groomer and needs a barrier for skin protection at work, as well as replacing the straps on a backpack purchased from Goodwill.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -2613,17 +2643,18 @@
     "square-pendulum": {
       "type": "PHYSICS / WAVE PHENOMENA",
       "title": "Square Pendulum Normal Modes",
-      "org": "Physics of Wave Phenomena",
-      "summary": "Experimental study of a square pendulum system to identify and characterize its normal modes.",
-      "desc": "A wave-phenomena class project centered on a square pendulum. The project investigated the coupled motion of the system and worked to identify the distinct normal modes that govern its behavior.",
-      "contrib": "Contributed to building and testing the square-pendulum setup, collecting observations and measurements, analyzing the system response, and identifying the normal modes for the final presentation.",
+      "org": "Physics 15C · Wave Phenomena",
+      "summary": "Combined analytical, MATLAB, and physical modeling study of the normal modes of a square pendulum system.",
+      "desc": "A Wave Phenomena project investigating the normal modes of a square pendulum rather than a conventional single pendulum. We developed a mathematical model in MATLAB, used it to predict the system's characteristic motions, and then compared those predictions with the behavior of the physical setup.",
+      "contrib": "Contributed to the mathematical formulation, MATLAB implementation, physical model, experimental observation, and comparison between predicted and measured normal-mode behavior.",
       "tags": [
-        "Wave Phenomena",
+        "MATLAB",
         "Normal Modes",
+        "Wave Phenomena",
         "Experimental Physics",
         "Dynamics"
       ],
-      "result": "Course project and presentation",
+      "result": "Course project and presentation comparing predicted and observed normal modes.",
       "images": [
         {
           "src": "assets/images/class/Square-Pendulum/wave.png",
@@ -2638,32 +2669,32 @@
       ],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "label": "Research Question",
+          "content": "Investigated how the coupled geometry of a square pendulum changes the system's normal modes relative to a standard single-pendulum model.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "label": "Mathematical Model",
+          "content": "Developed the mathematical relationships needed to predict the characteristic motions of the square-pendulum system.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "label": "MATLAB Development",
+          "content": "Implemented the model in MATLAB to generate predictions for the normal modes and provide a reference for the physical experiment.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
+          "label": "Physical Experiment",
+          "content": "Built and observed the real square-pendulum system, exciting the structure and identifying motion patterns that could be compared with the model predictions.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "label": "Model vs. Experiment",
+          "content": "Compared the predicted MATLAB behavior with the experimentally observed modes. Additional technical detail is preserved in the linked class presentation/poster.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -2885,6 +2916,120 @@
         {
           "label": "Current Concept",
           "content": "The current concept uses a vice-like adjustable restraint for the rocket, multiple clearance holes and fastener locations for configurable mounting, and a mounting section that can translate linearly. Early concepts use spring-ball locating features similar to tent-pole mechanisms for adjustment, followed by positive bolting once the desired position is set.",
+          "galleryStart": null,
+          "galleryImages": []
+        }
+      ]
+    },
+    "machining-projects": {
+      "type": "MACHINING / PERSONAL",
+      "title": "Machining Projects — Brass Hammer",
+      "org": "Personal Project",
+      "summary": "Decorative brass hammer made on a manual lathe as a turning-practice project, using stepped geometry and hand finishing to create an ornate handle profile.",
+      "desc": "A manual-lathe practice project focused on building turning skill through a small finished object. I made an ornate brass hammer with a handle inspired by candlesticks and decorative furniture legs, including a beaded profile produced through closely spaced stepped cuts and hand finishing.",
+      "contrib": "Designed the visual profile, turned the brass components manually, created the decorative handle geometry through many small diameter steps, and progressively sanded the transitions until the stepped geometry became a smooth ornamental contour.",
+      "tags": [
+        "Manual Lathe",
+        "Turning",
+        "Brass",
+        "Hand Finishing",
+        "Machining"
+      ],
+      "result": "Completed personal machining project.",
+      "images": [
+        {
+          "src": "assets/images/personal/Machining-Projects/brass-hammer-1.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/personal/Machining-Projects/brass-hammer-2.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/personal/Machining-Projects/brass-hammer-3.jpg",
+          "caption": ""
+        }
+      ],
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Design Inspiration",
+          "content": "The handle profile was inspired by the ornamental forms found in candlesticks and turned table or chair legs, rather than a purely utilitarian hammer handle.",
+          "galleryStart": null,
+          "galleryImages": []
+        },
+        {
+          "label": "Manual Turning",
+          "content": "The project was made on a manual lathe as deliberate practice in controlling diameters, shoulders, and surface finish in brass.",
+          "galleryStart": null,
+          "galleryImages": []
+        },
+        {
+          "label": "Decorative Profile",
+          "content": "I created the beaded/ornamental section as a series of very small stepped diameter changes, gradually reducing the size of the steps to approximate the intended curved profile.",
+          "galleryStart": null,
+          "galleryImages": []
+        },
+        {
+          "label": "Finishing",
+          "content": "The stepped surfaces were then sanded until the transitions blended into a continuous smooth contour, turning the discrete lathe cuts into the final decorative form.",
+          "galleryStart": null,
+          "galleryImages": []
+        }
+      ]
+    },
+    "mccannic-vehicle-mover": {
+      "type": "WELDING / FABRICATION",
+      "title": "Shop Vehicle-Moving Grill Guard",
+      "org": "McCannic Shop",
+      "summary": "MIG-welded angle-iron front attachment with tire sections used to push disabled vehicles short distances around an automotive repair shop.",
+      "desc": "A shop-fabrication project created to make it faster and easier to reposition disabled vehicles around an automotive repair facility without setting up a tow for every short movement. The device used a rigid angle-iron frame attached to the front of a shop truck, with tire sections providing a more compliant contact surface against the vehicle being moved.",
+      "contrib": "Cut, fit, and MIG-welded the angle-iron structure and helped assemble the tire-contact portions into the completed front-mounted vehicle-moving device.",
+      "tags": [
+        "MIG Welding",
+        "Angle Iron",
+        "Steel Fabrication",
+        "Automotive",
+        "Shop Tooling"
+      ],
+      "result": "Completed shop tool used to move broken-down vehicles around the repair facility.",
+      "images": [
+        {
+          "src": "assets/images/industry/McCannic-Shop/vehicle-mover-1.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/McCannic-Shop/vehicle-mover-2.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/McCannic-Shop/vehicle-mover-3.jpg",
+          "caption": ""
+        }
+      ],
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Problem & Use Case",
+          "content": "The auto-repair shop needed a quick way to move disabled vehicles short distances around the property without repeatedly setting up conventional towing equipment.",
+          "galleryStart": null,
+          "galleryImages": []
+        },
+        {
+          "label": "Concept",
+          "content": "The solution was a front-mounted steel guard on a shop truck that could contact and push another vehicle, with cut tire sections acting as compliant interfaces to reduce direct metal-to-vehicle contact.",
+          "galleryStart": null,
+          "galleryImages": []
+        },
+        {
+          "label": "Fabrication",
+          "content": "The structure was built from angle iron that was cut, fitted, and MIG-welded into the front-mounted frame.",
+          "galleryStart": null,
+          "galleryImages": []
+        },
+        {
+          "label": "Implementation",
+          "content": "Tire sections were attached to the completed guard, and the truck was then used as a practical shop vehicle mover for broken-down cars.",
           "galleryStart": null,
           "galleryImages": []
         }
