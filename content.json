@@ -57,7 +57,7 @@
       "name": "Anna Burgess",
       "headline": "Mechanical design, manufacturing, robotics, propulsion, controls, and hands-on engineering.",
       "intro": "I’m a Mechanical Engineering student at Harvard focused on taking systems from analysis and CAD through machining, assembly, testing, and iteration. My work spans liquid rocketry, robotics, computational mechanics, controls, research hardware, manufacturing, and personal fabrication.",
-      "portrait": "assets/images/cover-image/front-image.png",
+      "portrait": "assets/images/cover-image/Home-COVER.png",
       "portraitAlt": "Portrait of Anna Burgess",
       "portraitLabel": "Anna Burgess · Mechanical Engineering",
       "buttons": [
@@ -99,8 +99,9 @@
       "projectIds": [
         "sphinx",
         "urc",
-        "abaqus",
-        "auto-nest"
+        "mahi",
+        "auto-nest",
+        "rocketlink"
       ]
     },
     "skills": {
@@ -182,7 +183,7 @@
           "href": "class-projects.html"
         },
         {
-          "eyebrow": "14+ PROJECTS",
+          "eyebrow": "18+ PROJECTS",
           "title": "Industry & Work Projects",
           "text": "Manufacturing, automation, fixture design, welding, and production engineering across Flex and McCannic Shop.",
           "href": "industry-projects.html"
@@ -333,7 +334,11 @@
             "torture-test",
             "shadow-box",
             "go-no-go",
-            "gasket-placement"
+            "gasket-placement",
+            "bearing-holder",
+            "backing-stiffener",
+            "hex-driver-holder",
+            "moveable-hold-down"
           ]
         },
         {
@@ -404,53 +409,61 @@
       "type": "PROPULSION",
       "title": "Forward Unto Dawn — Regeneratively Cooled Liquid Bipropellant Engine",
       "org": "Harvard Undergraduate Aerospace Collective",
-      "summary": "Liquid bipropellant engine development centered on regenerative cooling, an additively manufactured combustion chamber, and analytical validation.",
-      "desc": "Forward Unto Dawn is a student-designed regeneratively cooled liquid bipropellant engine. The project was initially proposed in Spring 2026, then suspended as the team prioritized IREC. It later continued as an independent summer effort led by another club member.",
-      "contrib": "Managed project progress and served as the primary design reviewer during the summer continuation, reviewing propulsion math, simulations, CAD, and other engineering work as the design developed.",
+      "summary": "Internally developed regeneratively cooled liquid-engine program where my current ownership is Chief Engineer oversight, PM, design-review leadership, and test/safety process development rather than detailed propulsion design.",
+      "desc": "Forward Unto Dawn is HUAC-R’s internally developed regeneratively cooled liquid-engine program. Through the current phase, my role has been primarily Chief Engineer and project management: reviewing and signing off on technical material, organizing design reviews, challenging assumptions and risks, and developing the test/safety process. Detailed CEA/RPA, cooling, injector, structural, and chamber-CAD work belongs to the subsystem designers and is presented only as project context.",
+      "contrib": "Reviewed/approved project scope and technical material, hosted and coordinated design reviews, provided technical feedback across disciplines, and co-developed the formal cold-flow/static-fire SOP and staged test campaign. I expect to take a more direct hardware role as full-team operations resume.",
       "tags": [
         "Propulsion",
         "NASA CEA",
         "Additive Manufacturing",
         "Integration"
       ],
-      "result": "Ongoing development",
+      "result": "In progress — analytical and early hardware development underway; test campaign structured around cold-flow validation before short-duration and longer hot fires.",
       "images": [
         {
-          "src": "assets/images/clubs/HUAC-R/Forward-Unto-Dawn/fud-1.jpg",
+          "src": "assets/images/clubs/HUAC-R/Forward-Unto-Dawn/FUD-cover.png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HUAC-R/Forward-Unto-Dawn/fud-2.jpg",
+          "src": "assets/images/clubs/HUAC-R/Forward-Unto-Dawn/FUD-full CAD - top section view.png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HUAC-R/Forward-Unto-Dawn/fud-3.jpg",
+          "src": "assets/images/clubs/HUAC-R/Forward-Unto-Dawn/FUD_3DPrinted_Combustion_Chamber.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Forward-Unto-Dawn/FUD_Structure-Front.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Forward-Unto-Dawn/FUD_Structure_Back.png",
           "caption": ""
         }
       ],
       "attachments": [],
       "deepDive": [
         {
-          "label": "Analytical Development",
-          "content": "Review of the propulsion math and simulations used to support the regeneratively cooled engine design.",
+          "label": "Program Leadership & Design Reviews",
+          "content": "Serve as Chief Engineer/PM rather than the detailed propulsion designer. I review proposals, analyses, CAD/manufacturing plans, unresolved risks, and test readiness; organize and host design reviews; and use reviews as decision gates before irreversible commitments such as ordering printed hardware.\n\nMy job is to ask for evidence, challenge assumptions, verify interfaces, and decide whether risks have been sufficiently addressed—not to claim authorship of the underlying CEA, regen, injector, structural, or CAD work.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "CAD Development",
-          "content": "Review of CAD development and mechanical implementation as the engine architecture progressed.",
+          "label": "Test & Safety Process Development",
+          "content": "Co-developed the formal cold-flow/static-fire SOP, translating the engine program into a staged operational process covering assembly, mock-propellant cold flows, combined flow, controls/abort validation, igniter testing, short hot fire, longer hot fire, data collection, chemical handling, PPE, engineering controls, emergency response, and site logistics.\n\nThe test architecture deliberately retires risk before moving to more energetic stages and incorporates lessons learned from the Sphinx campaign.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Manufacturing",
-          "content": "Manufacturing planning and hardware development for the student-designed engine, including consideration of the additively manufactured combustion-chamber approach.",
+          "label": "Technical Oversight & Readiness",
+          "content": "Review scope includes performance/thermal tradeoffs, additive-manufacturing constraints, injector tolerances, feed-system architecture, instrumentation, material compatibility, hardware nonconformances, and test plans. I also require unresolved risks to remain visible rather than being buried at review.\n\nCurrent ownership boundary is explicit: program leadership, technical review, safety/test documentation, and engineering approval are mine; detailed propulsion calculations and current engine geometry are team context unless I directly contribute to them later.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Design Reviews",
-          "content": "Acted as the primary reviewer for ongoing design work, reviewing calculations, simulations, CAD, and overall project progress.",
+          "label": "Next Phase",
+          "content": "As full-team meetings and build work resume, I plan to become more directly involved in hardware integration, cold-flow execution, test-stand operations, and static-fire preparation while continuing Chief Engineer responsibilities.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -458,53 +471,111 @@
     },
     "rocketlink": {
       "type": "AVIONICS / TELEMETRY",
-      "title": "RocketLink Telemetry System",
+      "title": "RocketLink — Long-Range Rocket Telemetry System",
       "org": "Harvard Undergraduate Aerospace Collective",
-      "summary": "Long-range LoRa/GPS telemetry system developed through breadboard, protoboard, and PCB-based iterations with custom avionics housings.",
-      "desc": "RocketLink is a long-range telemetry project developed to transmit rocket position and flight data using LoRa and GPS hardware. The system evolved through multiple hardware and enclosure iterations as the team tested mechanical robustness, packaging, and field usability.",
-      "contrib": "Worked from the initial payload requirements through enclosure design and iterative hardware integration. Designed the printed housings, packaged the transmitter and receiver electronics, incorporated feedback from field testing, and revised the mechanical design between V1 and V2.",
+      "summary": "LoRa/GPS/IMU telemetry program developed from breadboard prototype through flight-adjacent packaged hardware, with my ownership spanning all mechanical enclosures plus Chief Engineer and PM responsibilities.",
+      "desc": "RocketLink transmits live rocket position and motion data to a ground station. I served as both Chief Engineer/project manager and the mechanical enclosure designer, so this project shows two levels of ownership: personally designing/manufacturing the packaging, while coordinating and reviewing the broader avionics, software, procurement, integration, and test program without claiming detailed electrical/software work as my own.",
+      "contrib": "Personally designed and 3D printed all rocket-side and ground-station enclosures. I also planned meetings and design reviews, managed the BOM/Gantt/procurement, led testing, coordinated subsystem integration, and reviewed layouts and technical decisions before hardware purchases or design freezes.",
       "tags": [
         "LoRa",
         "GPS",
         "Mechanical Packaging",
         "Avionics"
       ],
-      "result": "Flight-tested telemetry hardware",
+      "result": "Progressed from breadboard proof-of-concept to V1 packaged protoboard hardware and a more robust PCB-based V2 architecture driven by field and mechanical testing.",
       "images": [
         {
-          "src": "assets/images/clubs/HUAC-R/RocketLink/rocketlink-1.png",
+          "src": "assets/images/clubs/HUAC-R/RocketLink/Micro G Launch - w V 1.0 .JPEG",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/RocketLink/V 1.1 integration w micro G .JPEG",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/RocketLink/V1.1 transmitter and receiver units.HEIC",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/RocketLink/V2.0 transmitter unit closed.HEIC",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/RocketLink/v 2.0 transmitter unit board.HEIC",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/RocketLink/v1.0 transmitter and receiver units.HEIC",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/RocketLink/v1.0 transmitter unit.HEIC",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/RocketLink/v1.1 GPS module.HEIC",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/RocketLink/v1.1 after recovery .JPG",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/RocketLink/v1.1 antenna .HEIC",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/RocketLink/v1.1 both units w mixro G.JPEG",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/RocketLink/v1.1 internal power connection.HEIC",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/RocketLink/v1.1 receiver at micro g station.HEIC",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/RocketLink/v1.1 transmitter installed .JPG",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/RocketLink/v2..0 transmitter cad.HEIC",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/RocketLink/v2.0 integretaion w micro G.JPEG",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/RocketLink/v2.0 transmitter testing .JPEG",
           "caption": ""
         }
       ],
       "attachments": [],
       "deepDive": [
         {
-          "label": "Concept Design",
-          "content": "Met with an alumni mentor to define what the telemetry payload needed to accomplish and translated those requirements into an initial electronics and packaging concept.",
+          "label": "Requirements, Architecture & Leadership",
+          "content": "As Chief Engineer/PM, organized the project around acceptance criteria for sensor acquisition, LoRa transmission, live ground-station decoding, logging, sustained bench operation, outdoor link testing, and data plausibility. I maintained the schedule, BOM, procurement, meetings, design reviews, and integration gates.\n\nI reviewed avionics/software decisions at the system level—range, update rate, mass, vibration, throughput, interfaces, packaging, and test evidence—while leaving detailed electrical and software implementation to the members who owned those subsystems.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Prototyping & Testing",
-          "content": "The first system was assembled on a breadboard and tested outdoors at Harvard SEC. Later validation requirements included making the system robust enough to tolerate aggressive field testing, including operation while held outside a moving vehicle.",
+          "label": "Mechanical Enclosure Design — My Technical Ownership",
+          "content": "Designed all mechanical packaging for both the rocket avionics and ground station. The housings had to retain the ESP32/LoRa/GPS/IMU/battery hardware while providing antenna routing, connector and power access, cable management, transport protection, assembly access, and field usability.\n\nV1 used printed PLA housings with retained protoboard electronics and a separate battery strategy. I designed the physical interfaces around the evolving electrical layout rather than treating the enclosure as a cosmetic shell.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "V1",
-          "content": "V1 used independently wired and soldered components on a protoboard. The protoboard was secured in a PLA housing with press-fit hex nuts. A separate battery compartment used Velcro routed through 3D-printed rings, while dedicated openings provided access for the antenna, GPS module, and battery wiring. A corresponding receiver enclosure provided a cable connection for data transmission.",
+          "label": "Testing, Failure Modes & V1 Feedback",
+          "content": "Led bench, outdoor/range, integration, and mechanical robustness testing. One documented range test measured about -87 dBm RSSI at 170 m, while the mechanical validation philosophy explicitly pushed the package beyond stationary bench conditions.\n\nTesting showed that individually wired/protoboard electronics and several external interfaces were too fragile for the intended environment. We identified weak solder joints, antenna/GPS retention, battery access, connector clearance, and lid robustness as redesign drivers.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "V1 Feedback",
-          "content": "Testing showed that the wired connections and overall assembly were too mechanically fragile for the intended field environment, motivating a more robust electrical architecture and enclosure revision.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "V2",
-          "content": "V2 replaced the individually wired protoboard architecture with a custom PCB to eliminate weak soldered wire connections. The battery was moved outside the enclosure for easier use, the GPS hardware was secured more robustly, external clearances were increased, and the lid and enclosure lip were thickened to improve the slide-on cover.",
+          "label": "V2 Redesign & Operational Handoff",
+          "content": "The team transitioned toward a PCB-based architecture to reduce fragile point-to-point wiring, while I redesigned the enclosure around the revised hardware: better battery accessibility, stronger GPS/antenna retention, increased external clearances, improved USB access, and a thicker/more robust slide-on lid interface.\n\nThe project also moved toward a documented operational system with setup, pre-launch checks, telemetry viewing, logging, troubleshooting, and repeatable handoff rather than a prototype only its original builders could operate.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -512,103 +583,99 @@
     },
     "sphinx": {
       "type": "ROCKETRY / TEST",
-      "title": "Mojave Sphinx Rocket + Static Test Stand",
+      "title": "Mojave Sphinx — Liquid Bipropellant Rocket Build, Integration & Test Program",
       "org": "Harvard Undergraduate Aerospace Collective",
-      "summary": "Rocket assembly, component manufacturing, and development of a dedicated engine static-test stand.",
-      "desc": "Mojave Sphinx is a documented Half Cat Rocketry liquid rocket that the team adopted as a capability-building project after encountering roadblocks with an earlier research-heavy liquid bipropellant design. The goal was to gain practical experience in machining, fluids hardware, integration, and static-fire operations before returning to more open-ended propulsion development.",
-      "contrib": "Worked extensively on subsystem and full-vehicle assembly, including servo-actuated LOX and fuel ball valves, propellant bulkheads and interface rings, the engine, avionics sled, propellant-piston installation, and full-scale integration. Drilled the large tank body and manufactured a quick disconnect. I also developed the test-stand concept and personally manufactured, assembled, and installed the stand, although I did not create its CAD model.",
+      "summary": "Open-source Half Cat Rocketry reference build used by HUAC-R to develop hands-on liquid-rocketry capability in machining, integration, static-fire operations, and instrumented cold-flow testing.",
+      "desc": "HUAC-R built Mojave Sphinx using Half Cat Rocketry’s published HCR-5100 design and documentation. The vehicle design, analysis, drawings, original BOM, and published procedures are Half Cat Rocketry’s work; I do not claim them as original design work. Our goal was to use the reference architecture as a practical training platform and then expand our own test capability through cold-flow characterization and data acquisition.",
+      "contrib": "My work combined hands-on hardware and project leadership: machining selected hardware, assembling propulsion and avionics subsystems, leading full-vehicle integration, developing/manufacturing/installing the static-test-stand concept, participating in the first static-fire attempt, and managing the Gantt chart, meetings, material flow, procurement, task coordination, and test readiness.",
       "tags": [
         "Structures",
         "Machining",
         "Assembly",
         "Static Fire"
       ],
-      "result": "Built and tested",
+      "result": "Reference vehicle manufactured and integrated; first static-fire attempt exposed fluid-system/sealing issues. Instrumented cold-flow characterization and a second static-fire campaign are in development.",
       "images": [
+        {
+          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/HRPG-test-stand.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/HUACR - Sphinx - interface rings.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/HUACR - sphinx - compustion chamber.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/hrpg-mojave-sphinx.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/injector plate.HEIC",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/me + electrical lead working on sphinx .JPEG",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/me working on sphinx at static fire - 2.JPEG",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/me working on sphinx at static fire.JPEG",
+          "caption": ""
+        },
         {
           "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/sphinx - cover photo.png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/mojave sphinx - 1 .png",
+          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/sphinx - test stand -manufacturing - brackets.png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/mojave sphinx - 2.png",
+          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/sphinx - test stand first half of integration (buried concrete bucket).png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/sphinx - test stand -1.png",
+          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/sphinx - test stand full cad.png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/sphinx - test stand -2.png",
+          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/static fire - set up .JPEG",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/sphinx - test stand - 3.png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/sphinx - test stand - 4.png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/spinx - test stand - 5.png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/modular test stand .png",
+          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/static fire - sphinx in test stand.jpg",
           "caption": ""
         }
       ],
       "attachments": [],
       "deepDive": [
         {
-          "label": "Subsystem Assembly",
-          "content": "Assembled the servo-actuated ball valves for LOX and fuel, worked on the fuel and LOX bulkheads and their interface-ring connections, assembled the engine, and assembled the avionics sled.",
+          "label": "Build, Machining & Integration",
+          "content": "Executed the published Half Cat architecture rather than redesigning the vehicle. I drilled the tank body, manufactured a quick-disconnect component, assembled servo-actuated propellant valves, bulkheads/interface hardware, the thrust chamber and avionics sled, supported piston installation, and helped bring the individual subsystems into the full vehicle.\n\nThe most useful learning came from real integration: seals, fittings, alignment, access, interfaces, and manufacturing dependencies that are much less obvious from drawings alone.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Full-System Assembly",
-          "content": "Oversaw propellant-piston installation and the full integration and assembly of the rocket, bringing the individual fluids, propulsion, avionics, and structural subsystems together.",
+          "label": "Test Infrastructure & Static Fire",
+          "content": "Developed the concept for HUAC-R’s dedicated static-fire restraint infrastructure and personally manufactured, assembled, and helped install the stand at the test site. I then integrated the vehicle with the stand/GSE and participated directly in static-fire preparation and operations.\n\nThe first attempt was unsuccessful because of fluid-system/sealing problems. That failure became a test-program input rather than an endpoint: we identified the need for stronger pre-fire characterization and verification before the next attempt.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Test Stand Concept",
-          "content": "Developed the concept for a high-factor-of-safety static-fire stand. The installation used a buried bucket of concrete as the primary ground anchor and was planned around securely restraining the vehicle during firing.",
+          "label": "Cold-Flow Characterization",
+          "content": "HUAC-R is now extending beyond the reference build with a dedicated cold-flow campaign. The current procedure uses non-combusting fluids to exercise the integrated feed system, hold pressure, identify leaks, cycle seals/valves, and observe flow through the injector/nozzle before ignition.\n\nBefore cold flow, we plan to design and integrate a data-acquisition system so the campaign produces quantitative characterization data rather than only qualitative observations. The exact instrumentation is still being selected, so I am intentionally not claiming measurements that have not yet been implemented.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Test Stand CAD",
-          "content": "The final CAD model for the Sphinx test stand was produced by another team member. My role was concept development and then manufacturing, assembly, installation, and integration of the stand.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Test Stand Manufacturing",
-          "content": "Manufactured the test stand hardware and prepared the structure for field installation.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Test Stand Assembly",
-          "content": "Assembled the test stand in preparation for installation at the team test site.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Test Stand Integration",
-          "content": "Installed the stand in two stages at the test site and integrated the rocket onto the stand for static-fire operations.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Static Fire",
-          "content": "The rocket was secured to the stand for static-fire testing. A previous attempt was unsuccessful because of poor sealing in the fluids system; the team planned another static fire for Fall 2026.",
+          "label": "Project Leadership & Ownership",
+          "content": "Managed the project Gantt chart, meeting/build organization, material and procurement flow, task coordination, build status, and test logistics while remaining directly involved in the hardware.\n\nOwnership boundary: Half Cat owns the reference vehicle design/documentation. My technical ownership is in manufacturing, assembly/integration, test-stand implementation, testing, troubleshooting, and HUAC-R’s developing characterization process.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -629,11 +696,7 @@
       "result": "In progress — competition planned for June 2027",
       "images": [
         {
-          "src": "assets/images/clubs/HUAC-R/IREC-10K-COTS/irec-1.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HUAC-R/IREC-10K-COTS/irec-2.jpg",
+          "src": "assets/images/cover-image/Home-COVER.png",
           "caption": ""
         }
       ],
@@ -662,7 +725,19 @@
       "result": "NAR Level 1 certified",
       "images": [
         {
-          "src": "assets/images/clubs/HUAC-R/L1-Certification/L1-certification-1.png",
+          "src": "assets/images/clubs/HUAC-R/L1-Certification/L1 cert launch .PNG",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/L1-Certification/L1 certification - post rocket recovery.HEIC",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/L1-Certification/L1-cert - team w all cert rockets.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/L1-Certification/L1-certification-openrocket .png",
           "caption": ""
         }
       ],
@@ -709,31 +784,23 @@
       "result": "Program indefinitely suspended",
       "images": [
         {
-          "src": "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 - sketch 1.png",
+          "src": "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 - rocket layout sketch.png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 - sketch 2.png",
+          "src": "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 LOX bulkhead FEA (psi).png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 fea (1).png",
+          "src": "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 LOX bulkhead FEA von mises.png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 fea (2).png",
+          "src": "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 fuel bulkhead fea von mises.png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 fea (3).png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 fea (4).png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 fea (5).png",
+          "src": "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase1-bulkhead concept sketch.png",
           "caption": ""
         }
       ],
@@ -773,215 +840,119 @@
     },
     "urc": {
       "type": "ROBOTICS / MANUFACTURING",
-      "title": "University Rover Challenge — Rover Manufacturing",
+      "title": "University Rover Challenge — Manufacturing, DFM & Team Leadership",
       "org": "Harvard Undergraduate Robotics Club",
-      "summary": "Precision manufacturing for a Mars rover, including suspension and arm power-transmission hardware.",
-      "desc": "Manufacturing, DFM, integration, and troubleshooting work for a University Rover Challenge Mars rover. The rover required custom mechanical hardware across its suspension, arm, chassis, and other subsystems.",
-      "contrib": "Machined more than 30 parts, including many power-transmission components, using manual and CNC processes across four lathes and two mills. Reviewed rover parts for manufacturability, redesigned difficult features, supported integration and testing, and implemented mechanical fixes identified during system troubleshooting.",
+      "summary": "Primary machinist and team-level PM for a URC rover: completed or assisted with ~90% of robotic-arm mill/lathe parts while coordinating training, schedule, documentation, and cross-team execution.",
+      "desc": "The URC rover combined a lightweight chassis, four-wheel rocker suspension, six-DOF arm, science payload, electronics, and software. I did not personally design the entire rover or arm. My primary technical contribution was manufacturing and DFM; my broader contribution was team-level project management, manufacturing coordination, documentation, training, and cross-subsystem oversight.",
+      "contrib": "Completed or directly assisted with approximately 90% of robotic-arm components requiring mill/lathe work; provided DFM feedback and CAM solutions; supported assembly/troubleshooting; co-wrote the mechanical SAR; coordinated shop training; created/managed the full-team Gantt; documented lead meetings; delegated/tracked tasks; and led SolidWorks drawing workshops.",
       "tags": [
         "CNC Machining",
         "Power Transmission",
         "DFM",
         "Robotics"
       ],
-      "result": "Competition rover hardware",
+      "result": "Manufactured and integrated competition rover hardware; team arm validation demonstrated reliable loading up to ~7.5 kg under appropriate current/acceleration constraints.",
       "images": [
         {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc - cover photo.png",
+          "src": "assets/images/clubs/HURC/URC-Rover/HURC - COVER.png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc-full rover.png",
+          "src": "assets/images/clubs/HURC/URC-Rover/HURC-Full Rover CAD.png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HURC/URC-Rover/URC-machining.png",
+          "src": "assets/images/clubs/HURC/URC-Rover/HURC-Machined Part.png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc-machining .png",
+          "src": "assets/images/clubs/HURC/URC-Rover/More machined parts.png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc - machining .png",
+          "src": "assets/images/clubs/HURC/URC-Rover/cad - arm.png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc - machining.png",
+          "src": "assets/images/clubs/HURC/URC-Rover/cad - bogie.png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc-cad.png",
+          "src": "assets/images/clubs/HURC/URC-Rover/cad - chassis.png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc- cad - gripper.png",
+          "src": "assets/images/clubs/HURC/URC-Rover/cad - dfifernetial bar.png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (1).png",
+          "src": "assets/images/clubs/HURC/URC-Rover/cad - full rover exploded .png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (2).png",
+          "src": "assets/images/clubs/HURC/URC-Rover/cad - gripper V1.0.png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (3).png",
+          "src": "assets/images/clubs/HURC/URC-Rover/cad - gripper shit.png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (4).png",
+          "src": "assets/images/clubs/HURC/URC-Rover/cad - rocker-boige suspension.png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (5).png",
+          "src": "assets/images/clubs/HURC/URC-Rover/cad - suspension v2 (not bogie).png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (6).png",
+          "src": "assets/images/clubs/HURC/URC-Rover/cad - wheel.png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (7).png",
+          "src": "assets/images/clubs/HURC/URC-Rover/coupler - hex and keyway geometry - not machinable wo EDM .png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (8).png",
+          "src": "assets/images/clubs/HURC/URC-Rover/coupler - machined w drilled out croners.png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (9).png",
+          "src": "assets/images/clubs/HURC/URC-Rover/gripper- concept cad.png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (10).png",
+          "src": "assets/images/clubs/HURC/URC-Rover/hurc-rover-on -stand.HEIC",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (11).png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (12).png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (13).png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (14).png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (15).png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (16).png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (17).png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (18).png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (19).png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (20).png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (21).png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (22).png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (23).png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (24).png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (25).png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (26).png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (27).png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (28).png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (29).png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (30).png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (31).png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (32).png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (33).png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (34).png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HURC/URC-Rover/urc cad  (35).png",
+          "src": "assets/images/clubs/HURC/URC-Rover/hurc_me+rover + electrical lead.jpg",
           "caption": ""
         }
       ],
       "attachments": [],
       "deepDive": [
         {
-          "label": "Manufacturing",
-          "content": "Machined more than 30 rover components, with substantial work on power-transmission hardware, using both manual and CNC machining across four lathes and two mills.",
+          "label": "Precision Manufacturing & DFM",
+          "content": "Manufactured the large majority of mill/lathe hardware for the six-DOF arm, including power-transmission and interface components. Work required manual/CNC turning and milling, workholding, machining sequence planning, bearing/shaft/gearbox interfaces, fits, and translation of team drawings into physical hardware.\n\nI also reviewed designs for manufacturability. A representative coupler contained an internal hex that would effectively have required EDM; I proposed dog-ear corner reliefs so the corners could be drilled and the remaining profile CNC machined, then developed the machining approach in SolidWorks CAM.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Design for Manufacturability",
-          "content": "Reviewed rover parts and proposed changes where geometry was difficult or impossible to machine with available equipment. One coupler originally required a broached feature on one side and an internal hex on the other; I added dog-ear reliefs at the hex corners so the corners could be drilled and the remaining profile machined with a SolidWorks-generated CNC program.",
+          "label": "Assembly, Integration & Troubleshooting",
+          "content": "Supported assembly of the machined arm hardware and cross-subsystem integration with motor controllers, encoders, Jetson/Teensy hardware, and power distribution. Testing progressed from individual joints to the assembled arm, load testing, and positioning work.\n\nI also helped resolve mechanical issues discovered in use, including excessive differential-bar play and a repeatedly loosening rocker/differential set-screw connection.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Assembly & Integration",
-          "content": "Worked on assembly and integration of the machined hardware into the rover and supported subsystem and full-system testing.",
+          "label": "Project Management & Team Operations",
+          "content": "Created and managed the full-team Gantt chart across mechanical, electrical, software, science, machining, integration, and testing. Took lead-meeting notes, tracked action items and dependencies, delegated work, coordinated testing windows, and maintained systems-level awareness beyond the parts I personally machined.\n\nWorked with the Mechanical Lead to write the mechanical SAR, documenting team design rationale and validation without claiming authorship of mechanisms I did not design.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Testing & Troubleshooting",
-          "content": "Evaluated mechanical problems during testing and proposed fixes. When the differential bar had excessive play, I added an additional bearing constraint to increase rigidity. When a set-screw connection between the rocker-bogie drive system and differential suspension repeatedly loosened, I implemented Loctite to mitigate the issue.",
+          "label": "Training & Team Capacity",
+          "content": "Coordinated machine-shop training and prerequisite safety paperwork for new members, helped establish multiple shop-training pathways, and led workshops on creating manufacturing drawings from SolidWorks parts.\n\nI also helped structure onboarding projects, created the club-fair poster, and supported recruitment/onboarding so the team could build long-term CAD and manufacturing capability rather than depend on a few experienced members.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -1003,45 +974,41 @@
       "result": "Research prototype",
       "images": [
         {
-          "src": "assets/images/research/Ability-Lab/ability lab.png",
+          "src": "assets/images/research/Ability-Lab/ability lab-original design (NOT MINE).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/research/Ability-Lab/headset - final design .png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/research/Ability-Lab/headset - final desing .png",
           "caption": ""
         }
       ],
       "attachments": [],
       "deepDive": [
         {
-          "label": "Original Design",
-          "content": "The original headset was made from laser-cut acrylic and relied heavily on duct tape for assembly and retention.",
+          "label": "Problem & Architecture",
+          "content": "Redesigned an inherited balance-perturbation headset that had been built from laser-cut acrylic and duct tape. The goal was a lighter, more rigid, repeatable, and serviceable research assembly while preserving the servo-driven mirror behavior required by the experiment.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Structural Redesign",
-          "content": "Redesigned the headset in 3D-printed PLA using interlocking edges and captive-nut joints, then iterated again to use heat-set inserts. The rigid mechanical joints significantly improved stability, while 15% infill PLA made the assembly noticeably lighter than the 1/8-in acrylic predecessor.",
+          "label": "Mechanical Redesign",
+          "content": "Replaced taped acrylic construction with 3D-printed PLA, interlocking geometry, and mechanical fasteners. Iterated joints from captive nuts to heat-set inserts, added weight-relief features, and used a multibody/master-CAD strategy to preserve relationships as the design changed.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Servo & Rotational Axis",
-          "content": "Connected the servo to the rotational axis using captive press-fit hex hardware and screws passing through the rotational axis into the servo-side connector.",
+          "label": "Servo, Mirrors & Electronics Integration",
+          "content": "Redesigned the servo rotational interface, retained the moving mirror with a slot/set-screw strategy, clamped the second mirror between planar surfaces, and added dedicated PCB mounting rather than Velcro. These changes improved stability while keeping the system accessible for research use.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Mirror Retention",
-          "content": "Both mirrors were mechanically retained through friction-based interfaces. The rotating mirror fit into a slot and was constrained by four set screws; the second mirror was clamped between two flat planes tightened together during assembly.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Electronics & Weight Integration",
-          "content": "Added dedicated PCB screw mounting on top of the headset and replaced taped weight covers with black fabric retained by Velcro.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "CAD Architecture",
-          "content": "Built the CAD using coordinated multibody geometry: a master part defined the related bodies, while individual part and assembly models were driven from that shared geometry to preserve relationships between components.",
+          "label": "Outcome & Lessons",
+          "content": "The rigid printed architecture was substantially more stable and lighter than the original 1/8-inch acrylic system. The project reinforced the value of serviceable joints, controlled constraints, and master-model CAD for iterative research hardware.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -1049,116 +1016,116 @@
     },
     "mahi": {
       "type": "RESEARCH / WEARABLE SENSING",
-      "title": "Force-Sensing Wearable Hardware",
+      "title": "3D-Printed TPU Force-Sensing Hardware for Biomedical Research",
       "org": "MAHI Lab — Rice University",
-      "summary": "Equation-driven CAD and 3D-printed housings for force-sensitive resistors used in wearable sensing applications.",
-      "desc": "Research on 3D-printed TPU housings and force-sensitive-resistor integration for two wearable biomedical sensing applications: a center-of-pressure sensing foot insole and a force-quantifying scoliosis brace. The work combined equation-driven CAD, multi-material additive manufacturing, electronics integration, and Instron validation.",
-      "contrib": "Redesigned the insole and brace sensor architectures, developed equation-driven SolidWorks models, explored conductive TPU and embedded wiring, designed serviceable alternatives, and conducted extensive Instron validation. For the FSR experiment, I completed 125 trials and parsed the resulting data in Excel.",
+      "summary": "Iterative wearable-sensor research spanning equation-driven CAD, conductive/flexible TPU process development, embedded electronics, 125-trial Instron calibration, serviceability redesign, and lab process documentation.",
+      "desc": "At Rice University’s MAHI Lab, I developed customizable TPU housings for FSR-based biomedical sensing: a center-of-pressure insole and a scoliosis-brace force sensor. The work became a full design-build-test research loop involving many CAD generations, material/process characterization, embedded wiring, calibration hardware/software, failure analysis, and redesign for serviceability.",
+      "contrib": "Developed equation-driven insole CAD, iterated 9+ insole and 15+ brace-sensor revisions, tested wire-retention and conductive-TPU geometries, developed multi-material print workflows, ran ~125 FSR/Instron trials, analyzed inconsistent electrical interfaces, created two pop-on-cover revisions, and documented repeatable TPU/multimaterial workflows for future lab users.",
       "tags": [
         "SolidWorks",
         "FSR Sensors",
         "3D Printing",
         "Instron"
       ],
-      "result": "Research poster presented",
+      "result": "Validated brace-sensor embedded FSR behavior against controls; identified repeatability limitations in the fully encapsulated insole and developed a serviceable architecture; presented the work in a research poster.",
       "images": [
         {
-          "src": "assets/images/research/MAHI-Lab/MAHI -cover photo .png",
+          "src": "assets/images/research/MAHI-Lab/MAHI-instron-testing.jpg",
           "caption": ""
         },
         {
-          "src": "assets/images/research/MAHI-Lab/MAHI - 1.png",
+          "src": "assets/images/research/MAHI-Lab/all variations of the scoliosis brace .png",
           "caption": ""
         },
         {
-          "src": "assets/images/research/MAHI-Lab/MAHI -2.png",
+          "src": "assets/images/research/MAHI-Lab/integrated EE 3d printing.png",
           "caption": ""
         },
         {
-          "src": "assets/images/research/MAHI-Lab/mahi - 4.png",
+          "src": "assets/images/research/MAHI-Lab/intron testing setup .png",
           "caption": ""
         },
         {
-          "src": "assets/images/research/MAHI-Lab/mahi - 5.png",
+          "src": "assets/images/research/MAHI-Lab/mahi -  full cad - fully printed wiring w conductive TPU.png",
           "caption": ""
         },
         {
-          "src": "assets/images/research/MAHI-Lab/mahi - 6.png",
+          "src": "assets/images/research/MAHI-Lab/mahi - encaspulated electronics .png",
           "caption": ""
         },
         {
-          "src": "assets/images/research/MAHI-Lab/mahi - 7.png",
+          "src": "assets/images/research/MAHI-Lab/mahi - foot insole cad .png",
           "caption": ""
         },
         {
-          "src": "assets/images/research/MAHI-Lab/mahi - 8.png",
+          "src": "assets/images/research/MAHI-Lab/mahi - non-encaspulated scolisis sensor cad.png",
           "caption": ""
         },
         {
-          "src": "assets/images/research/MAHI-Lab/mahi - 9.png",
+          "src": "assets/images/research/MAHI-Lab/mahi - scoliosis sensor.png",
           "caption": ""
         },
         {
-          "src": "assets/images/research/MAHI-Lab/mahi - 10.png",
+          "src": "assets/images/research/MAHI-Lab/mahi - snap on cover cad.png",
           "caption": ""
         },
         {
-          "src": "assets/images/research/MAHI-Lab/mahi -  11.png",
+          "src": "assets/images/research/MAHI-Lab/mahi - soclisos sensor cad .png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/research/MAHI-Lab/mahi FSR Validation Instron Testing.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/research/MAHI-Lab/mahi original scolisosis sensor vs mine.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/research/MAHI-Lab/mahi_insole+belt - original design.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/research/MAHI-Lab/mahi_sensor_on_brace.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/research/MAHI-Lab/mahi_snap_on_cover.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/research/MAHI-Lab/me w my poster.png",
           "caption": ""
         }
       ],
       "attachments": [
         [
-          "Research Poster",
+          "MAHI Lab Poster",
           "assets/docs/research/MAHI-Lab/MAHI_Lab_Poster.pdf"
         ]
       ],
       "deepDive": [
         {
-          "label": "Initial / Given Designs",
-          "content": "The initial foot-insole design used long-tail FSRs, limiting the minimum design to approximately a men’s size 7. The scoliosis-brace work likewise began from an existing sensor concept that needed to be made smaller and more practical for use.",
+          "label": "Design Evolution & Parametric CAD",
+          "content": "Redesigned an inherited long-tail-FSR insole toward shorter-tail sensors and smaller/customizable sizing. Built equation-driven SolidWorks geometry so insole dimensions, sensor locations, and wire routing could scale together. The insole progressed through 9+ major revisions plus integrated assemblies and two serviceable-cover versions; the scoliosis-brace sensor progressed through at least V15.\n\nThe brace work similarly focused on reducing size, improving integration, and developing practical attachment strategies for brace- or skin-side use.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "CAD Development",
-          "content": "Switched the insole to short-tail FSRs, expanding the design down to approximately a men’s size 3. Built equation-driven SolidWorks geometry so shoe size and wire-routing features changed consistently together, and modeled separate bodies for conductive-TPU electrical connections.",
+          "label": "Additive Manufacturing & Embedded Electronics",
+          "content": "Developed internal wire channels, wire-retention test geometries, conductive-TPU specimens, and paused-print workflows for embedding FSRs/wires inside flexible TPU. Compared conductive materials and used small test coupons to learn faster before committing to full insole prints.\n\nI also documented Bambu H2D TPU loading/settings and a SolidWorks multibody → Save Bodies → aligned STL workflow for repeatable multi-material printing, turning trial-and-error into a lab process other researchers could reproduce.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "TPU Printing & Electronics Integration",
-          "content": "Developed multi-material printing workflows in which printing was paused so FSRs and embedded wires could be placed before being encapsulated by subsequent TPU layers. Also investigated printed-electronics approaches, including literature on colloidal silver for conductive traces.",
+          "label": "Calibration & Experimental Validation",
+          "content": "Built/used voltage-divider and microcontroller acquisition setups and connected the FSR system to an Instron so known compressive loads could be compared against sensor voltage. Evaluated multiple divider resistances and completed approximately 125 trials, with Python/serial logging and post-processing.\n\nEmbedded brace sensors produced output comparable to controls, while some insole sensors did not—showing that the sensor concept could work but the integrated electrical interfaces were not yet sufficiently repeatable.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Instron Testing / Experimental Design",
-          "content": "Designed and ran force-sensor validation using an Instron. The experimental campaign included 125 trials across the FSRs, with data collected through the test setup and subsequently parsed in Excel.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Testing Results",
-          "content": "Testing showed that the conductive-TPU connection was not sufficiently robust for consistent FSR readings, introducing variability that reduced confidence in center-of-pressure calculations.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Serviceable Model",
-          "content": "Developed a serviceable insole version with a removable snap-on/snap-off cover so electrical connections could be accessed and adjusted instead of being permanently encapsulated.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Scoliosis Brace Sensor",
-          "content": "Applied similar TPU-printing and Instron-validation methods to the scoliosis-brace sensor. Explored attachment methods including Velcro, skin-sensitive semi-reusable tape, and reusable/washable tape concepts. The final design was reviewed with Baylor Scott & White, validated on the Instron, and passed to the clinical team for testing.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Future Considerations",
-          "content": "Future iterations would prioritize more robust electrical connections, potentially returning to soldered connections or connector-based approaches rather than relying on conductive TPU alone.",
+          "label": "Failure Analysis, Serviceability & Research Outcome",
+          "content": "The fully encapsulated insole was elegant but difficult to debug or repair when conductive-TPU/electrical interfaces were inconsistent. I redesigned the architecture around a removable pop-on cover so electronics could be installed and serviced after the main body was printed.\n\nThe project culminated in a research poster plus CAD/STL libraries, material specimens, calibration circuitry/code/data, and process documentation. A major lesson was that “fully integrated” is not automatically better when research hardware must remain serviceable and diagnosable.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -1180,68 +1147,86 @@
       "result": "2nd place",
       "images": [
         {
-          "src": "assets/images/class/Yellow-Jacket/yellow jacket-cover photo.png",
+          "src": "assets/images/class/Yellow-Jacket/Yellow Jacket COVER .png",
           "caption": ""
         },
         {
-          "src": "assets/images/class/Yellow-Jacket/yellow jacket -2.png",
+          "src": "assets/images/class/Yellow-Jacket/Yellow Jacket testing - all ball placement .png",
           "caption": ""
         },
         {
-          "src": "assets/images/class/Yellow-Jacket/yellow jacket - 3.png",
+          "src": "assets/images/class/Yellow-Jacket/YellowJacket - Testing - Final Version.png",
           "caption": ""
         },
         {
-          "src": "assets/images/class/Yellow-Jacket/yellow-jacket.png",
+          "src": "assets/images/class/Yellow-Jacket/prototype - iso view.HEIC",
           "caption": ""
         },
         {
-          "src": "assets/images/class/Yellow-Jacket/yellow jacket sketch 1.png",
+          "src": "assets/images/class/Yellow-Jacket/prototyping - 1.HEIC",
           "caption": ""
         },
         {
-          "src": "assets/images/class/Yellow-Jacket/yellow jacket sketch 2.png",
+          "src": "assets/images/class/Yellow-Jacket/prototyping - expanable carton (abandoned idea due to complexity).HEIC",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Yellow-Jacket/yellow jacket - conveyor concept sketch.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Yellow-Jacket/yellow jacket - fully assembled.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Yellow-Jacket/yellow jacket - side view - hexagonal weight cuts + wheel walls.HEIC",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Yellow-Jacket/yellow jacket - top view - spikes explanation .HEIC",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Yellow-Jacket/yellow jacket - using environment for ball collection .jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Yellow-Jacket/yellow jacket - velcro roller.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Yellow-Jacket/yellow jacket spiral concept sketch.png",
           "caption": ""
         }
       ],
       "attachments": [
         [
-          "Project Paper",
+          "Yellow Jacket Paper",
           "assets/docs/class/Yellow-Jacket/Yellow_Jacket_Paper.pdf"
-        ],
-        [
-          "Presentation",
-          "assets/docs/class/Yellow-Jacket/Yellow_Jacket_Presentation.pdf"
         ]
       ],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Explored several concepts, including elevator/waterwheel/conveyor-style mechanisms that transported balls individually and a spiral concept with similar functionality. The final direction was an “egg-carton flipper” that prioritized quantity and could place four balls simultaneously. We demonstrated the concept first with a cardboard prototype.",
+          "label": "Requirements, Concepts & Prototyping",
+          "content": "Designed for a 12×12×12 in Turf Wars envelope: collect tennis balls, climb 15°/30° ramps, and score on a Velcro wall. We compared Archimedes-screw, conveyor, and multi-ball flipper concepts, selecting the flipper for capacity, packaging, low center of gravity, manufacturability, and reduced actuator count. A cardboard prototype validated the basic scoring mechanism before full CAD.\n\nThe intake evolved from a Velcro-covered duct-tape-roll test into a servo-driven roller with reduced Velcro and a mechanical stripping edge so balls released into the hopper instead of remaining attached.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "CAD Development",
-          "content": "After validating the cardboard concept, I completed 100% of the CAD for the final design in SolidWorks, translating the prototype into a fully manufacturable robot assembly.",
+          "label": "CAD, Analysis & Design Ownership",
+          "content": "Personally completed 100% of the final robot CAD, including parts and assembly. The drivetrain used four-wheel belt drive, selected motors, a 3:1 ratio, and cast silicone wheels for traction. We also performed torque, friction, distributed-load, bending, and stress/strain calculations to check drivetrain and structure.\n\nA major design tradeoff was removing a vertical extension mechanism: it sacrificed access to the highest scoring zone but made the final system simpler, stronger, and more reliable.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Manufacturing Process",
-          "content": "Manufacturing included milling molds for cast-silicone wheels, turning rotational shafts, cutting angle-bracket components on the bandsaw, and assembling the mechanical system. This project was my introduction to machining and became the starting point for my later interest in manufacturing.",
+          "label": "Manufacturing & Integration",
+          "content": "Manufacturing included laser-cut acrylic, CNC-milled wheel molds, silicone casting, 3D-printed pulleys/intake parts, lathe-turned shafts, bandsaw-cut brackets, drilled/tapped features, and CNC-milled Delrin supports.\n\nTight drivetrain tolerances and CAD errors created assembly issues that could not be solved by a belt tensioner alone, forcing physical modification and becoming an early lesson in tolerance management and DFM.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Testing",
-          "content": "Tested the mechanism against the Turf Wars requirements, including tennis-ball placement at multiple scoring heights and operation over the course obstacles.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Design Problems & Resolutions",
-          "content": "The main design tradeoff was scoring quantity versus individual placement precision. Rather than optimizing a one-ball-at-a-time mechanism, the final flipper architecture intentionally prioritized depositing multiple balls in a single action.",
+          "label": "Testing, Competition & Outcome",
+          "content": "Yellow Jacket climbed both ramps, reliably collected balls, and placed up to four balls at once. A loaded flipper could score six points in one action; the robot scored up to 12 points, required only one competition “life,” and finished 2nd overall.\n\nFinal specs included 3.75 kg mass, 8 in height, 11.25 in width, 12 in length, 1.125 in undercarriage clearance, 5.86 in turning radius, 3:1 drivetrain ratio, and 4:1 scoring-mechanism ratio.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -1266,56 +1251,54 @@
       "result": "Functional course-final turret demonstrated at the SEAS Design Fair after rapid on-site mechanical repairs and actuator redesigns.",
       "images": [
         {
-          "src": "assets/images/class/Nerf-Turret/nerf-turret-cover photo.png",
+          "src": "assets/images/class/Nerf-Turret/EE - map.HEIC",
           "caption": ""
         },
         {
-          "src": "assets/images/class/Nerf-Turret/nerf-turret-2.png",
+          "src": "assets/images/class/Nerf-Turret/NerfTurret - Full Electronic Layout.png",
           "caption": ""
         },
         {
-          "src": "assets/images/class/Nerf-Turret/nerf-turret.png",
+          "src": "assets/images/class/Nerf-Turret/NerfTurret COVER.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Nerf-Turret/NerfTurret- Full Project + Internal Components.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Nerf-Turret/NerfTurret-pir-sensor-test.jpg",
           "caption": ""
         }
       ],
       "attachments": [
         [
-          "Project Paper",
-          "assets/docs/class/Nerf-Turret/Nerf_Turret_Paper.pdf"
-        ],
-        [
-          "Presentation",
-          "assets/docs/class/Nerf-Turret/Nerf_Turret_Presentation.pdf"
+          "2024 Team13 ES50 Report SquidGames.docx",
+          "assets/docs/class/Nerf-Turret/2024_Team13_ES50_Report_SquidGames.docx.pdf"
         ]
       ],
       "deepDive": [
         {
-          "label": "Control Logic & PIR Prototyping",
-          "content": "The sensing system began with Arduino code for a single PIR sensor and was expanded to five sensors. The core behavior followed a state-based structure: during green light, PIR motion could trigger turret rotation, a delay, and then the firing servo; during red light, the system remained inactive.",
+          "label": "System Architecture & PIR Prototyping",
+          "content": "Built a Squid Game-inspired Red Light–Green Light turret using five PIR sensors, Arduino state logic, a rotating Nerf platform, and a trigger servo. We chose PIR after considering pressure plates, ranging, wearables, and vision because it provided simple motion detection and let us discretize the field into five target zones.\n\nI focused heavily on code/prototyping: started with one PIR, expanded to five, implemented game-state logic, debouncing, first-detection lockout, randomized timing, and mapped sensor zones to turret angles.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Mechanical Prototyping",
-          "content": "Because each PIR needed its own field of view, we first mocked up the sensor separation using Styrofoam. A paperclip was used as a simple visual indicator to verify that each sensor window was pointing in the intended direction before committing to the final structure.",
+          "label": "Mechanical Design & Integration",
+          "content": "Prototyped PIR field-of-view separation in foam board before moving to rigid divider panels and printed mounts. The Nerf gun sat on a laser-cut acrylic disk supported by a ball-bearing track; physical stoplights used wooden structures and acrylic diffusers.\n\nIntegration exposed practical issues including breadboard accessibility, LED power demand, bearing-track rigidity, and the fact that flexible prototype geometry did not translate directly into rigid construction.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "CAD & Mechanical Design",
-          "content": "Laser-cut wood panels created separate PIR viewing windows and enclosed the internal circuitry. The stop lights used hinged wooden structures with acrylic disks over the LED arrays to diffuse and reflect the light. The Nerf gun sat on an acrylic disk supported by a ball-bearing track to enable turret rotation.",
+          "label": "Actuation, Torque & Iteration",
+          "content": "The turret servo lacked torque, so we reduced rotating mass with weight-relief cuts; a future design would add gearing. The trigger servo also lacked torque, so we added a gear train that increased available torque roughly threefold.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Actuation & Power Transmission",
-          "content": "The rotating turret and trigger were both servo-actuated. When the turret servo proved underpowered, we reduced rotating mass by adding weight-relief cuts to the acrylic support disk. For the trigger, weight reduction was not practical, so we added a gear train to increase available torque.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Design Problems & Resolutions",
-          "content": "On the day of the SEAS Design Fair, the trigger motor exceeded its programmed limit, over-torqued, and tore off the custom attachment that interfaced with the Nerf gun. We recovered the system by drilling through both the gun and the attachment and securing them together with a zip tie. The project reinforced the need for mechanical stops, torque margin, and more deliberate transmission design; in a redesign, the turret itself would also use a gear train rather than relying primarily on weight reduction.",
+          "label": "Design-Fair Failure & Recovery",
+          "content": "At the SEAS Design Fair, the geared trigger system over-traveled and broke the custom gun attachment. With no time for a new part, we drilled through the gun/attachment and zip-tied them together, keeping the system operational for the fair.\n\nThe failure was a direct lesson that solving an actuator-torque problem can create a new structural problem unless travel limits, stops, and downstream loads are also reconsidered.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -1337,15 +1320,7 @@
       "result": "2nd place",
       "images": [
         {
-          "src": "assets/images/class/I-Beam-Bridge/bridge-1.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/class/I-Beam-Bridge/bridge-2.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/class/I-Beam-Bridge/bridge-3.jpg",
+          "src": "assets/images/cover-image/Home-COVER.png",
           "caption": ""
         }
       ],
@@ -1393,48 +1368,38 @@
       "result": "2nd place",
       "images": [
         {
-          "src": "assets/images/class/Egg-Drop/eggdrop.png",
+          "src": "assets/images/class/Egg-Drop/eggdrop - CAD.png",
           "caption": ""
         }
       ],
       "attachments": [
         [
-          "Project Paper",
-          "assets/docs/class/Egg-Drop/Egg_Drop_Paper.pdf"
-        ],
-        [
-          "Presentation",
+          "Egg Drop Presentation",
           "assets/docs/class/Egg-Drop/Egg_Drop_Presentation.pdf"
         ]
       ],
       "deepDive": [
         {
-          "label": "System Concept",
-          "content": "Designed an impact-mitigation system around springs and dampers so an egg could survive drops from increasing heights.",
+          "label": "Dynamics Model & Design Objective",
+          "content": "Designed a passive spring-damper suspension to minimize egg acceleration during impact under strict stroke/geometry constraints. Modeled the system as an equivalent 2-DOF spring-damper system and derived equations of motion using Lagrangian mechanics.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Variable Damping Geometry",
-          "content": "Connected the end of the damper to a shaped track derived from the system mathematics. As the structure compressed, the track changed how the damper was actuated with the goal of keeping egg acceleration as low as possible.",
+          "label": "Variable-Damping Track Optimization",
+          "content": "The core concept moved a damper endpoint along a nonlinear guide track so a constant physical damper produced a changing effective vertical damping response. A Python model represented the track with a fourth-order polynomial and used numerical optimization to seek near-constant deceleration over the available stopping distance.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Manufacturing",
-          "content": "Fabricated the structure using laser-cut wood and assembled the spring-damper mechanism and shaped tracks.",
+          "label": "My Role, Prototyping & Manufacturing",
+          "content": "My role leaned toward project management plus analysis/prototyping rather than CAD ownership: I organized the timeline, worked on simulations, prototyping, assembly, and substantial final-report work. We built a cardboard prototype before the final laser-cut structure.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Testing & Reality vs. Model",
-          "content": "The ideal analysis assumed behavior such as a frictionless track, while the physical system introduced imperfections that changed the response. During competition, a corner of the structure broke on impact and absorbed a large amount of energy—effectively acting as sacrificial structure—and the egg survived.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Outcome",
-          "content": "Placed second in the competition. The result highlighted both the value and limitations of idealized dynamics models when implemented in imperfect physical hardware.",
+          "label": "Competition, Model vs. Hardware & Lessons",
+          "content": "The physical mechanism did not reproduce the ideal model cleanly because friction, tolerances, binding, compliance, and alignment mattered. During competition, a structural corner fractured and unintentionally absorbed impact energy like a sacrificial element; the egg survived and the team placed 2nd.\n\nThat outcome made the project a useful lesson in both model fidelity and intentional energy absorption: an optimized mechanism must be physically realizable, and controlled sacrificial deformation can be a valid impact-management strategy.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -1442,60 +1407,84 @@
     },
     "abaqus": {
       "type": "COMPUTATIONAL MECHANICS",
-      "title": "Parametric Abaqus Unit-Cell Compression Model",
+      "title": "Parametric Kresling Origami Unit-Cell FEA Model",
       "org": "Computational Mechanics",
       "summary": "Python-driven Abaqus model varying side count, radius, and height to study compression response.",
-      "desc": "A parametric Abaqus compression model for studying how unit-cell geometry affects mechanical response. A Python-based geometry system allowed the number of sides, radius, and height to be varied systematically.",
-      "contrib": "Developed the Python-driven parametric geometry and compression model, representing cell edges as spring-like structural members and enabling controlled comparison across geometric configurations.",
+      "desc": "Developed and experimentally validated a nonlinear Abaqus model of a Kresling origami unit cell, then parameterized the geometry to study how side count, radius, and height affect compression response.",
+      "contrib": "Built the Python-driven geometry, shell/spring model architecture, boundary conditions, nonlinear stabilization strategy, experimental Instron validation, calibration, and geometry sweeps. The work included substantial debugging of failed CAD-import, hinge, convergence, and hysteresis approaches.",
       "tags": [
         "Abaqus",
         "Python",
         "FEA",
         "Parametric Modeling"
       ],
-      "result": "Course final project",
+      "result": "Calibrated simulation matched effective physical stiffness closely (~906 N/mm simulation vs ~885 N/mm experiment) while also exposing limitations in reproducing unloading hysteresis.",
       "images": [
         {
-          "src": "assets/images/class/Abaqus-Unit-Cell/abaqus -1.png",
+          "src": "assets/images/class/Abaqus-Unit-Cell/Kresling-unit-cell-n=10.png",
           "caption": ""
         },
         {
-          "src": "assets/images/class/Abaqus-Unit-Cell/abaqus .png",
+          "src": "assets/images/class/Abaqus-Unit-Cell/kresling-unit-cell-n=5.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Abaqus-Unit-Cell/kresling-unit-cell-n=8.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Abaqus-Unit-Cell/kresling-unit-cell-short.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Abaqus-Unit-Cell/kresling-unit-cell-tall.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Abaqus-Unit-Cell/kresling-unit-cell_COVER.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Abaqus-Unit-Cell/unit - cell - SW.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Abaqus-Unit-Cell/unit-cell-mesh.png",
           "caption": ""
         }
       ],
       "attachments": [
         [
-          "Project Paper",
+          "Abaqus Unit Cell Paper",
           "assets/docs/class/Abaqus-Unit-Cell/Abaqus_Unit_Cell_Paper.pdf"
         ],
         [
-          "Presentation",
+          "Abaqus Unit Cell Presentation",
           "assets/docs/class/Abaqus-Unit-Cell/Abaqus_Unit_Cell_Presentation.pdf"
         ]
       ],
       "deepDive": [
         {
-          "label": "Model Architecture",
-          "content": "Developed a compression model in Abaqus that represents the unit-cell edges as individual spring-like structural members.",
+          "label": "Model Architecture & Iteration",
+          "content": "Started with SolidWorks/STEP geometry, but solid folded corners did not translate cleanly to the desired shell-and-hinge model. Rebuilt the unit cell directly in Abaqus using mathematically generated datum points, wire features, shell surfaces, and separate assembled facets so coincident edges could retain independent nodes.\n\nIterated through connector/merged-edge hinge approaches before settling on node-paired spring-dashpot connections with local coordinate systems.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Python Parametric Geometry",
-          "content": "Built a Python-based geometry workflow so the model could be varied programmatically rather than rebuilt manually.",
+          "label": "Python Parametric Geometry & Nonlinear FEA",
+          "content": "Parameterized the Kresling geometry by polygon side count, radius, height, and twist angle. Python generated coordinates and model geometry so configurations could be swept systematically.\n\nUsed Static General with NLGEOM and tuned automatic stabilization after early simulations aborted or snapped unrealistically. Boundary conditions fixed the bottom and displacement-controlled the top through a reference point while allowing rotation.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Design Variables",
-          "content": "Made the number of sides, radius, and height controllable parameters so their influence on compression behavior could be compared systematically.",
+          "label": "Physical Prototype, Instron & Calibration",
+          "content": "3D printed physical unit cells, transitioning from brittle small PLA prototypes to a larger ABS model. Compressed the ABS cell 10 mm on an Instron and cycled it 10 times to investigate force-displacement response and hysteresis.\n\nUsed experimental data to calibrate torsional spring stiffness. Effective stiffness was approximately 885 N/mm physically versus 906 N/mm in simulation.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Analysis",
-          "content": "Used the parameterized model to compare the efficacy and mechanical response of unit-cell configurations as the selected geometric variables changed.",
+          "label": "Parameter Sweeps, Limits & Lessons",
+          "content": "Swept polygon side count from 5–10 and radius from 2–8 cm at fixed height to study geometry-dependent stiffness. The model captured effective loading stiffness but not physical unloading hysteresis; adding simple ABS plasticity produced unrealistic permanent deformation.\n\nThe project became as much about model architecture and debugging as final plots: isolate mechanisms, validate simple submodels, and distinguish “matches one property” from “reproduces the full physics.”",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -1503,11 +1492,11 @@
     },
     "controls": {
       "type": "ROBOTICS / CONTROLS",
-      "title": "Friction & Backlash Compensation Test Platform",
+      "title": "Friction & Backlash Identification and Compensation Platform",
       "org": "ES-159 · Introduction to Robotics",
       "summary": "Experimental controls platform that varied friction and backlash in a brushless-motor transmission, then used collected data to develop a PID controller with compensation.",
-      "desc": "For the ES-159 final project, we designed a data-collection platform that let us deliberately vary friction and backlash in the power transmission between a brushless motor and an incremental encoder. We used the measured system response to characterize how these non-idealities affected motion and then developed a PID controller that incorporated friction and backlash compensation.",
-      "contrib": "Designed and built the adjustable experimental system, helped define how friction and backlash would be introduced through the transmission, collected response data from the motor/encoder setup, analyzed the resulting behavior, and contributed to development of the compensated PID controller.",
+      "desc": "Designed and experimentally validated a single-joint robotic test platform that deliberately varied friction and backlash, identified those nonlinearities from data, and incorporated them into a compensated controller.",
+      "contrib": "Helped design/build the adjustable mechanical apparatus and instrumentation, developed/used MATLAB models, ran a 20-condition experiment, processed motor/encoder/current data, identified Coulomb friction and backlash, and contributed to the compensated controller and validation.",
       "tags": [
         "PID Control",
         "Brushless Motor",
@@ -1516,59 +1505,65 @@
         "Friction",
         "Experimental Controls"
       ],
-      "result": "Course final project demonstrating data-driven friction and backlash compensation in closed-loop control.",
+      "result": "Primary validation condition reduced tracking-error range by ~50% versus baseline PID, while also revealing increased current demand and hardware safety limits at extreme conditions.",
       "images": [
         {
-          "src": "assets/images/class/Friction-Backlash-Controller/controls-1.jpg",
+          "src": "assets/images/class/Friction-Backlash-Controller/backlash controller.HEIC",
           "caption": ""
         },
         {
-          "src": "assets/images/class/Friction-Backlash-Controller/controls-2.jpg",
+          "src": "assets/images/class/Friction-Backlash-Controller/different backlash variations.HEIC",
           "caption": ""
         },
         {
-          "src": "assets/images/class/Friction-Backlash-Controller/controls-3.jpg",
+          "src": "assets/images/class/Friction-Backlash-Controller/final data collection set-up.HEIC",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Friction-Backlash-Controller/friction controller .HEIC",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Friction-Backlash-Controller/full setup overview .HEIC",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Friction-Backlash-Controller/inital setup .HEIC",
           "caption": ""
         }
       ],
       "attachments": [
         [
-          "Project Paper",
+          "Friction Backlash Paper",
           "assets/docs/class/Friction-Backlash-Controller/Friction_Backlash_Paper.pdf"
         ],
         [
-          "Presentation",
+          "Friction Backlash Presentation",
           "assets/docs/class/Friction-Backlash-Controller/Friction_Backlash_Presentation.pdf"
         ]
       ],
       "deepDive": [
         {
-          "label": "System Architecture",
-          "content": "Developed a test platform centered on a brushless motor and incremental encoder, with a power-transmission arrangement that could be changed to introduce controlled amounts of friction and backlash.",
+          "label": "Modeling & Experimental Apparatus",
+          "content": "Started with a 1-DOF rotational MATLAB model and explored friction/backlash representations before building a modular physical platform with a DC gearmotor, motor-side incremental encoder, load-side SSI absolute encoder, interchangeable backlash components, and adjustable friction clamp.\n\nBaseline PID was tuned to Kp=1.5, Ki=0.5, Kd=0.05 before introducing controlled nonlinearities.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Experimental Design",
-          "content": "Structured the system so friction and backlash could be varied independently enough to observe their effect on the measured response rather than treating them only as theoretical disturbances.",
+          "label": "Controlled Nonlinearities & Data Collection",
+          "content": "Created four friction conditions using clamp adjustment and multiple backlash couplers spanning nominal 0.1–0.5 mm geometry changes. Conducted 20 experimental trials and logged reference position, both encoder signals, PWM, direction, state, and motor current—roughly 995 samples per trial.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Data Collection",
-          "content": "Collected motor/encoder response data across the different mechanical conditions to build an empirical picture of how the system changed as friction and backlash increased.",
+          "label": "System Identification & Controller Development",
+          "content": "Selected a Coulomb friction model after comparing alternatives and corrected an early sign/direction implementation error. Replaced an assumed backlash dead-zone width with event-based identification: backlash was detected when the motor encoder moved while the load encoder remained nearly stationary.\n\nUsed identified friction as feedforward compensation and measured backlash to modify the desired motor-side motion.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Controller Development",
-          "content": "Used the measured data to develop a PID controller and augment it with compensation terms intended to reduce the effects of friction and backlash in the physical system.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Validation & Lessons",
-          "content": "Compared system response under different mechanical conditions and used the results to evaluate how well the compensation strategy addressed real transmission non-idealities.",
+          "label": "Validation, Tradeoffs & Lessons",
+          "content": "In the primary low-friction/low-backlash validation case, tracking-error range dropped from roughly 60 to 30 encoder ticks. Compensation continued to improve tracking as nonlinearities increased, but required more reversals/torque and caused current surges.\n\nAt the most extreme conditions, current safety limits prevented full evaluation—an important reminder that better control performance can create electrical/thermal costs. Future work would quantify friction more directly and smooth/current-limit compensation.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -1594,15 +1589,7 @@
       "result": "Active personal build; target completion December 2026.",
       "images": [
         {
-          "src": "assets/images/personal/CNC-Plasma-Cutter/plasma-1.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/personal/CNC-Plasma-Cutter/plasma-2.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/personal/CNC-Plasma-Cutter/plasma-3.jpg",
+          "src": "assets/images/cover-image/Home-COVER.png",
           "caption": ""
         }
       ],
@@ -1668,19 +1655,19 @@
       "result": "Ongoing personal project",
       "images": [
         {
-          "src": "assets/images/personal/Vehicle-Restoration/vehicle - cover photo.png",
+          "src": "assets/images/personal/Vehicle-Restoration/99 chevy cheyenne .png",
           "caption": ""
         },
         {
-          "src": "assets/images/personal/Vehicle-Restoration/vehicle-1.png",
+          "src": "assets/images/personal/Vehicle-Restoration/F350 + camino.png",
           "caption": ""
         },
         {
-          "src": "assets/images/personal/Vehicle-Restoration/vehicle-2.png",
+          "src": "assets/images/personal/Vehicle-Restoration/F350.png",
           "caption": ""
         },
         {
-          "src": "assets/images/personal/Vehicle-Restoration/vehicle-3.png",
+          "src": "assets/images/personal/Vehicle-Restoration/el camino.png",
           "caption": ""
         }
       ],
@@ -1736,15 +1723,7 @@
       "result": "Ongoing personal practice with both decorative and functional projects.",
       "images": [
         {
-          "src": "assets/images/personal/Textiles/textiles-1.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/personal/Textiles/textiles-2.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/personal/Textiles/textiles-3.jpg",
+          "src": "assets/images/cover-image/Home-COVER.png",
           "caption": ""
         }
       ],
@@ -1786,58 +1765,98 @@
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Screw Mask Project",
       "org": "Flex — Mechanical Engineering Internship",
-      "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
-      "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
-      "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
+      "summary": "Designed labeled masks for visually similar screws, using color coding and poka-yoke geometry to reduce installation error and support manual assembly while automated processes were unavailable.",
+      "desc": "Designed labeled masks for visually similar screws, using color coding and poka-yoke geometry to reduce installation error and support manual assembly while automated processes were unavailable.",
+      "contrib": "Designed labeled masks for visually similar screws, using color coding and poka-yoke geometry to reduce installation error and support manual assembly while automated processes were unavailable.",
       "tags": [
         "Fixture Design",
         "SolidWorks",
         "Manufacturing"
       ],
-      "result": "Add public-safe outcome",
+      "result": "Production engineering / fixture project",
       "images": [
         {
-          "src": "assets/images/industry/Flex/Screw-Mask/screw-mask-1.jpg",
+          "src": "assets/images/industry/Flex/Screw-Mask/Press fit component mask.png",
           "caption": ""
         },
         {
-          "src": "assets/images/industry/Flex/Screw-Mask/screw-mask-2.jpg",
+          "src": "assets/images/industry/Flex/Screw-Mask/TIM Mask.png",
           "caption": ""
         },
         {
-          "src": "assets/images/industry/Flex/Screw-Mask/screw-mask-3.jpg",
+          "src": "assets/images/industry/Flex/Screw-Mask/cold plate screw mask.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Screw-Mask/press fit component nest.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Screw-Mask/screw mask - bottom - M3 screw 1.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Screw-Mask/screw mask - bottom - M3 screw 2.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Screw-Mask/screw mask - bottom - M3 screw 3.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Screw-Mask/screw mask - stiffeners to pcb.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Screw-Mask/screw mask - striffeners to tray.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Screw-Mask/screw mask - top- M3 screw 1.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Screw-Mask/screw mask - top- M3 screw 2.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Screw-Mask/screw mask - top- M3 screw 3.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Screw-Mask/screw mask pcb to tray .png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Screw-Mask/screw mask w torque pattern RX .png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Screw-Mask/screw mask w torque pattern TX.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Screw-Mask/screw masks - 3 diff M3 screws (Not CAD actual product).png",
           "caption": ""
         }
       ],
       "attachments": [],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "label": "Problem & Requirements",
+          "content": "Designed labeled masks for visually similar screws, using color coding and poka-yoke geometry to reduce installation error and support manual assembly while automated processes were unavailable.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "label": "CAD / Error-Proofing Design",
+          "content": "Designed labeled masks for visually similar screws, using color coding and poka-yoke geometry to reduce installation error and support manual assembly while automated processes were unavailable.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "label": "Implementation & Operator Use",
+          "content": "Designed labeled masks for visually similar screws, using color coding and poka-yoke geometry to reduce installation error and support manual assembly while automated processes were unavailable.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -1847,58 +1866,54 @@
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Automated Line Nest",
       "org": "Flex — Mechanical Engineering Internship",
-      "summary": "Machined product nest for a 13-station automated line, designed to withstand 65°C processing without deformation.",
-      "desc": "Production fixture work for a 13-station automated line. The nest was designed around process temperature and dimensional stability requirements.",
-      "contrib": "Designed the machined product nest in SolidWorks and supported drawing/review work for implementation on the automated line.",
+      "summary": "Designed a machined nest to travel through 13 automated/partially automated stations, survive repeated ~65°C oven exposure, support temporary manual operations, and provide repeatable machine location.",
+      "desc": "Designed a machined nest to travel through 13 automated/partially automated stations, survive repeated ~65°C oven exposure, support temporary manual operations, and provide repeatable machine location.",
+      "contrib": "Designed a machined nest to travel through 13 automated/partially automated stations, survive repeated ~65°C oven exposure, support temporary manual operations, and provide repeatable machine location.",
       "tags": [
         "Fixture Design",
         "SolidWorks",
         "Manufacturing"
       ],
-      "result": "Add public-safe outcome",
+      "result": "Production engineering / fixture project",
       "images": [
         {
-          "src": "assets/images/industry/Flex/Automated-Line-Nest/auto-nest-1.jpg",
+          "src": "assets/images/industry/Flex/Automated-Line-Nest/Screenshot 2026-08-31 133247.png",
           "caption": ""
         },
         {
-          "src": "assets/images/industry/Flex/Automated-Line-Nest/auto-nest-2.jpg",
+          "src": "assets/images/industry/Flex/Automated-Line-Nest/Screenshot 2026-08-31 133253.png",
           "caption": ""
         },
         {
-          "src": "assets/images/industry/Flex/Automated-Line-Nest/auto-nest-3.jpg",
+          "src": "assets/images/industry/Flex/Automated-Line-Nest/Screenshot 2026-08-31 133258.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Automated-Line-Nest/Screenshot 2026-08-31 133306.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Automated-Line-Nest/Screenshot 2026-08-31 133317.png",
           "caption": ""
         }
       ],
       "attachments": [],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "label": "Requirements & Line Interfaces",
+          "content": "Designed a machined nest to travel through 13 automated/partially automated stations, survive repeated ~65°C oven exposure, support temporary manual operations, and provide repeatable machine location.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "label": "CAD, Poka-Yoke & Transition Strategy",
+          "content": "Designed a machined nest to travel through 13 automated/partially automated stations, survive repeated ~65°C oven exposure, support temporary manual operations, and provide repeatable machine location.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "label": "Manufacturing / Production Integration",
+          "content": "Designed a machined nest to travel through 13 automated/partially automated stations, survive repeated ~65°C oven exposure, support temporary manual operations, and provide repeatable machine location.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -1908,58 +1923,50 @@
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Robot Y Alignment Drop Anchor",
       "org": "Flex — Mechanical Engineering Internship",
-      "summary": "Alignment-focused production fixture project. Add non-confidential technical details and outcome.",
-      "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
-      "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
+      "summary": "Replaced an operator-disliked toggle-clamp arrangement with aligned physical stops and a removable drag-anchor handle that could remain installed through the robot cycle.",
+      "desc": "Replaced an operator-disliked toggle-clamp arrangement with aligned physical stops and a removable drag-anchor handle that could remain installed through the robot cycle.",
+      "contrib": "Replaced an operator-disliked toggle-clamp arrangement with aligned physical stops and a removable drag-anchor handle that could remain installed through the robot cycle.",
       "tags": [
         "Fixture Design",
         "SolidWorks",
         "Manufacturing"
       ],
-      "result": "Add public-safe outcome",
+      "result": "Production engineering / fixture project",
       "images": [
         {
-          "src": "assets/images/industry/Flex/Robot-Y-Alignment/robot-y-1.jpg",
+          "src": "assets/images/industry/Flex/Robot-Y-Alignment/Screenshot 2026-08-31 134051.png",
           "caption": ""
         },
         {
-          "src": "assets/images/industry/Flex/Robot-Y-Alignment/robot-y-2.jpg",
+          "src": "assets/images/industry/Flex/Robot-Y-Alignment/Screenshot 2026-08-31 134122.png",
           "caption": ""
         },
         {
-          "src": "assets/images/industry/Flex/Robot-Y-Alignment/robot-y-3.jpg",
+          "src": "assets/images/industry/Flex/Robot-Y-Alignment/Screenshot 2026-08-31 134126.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Robot-Y-Alignment/Screenshot 2026-08-31 134143.png",
           "caption": ""
         }
       ],
       "attachments": [],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "label": "Problem & Operator Feedback",
+          "content": "Replaced an operator-disliked toggle-clamp arrangement with aligned physical stops and a removable drag-anchor handle that could remain installed through the robot cycle.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "label": "Mechanical Alignment Concept",
+          "content": "Replaced an operator-disliked toggle-clamp arrangement with aligned physical stops and a removable drag-anchor handle that could remain installed through the robot cycle.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "label": "Implementation & Iteration",
+          "content": "Replaced an operator-disliked toggle-clamp arrangement with aligned physical stops and a removable drag-anchor handle that could remain installed through the robot cycle.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -1969,58 +1976,58 @@
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Vacuum-Actuated Label Placement",
       "org": "Flex — Mechanical Engineering Internship",
-      "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
-      "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
-      "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
+      "summary": "Designed a guided vacuum tool to place labels roughly 3 inches deep in a constrained chassis where manual placement was causing quality failures; revised a fragile anti-rotation feature into internal splining.",
+      "desc": "Designed a guided vacuum tool to place labels roughly 3 inches deep in a constrained chassis where manual placement was causing quality failures; revised a fragile anti-rotation feature into internal splining.",
+      "contrib": "Designed a guided vacuum tool to place labels roughly 3 inches deep in a constrained chassis where manual placement was causing quality failures; revised a fragile anti-rotation feature into internal splining.",
       "tags": [
         "Fixture Design",
         "SolidWorks",
         "Manufacturing"
       ],
-      "result": "Add public-safe outcome",
+      "result": "Production engineering / fixture project",
       "images": [
         {
-          "src": "assets/images/industry/Flex/Vacuum-Label-Placement/vac-label-1.jpg",
+          "src": "assets/images/industry/Flex/Vacuum-Label-Placement/Screenshot 2026-08-31 135232.png",
           "caption": ""
         },
         {
-          "src": "assets/images/industry/Flex/Vacuum-Label-Placement/vac-label-2.jpg",
+          "src": "assets/images/industry/Flex/Vacuum-Label-Placement/Screenshot 2026-08-31 135236.png",
           "caption": ""
         },
         {
-          "src": "assets/images/industry/Flex/Vacuum-Label-Placement/vac-label-3.jpg",
+          "src": "assets/images/industry/Flex/Vacuum-Label-Placement/Screenshot 2026-08-31 135240.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Vacuum-Label-Placement/Screenshot 2026-08-31 135246.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Vacuum-Label-Placement/Screenshot 2026-08-31 135250.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Vacuum-Label-Placement/Screenshot 2026-08-31 135256.png",
           "caption": ""
         }
       ],
       "attachments": [],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "label": "Problem & Constraints",
+          "content": "Designed a guided vacuum tool to place labels roughly 3 inches deep in a constrained chassis where manual placement was causing quality failures; revised a fragile anti-rotation feature into internal splining.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "label": "Vacuum / Guidance Mechanism",
+          "content": "Designed a guided vacuum tool to place labels roughly 3 inches deep in a constrained chassis where manual placement was causing quality failures; revised a fragile anti-rotation feature into internal splining.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "label": "Iteration & Final Design",
+          "content": "Designed a guided vacuum tool to place labels roughly 3 inches deep in a constrained chassis where manual placement was causing quality failures; revised a fragile anti-rotation feature into internal splining.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -2030,58 +2037,42 @@
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Adjustable Hold-Down Concept",
       "org": "Flex — Mechanical Engineering Internship",
-      "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
-      "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
-      "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
+      "summary": "Developed a standardized hold-down concept for BGA rework that could shift between panelized and depanelized board positions using a slot and spring-loaded locating pin.",
+      "desc": "Developed a standardized hold-down concept for BGA rework that could shift between panelized and depanelized board positions using a slot and spring-loaded locating pin.",
+      "contrib": "Developed a standardized hold-down concept for BGA rework that could shift between panelized and depanelized board positions using a slot and spring-loaded locating pin.",
       "tags": [
         "Fixture Design",
         "SolidWorks",
         "Manufacturing"
       ],
-      "result": "Add public-safe outcome",
+      "result": "Production engineering / fixture project",
       "images": [
         {
-          "src": "assets/images/industry/Flex/Adjustable-Hold-Down/adjust-hold-1.jpg",
+          "src": "assets/images/industry/Flex/Adjustable-Hold-Down/Screenshot 2026-08-31 133211.png",
           "caption": ""
         },
         {
-          "src": "assets/images/industry/Flex/Adjustable-Hold-Down/adjust-hold-2.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/industry/Flex/Adjustable-Hold-Down/adjust-hold-3.jpg",
+          "src": "assets/images/industry/Flex/Adjustable-Hold-Down/Screenshot 2026-08-31 133217.png",
           "caption": ""
         }
       ],
       "attachments": [],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "label": "Problem & Standardization Goal",
+          "content": "Developed a standardized hold-down concept for BGA rework that could shift between panelized and depanelized board positions using a slot and spring-loaded locating pin.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "label": "Adjustable Mechanism Concept",
+          "content": "Developed a standardized hold-down concept for BGA rework that could shift between panelized and depanelized board positions using a slot and spring-loaded locating pin.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "label": "Design Tradeoffs",
+          "content": "Developed a standardized hold-down concept for BGA rework that could shift between panelized and depanelized board positions using a slot and spring-loaded locating pin.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -2091,58 +2082,42 @@
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Handling Fixture",
       "org": "Flex — Mechanical Engineering Internship",
-      "summary": "Handling fixture developed to address operator-reported assembly or quality issues.",
-      "desc": "One of several production fixture efforts focused on improving handling, repeatability, and assembly quality. Replace this text with non-confidential project-specific details.",
-      "contrib": "Designed fixture hardware in SolidWorks and iterated around operator feedback and manufacturing constraints.",
+      "summary": "Designed a fixture using standard board guides/hold-downs, a locating lip, side wings for X-ray/flying-probe handling, and standoffs to protect bottom-side components.",
+      "desc": "Designed a fixture using standard board guides/hold-downs, a locating lip, side wings for X-ray/flying-probe handling, and standoffs to protect bottom-side components.",
+      "contrib": "Designed a fixture using standard board guides/hold-downs, a locating lip, side wings for X-ray/flying-probe handling, and standoffs to protect bottom-side components.",
       "tags": [
         "Fixture Design",
         "SolidWorks",
         "Manufacturing"
       ],
-      "result": "Add public-safe outcome",
+      "result": "Production engineering / fixture project",
       "images": [
         {
-          "src": "assets/images/industry/Flex/Handling-Fixture/handling-fixture-1.jpg",
+          "src": "assets/images/industry/Flex/Handling-Fixture/Screenshot 2026-08-31 133816.png",
           "caption": ""
         },
         {
-          "src": "assets/images/industry/Flex/Handling-Fixture/handling-fixture-2.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/industry/Flex/Handling-Fixture/handling-fixture-3.jpg",
+          "src": "assets/images/industry/Flex/Handling-Fixture/Screenshot 2026-08-31 133825.png",
           "caption": ""
         }
       ],
       "attachments": [],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "label": "Handling Requirements",
+          "content": "Designed a fixture using standard board guides/hold-downs, a locating lip, side wings for X-ray/flying-probe handling, and standoffs to protect bottom-side components.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "label": "Fixture Architecture",
+          "content": "Designed a fixture using standard board guides/hold-downs, a locating lip, side wings for X-ray/flying-probe handling, and standoffs to protect bottom-side components.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "label": "Cross-Process Integration",
+          "content": "Designed a fixture using standard board guides/hold-downs, a locating lip, side wings for X-ray/flying-probe handling, and standoffs to protect bottom-side components.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -2152,58 +2127,42 @@
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Heatsink Assembly Nest",
       "org": "Flex — Mechanical Engineering Internship",
-      "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
-      "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
-      "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
+      "summary": "Designed a nest to support boards during heatsink and DIMM installation, adding localized underside support beneath high-load regions to reduce board flex.",
+      "desc": "Designed a nest to support boards during heatsink and DIMM installation, adding localized underside support beneath high-load regions to reduce board flex.",
+      "contrib": "Designed a nest to support boards during heatsink and DIMM installation, adding localized underside support beneath high-load regions to reduce board flex.",
       "tags": [
         "Fixture Design",
         "SolidWorks",
         "Manufacturing"
       ],
-      "result": "Add public-safe outcome",
+      "result": "Production engineering / fixture project",
       "images": [
         {
-          "src": "assets/images/industry/Flex/Heatsink-Assembly-Nest/heatsink-nest-1.jpg",
+          "src": "assets/images/industry/Flex/Heatsink-Assembly-Nest/Screenshot 2026-08-31 133900.png",
           "caption": ""
         },
         {
-          "src": "assets/images/industry/Flex/Heatsink-Assembly-Nest/heatsink-nest-2.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/industry/Flex/Heatsink-Assembly-Nest/heatsink-nest-3.jpg",
+          "src": "assets/images/industry/Flex/Heatsink-Assembly-Nest/Screenshot 2026-08-31 133907.png",
           "caption": ""
         }
       ],
       "attachments": [],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "label": "Assembly Problem",
+          "content": "Designed a nest to support boards during heatsink and DIMM installation, adding localized underside support beneath high-load regions to reduce board flex.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "label": "Support / Nest Design",
+          "content": "Designed a nest to support boards during heatsink and DIMM installation, adding localized underside support beneath high-load regions to reduce board flex.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "label": "Production Use",
+          "content": "Designed a nest to support boards during heatsink and DIMM installation, adding localized underside support beneath high-load regions to reduce board flex.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -2213,58 +2172,50 @@
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Cable Holder",
       "org": "Flex — Mechanical Engineering Internship",
-      "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
-      "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
-      "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
+      "summary": "Replaced taped cable routing across seven stations with a dedicated holder; produced 35 units, then redesigned the routing after a line change created interference.",
+      "desc": "Replaced taped cable routing across seven stations with a dedicated holder; produced 35 units, then redesigned the routing after a line change created interference.",
+      "contrib": "Replaced taped cable routing across seven stations with a dedicated holder; produced 35 units, then redesigned the routing after a line change created interference.",
       "tags": [
         "Fixture Design",
         "SolidWorks",
         "Manufacturing"
       ],
-      "result": "Add public-safe outcome",
+      "result": "Production engineering / fixture project",
       "images": [
         {
-          "src": "assets/images/industry/Flex/Cable-Holder/cable-holder-1.jpg",
+          "src": "assets/images/industry/Flex/Cable-Holder/Screenshot 2026-08-31 133513.png",
           "caption": ""
         },
         {
-          "src": "assets/images/industry/Flex/Cable-Holder/cable-holder-2.jpg",
+          "src": "assets/images/industry/Flex/Cable-Holder/Screenshot 2026-08-31 133519.png",
           "caption": ""
         },
         {
-          "src": "assets/images/industry/Flex/Cable-Holder/cable-holder-3.jpg",
+          "src": "assets/images/industry/Flex/Cable-Holder/Screenshot 2026-08-31 133526.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Cable-Holder/Screenshot 2026-08-31 133532.png",
           "caption": ""
         }
       ],
       "attachments": [],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "label": "Problem & Deployment",
+          "content": "Replaced taped cable routing across seven stations with a dedicated holder; produced 35 units, then redesigned the routing after a line change created interference.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "label": "CAD / Manufacturing",
+          "content": "Replaced taped cable routing across seven stations with a dedicated holder; produced 35 units, then redesigned the routing after a line change created interference.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "label": "Line Change & Redesign",
+          "content": "Replaced taped cable routing across seven stations with a dedicated holder; produced 35 units, then redesigned the routing after a line change created interference.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -2274,58 +2225,42 @@
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Nozzle Extender",
       "org": "Flex — Mechanical Engineering Internship",
-      "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
-      "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
-      "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
+      "summary": "Reverse engineered an extender for a solder-pot rework station where tall components prevented the existing nozzle from reaching the target area, matching the existing interfaces on both ends.",
+      "desc": "Reverse engineered an extender for a solder-pot rework station where tall components prevented the existing nozzle from reaching the target area, matching the existing interfaces on both ends.",
+      "contrib": "Reverse engineered an extender for a solder-pot rework station where tall components prevented the existing nozzle from reaching the target area, matching the existing interfaces on both ends.",
       "tags": [
         "Fixture Design",
         "SolidWorks",
         "Manufacturing"
       ],
-      "result": "Add public-safe outcome",
+      "result": "Production engineering / fixture project",
       "images": [
         {
-          "src": "assets/images/industry/Flex/Nozzle-Extender/nozzle-extender-1.jpg",
+          "src": "assets/images/industry/Flex/Nozzle-Extender/Screenshot 2026-08-31 133932.png",
           "caption": ""
         },
         {
-          "src": "assets/images/industry/Flex/Nozzle-Extender/nozzle-extender-2.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/industry/Flex/Nozzle-Extender/nozzle-extender-3.jpg",
+          "src": "assets/images/industry/Flex/Nozzle-Extender/Screenshot 2026-08-31 133943.png",
           "caption": ""
         }
       ],
       "attachments": [],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "label": "Equipment Constraint",
+          "content": "Reverse engineered an extender for a solder-pot rework station where tall components prevented the existing nozzle from reaching the target area, matching the existing interfaces on both ends.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "label": "Reverse Engineering & CAD",
+          "content": "Reverse engineered an extender for a solder-pot rework station where tall components prevented the existing nozzle from reaching the target area, matching the existing interfaces on both ends.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "label": "Fit / Implementation",
+          "content": "Reverse engineered an extender for a solder-pot rework station where tall components prevented the existing nozzle from reaching the target area, matching the existing interfaces on both ends.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -2335,58 +2270,38 @@
       "type": "INDUSTRY / MANUFACTURING",
       "title": "3D Printer Torture Test",
       "org": "Flex — Mechanical Engineering Internship",
-      "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
-      "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
-      "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
+      "summary": "Researched common print-quality failure modes and designed one test artifact containing measurable/visible features for dimensional accuracy, clearances, overhangs, bridging, squareness, retraction, Z-wobble, ghosting, and layer quality.",
+      "desc": "Researched common print-quality failure modes and designed one test artifact containing measurable/visible features for dimensional accuracy, clearances, overhangs, bridging, squareness, retraction, Z-wobble, ghosting, and layer quality.",
+      "contrib": "Researched common print-quality failure modes and designed one test artifact containing measurable/visible features for dimensional accuracy, clearances, overhangs, bridging, squareness, retraction, Z-wobble, ghosting, and layer quality.",
       "tags": [
         "Fixture Design",
         "SolidWorks",
         "Manufacturing"
       ],
-      "result": "Add public-safe outcome",
+      "result": "Production engineering / fixture project",
       "images": [
         {
-          "src": "assets/images/industry/Flex/3D-Printer-Torture-Test/torture-test-1.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/industry/Flex/3D-Printer-Torture-Test/torture-test-2.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/industry/Flex/3D-Printer-Torture-Test/torture-test-3.jpg",
+          "src": "assets/images/industry/Flex/3D-Printer-Torture-Test/Screenshot 2026-08-31 133057.png",
           "caption": ""
         }
       ],
       "attachments": [],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "label": "Calibration Requirements",
+          "content": "Researched common print-quality failure modes and designed one test artifact containing measurable/visible features for dimensional accuracy, clearances, overhangs, bridging, squareness, retraction, Z-wobble, ghosting, and layer quality.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "label": "Test Artifact Design",
+          "content": "Researched common print-quality failure modes and designed one test artifact containing measurable/visible features for dimensional accuracy, clearances, overhangs, bridging, squareness, retraction, Z-wobble, ghosting, and layer quality.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "label": "Inspection / Use",
+          "content": "Researched common print-quality failure modes and designed one test artifact containing measurable/visible features for dimensional accuracy, clearances, overhangs, bridging, squareness, retraction, Z-wobble, ghosting, and layer quality.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -2396,58 +2311,42 @@
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Shadow Box",
       "org": "Flex — Mechanical Engineering Internship",
-      "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
-      "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
-      "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
+      "summary": "Designed a stackable shadow box that organized selective-solder components and doubled as a visual completeness check for operators, with handles for handling/storage.",
+      "desc": "Designed a stackable shadow box that organized selective-solder components and doubled as a visual completeness check for operators, with handles for handling/storage.",
+      "contrib": "Designed a stackable shadow box that organized selective-solder components and doubled as a visual completeness check for operators, with handles for handling/storage.",
       "tags": [
         "Fixture Design",
         "SolidWorks",
         "Manufacturing"
       ],
-      "result": "Add public-safe outcome",
+      "result": "Production engineering / fixture project",
       "images": [
         {
-          "src": "assets/images/industry/Flex/Shadow-Box/shadow-box-1.jpg",
+          "src": "assets/images/industry/Flex/Shadow-Box/Screenshot 2026-08-31 134949.png",
           "caption": ""
         },
         {
-          "src": "assets/images/industry/Flex/Shadow-Box/shadow-box-2.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/industry/Flex/Shadow-Box/shadow-box-3.jpg",
+          "src": "assets/images/industry/Flex/Shadow-Box/Screenshot 2026-08-31 134956.png",
           "caption": ""
         }
       ],
       "attachments": [],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "label": "Operator / Process Need",
+          "content": "Designed a stackable shadow box that organized selective-solder components and doubled as a visual completeness check for operators, with handles for handling/storage.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "label": "Layout & Poka-Yoke Logic",
+          "content": "Designed a stackable shadow box that organized selective-solder components and doubled as a visual completeness check for operators, with handles for handling/storage.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "label": "Production Implementation",
+          "content": "Designed a stackable shadow box that organized selective-solder components and doubled as a visual completeness check for operators, with handles for handling/storage.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -2457,58 +2356,38 @@
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Go/No-Go Gauge",
       "org": "Flex — Mechanical Engineering Internship",
-      "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
-      "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
-      "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
+      "summary": "Developed a go/no-go inspection concept for a board with many manually placed components so operators could verify component presence before wave solder.",
+      "desc": "Developed a go/no-go inspection concept for a board with many manually placed components so operators could verify component presence before wave solder.",
+      "contrib": "Developed a go/no-go inspection concept for a board with many manually placed components so operators could verify component presence before wave solder.",
       "tags": [
         "Fixture Design",
         "SolidWorks",
         "Manufacturing"
       ],
-      "result": "Add public-safe outcome",
+      "result": "Production engineering / fixture project",
       "images": [
         {
-          "src": "assets/images/industry/Flex/Go-No-Go-Gauge/go-no-go-1.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/industry/Flex/Go-No-Go-Gauge/go-no-go-2.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/industry/Flex/Go-No-Go-Gauge/go-no-go-3.jpg",
+          "src": "assets/images/industry/Flex/Go-No-Go-Gauge/Screenshot 2026-08-31 133748.png",
           "caption": ""
         }
       ],
       "attachments": [],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "label": "Quality Problem",
+          "content": "Developed a go/no-go inspection concept for a board with many manually placed components so operators could verify component presence before wave solder.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "label": "Gauge Concept",
+          "content": "Developed a go/no-go inspection concept for a board with many manually placed components so operators could verify component presence before wave solder.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "label": "Intended Inspection Workflow",
+          "content": "Developed a go/no-go inspection concept for a board with many manually placed components so operators could verify component presence before wave solder.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -2518,58 +2397,42 @@
       "type": "INDUSTRY / MANUFACTURING",
       "title": "Gasket Placement",
       "org": "Flex — Mechanical Engineering Internship",
-      "summary": "Flex manufacturing / fixture design project. Add a concise, non-confidential summary here.",
-      "desc": "Add a public-safe detailed description of the engineering problem, design requirements, iterations, and validation for this Flex project.",
-      "contrib": "Add your specific contribution, including design ownership, CAD, drawing release, fabrication, testing, deployment, or measurable outcome where appropriate.",
+      "summary": "Designed a locational guide to improve repeatable placement of RF-interference-control gaskets on a product.",
+      "desc": "Designed a locational guide to improve repeatable placement of RF-interference-control gaskets on a product.",
+      "contrib": "Designed a locational guide to improve repeatable placement of RF-interference-control gaskets on a product.",
       "tags": [
         "Fixture Design",
         "SolidWorks",
         "Manufacturing"
       ],
-      "result": "Add public-safe outcome",
+      "result": "Production engineering / fixture project",
       "images": [
         {
-          "src": "assets/images/industry/Flex/Gasket-Placement/gasket-placement-1.jpg",
+          "src": "assets/images/industry/Flex/Gasket-Placement/Screenshot 2026-08-31 133715.png",
           "caption": ""
         },
         {
-          "src": "assets/images/industry/Flex/Gasket-Placement/gasket-placement-2.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/industry/Flex/Gasket-Placement/gasket-placement-3.jpg",
+          "src": "assets/images/industry/Flex/Gasket-Placement/Screenshot 2026-08-31 133720.png",
           "caption": ""
         }
       ],
       "attachments": [],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "label": "Placement Requirement",
+          "content": "Designed a locational guide to improve repeatable placement of RF-interference-control gaskets on a product.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "label": "Guide Design",
+          "content": "Designed a locational guide to improve repeatable placement of RF-interference-control gaskets on a product.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "label": "Production Use",
+          "content": "Designed a locational guide to improve repeatable placement of RF-interference-control gaskets on a product.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -2577,64 +2440,56 @@
     },
     "stocksmart": {
       "type": "PRODUCT DESIGN / SYSTEMS",
-      "title": "StockSmart — Wyss Institute Storage Solution",
+      "title": "StockSmart — Wyss Institute Stockroom Management System",
       "org": "Semester-Long Class Design Project",
       "summary": "A new storage solution designed for the Wyss Institute at Harvard to address problems caused by disproportionate billing.",
-      "desc": "A semester-long client-driven design project for the Wyss Institute focused on an inefficient stock-room system that could cause labs to be billed disproportionately relative to the supplies they actually used.",
-      "contrib": "Helped conduct client and problem research, evaluate multiple possible problem statements, and develop StockSmart: an NFC-based inventory workflow using pre-programmed phones, a front-end application, and a back-end website designed to remain adaptable as stock-room supplies change.",
+      "desc": "Semester-long client-driven design project for the Wyss Institute. A 16-person multidisciplinary team first had to identify which institutional problem was worth solving, then develop an integrated NFC-based stockroom management concept.",
+      "contrib": "My role was primarily PM/systems-level design rather than CAD/software implementation: I did substantial problem-statement definition, created the decision matrix, documented concept/problem elimination, helped organize the broad system architecture and cross-team work, discussed design ideas with the CAD team, and wrote a substantial portion of the 110-page final report.",
       "tags": [
         "Product Design",
         "Client-Based Design",
         "Storage Systems",
         "Design Process"
       ],
-      "result": "Semester-long class design project for the Wyss Institute at Harvard",
+      "result": "Delivered an integrated prototype concept spanning NFC/HUID mobile checkout, administrative inventory software, and dedicated phone hardware to support item-level usage billing and inventory visibility.",
       "images": [
         {
-          "src": "assets/images/class/StockSmart/stocksmart-1.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/class/StockSmart/stocksmart-2.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/class/StockSmart/stocksmart-3.jpg",
+          "src": "assets/images/cover-image/Home-COVER.png",
           "caption": ""
         }
       ],
       "attachments": [
         [
-          "Project Paper",
-          "assets/docs/class/StockSmart/StockSmart_Paper.pdf"
+          "ES 96 Final Presentation",
+          "assets/docs/class/StockSmart/ES-96 Final Presentation.pdf"
         ],
         [
-          "Presentation",
-          "assets/docs/class/StockSmart/StockSmart_Presentation.pdf"
+          "StockSmart Paper",
+          "assets/docs/class/StockSmart/StockSmart_Paper.pdf"
         ]
       ],
       "deepDive": [
         {
           "label": "Client Research & Problem Definition",
-          "content": "Conducted research on the Wyss Institute and its stock-room workflow to identify problems where an engineering design intervention could be useful. The team considered multiple possible problem statements before focusing on disproportionate billing and inventory tracking.",
+          "content": "The team spent ~5 weeks researching/interviewing across Wyss groups and generated 13 candidate problem statements spanning transportation, operations, communication, and research-specific needs. I helped synthesize the research and personally documented why problems were merged, reframed, retained, or eliminated.\n\nThe final stockroom problem emerged from a real billing/inventory pain point: per-visit charging could create inequity while item-level inventory remained largely manual.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "System Concept",
-          "content": "Developed StockSmart as a replacement inventory workflow centered on NFC chip scanning and pre-programmed phones.",
+          "label": "Trade Study & Solution Selection",
+          "content": "After ideation, we narrowed to pressure-plate/smart-shelf, software-only, and NFC-phone concepts. I created the weighted decision matrix using criteria including cost, backend ease, user experience, time efficiency, robustness to error, adaptability, adoptability, loss prevention, and scope.\n\nThe NFC-phone concept ranked highest because it balanced accountability, user experience, adaptability, and implementation feasibility.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Front-End / Back-End System",
-          "content": "The proposed solution included a developed front-end application and supporting back-end website to connect user interactions with stock-room records.",
+          "label": "Systems Architecture & Cross-Team Coordination",
+          "content": "The final system combined a mobile app, backend/admin website, NFC/HUID workflow, and a wall-mounted charging station. I was not on the dedicated CAD/software teams; my contribution was maintaining the broad architecture and interfaces, discussing design ideas, and helping the frontend, backend, and hardware workstreams stay aligned.\n\nClient feedback drove important workflow changes, including support for researchers belonging to multiple labs/grants.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Adaptability",
-          "content": "Designed the system around future maintainability so inventory items and supplies could be updated as the stock room changes rather than requiring a fixed one-time implementation.",
+          "label": "Documentation, PM & Outcome",
+          "content": "Wrote a substantial portion of the 110-page final report and helped structure it around the full engineering process: research → problem synthesis → elimination → definition → ideation → decision matrix → prototyping → final design → implementation.\n\nThis project is strongest evidence of problem definition, structured decision-making, systems thinking, technical writing, and PM—not of personal CAD ownership.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -2642,11 +2497,11 @@
     },
     "square-pendulum": {
       "type": "PHYSICS / WAVE PHENOMENA",
-      "title": "Square Pendulum Normal Modes",
+      "title": "2D Coupled Pendula — Normal Modes of a Square System",
       "org": "Physics 15C · Wave Phenomena",
       "summary": "Combined analytical, MATLAB, and physical modeling study of the normal modes of a square pendulum system.",
-      "desc": "A Wave Phenomena project investigating the normal modes of a square pendulum rather than a conventional single pendulum. We developed a mathematical model in MATLAB, used it to predict the system's characteristic motions, and then compared those predictions with the behavior of the physical setup.",
-      "contrib": "Contributed to the mathematical formulation, MATLAB implementation, physical model, experimental observation, and comparison between predicted and measured normal-mode behavior.",
+      "desc": "Extended the familiar 1D coupled-pendulum problem into a four-pendulum square system, combining a custom mechanical apparatus, accelerometer instrumentation, Arduino acquisition, Python logging, MATLAB frequency/phase analysis, and simulation.",
+      "contrib": "Designed and assembled the physical setup, built the electronics, wrote Arduino acquisition code, developed the Python serial logger and MATLAB FFT/phase analysis pipeline, and compared candidate normal modes against simulation and experiment.",
       "tags": [
         "MATLAB",
         "Normal Modes",
@@ -2654,47 +2509,41 @@
         "Experimental Physics",
         "Dynamics"
       ],
-      "result": "Course project and presentation comparing predicted and observed normal modes.",
+      "result": "Classified 11 candidate motions and found that in 2D, initial position alone is not enough to define a normal mode—the initial velocity state can also be essential.",
       "images": [
         {
-          "src": "assets/images/class/Square-Pendulum/wave.png",
+          "src": "assets/images/class/Square-Pendulum/pendelum - bubble labeled image .png",
           "caption": ""
         }
       ],
       "attachments": [
         [
-          "Presentation",
+          "Waves",
           "assets/docs/class/Square-Pendulum/Waves.pdf"
         ]
       ],
       "deepDive": [
         {
-          "label": "Research Question",
-          "content": "Investigated how the coupled geometry of a square pendulum changes the system's normal modes relative to a standard single-pendulum model.",
+          "label": "Apparatus & Instrumentation",
+          "content": "Built a square array of four spring-coupled pendula with a visual XY grid and instrumented two pendula with dual-axis ADXL335 accelerometers. Dummy wiring on the remaining pendula reduced sensor-wiring asymmetry.\n\nArduino acquisition sampled internally at high rate with filtering/gravity subtraction; a Python logger handled serial connection, trial IDs, timestamps, and CSV output.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Mathematical Model",
-          "content": "Developed the mathematical relationships needed to predict the characteristic motions of the square-pendulum system.",
+          "label": "Experimental Design",
+          "content": "Tested 11 initial displacement/motion schemes—including symmetric, antisymmetric, breathing, radial, trapezoidal, rectangular, circular, and assisted rotating motions—with ~25 s of data per trial and a stationary baseline period.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "MATLAB Development",
-          "content": "Implemented the model in MATLAB to generate predictions for the normal modes and provide a reference for the physical experiment.",
+          "label": "Signal Processing & Simulation",
+          "content": "MATLAB detrended and plotted accelerometer histories, used FFT/power spectra to identify dominant frequencies, and used cross-power spectral density to examine phase relationships. A computational model predicted ideal pendulum trajectories for comparison.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Physical Experiment",
-          "content": "Built and observed the real square-pendulum system, exciting the structure and identifying motion patterns that could be compared with the model predictions.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Model vs. Experiment",
-          "content": "Compared the predicted MATLAB behavior with the experimentally observed modes. Additional technical detail is preserved in the linked class presentation/poster.",
+          "label": "Results & Physical Insight",
+          "content": "Symmetric, antisymmetric, breathing, rectangle, and assisted-parallel-rotating configurations were classified as normal under appropriate initial conditions. The apparently symmetric circular case was not normal; energy transferred between modes and trajectories became square-like.\n\nThe assisted rotating case showed that a correct initial velocity can be required in 2D, making the state definition richer than simply specifying initial displacement.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -2702,66 +2551,52 @@
     },
     "heat-transfer": {
       "type": "HEAT TRANSFER / EXPERIMENTAL",
-      "title": "Infrared Imaging as an Indicator of Plant Drought Stress",
+      "title": "IR & Hyperspectral Detection of Plant Drought Stress",
       "org": "Heat Transfer",
       "summary": "Two-week experiment using six fern plants, controlled watering levels, and daily IR imaging to investigate whether thermal imagery can reveal drought stress before plant death.",
-      "desc": "A semester-long heat-transfer investigation into whether infrared imaging could serve as an indicator of plant drought stress. After an initial field-based concept produced too little controlled variation, the project was redesigned as a controlled fern experiment.",
-      "contrib": "Co-developed the experimental redesign, maintained controlled environmental conditions, varied water input as the independent variable, collected IR imagery as the dependent measurement, and analyzed the resulting thermal behavior.",
+      "desc": "Investigated whether thermal IR and hyperspectral measurements could reveal drought stress, pivoting from an uncontrolled outdoor tree study to a controlled six-fern watering experiment and complementary remote-sensing analysis.",
+      "contrib": "Helped redefine the research question after weak field results, designed/ran the controlled fern study, collected and analyzed repeated IR measurements, expanded analysis beyond a single centerpoint, and connected the thermal results to NDVI/NDWI hyperspectral drought indicators.",
       "tags": [
         "Heat Transfer",
         "Infrared Imaging",
         "Experimental Design",
         "Thermal Analysis"
       ],
-      "result": "Two-week experimental class project",
+      "result": "Controlled data supported warmer plant temperatures under water stress and showed the coolest/stablest response at moderate watering; hyperspectral analysis independently connected low NDWI to lower vegetation water content.",
       "images": [
         {
-          "src": "assets/images/class/Heat-Transfer-Ferns/heat-transfer-1.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/class/Heat-Transfer-Ferns/heat-transfer-2.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/class/Heat-Transfer-Ferns/heat-transfer-3.jpg",
+          "src": "assets/images/cover-image/Home-COVER.png",
           "caption": ""
         }
       ],
       "attachments": [
         [
-          "Presentation",
-          "assets/docs/class/Heat-Transfer-Ferns/Heat_Transfer_Presentation.pdf"
+          "ES 183 Final Presentation",
+          "assets/docs/class/Heat-Transfer-Ferns/ES-183-Final-Presentation.pdf"
         ]
       ],
       "deepDive": [
         {
-          "label": "Initial Research Question",
-          "content": "The initial concept was to investigate trees in a natural environment for thermal signatures associated with water stress.",
+          "label": "Research Question & Experimental Pivot",
+          "content": "The original plan compared outdoor trees, but environmental variability and difficulty identifying comparable stressed vegetation produced weak, non-significant differences. Rather than force a conclusion, we redesigned the project around a controlled independent variable: water availability.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Experimental Redesign",
-          "content": "Field measurements lacked sufficient control over environmental variables to produce meaningful conclusions, so the study was redesigned around six fern plants in a controlled setting.",
+          "label": "Controlled Fern Experiment",
+          "content": "Used six identical ferns with watering schedules from none to twice daily and collected repeated IR images before watering across ~15 measurement sessions. One fan-on datapoint visibly demonstrated the effect of convective conditions and why environmental control mattered.\n\nAnalysis expanded from the camera centerpoint to a larger region around the fern to examine spatial temperature variation.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Controlled Variables",
-          "content": "Water amount was varied as the independent variable and IR-imaging results were treated as the dependent variable. Other factors, including temperature and light exposure, were held as consistent as possible across plants.",
+          "label": "IR Results",
+          "content": "The no-water fern was consistently among the hottest, while the twice-weekly condition was coolest and most stable. Daily/twice-daily watering did not provide additional cooling and showed greater variability, suggesting the response was nonlinear rather than simply “more water = colder.”",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Data Collection",
-          "content": "Collected daily infrared images over the experimental period while maintaining the assigned watering conditions for each fern.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Analysis Goal",
-          "content": "Evaluated whether thermal-image changes could provide an early indication of drought stress before severe visible decline or plant death.",
+          "label": "Hyperspectral Analysis & Takeaways",
+          "content": "Analyzed NASA airborne hyperspectral data using NDVI to identify vegetation and NDWI to evaluate water content. Lower NDWI corresponded to greater SWIR response and drier vegetation.\n\nThe two methods provide complementary physics: reduced water limits transpiration/evaporative cooling and raises thermal temperature, while lower tissue water changes SWIR absorption. The strongest project lesson was experimental judgment—recognizing when the first design could not answer the question and rebuilding the study around controlled variables.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -2769,61 +2604,47 @@
     },
     "senior-thesis": {
       "type": "SENIOR THESIS / CAPSTONE · IN PROGRESS",
-      "title": "Senior Thesis / Capstone Project",
-      "org": "Harvard Mechanical Engineering",
-      "summary": "Active senior thesis and capstone work. Technical scope, design decisions, and results will be added as the project develops.",
-      "desc": "My senior thesis / capstone is currently in progress. This page will document the project as it develops, including the problem definition, design process, analysis, prototyping, testing, iteration, and final results.",
-      "contrib": "This is my senior thesis / capstone project, so I will use this space to document my individual technical ownership, design decisions, analysis, fabrication, testing, and iteration as the work progresses.",
+      "title": "Reconfigurable Loudspeaker Enclosure — Senior Capstone",
+      "org": "ES-100 · Harvard Mechanical Engineering",
+      "summary": "In-progress senior capstone exploring a loudspeaker enclosure that collapses for transport and expands into repeatable acoustically useful configurations.",
+      "desc": "Starting Fall 2026, my capstone investigates whether the enclosure itself can become reconfigurable, addressing the tradeoff between portable speaker size and the internal volume needed for predictable acoustic performance. The project is currently in problem-definition and early design; no prototype/test results are claimed yet.",
+      "contrib": "Mechanical design/manufacturing lead. Planned ownership includes enclosure CAD, deployment/locking mechanisms, focused mechanism prototypes, manufacturing, and mechanical validation, coordinated with my partner’s speaker/electrical/sensing work.",
       "tags": [
         "Mechanical Engineering",
         "Senior Thesis",
         "Capstone",
         "In Progress"
       ],
-      "result": "In progress",
+      "result": "In progress — requirements, architecture space, validation strategy, and project roadmap established; concept development and focused prototyping next.",
       "images": [
         {
-          "src": "assets/images/class/Senior-Thesis-Capstone/senior-thesis-1.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/class/Senior-Thesis-Capstone/senior-thesis-2.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/class/Senior-Thesis-Capstone/senior-thesis-3.jpg",
+          "src": "assets/images/cover-image/Home-COVER.png",
           "caption": ""
         }
       ],
       "attachments": [],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "label": "Problem, Requirements & System Architecture",
+          "content": "Treating the speaker as a coupled mechanical-electrical-acoustic system. Current targets include ≥50% reduction in stored bounding volume, <15 in maximum external dimension, <10 lb total system mass, collapsed plus at least two stable operating configurations, and repeatable internal volume within ±5%.\n\nThe first integrated prototype is planned as a sealed enclosure so volume changes have a comparatively direct acoustic interpretation.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "label": "Mechanical Concept Space",
+          "content": "Evaluating telescoping rigid sections, origami/folding structures, compliant enclosures, and hybrid architectures that separate airtight sealing from structural stiffness. Key risks include leakage, rattling/binding, fold fatigue, wall compliance/resonance, wiring across moving interfaces, and locking repeatability.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "label": "Validation Plan",
+          "content": "Planned validation compares the reconfigurable enclosure against an equivalent rigid reference: pressure-decay sealing, wall vibration, microphone frequency response, impedance, configuration detection, and repeated deployment. Current targets include ±3 dB acoustic agreement with the rigid reference, ±1 dB repeatability within a state, and 100 deployment cycles.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "label": "Current Status & My Ownership",
+          "content": "Current phase is proposal/define/early design. Next work is driver/volume selection, CAD concept generation, focused high-risk prototypes, concept selection, and integrated preliminary design.\n\nMy ownership is mechanical design, mechanism development, fabrication, and mechanical validation; my partner owns the primary speaker/electrical/sensing work.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -2831,61 +2652,47 @@
     },
     "engineering-music": {
       "type": "ENGINEERING + MUSIC",
-      "title": "Instrument Design & Fabrication",
-      "org": "Engineering and Music GenEd",
-      "summary": "A hands-on course project centered on designing and building musical instruments while connecting engineering principles with sound and music.",
-      "desc": "For my Engineering and Music GenEd, I designed and built physical musical instruments as part of a hands-on exploration of how engineering choices shape sound. The project connected design and fabrication with the physical behavior that produces musical tones.",
-      "contrib": "Designed and fabricated the instruments, iterated on the physical design, and applied engineering reasoning to connect geometry, construction, and material choices with the resulting acoustic behavior.",
+      "title": "Engineering Musical Instruments — Mechanical, Electronic & Electromechanical",
+      "org": "GenEd 1080 · How Music Works",
+      "summary": "Three instrument builds exploring mechanical acoustics, wearable sensing/MIDI, and motor-driven frictional resonance.",
+      "desc": "Across three course projects, I designed and built instruments that connected engineering decisions to musical behavior: a crank-driven pendulum glockenspiel, a force-sensitive wearable electronic piano, and a servo-driven glass “Harponica.”",
+      "contrib": "Contributions included SolidWorks pulley/table CAD, belt and copper-bar fabrication, Arduino/MIDI sensor code and breadboarding, sensor calibration, servo wiring/control code, laser cutting, assembly, acoustic tuning, and iterative troubleshooting.",
       "tags": [
         "Acoustics",
         "Instrument Design",
         "Fabrication",
         "Prototyping"
       ],
-      "result": "Course project · instrument design and fabrication",
+      "result": "Three playable prototypes that exposed different interactions between tolerances, sensing, actuation, structural support, and acoustics.",
       "images": [
         {
-          "src": "assets/images/class/Engineering-Music/engineering-music-1.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/class/Engineering-Music/engineering-music-2.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/class/Engineering-Music/engineering-music-3.jpg",
+          "src": "assets/images/cover-image/Home-COVER.png",
           "caption": ""
         }
       ],
       "attachments": [],
       "deepDive": [
         {
-          "label": "Prototyping",
-          "content": "Add the prototype concepts, early experiments, and iteration path for this project.",
+          "label": "(Bi)Pendulum Glockenspiel",
+          "content": "Built a crank-driven belt system carrying tuned copper bars past pendulum strikers. I designed printed pulleys, fabricated the belt from bicycle inner tube, drilled/threaded the copper bars, and operated the crank.\n\nIteration focused on acoustic freedom and tolerances: direct belt attachment damped the bars, so we moved to string suspension; a second pendulum added simultaneous notes; shaft/pulley fit errors required late-stage repair. The project showed that attachment stiffness and tolerance directly affect sound.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "CAD / Analysis Development",
-          "content": "Add the CAD, modeling, calculations, simulation, or analytical work that drove the design.",
+          "label": "Sept-Sensor Electric Piano",
+          "content": "Developed a glove-based electronic instrument using seven FSRs as musical keys, with pressure thresholds controlling octave. I modified Arduino/MIDI code for analog force inputs, built the breadboard, characterized sensor thresholds, and supported wearable integration.\n\nThe original flex-sensor idea changed after discovering the available devices were linear potentiometers. Glove-mounted force transmission also changed calibration, and Arduino analog-input limitations reduced the final design from eight to seven keys.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Manufacturing / Implementation",
-          "content": "Add the fabrication, assembly, coding, instrumentation, or implementation process.",
+          "label": "Glass Harponica",
+          "content": "Built a semi-automated glass-harp/harmonica hybrid where seven water-tuned wine glasses rotated on continuous servos while the player held a damp finger stationary. I completed the tabletop CAD/laser cutting, organized servo wiring, and wrote the seven-servo Arduino control code.\n\nThe largest lesson was separating actuation from structural support: the servo shafts could rotate the glasses but were poor single-point supports for top-heavy water-filled loads. A future version would support the rotating plates on bearings while using the servos primarily for torque.",
           "galleryStart": null,
           "galleryImages": []
         },
         {
-          "label": "Testing / Validation",
-          "content": "Add the test plan, experimental setup, validation criteria, results, and what you learned.",
-          "galleryStart": null,
-          "galleryImages": []
-        },
-        {
-          "label": "Design Problems & Resolutions",
-          "content": "Add the most important technical problems, tradeoffs, failures, and how you resolved them.",
+          "label": "Cross-Project Engineering Lessons",
+          "content": "Together the projects covered mechanical tolerancing and resonance, sensor calibration/HMI, and electromechanical actuation. They also repeatedly showed that the “musical” requirement is an engineering requirement: constraint stiffness, motor noise, water mass, sensor mounting, and manufacturing variation all changed the resulting sound/playability.",
           "galleryStart": null,
           "galleryImages": []
         }
@@ -2907,7 +2714,7 @@
       "result": "In progress — design phase",
       "images": [
         {
-          "src": "assets/images/clubs/HUAC-R/Modular-Test-Stand/modular-test-stand-1.jpg",
+          "src": "assets/images/clubs/HUAC-R/Modular Test Stand/modular test stand .png",
           "caption": ""
         }
       ],
@@ -2938,15 +2745,15 @@
       "result": "Completed personal machining project.",
       "images": [
         {
-          "src": "assets/images/personal/Machining-Projects/brass-hammer-1.jpg",
+          "src": "assets/images/personal/Machining-Projects/Manual machined bracc hammer .HEIC",
           "caption": ""
         },
         {
-          "src": "assets/images/personal/Machining-Projects/brass-hammer-2.jpg",
+          "src": "assets/images/personal/Machining-Projects/Mill training project.HEIC",
           "caption": ""
         },
         {
-          "src": "assets/images/personal/Machining-Projects/brass-hammer-3.jpg",
+          "src": "assets/images/personal/Machining-Projects/mill training projects x2.HEIC",
           "caption": ""
         }
       ],
@@ -2995,15 +2802,7 @@
       "result": "Completed shop tool used to move broken-down vehicles around the repair facility.",
       "images": [
         {
-          "src": "assets/images/industry/McCannic-Shop/vehicle-mover-1.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/industry/McCannic-Shop/vehicle-mover-2.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/industry/McCannic-Shop/vehicle-mover-3.jpg",
+          "src": "assets/images/cover-image/Home-COVER.png",
           "caption": ""
         }
       ],
@@ -3030,6 +2829,190 @@
         {
           "label": "Implementation",
           "content": "Tire sections were attached to the completed guard, and the truck was then used as a practical shop vehicle mover for broken-down cars.",
+          "galleryStart": null,
+          "galleryImages": []
+        }
+      ]
+    },
+    "bearing-holder": {
+      "type": "INDUSTRY / FIXTURE DESIGN",
+      "title": "Bearing Holder",
+      "org": "Flex — Mechanical Engineering Internship",
+      "summary": "Reverse engineered a missing steel bearing holder for a transferred press machine after the missing fourth bearing allowed unwanted X-Y rotation. Identified matching hardware and modeled a replacement holder.",
+      "desc": "Reverse engineered a missing steel bearing holder for a transferred press machine after the missing fourth bearing allowed unwanted X-Y rotation. Identified matching hardware and modeled a replacement holder.",
+      "contrib": "Reverse engineered a missing steel bearing holder for a transferred press machine after the missing fourth bearing allowed unwanted X-Y rotation. Identified matching hardware and modeled a replacement holder.",
+      "tags": [
+        "SolidWorks",
+        "Fixture Design",
+        "Manufacturing Engineering"
+      ],
+      "result": "Production engineering project",
+      "images": [
+        {
+          "src": "assets/images/industry/Flex/Bearing Holder/bearing holder - cover.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Bearing Holder/bearing holder - mcahined component.png",
+          "caption": ""
+        }
+      ],
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Problem & Requirements",
+          "content": "Reverse engineered a missing steel bearing holder for a transferred press machine after the missing fourth bearing allowed unwanted X-Y rotation. Identified matching hardware and modeled a replacement holder.",
+          "galleryStart": null,
+          "galleryImages": []
+        },
+        {
+          "label": "Design & Engineering",
+          "content": "Reverse engineered a missing steel bearing holder for a transferred press machine after the missing fourth bearing allowed unwanted X-Y rotation. Identified matching hardware and modeled a replacement holder.",
+          "galleryStart": null,
+          "galleryImages": []
+        },
+        {
+          "label": "Implementation / Outcome",
+          "content": "Reverse engineered a missing steel bearing holder for a transferred press machine after the missing fourth bearing allowed unwanted X-Y rotation. Identified matching hardware and modeled a replacement holder.",
+          "galleryStart": null,
+          "galleryImages": []
+        }
+      ]
+    },
+    "backing-stiffener": {
+      "type": "INDUSTRY / FIXTURE DESIGN",
+      "title": "Backing Stiffener",
+      "org": "Flex — Mechanical Engineering Internship",
+      "summary": "Added a 90° extrusion stiffener to an existing fixture to increase section stiffness and reduce deflection, adjusting fastener spacing around existing geometry.",
+      "desc": "Added a 90° extrusion stiffener to an existing fixture to increase section stiffness and reduce deflection, adjusting fastener spacing around existing geometry.",
+      "contrib": "Added a 90° extrusion stiffener to an existing fixture to increase section stiffness and reduce deflection, adjusting fastener spacing around existing geometry.",
+      "tags": [
+        "SolidWorks",
+        "Fixture Design",
+        "Manufacturing Engineering"
+      ],
+      "result": "Production engineering project",
+      "images": [
+        {
+          "src": "assets/images/industry/Flex/Backing Stiffener/Backing Stiffener - cover.png",
+          "caption": ""
+        }
+      ],
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Problem & Requirements",
+          "content": "Added a 90° extrusion stiffener to an existing fixture to increase section stiffness and reduce deflection, adjusting fastener spacing around existing geometry.",
+          "galleryStart": null,
+          "galleryImages": []
+        },
+        {
+          "label": "Design & Engineering",
+          "content": "Added a 90° extrusion stiffener to an existing fixture to increase section stiffness and reduce deflection, adjusting fastener spacing around existing geometry.",
+          "galleryStart": null,
+          "galleryImages": []
+        },
+        {
+          "label": "Implementation / Outcome",
+          "content": "Added a 90° extrusion stiffener to an existing fixture to increase section stiffness and reduce deflection, adjusting fastener spacing around existing geometry.",
+          "galleryStart": null,
+          "galleryImages": []
+        }
+      ]
+    },
+    "hex-driver-holder": {
+      "type": "INDUSTRY / FIXTURE DESIGN",
+      "title": "Hex Driver Holder",
+      "org": "Flex — Mechanical Engineering Internship",
+      "summary": "Designed a support-free 3D-printable metric/standard hex-driver organizer with labeled locations and CAD construction geometry used to verify tool spacing.",
+      "desc": "Designed a support-free 3D-printable metric/standard hex-driver organizer with labeled locations and CAD construction geometry used to verify tool spacing.",
+      "contrib": "Designed a support-free 3D-printable metric/standard hex-driver organizer with labeled locations and CAD construction geometry used to verify tool spacing.",
+      "tags": [
+        "SolidWorks",
+        "Fixture Design",
+        "Manufacturing Engineering"
+      ],
+      "result": "Production engineering project",
+      "images": [
+        {
+          "src": "assets/images/industry/Flex/Hex Driver Holder/Hex Driver Holder - Cover.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Hex Driver Holder/hex driver holder - metric .png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Hex Driver Holder/hex driver holder - standard .png",
+          "caption": ""
+        }
+      ],
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Problem & Requirements",
+          "content": "Designed a support-free 3D-printable metric/standard hex-driver organizer with labeled locations and CAD construction geometry used to verify tool spacing.",
+          "galleryStart": null,
+          "galleryImages": []
+        },
+        {
+          "label": "Design & Engineering",
+          "content": "Designed a support-free 3D-printable metric/standard hex-driver organizer with labeled locations and CAD construction geometry used to verify tool spacing.",
+          "galleryStart": null,
+          "galleryImages": []
+        },
+        {
+          "label": "Implementation / Outcome",
+          "content": "Designed a support-free 3D-printable metric/standard hex-driver organizer with labeled locations and CAD construction geometry used to verify tool spacing.",
+          "galleryStart": null,
+          "galleryImages": []
+        }
+      ]
+    },
+    "moveable-hold-down": {
+      "type": "INDUSTRY / FIXTURE DESIGN",
+      "title": "Moveable Hold-Down Concept",
+      "org": "Flex — Mechanical Engineering Internship",
+      "summary": "Developed a standardized BGA-rework hold-down that slides between discrete positions and locks with a spring-loaded pin to accommodate panelized and depanelized boards.",
+      "desc": "Developed a standardized BGA-rework hold-down that slides between discrete positions and locks with a spring-loaded pin to accommodate panelized and depanelized boards.",
+      "contrib": "Developed a standardized BGA-rework hold-down that slides between discrete positions and locks with a spring-loaded pin to accommodate panelized and depanelized boards.",
+      "tags": [
+        "SolidWorks",
+        "Fixture Design",
+        "Manufacturing Engineering"
+      ],
+      "result": "Production engineering project",
+      "images": [
+        {
+          "src": "assets/images/industry/Flex/Moveable Hold Down Concept/Holddown concept - cover.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Moveable Hold Down Concept/holddown concept - position  w paneling  .png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Moveable Hold Down Concept/spring-pin drawing.png",
+          "caption": ""
+        }
+      ],
+      "attachments": [],
+      "deepDive": [
+        {
+          "label": "Problem & Requirements",
+          "content": "Developed a standardized BGA-rework hold-down that slides between discrete positions and locks with a spring-loaded pin to accommodate panelized and depanelized boards.",
+          "galleryStart": null,
+          "galleryImages": []
+        },
+        {
+          "label": "Design & Engineering",
+          "content": "Developed a standardized BGA-rework hold-down that slides between discrete positions and locks with a spring-loaded pin to accommodate panelized and depanelized boards.",
+          "galleryStart": null,
+          "galleryImages": []
+        },
+        {
+          "label": "Implementation / Outcome",
+          "content": "Developed a standardized BGA-rework hold-down that slides between discrete positions and locks with a spring-loaded pin to accommodate panelized and depanelized boards.",
           "galleryStart": null,
           "galleryImages": []
         }
