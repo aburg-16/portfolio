@@ -155,8 +155,8 @@
           "text": "Earned through successful build, launch, and recovery of an Apogee Zephyr."
         },
         {
-          "title": "Add future certification",
-          "text": "Replace this placeholder when you earn another license or technical certification."
+          "title": "NFPA Hot Works Safety Certification",
+          "text": "Hot work safety certification."
         }
       ]
     },
@@ -366,7 +366,7 @@
     "hobbies": {
       "title": "Hobbies & Life Outside the Shop",
       "eyebrow": "Outside Engineering",
-      "intro": "Running, rock climbing, hiking, travel, and the activities that keep me moving when I am not designing or building hardware.",
+      "intro": "Running, hiking, travel, and the activities that keep me moving when I am not designing or building hardware.",
       "hobbies": [
         {
           "title": "Running",
@@ -377,11 +377,6 @@
           "title": "Hiking & National Parks",
           "text": "I love hiking and travel and have visited 28 U.S. national parks.",
           "image": "assets/images/hobbies/hiking-travel/travel pics (1).JPG"
-        },
-        {
-          "title": "Rock Climbing",
-          "text": "Climbing is one of my favorite ways to combine problem solving, movement, and time outdoors.",
-          "image": ""
         }
       ]
     }
@@ -467,11 +462,11 @@
       "result": "Progressed from breadboard proof-of-concept to V1 packaged protoboard hardware and a more robust PCB-based V2 architecture driven by field and mechanical testing.",
       "images": [
         {
-          "src": "assets/images/clubs/HUAC-R/RocketLink/v1.1 after recovery .JPG",
+          "src": "assets/images/clubs/HUAC-R/RocketLink/Micro G Launch - w V 1.0 .JPEG",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HUAC-R/RocketLink/Micro G Launch - w V 1.0 .JPEG",
+          "src": "assets/images/clubs/HUAC-R/RocketLink/v1.1 after recovery .JPG",
           "caption": ""
         },
         {
@@ -1488,27 +1483,27 @@
       "result": "Primary validation condition reduced tracking-error range by ~50% versus baseline PID, while also revealing increased current demand and hardware safety limits at extreme conditions.",
       "images": [
         {
-          "src": "assets/images/class/Friction-Backlash-Controller/backlash controller.HEIC",
+          "src": "assets/images/class/Friction-Backlash-Controller/backlash controller.png",
           "caption": ""
         },
         {
-          "src": "assets/images/class/Friction-Backlash-Controller/different backlash variations.HEIC",
+          "src": "assets/images/class/Friction-Backlash-Controller/different backlash variations.png",
           "caption": ""
         },
         {
-          "src": "assets/images/class/Friction-Backlash-Controller/final data collection set-up.HEIC",
+          "src": "assets/images/class/Friction-Backlash-Controller/final data collection set-up.png",
           "caption": ""
         },
         {
-          "src": "assets/images/class/Friction-Backlash-Controller/friction controller .HEIC",
+          "src": "assets/images/class/Friction-Backlash-Controller/friction controller .png",
           "caption": ""
         },
         {
-          "src": "assets/images/class/Friction-Backlash-Controller/full setup overview .HEIC",
+          "src": "assets/images/class/Friction-Backlash-Controller/full setup overview .png",
           "caption": ""
         },
         {
-          "src": "assets/images/class/Friction-Backlash-Controller/inital setup .HEIC",
+          "src": "assets/images/class/Friction-Backlash-Controller/inital setup .png",
           "caption": ""
         }
       ],
@@ -2875,15 +2870,15 @@
       "result": "Completed personal machining project.",
       "images": [
         {
-          "src": "assets/images/personal/Machining-Projects/Manual machined bracc hammer .HEIC",
+          "src": "assets/images/personal/Machining-Projects/Manual machined bracc hammer .png",
           "caption": ""
         },
         {
-          "src": "assets/images/personal/Machining-Projects/Mill training project.HEIC",
+          "src": "assets/images/personal/Machining-Projects/Mill training project.png",
           "caption": ""
         },
         {
-          "src": "assets/images/personal/Machining-Projects/mill training projects x2.HEIC",
+          "src": "assets/images/personal/Machining-Projects/mill training projects x2.png",
           "caption": ""
         }
       ],
