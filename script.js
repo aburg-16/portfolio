@@ -52,9 +52,14 @@ function projectCard(id, options={}){
   const p=CONTENT.projects[id]; if(!p) return '';
   const img=imageSrc((p.images&&p.images[0])||'');
   const statusBadge=options.comingSoon ? '<div class="coming-soon-badge">COMING SOON</div>' : '';
+  if(!img){
+    return `<button class="project-card project-card-empty" data-project="${esc(id)}" aria-label="Open ${esc(p.title)}">
+      <div class="project-empty-title">${esc(p.title)}</div>${statusBadge}
+    </button>`;
+  }
   return `<button class="project-card" data-project="${esc(id)}" aria-label="Open ${esc(p.title)}">
     <img class="card-image" src="${esc(img)}" alt="${esc(p.title)}">
-    <div class="card-image-fallback" style="display:none">Add image:<br>${esc(img)}</div>
+    <div class="card-image-fallback" style="display:none">${esc(p.title)}</div>
     ${statusBadge}
     <div class="card-title-band"><div class="project-org">${esc(p.org)}</div><h3>${esc(p.title)}</h3></div>
   </button>`;
@@ -209,7 +214,7 @@ function openProject(id){
 function closeProject(){ if(window.__projectSectionObserver) window.__projectSectionObserver.disconnect(); $('.modal-backdrop').classList.remove('open'); document.body.classList.remove('modal-open'); }
 function renderGallery(){
   const g=$('.gallery');
-  if(!currentGallery.length){g.innerHTML='<div class="gallery-placeholder">Add project images in content.json</div>';return;}
+  if(!currentGallery.length){g.innerHTML=`<div class="gallery-placeholder gallery-placeholder-empty">${esc(currentProject?.title||'Project')}</div>`;return;}
   const item=currentGallery[currentImageIndex];
   const src=imageSrc(item);
   const caption=currentImageIndex===0 ? '' : imageCaption(item);

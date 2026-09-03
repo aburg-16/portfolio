@@ -293,7 +293,6 @@
       "title": "Class Projects",
       "eyebrow": "Class Projects",
       "intro": "Course projects spanning machine design, mechatronics, structures, dynamics, computational mechanics, controls, product design, wave phenomena, heat transfer, acoustics, and senior capstone work.",
-      "note": "Project papers and presentations are linked from each project popup when available. The bridge project intentionally has no document link.",
       "groups": [
         {
           "title": "Engineering Coursework",
@@ -317,7 +316,6 @@
       "title": "Industry & Work Projects",
       "eyebrow": "Industry & Work Projects",
       "intro": "Mechanical design, production tooling, automation support, welding, and fabrication projects completed in industry and shop environments.",
-      "note": "The Flex section represents a larger portfolio of roughly 20 internship projects; only projects with public-safe titles/details currently have individual cards. Add the remaining project names/details in content.json as you are ready to publish them.",
       "groups": [
         {
           "title": "Flex — Mechanical Engineering Internship",
@@ -368,38 +366,22 @@
     "hobbies": {
       "title": "Hobbies & Life Outside the Shop",
       "eyebrow": "Outside Engineering",
-      "intro": "Running, outdoor sports, travel, and the activities that keep me moving when I am not designing or building hardware.",
-      "note": "Hobby text and photo paths are editable below in content.json. Add more cards by copying one hobby object.",
+      "intro": "Running, rock climbing, hiking, travel, and the activities that keep me moving when I am not designing or building hardware.",
       "hobbies": [
         {
           "title": "Running",
           "text": "5 half-marathons completed; currently training for my first full marathon.",
-          "image": "assets/images/hobbies/running/hobby-running.jpg"
+          "image": "assets/images/hobbies/running/half-marathons.JPG"
         },
         {
           "title": "Hiking & National Parks",
           "text": "I love hiking and travel and have visited 28 U.S. national parks.",
-          "image": "assets/images/hobbies/hiking-travel/hobby-national-parks.jpg"
+          "image": "assets/images/hobbies/hiking-travel/travel pics (1).JPG"
         },
         {
           "title": "Rock Climbing",
           "text": "Climbing is one of my favorite ways to combine problem solving, movement, and time outdoors.",
-          "image": "assets/images/hobbies/rock-climbing/hobby-climbing.jpg"
-        },
-        {
-          "title": "Biking",
-          "text": "I enjoy biking for both training and exploring.",
-          "image": "assets/images/hobbies/biking/hobby-biking.jpg"
-        },
-        {
-          "title": "Swimming",
-          "text": "Swimming is part of my cross-training and something I enjoy recreationally.",
-          "image": "assets/images/hobbies/swimming/hobby-swimming.jpg"
-        },
-        {
-          "title": "Soccer",
-          "text": "I enjoy playing soccer and staying active through team sports.",
-          "image": "assets/images/hobbies/soccer/hobby-soccer.jpg"
+          "image": ""
         }
       ]
     }
@@ -485,6 +467,10 @@
       "result": "Progressed from breadboard proof-of-concept to V1 packaged protoboard hardware and a more robust PCB-based V2 architecture driven by field and mechanical testing.",
       "images": [
         {
+          "src": "assets/images/clubs/HUAC-R/RocketLink/v1.1 after recovery .JPG",
+          "caption": ""
+        },
+        {
           "src": "assets/images/clubs/HUAC-R/RocketLink/Micro G Launch - w V 1.0 .JPEG",
           "caption": ""
         },
@@ -493,55 +479,11 @@
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HUAC-R/RocketLink/V1.1 transmitter and receiver units.HEIC",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HUAC-R/RocketLink/V2.0 transmitter unit closed.HEIC",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HUAC-R/RocketLink/v 2.0 transmitter unit board.HEIC",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HUAC-R/RocketLink/v1.0 transmitter and receiver units.HEIC",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HUAC-R/RocketLink/v1.0 transmitter unit.HEIC",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HUAC-R/RocketLink/v1.1 GPS module.HEIC",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HUAC-R/RocketLink/v1.1 after recovery .JPG",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HUAC-R/RocketLink/v1.1 antenna .HEIC",
-          "caption": ""
-        },
-        {
           "src": "assets/images/clubs/HUAC-R/RocketLink/v1.1 both units w mixro G.JPEG",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HUAC-R/RocketLink/v1.1 internal power connection.HEIC",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HUAC-R/RocketLink/v1.1 receiver at micro g station.HEIC",
-          "caption": ""
-        },
-        {
           "src": "assets/images/clubs/HUAC-R/RocketLink/v1.1 transmitter installed .JPG",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HUAC-R/RocketLink/v2..0 transmitter cad.HEIC",
           "caption": ""
         },
         {
@@ -597,15 +539,7 @@
       "result": "Reference vehicle manufactured and integrated; first static-fire attempt exposed fluid-system/sealing issues. Instrumented cold-flow characterization and a second static-fire campaign are in development.",
       "images": [
         {
-          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/HRPG-test-stand.jpg",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/HUACR - Sphinx - interface rings.png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/HUACR - sphinx - compustion chamber.png",
+          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/sphinx - cover photo.png",
           "caption": ""
         },
         {
@@ -613,7 +547,15 @@
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/injector plate.HEIC",
+          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/HRPG-test-stand.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/HUACR - sphinx - compustion chamber.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/HUACR - Sphinx - interface rings.png",
           "caption": ""
         },
         {
@@ -626,10 +568,6 @@
         },
         {
           "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/me working on sphinx at static fire.JPEG",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HUAC-R/Mojave-Sphinx/sphinx - cover photo.png",
           "caption": ""
         },
         {
@@ -694,12 +632,7 @@
         "Rocketry"
       ],
       "result": "In progress — competition planned for June 2027",
-      "images": [
-        {
-          "src": "assets/images/cover-image/Home-COVER.png",
-          "caption": ""
-        }
-      ],
+      "images": [],
       "attachments": [],
       "deepDive": [
         {
@@ -726,10 +659,6 @@
       "images": [
         {
           "src": "assets/images/clubs/HUAC-R/L1-Certification/L1 cert launch .PNG",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HUAC-R/L1-Certification/L1 certification - post rocket recovery.HEIC",
           "caption": ""
         },
         {
@@ -788,15 +717,15 @@
           "caption": ""
         },
         {
+          "src": "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 fuel bulkhead fea von mises.png",
+          "caption": ""
+        },
+        {
           "src": "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 LOX bulkhead FEA (psi).png",
           "caption": ""
         },
         {
           "src": "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 LOX bulkhead FEA von mises.png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HUAC-R/Phase-1-Liquid-Rocket/phase 1 fuel bulkhead fea von mises.png",
           "caption": ""
         },
         {
@@ -858,18 +787,6 @@
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HURC/URC-Rover/HURC-Full Rover CAD.png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HURC/URC-Rover/HURC-Machined Part.png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/clubs/HURC/URC-Rover/More machined parts.png",
-          "caption": ""
-        },
-        {
           "src": "assets/images/clubs/HURC/URC-Rover/cad - arm.png",
           "caption": ""
         },
@@ -890,11 +807,11 @@
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HURC/URC-Rover/cad - gripper V1.0.png",
+          "src": "assets/images/clubs/HURC/URC-Rover/cad - gripper shit.png",
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HURC/URC-Rover/cad - gripper shit.png",
+          "src": "assets/images/clubs/HURC/URC-Rover/cad - gripper V1.0.png",
           "caption": ""
         },
         {
@@ -922,11 +839,19 @@
           "caption": ""
         },
         {
-          "src": "assets/images/clubs/HURC/URC-Rover/hurc-rover-on -stand.HEIC",
+          "src": "assets/images/clubs/HURC/URC-Rover/HURC-Full Rover CAD.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/HURC-Machined Part.png",
           "caption": ""
         },
         {
           "src": "assets/images/clubs/HURC/URC-Rover/hurc_me+rover + electrical lead.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/clubs/HURC/URC-Rover/More machined parts.png",
           "caption": ""
         }
       ],
@@ -984,6 +909,10 @@
         {
           "src": "assets/images/research/Ability-Lab/headset - final desing .png",
           "caption": ""
+        },
+        {
+          "src": "assets/images/research/Ability-Lab/headset sketch.jpg",
+          "caption": ""
         }
       ],
       "attachments": [],
@@ -1030,11 +959,27 @@
       "result": "Validated brace-sensor embedded FSR behavior against controls; identified repeatability limitations in the fully encapsulated insole and developed a serviceable architecture; presented the work in a research poster.",
       "images": [
         {
-          "src": "assets/images/research/MAHI-Lab/MAHI-instron-testing.jpg",
+          "src": "assets/images/research/MAHI-Lab/mahi - snap on cover cad.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/research/MAHI-Lab/mahi_snap_on_cover.jpg",
           "caption": ""
         },
         {
           "src": "assets/images/research/MAHI-Lab/all variations of the scoliosis brace .png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/research/MAHI-Lab/different TPU connector sketch.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/research/MAHI-Lab/foot insole sketch.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/research/MAHI-Lab/in laid wire testing sketch.jpg",
           "caption": ""
         },
         {
@@ -1043,6 +988,10 @@
         },
         {
           "src": "assets/images/research/MAHI-Lab/intron testing setup .png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/research/MAHI-Lab/intron testing wiring layout sketches.jpg",
           "caption": ""
         },
         {
@@ -1066,10 +1015,6 @@
           "caption": ""
         },
         {
-          "src": "assets/images/research/MAHI-Lab/mahi - snap on cover cad.png",
-          "caption": ""
-        },
-        {
           "src": "assets/images/research/MAHI-Lab/mahi - soclisos sensor cad .png",
           "caption": ""
         },
@@ -1082,6 +1027,10 @@
           "caption": ""
         },
         {
+          "src": "assets/images/research/MAHI-Lab/MAHI-instron-testing.jpg",
+          "caption": ""
+        },
+        {
           "src": "assets/images/research/MAHI-Lab/mahi_insole+belt - original design.jpg",
           "caption": ""
         },
@@ -1090,11 +1039,11 @@
           "caption": ""
         },
         {
-          "src": "assets/images/research/MAHI-Lab/mahi_snap_on_cover.jpg",
+          "src": "assets/images/research/MAHI-Lab/me w my poster.png",
           "caption": ""
         },
         {
-          "src": "assets/images/research/MAHI-Lab/me w my poster.png",
+          "src": "assets/images/research/MAHI-Lab/old v new brace sensor sketch.jpg",
           "caption": ""
         }
       ],
@@ -1151,23 +1100,11 @@
           "caption": ""
         },
         {
-          "src": "assets/images/class/Yellow-Jacket/Yellow Jacket testing - all ball placement .png",
+          "src": "assets/images/class/Yellow-Jacket/full CAD exploded view.png",
           "caption": ""
         },
         {
-          "src": "assets/images/class/Yellow-Jacket/YellowJacket - Testing - Final Version.png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/class/Yellow-Jacket/prototype - iso view.HEIC",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/class/Yellow-Jacket/prototyping - 1.HEIC",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/class/Yellow-Jacket/prototyping - expanable carton (abandoned idea due to complexity).HEIC",
+          "src": "assets/images/class/Yellow-Jacket/turf wars field overview.png",
           "caption": ""
         },
         {
@@ -1176,14 +1113,6 @@
         },
         {
           "src": "assets/images/class/Yellow-Jacket/yellow jacket - fully assembled.png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/class/Yellow-Jacket/yellow jacket - side view - hexagonal weight cuts + wheel walls.HEIC",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/class/Yellow-Jacket/yellow jacket - top view - spikes explanation .HEIC",
           "caption": ""
         },
         {
@@ -1196,6 +1125,14 @@
         },
         {
           "src": "assets/images/class/Yellow-Jacket/yellow jacket spiral concept sketch.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Yellow-Jacket/Yellow Jacket testing - all ball placement .png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Yellow-Jacket/YellowJacket - Testing - Final Version.png",
           "caption": ""
         }
       ],
@@ -1251,15 +1188,23 @@
       "result": "Functional course-final turret demonstrated at the SEAS Design Fair after rapid on-site mechanical repairs and actuator redesigns.",
       "images": [
         {
-          "src": "assets/images/class/Nerf-Turret/EE - map.HEIC",
+          "src": "assets/images/class/Nerf-Turret/NerfTurret COVER.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Nerf-Turret/acrylic base V1.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Nerf-Turret/acrylic base V2 - weight reduction .png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Nerf-Turret/cad top view.png",
           "caption": ""
         },
         {
           "src": "assets/images/class/Nerf-Turret/NerfTurret - Full Electronic Layout.png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/class/Nerf-Turret/NerfTurret COVER.png",
           "caption": ""
         },
         {
@@ -1268,6 +1213,22 @@
         },
         {
           "src": "assets/images/class/Nerf-Turret/NerfTurret-pir-sensor-test.jpg",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Nerf-Turret/original concept sketch.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Nerf-Turret/trigger mechanicsm V2 - gear ratio.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Nerf-Turret/trigger mechanism - V1.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Nerf-Turret/zip tie fix .png",
           "caption": ""
         }
       ],
@@ -1318,12 +1279,7 @@
         "Optimization"
       ],
       "result": "2nd place",
-      "images": [
-        {
-          "src": "assets/images/cover-image/Home-COVER.png",
-          "caption": ""
-        }
-      ],
+      "images": [],
       "attachments": [],
       "deepDive": [
         {
@@ -1421,6 +1377,22 @@
       "result": "Calibrated simulation matched effective physical stiffness closely (~906 N/mm simulation vs ~885 N/mm experiment) while also exposing limitations in reproducing unloading hysteresis.",
       "images": [
         {
+          "src": "assets/images/class/Abaqus-Unit-Cell/kresling-unit-cell_COVER.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Abaqus-Unit-Cell/3D Printed Model.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Abaqus-Unit-Cell/Compressed Model.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Abaqus-Unit-Cell/datum driven model generation.png",
+          "caption": ""
+        },
+        {
           "src": "assets/images/class/Abaqus-Unit-Cell/Kresling-unit-cell-n=10.png",
           "caption": ""
         },
@@ -1441,11 +1413,19 @@
           "caption": ""
         },
         {
-          "src": "assets/images/class/Abaqus-Unit-Cell/kresling-unit-cell_COVER.png",
+          "src": "assets/images/class/Abaqus-Unit-Cell/model compressed in intron .png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Abaqus-Unit-Cell/model uncompressed in instron .png",
           "caption": ""
         },
         {
           "src": "assets/images/class/Abaqus-Unit-Cell/unit - cell - SW.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Abaqus-Unit-Cell/unit cell - abaqus hinge connections.png",
           "caption": ""
         },
         {
@@ -1589,7 +1569,7 @@
       "result": "Active personal build; target completion December 2026.",
       "images": [
         {
-          "src": "assets/images/cover-image/Home-COVER.png",
+          "src": "assets/images/personal/CNC-Plasma-Cutter/CNC plasma concept sketch (COVER temp).jpg",
           "caption": ""
         }
       ],
@@ -1659,15 +1639,15 @@
           "caption": ""
         },
         {
+          "src": "assets/images/personal/Vehicle-Restoration/el camino.png",
+          "caption": ""
+        },
+        {
           "src": "assets/images/personal/Vehicle-Restoration/F350 + camino.png",
           "caption": ""
         },
         {
           "src": "assets/images/personal/Vehicle-Restoration/F350.png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/personal/Vehicle-Restoration/el camino.png",
           "caption": ""
         }
       ],
@@ -1721,12 +1701,7 @@
         "Patterning"
       ],
       "result": "Ongoing personal practice with both decorative and functional projects.",
-      "images": [
-        {
-          "src": "assets/images/cover-image/Home-COVER.png",
-          "caption": ""
-        }
-      ],
+      "images": [],
       "attachments": [],
       "deepDive": [
         {
@@ -1776,15 +1751,11 @@
       "result": "Production engineering / fixture project",
       "images": [
         {
-          "src": "assets/images/industry/Flex/Screw-Mask/Press fit component mask.png",
-          "caption": ""
-        },
-        {
-          "src": "assets/images/industry/Flex/Screw-Mask/TIM Mask.png",
-          "caption": ""
-        },
-        {
           "src": "assets/images/industry/Flex/Screw-Mask/cold plate screw mask.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Screw-Mask/Press fit component mask.png",
           "caption": ""
         },
         {
@@ -1837,6 +1808,10 @@
         },
         {
           "src": "assets/images/industry/Flex/Screw-Mask/screw masks - 3 diff M3 screws (Not CAD actual product).png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/industry/Flex/Screw-Mask/TIM Mask.png",
           "caption": ""
         }
       ],
@@ -2454,7 +2429,59 @@
       "result": "Delivered an integrated prototype concept spanning NFC/HUID mobile checkout, administrative inventory software, and dedicated phone hardware to support item-level usage billing and inventory visibility.",
       "images": [
         {
-          "src": "assets/images/cover-image/Home-COVER.png",
+          "src": "assets/images/class/StockSmart/stocksmart - cover photo.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/StockSmart/stock smart - testing.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/StockSmart/stocksmart - app 2.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/StockSmart/stocksmart - app.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/StockSmart/stocksmart - cable management.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/StockSmart/stocksmart - cardboard prototype.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/StockSmart/stocksmart - concept sketches.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/StockSmart/stocksmart - eilimination process.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/StockSmart/stocksmart - intial cad.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/StockSmart/stocksmart - no charging.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/StockSmart/stocksmart - open.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/StockSmart/stocksmart - solution idea - NFC.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/StockSmart/stocksmart - solution idea - pressure sensors.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/StockSmart/stocksmart - solution idea - software.png",
           "caption": ""
         }
       ],
@@ -2512,7 +2539,31 @@
       "result": "Classified 11 candidate motions and found that in 2D, initial position alone is not enough to define a normal mode—the initial velocity state can also be essential.",
       "images": [
         {
-          "src": "assets/images/class/Square-Pendulum/pendelum - bubble labeled image .png",
+          "src": "assets/images/class/Square-Pendulum/COVER PHOTO.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Square-Pendulum/breathing mode - simulated results .png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Square-Pendulum/circle mode - simulated results.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Square-Pendulum/data collection electronics set up.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Square-Pendulum/different modes we identified and labeled.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Square-Pendulum/pendela close up.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Square-Pendulum/pendelum top view.png",
           "caption": ""
         }
       ],
@@ -2565,7 +2616,83 @@
       "result": "Controlled data supported warmer plant temperatures under water stress and showed the coolest/stablest response at moderate watering; hyperspectral analysis independently connected low NDWI to lower vegetation water content.",
       "images": [
         {
-          "src": "assets/images/cover-image/Home-COVER.png",
+          "src": "assets/images/class/Heat-Transfer-Ferns/3x weekly plant .png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Heat-Transfer-Ferns/avaerage fern temp.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Heat-Transfer-Ferns/daily plant.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Heat-Transfer-Ferns/hyperspectral data - NDVI.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Heat-Transfer-Ferns/hyperspectral data - NDWI.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Heat-Transfer-Ferns/hyperspectral data - RGB composities .png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Heat-Transfer-Ferns/initial project - trees in harvard uard.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Heat-Transfer-Ferns/mean spectra for high-low NDWI.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Heat-Transfer-Ferns/no water plant.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Heat-Transfer-Ferns/plant - 2x daily water - IR images.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Heat-Transfer-Ferns/plant - 2x weekly water - IR images.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Heat-Transfer-Ferns/plant - 3x weekly water - IR images.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Heat-Transfer-Ferns/plant - daily water - IR images.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Heat-Transfer-Ferns/plant - no water - IR images.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Heat-Transfer-Ferns/plant - weekly water - IR images.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Heat-Transfer-Ferns/plants lined up w numbers.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Heat-Transfer-Ferns/plants top view.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Heat-Transfer-Ferns/thermal imafe ROI temp for all plants.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Heat-Transfer-Ferns/twice daily  plant.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Heat-Transfer-Ferns/weekly plant.png",
           "caption": ""
         }
       ],
@@ -2616,12 +2743,7 @@
         "In Progress"
       ],
       "result": "In progress — requirements, architecture space, validation strategy, and project roadmap established; concept development and focused prototyping next.",
-      "images": [
-        {
-          "src": "assets/images/cover-image/Home-COVER.png",
-          "caption": ""
-        }
-      ],
+      "images": [],
       "attachments": [],
       "deepDive": [
         {
@@ -2666,7 +2788,15 @@
       "result": "Three playable prototypes that exposed different interactions between tolerances, sensing, actuation, structural support, and acoustics.",
       "images": [
         {
-          "src": "assets/images/cover-image/Home-COVER.png",
+          "src": "assets/images/class/Engineering-Music/force sensor glove midi piano.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Engineering-Music/harponica.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/images/class/Engineering-Music/pendelum bi-glockenspiel.png",
           "caption": ""
         }
       ],
@@ -2800,12 +2930,7 @@
         "Shop Tooling"
       ],
       "result": "Completed shop tool used to move broken-down vehicles around the repair facility.",
-      "images": [
-        {
-          "src": "assets/images/cover-image/Home-COVER.png",
-          "caption": ""
-        }
-      ],
+      "images": [],
       "attachments": [],
       "deepDive": [
         {
