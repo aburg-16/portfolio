@@ -134,6 +134,7 @@ function renderGallery(){
 }
 
 async function init(){
+  if(!$('#site-root')) return;
   try{
     CONTENT=await loadContent();
     const page=document.body.dataset.page||'home';

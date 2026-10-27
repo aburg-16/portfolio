@@ -2,7 +2,6 @@ let CONTENT = null;
 let currentGallery = [];
 let currentImageIndex = 0;
 let currentProject = null;
-let currentProjectTab = 'overview';
 
 const $ = (sel, root=document) => root.querySelector(sel);
 const $$ = (sel, root=document) => [...root.querySelectorAll(sel)];
@@ -37,8 +36,10 @@ async function loadContent(){
 function nav(page){
   const s=CONTENT.site;
   return `<nav><div class="container nav-inner">
-    <a class="brand" href="index.html">${esc(s.brandFirst)} <span>${esc(s.brandLast)}</span></a>
-    <div class="nav-links">${s.navigation.map(n=>`<a class="${n.page===page?'active':''}" href="${esc(n.href)}">${esc(n.label)}</a>`).join('')}</div>
+    <a class="brand" href="index.html" aria-label="${esc(s.name)}, home"><span class="brand-mark" aria-hidden="true">✦</span><span class="brand-name">${esc(s.name.toLowerCase())}<small>ENGINEER &amp; MAKER</small></span></a>
+    <button class="theme-toggle" type="button" aria-label="Switch color theme"></button>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation"><span></span><span></span></button>
+    <div class="nav-links" id="primary-navigation">${s.navigation.map(n=>`<a class="${n.page===page?'active':''}" href="${esc(n.href)}"${n.page===page?' aria-current="page"':''}>${esc(n.label)}</a>`).join('')}</div>
   </div></nav>`;
 }
 function footer(){
@@ -51,18 +52,19 @@ function buttons(items, centered=false){
 function projectCard(id, options={}){
   const p=CONTENT.projects[id]; if(!p) return '';
   const img=imageSrc((p.images&&p.images[0])||'');
+  const projectType=(p.type||'PROJECT').trim();
+  const organization=(p.org||'').trim();
   const statusBadge=options.comingSoon ? '<div class="coming-soon-badge">COMING SOON</div>' : '';
-  if(!img){
-    return `<button class="project-card project-card-empty" data-project="${esc(id)}" aria-label="Open ${esc(p.title)}">
-      <div class="project-empty-title">${esc(p.title)}</div>${statusBadge}
-    </button>`;
-  }
-  return `<button class="project-card" data-project="${esc(id)}" aria-label="Open ${esc(p.title)}">
-    <img class="card-image" src="${esc(img)}" alt="${esc(p.title)}">
-    <div class="card-image-fallback" style="display:none">${esc(p.title)}</div>
+  return `<a class="project-card${img?'':' project-card-empty'}" href="project-${encodeURIComponent(id)}.html" aria-label="View ${esc(p.title)}">
+    ${img?`<img class="card-image" src="${esc(img)}" alt="${esc(p.title)}"><div class="card-image-fallback" style="display:none">${esc(p.title)}</div>`:''}
     ${statusBadge}
-    <div class="card-title-band"><div class="project-org">${esc(p.org)}</div><h3>${esc(p.title)}</h3></div>
-  </button>`;
+    <div class="card-title-band">
+      <div class="project-card-kicker"><span>${esc(projectType)}</span><span class="card-open-cue">View project ↗</span></div>
+      ${organization&&organization.toLowerCase()!==projectType.toLowerCase()?`<div class="project-org">${esc(organization)}</div>`:''}
+      <h3>${esc(p.title)}</h3>
+      ${p.summary?`<p class="project-summary">${esc(p.summary)}</p>`:''}
+    </div>
+  </a>`;
 }
 function projectGrid(ids, options={}){ return `<div class="project-grid">${ids.map(id=>projectCard(id, options)).join('')}</div>`; }
 function sectionHead(kicker,title){return `<div class="section-head"><div><div class="section-kicker">${esc(kicker)}</div><h2 class="section-title">${esc(title)}</h2></div></div>`;}
@@ -75,14 +77,24 @@ function carousel(id, title, items, kind){
 
 function renderHome(){
   const h=CONTENT.home;
+  const [firstName,...remainingName]=h.hero.name.split(/\s+/);
+  const lastName=remainingName.join(' ');
   return `${nav('home')}
-  <header class="hero"><div class="container hero-grid"><div>
-    <div class="eyebrow">${esc(h.hero.eyebrow)}</div><h1>${esc(h.hero.name)}</h1><h2>${esc(h.hero.headline)}</h2><p>${esc(h.hero.intro)}</p>${buttons(h.hero.buttons)}
-  </div><div class="portrait-frame">
+  <header class="hero"><div class="container hero-container">
+    <div class="eyebrow">${esc(h.hero.eyebrow)}</div>
+    <div class="hero-title-row"><h1 class="hero-name"><span>${esc(firstName)}</span>${lastName?`<span class="hero-name-light">${esc(lastName)}</span>`:''}</h1>
+      <div class="celestial-chart" aria-hidden="true"><svg viewBox="0 0 300 220" fill="none"><ellipse cx="150" cy="110" rx="116" ry="56" transform="rotate(-30 150 110)"/><ellipse cx="150" cy="110" rx="90" ry="90"/><path class="chart-axis" d="M150 4v212M36 110h228"/><path class="chart-path" d="m59 148 58-76 79 54 41-64"/><circle cx="59" cy="148" r="4"/><circle cx="117" cy="72" r="5"/><circle cx="196" cy="126" r="4"/><path class="chart-star" d="m237 45 4 13 13 4-13 4-4 13-4-13-13-4 13-4Z"/><path class="chart-star" d="m150 93 4 13 13 4-13 4-4 13-4-13-13-4 13-4Z"/></svg><span>ALWAYS EXPLORING</span></div>
+    </div>
+    <div class="hero-grid"><div class="portrait-frame">
     <img src="${esc(h.hero.portrait)}" alt="${esc(h.hero.portraitAlt)}">
     <div class="image-fallback"><div><strong>Portrait photo</strong><br>Upload:<br><code>${esc(h.hero.portrait)}</code></div></div>
     <div class="portrait-label">${esc(h.hero.portraitLabel)}</div>
-  </div></div></header>
+    </div><div class="hero-copy"><h2>${esc(h.hero.headline)}</h2><p>${esc(h.hero.intro)}</p>
+      <div class="hero-skills" aria-label="Focus areas">${h.skills.groups.map(g=>`<span>${esc(g.title)}</span>`).join('')}</div>
+      ${buttons(h.hero.buttons)}
+    </div></div>
+    <div class="hero-footnote"><span>${Object.keys(CONTENT.projects).length} PROJECTS</span><span>DESIGN · BUILD · TEST · ITERATE</span></div>
+  </div></header>
   <main>
     <section id="about"><div class="container">${sectionHead(h.about.kicker,h.about.title)}<div class="about-grid">${h.about.paragraphs.map(p=>`<p>${esc(p)}</p>`).join('')}</div></div></section>
     <section id="stay-tuned"><div class="container">${sectionHead(h.active.kicker,h.active.title)}${h.active.text?`<p class="section-intro">${esc(h.active.text)}</p>`:''}${projectGrid(h.active.projectIds,{comingSoon:true})}</div></section>
@@ -118,7 +130,36 @@ function bindImageFallbacks(){
     else if(fallback && fallback.classList.contains('image-fallback')) fallback.style.display='none';
   });
 }
-function bindCards(){ $$('.project-card').forEach(card=>card.addEventListener('click',()=>openProject(card.dataset.project))); }
+function projectCategory(id){
+  return Object.entries(CONTENT.pages).find(([,page])=>(page.groups||[]).some(group=>(group.projectIds||[]).includes(id)));
+}
+function renderStandaloneProject(id){
+  const p=CONTENT.projects[id];
+  if(!p) throw new Error('This project could not be found.');
+  const category=projectCategory(id);
+  const categoryLink=category && CONTENT.site.navigation.find(item=>item.page===category[0]);
+  const backHref=categoryLink?.href || 'index.html#featured';
+  const backLabel=category ? category[1].title : 'All projects';
+  const ids=category ? category[1].groups.flatMap(group=>group.projectIds).filter(key=>CONTENT.projects[key]) : Object.keys(CONTENT.projects);
+  const index=ids.indexOf(id);
+  const adjacent=(key,label)=>key ? `<a class="btn" href="project-${encodeURIComponent(key)}.html"><span>${label}</span><strong>${esc(CONTENT.projects[key].title)}</strong></a>` : '';
+  return `${nav(category?.[0]||'')}<main id="main" class="project-page container">
+    <header class="project-heading">
+      <a class="project-back" href="${esc(backHref)}">&larr; ${esc(backLabel)}</a>
+      <div class="modal-type">${esc(p.type||'Project')}</div>
+      <h1 class="project-title">${esc(p.title)}</h1>
+      <p class="modal-org">${esc(p.org||'')}</p>
+      ${p.summary?`<p class="project-lede">${esc(p.summary)}</p>`:''}
+    </header>
+    <div class="gallery" role="region" aria-label="Project images" tabindex="0"></div>
+    <div class="project-content">
+      <div class="modal-tabs" role="navigation" aria-label="On this page"></div>
+      <article class="modal-tab-content" aria-label="Project details"></article>
+    </div>
+    <div class="project-pagination" aria-label="More projects">${adjacent(ids[index-1],'Previous project')}${adjacent(ids[index+1],'Next project')}</div>
+    <a class="project-back project-back-bottom" href="${esc(backHref)}">&larr; Back to ${esc(backLabel)}</a>
+  </main>${footer()}`;
+}
 
 function bindCarousels(){
   $$('.content-carousel').forEach(track=>{
@@ -142,7 +183,7 @@ function renderDetailText(value){
     return `<ul class="detail-list">${value.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`;
   }
   const text=String(value||'').trim();
-  if(!text) return '<p class="detail-placeholder">Add this section in <code>content.json</code>.</p>';
+  if(!text) return '<p class="detail-placeholder">More details coming soon.</p>';
   return text.split(/\n\s*\n/).map(par=>`<p>${esc(par).replace(/\n/g,'<br>')}</p>`).join('');
 }
 function projectSectionId(index){ return `project-section-${index}`; }
@@ -168,14 +209,21 @@ function renderProjectContents(){
     ${tabs.map((detail,i)=>`<section id="${projectSectionId(i)}" class="project-scroll-section deep-dive-panel" data-section-index="${i}"><div class="deep-dive-kicker">Project Deep Dive</div><h3>${esc(detail.label)}</h3><div class="deep-dive-content">${renderDetailText(detail.content)}</div></section>`).join('')}`;
 
   const setActiveLink=(index)=>{
-    $$('.modal-tab-button',nav).forEach(link=>link.classList.toggle('active',String(link.dataset.sectionIndex)===String(index)));
+    $$('.modal-tab-button',nav).forEach(link=>{
+      const active=String(link.dataset.sectionIndex)===String(index);
+      link.classList.toggle('active',active);
+      if(active) link.setAttribute('aria-current','location');
+      else link.removeAttribute('aria-current');
+    });
   };
+  setActiveLink('overview');
 
   $$('.modal-tab-button',nav).forEach(link=>link.addEventListener('click',e=>{
     e.preventDefault();
     const index=link.dataset.sectionIndex;
     const target=$(link.getAttribute('href'), panel);
     if(target) target.scrollIntoView({behavior:'smooth',block:'start'});
+    history.replaceState(null,'',link.getAttribute('href'));
     setActiveLink(index);
     if(index==='overview'){
       if(currentGallery.length){ currentImageIndex=0; renderGallery(); }
@@ -193,37 +241,69 @@ function renderProjectContents(){
       if(!visible) return;
       const index=visible.target.dataset.sectionIndex;
       setActiveLink(index);
-      if(index==='overview') return;
-      const detail=tabs[Number(index)];
-      jumpGalleryForDetail(detail);
     },{root,rootMargin:'-18% 0px -55% 0px',threshold:[0.05,0.2,0.5]});
     $$('.project-scroll-section',panel).forEach(section=>window.__projectSectionObserver.observe(section));
   }
 }
-function renderProjectTabs(){ renderProjectContents(); }
-function openProject(id){
-  const p=CONTENT.projects[id]; if(!p) return;
-  currentProject=p;
-  $('.modal-type').textContent=p.type||'';
-  $('.modal-title').textContent=p.title||'';
-  $('.modal-org').textContent=p.org||'';
-  renderProjectTabs();
-  currentGallery=p.images||[]; currentImageIndex=0; renderGallery();
-  $('.modal-backdrop').classList.add('open'); document.body.classList.add('modal-open');
-}
-function closeProject(){ if(window.__projectSectionObserver) window.__projectSectionObserver.disconnect(); $('.modal-backdrop').classList.remove('open'); document.body.classList.remove('modal-open'); }
 function renderGallery(){
   const g=$('.gallery');
   if(!currentGallery.length){g.innerHTML=`<div class="gallery-placeholder gallery-placeholder-empty">${esc(currentProject?.title||'Project')}</div>`;return;}
   const item=currentGallery[currentImageIndex];
   const src=imageSrc(item);
-  const caption=currentImageIndex===0 ? '' : imageCaption(item);
+  const caption=imageCaption(item);
   g.innerHTML=`<div class="gallery-stage"><div class="gallery-blur" aria-hidden="true"></div><img src="${esc(src)}" alt="Project image ${currentImageIndex+1}"><div class="gallery-placeholder" style="display:none">Add image:<br>${esc(src)}</div>${currentGallery.length>1?`<button class="gallery-arrow prev" aria-label="Previous image">‹</button><button class="gallery-arrow next" aria-label="Next image">›</button><div class="gallery-count">${currentImageIndex+1} / ${currentGallery.length}</div>`:''}${caption?`<div class="gallery-caption">${esc(caption)}</div>`:''}</div>`;
   const img=$('.gallery img'); const ph=$('.gallery-placeholder'); const blur=$('.gallery-blur');
+  img.alt=caption || `${currentProject.title} — image ${currentImageIndex+1}`;
   blur.style.backgroundImage=`url("${src.replace(/"/g,'\\"')}")`;
   img.addEventListener('error',()=>{img.style.display='none';blur.style.display='none';ph.style.display='flex';});
   $('.gallery .prev')?.addEventListener('click',()=>{currentImageIndex=(currentImageIndex-1+currentGallery.length)%currentGallery.length;renderGallery();});
   $('.gallery .next')?.addEventListener('click',()=>{currentImageIndex=(currentImageIndex+1)%currentGallery.length;renderGallery();});
+}
+
+function bindNavigation(){
+  const navigation=$('nav');
+  const toggle=$('.nav-toggle');
+  if(!navigation||!toggle) return;
+  const close=()=>{
+    navigation.classList.remove('is-open');
+    toggle.setAttribute('aria-expanded','false');
+    toggle.setAttribute('aria-label','Open navigation');
+  };
+  toggle.addEventListener('click',()=>{
+    const expanded=toggle.getAttribute('aria-expanded')==='true';
+    navigation.classList.toggle('is-open',!expanded);
+    toggle.setAttribute('aria-expanded',String(!expanded));
+    toggle.setAttribute('aria-label',expanded?'Open navigation':'Close navigation');
+  });
+  $$('.nav-links a',navigation).forEach(link=>link.addEventListener('click',close));
+}
+
+function bindTheme(){
+  const toggle=$('.theme-toggle');
+  if(!toggle) return;
+  const preference=window.matchMedia('(prefers-color-scheme: dark)');
+  const paint=()=>{
+    const dark=document.documentElement.dataset.theme==='dark';
+    toggle.innerHTML=`<span aria-hidden="true">${dark?'☀':'☾'}</span><span>${dark?'Light':'Dark'}</span>`;
+    toggle.setAttribute('aria-label',`Switch to ${dark?'light':'dark'} mode`);
+    toggle.setAttribute('aria-pressed',String(dark));
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content',dark?'#101522':'#f7f5ef');
+  };
+  if(!['light','dark'].includes(document.documentElement.dataset.theme)){
+    document.documentElement.dataset.theme=preference.matches?'dark':'light';
+  }
+  toggle.addEventListener('click',()=>{
+    const next=document.documentElement.dataset.theme==='dark'?'light':'dark';
+    document.documentElement.dataset.theme=next;
+    try{localStorage.setItem('portfolio-theme',next);}catch{}
+    paint();
+  });
+  preference.addEventListener('change',e=>{
+    try{if(localStorage.getItem('portfolio-theme')) return;}catch{}
+    document.documentElement.dataset.theme=e.matches?'dark':'light';
+    paint();
+  });
+  paint();
 }
 
 async function init(){
@@ -231,16 +311,25 @@ async function init(){
     CONTENT=await loadContent();
     const page=document.body.dataset.page||'home';
     const root=$('#site-root');
-    root.innerHTML=page==='home'?renderHome():page==='hobbies'?renderHobbies():renderProjectPage(page);
-    bindImageFallbacks(); bindCards(); bindCarousels();
-    $('.modal-close').addEventListener('click',closeProject);
-    $('.modal-backdrop').addEventListener('click',e=>{if(e.target.classList.contains('modal-backdrop'))closeProject();});
-    document.addEventListener('keydown',e=>{
-      if(e.key==='Escape') closeProject();
-      if(!$('.modal-backdrop').classList.contains('open') || currentGallery.length<2) return;
-      if(e.key==='ArrowRight'){currentImageIndex=(currentImageIndex+1)%currentGallery.length;renderGallery();}
-      if(e.key==='ArrowLeft'){currentImageIndex=(currentImageIndex-1+currentGallery.length)%currentGallery.length;renderGallery();}
-    });
+    root.innerHTML=page==='project'?renderStandaloneProject(document.body.dataset.project):page==='home'?renderHome():page==='hobbies'?renderHobbies():renderProjectPage(page);
+    bindNavigation(); bindTheme(); bindImageFallbacks(); bindCarousels();
+    if(page==='project'){
+      currentProject=CONTENT.projects[document.body.dataset.project];
+      currentGallery=currentProject.images||[];
+      currentImageIndex=0;
+      renderProjectContents();
+      renderGallery();
+      $('.gallery').addEventListener('keydown',e=>{
+        if(currentGallery.length<2 || !['ArrowRight','ArrowLeft'].includes(e.key)) return;
+        e.preventDefault();
+        currentImageIndex=(currentImageIndex+(e.key==='ArrowRight'?1:-1)+currentGallery.length)%currentGallery.length;
+        renderGallery();
+      });
+      if(location.hash){
+        const target=document.getElementById(location.hash.slice(1));
+        if(target) requestAnimationFrame(()=>target.scrollIntoView());
+      }
+    }
   }catch(err){
     $('#site-root').innerHTML=`<div class="load-error"><h1>Portfolio content could not load.</h1><p>${esc(err.message)}</p><p>If you opened the HTML file directly from your computer, preview it through GitHub Pages or a local web server. Browsers block fetch() from local file URLs.</p></div>`;
     console.error(err);

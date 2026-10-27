@@ -1,5 +1,11 @@
 # Anna Burgess Portfolio
 
+The celestial design includes light and dark themes, a star wordmark, and an orbital illustration. The header's sun/moon button switches themes across the entire site. `theme.js` applies a saved choice before the page paints; otherwise the site follows the device's color preference. Theme colors and responsive layouts live in `style.css`.
+
+Each project has its own `project-<id>.html` page. Project cards link directly to these pages, which include the gallery, overview, documents, and all deep-dive sections in one scrolling document. The pages support direct links, refresh, and normal browser Back navigation.
+
+Project content is maintained in `content.json`. After adding a new project ID or changing a project's title or summary, run `node generate-project-pages.cjs` to generate its HTML file and refresh page metadata. Include the generated HTML files when uploading the site.
+
 This version uses a project-based media hierarchy so images and documents can be uploaded to GitHub in small folders instead of replacing one very large `assets` directory.
 
 ## Repository layout
@@ -127,7 +133,7 @@ You can use blank lines inside `content` to create multiple paragraphs. Each pro
 
 
 ## Image captions
-Project image entries now use objects with `src` and `caption` fields. The first image is still the project-card cover and its caption is intentionally not shown. Every image after the cover can have an optional caption.
+Project image entries use objects with `src` and `caption` fields. The first image is the project-card cover. Every gallery image can have an optional caption.
 
 Example:
 ```json
@@ -157,9 +163,8 @@ Each `deepDive` item now supports two optional fields:
 }
 ```
 
-- `galleryStart`: zero-based image index to jump to when that section becomes active.
+- `galleryStart`: zero-based image index to jump to when that section's contents link is clicked.
 - `galleryImages`: optional list of zero-based related image indices. If present, the first valid index is used as the section's starting image.
 - The first project image is index `0`, the second is `1`, etc.
-- Desktop: scrolling into a deep-dive section automatically changes the gallery image.
-- Mobile: normal scrolling does not move the gallery; tapping a contents link changes the gallery.
+- Clicking or tapping a contents link changes the gallery to the related image. Normal page scrolling keeps the selected image.
 - Overview returns the gallery to image `0` when tapped.
